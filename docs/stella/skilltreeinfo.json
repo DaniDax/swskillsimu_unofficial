@@ -1,14 +1,15 @@
 {
-  "CharacterName": "Stella Unibell",
+  "CharacterName": "史黛菈・優妮貝爾",
   "CharacterWikiURL": "https://wiki.soulworkerhq.com/w/Stella_Unibell",
+  "MaxLevel": 68,
   "AvailableClass": {
     "0": {
-      "Name": "Base",
-      "Cover": "../assets/images/bg-stella1.png"
+      "Name": "一般",
+      "Cover": "../assets/images/bg_E_Stella.png"
     },
     "1": {
-      "Name": "Upgraded",
-      "Cover": "../assets/images/bg-stella2.png",
+      "Name": "晉升",
+      "Cover": "../assets/images/bg_E_Stella_ADV.png",
       "RequiredLevel": 57
     }
   },
@@ -17,7 +18,7 @@
       "Name": "Whirl Dance",
       "DefaultLevel": 1,
       "ID": 1,
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_WhirlDance.png",
+      "Icon": "../assets/SkillIcons/E_Stella/S1-1.png",
       "Levels": {
         "0": {
           "Description": "Possess the guitar with ghosts, and swing it around to deal damage. The final slam launches enemies to the air.",
@@ -25,31 +26,31 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Skill_WheelDance.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/B_Skill_WheelDance.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 164%\nSA Damage: 231%\nSG Cost: 15\nCooldown: 8s",
+          "Effect": "傷害量：[164%]\n霸體破壞量：[231%]\n靈魂值消耗量：[15]\n冷卻時間：[8s",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "Damage: 172%\nSA Damage: 242%\nSG Cost: 15\nCooldown: 8s",
+          "Effect": "傷害量：[172%]\n霸體破壞量：[242%]\n靈魂值消耗量：[15]\n冷卻時間：[8s",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: 192%\nSA Damage: 271%\nSG Cost: 15\nCooldown: 8s",
+          "Effect": "傷害量：[192%]\n霸體破壞量：[271%]\n靈魂值消耗量：[15]\n冷卻時間：[8s",
           "RequiredLevel": 7,
           "RequiredSP": 1
         },
         "4": {
-          "Effect": "Damage: 213%\nSA Damage: 300%\nSG Cost: 15\nCooldown: 8s",
+          "Effect": "傷害量：[213%]\n霸體破壞量：[300%]\n靈魂值消耗量：[15]\n冷卻時間：[8s",
           "RequiredLevel": 10,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage: 245%\nSA Damage: 346%\nSG Cost: 15\nCooldown: 8s",
+          "Effect": "傷害量：[245%]\n霸體破壞量：[346%]\n靈魂值消耗量：[15]\n冷卻時間：[8s",
           "RequiredLevel": 13,
           "RequiredSP": 3
         }
@@ -62,7 +63,7 @@
       "Name": "Phantom Release",
       "DefaultLevel": 1,
       "ID": 2,
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_PhantomRelease.png",
+      "Icon": "../assets/SkillIcons/E_Stella/S1-2.png",
       "Levels": {
         "0": {
           "Description": "Release ghosts by playing the guitar at the current location.",
@@ -70,31 +71,31 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Skill_PhantomRelease.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/B_Skill_PhantomRelease.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 265%\nSA Damage: 143%\nSG Cost: 20\nCooldown: 10s",
+          "Effect": "傷害量：[265%]\n霸體破壞量：[143%]\n靈魂值消耗量：[20]\n冷卻時間：[10s",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "Damage: 279%\nSA Damage: 150%\nSG Cost: 20\nCooldown: 10s",
+          "Effect": "傷害量：[279%]\n霸體破壞量：[150%]\n靈魂值消耗量：[20]\n冷卻時間：[10s",
           "RequiredLevel": 6,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: 312%\nSA Damage: 168%\nSG Cost: 20\nCooldown: 10s",
+          "Effect": "傷害量：[312%]\n霸體破壞量：[168%]\n靈魂值消耗量：[20]\n冷卻時間：[10s",
           "RequiredLevel": 11,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage: 345%\nSA Damage: 186%\nSG Cost: 20\nCooldown: 10s",
+          "Effect": "傷害量：[345%]\n霸體破壞量：[186%]\n靈魂值消耗量：[20]\n冷卻時間：[10s",
           "RequiredLevel": 16,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage: 398%\nSA Damage: 214%\nSG Cost: 20\nCooldown: 10s",
+          "Effect": "傷害量：[398%]\n霸體破壞量：[214%]\n靈魂值消耗量：[20]\n冷卻時間：[10s",
           "RequiredLevel": 21,
           "RequiredSP": 3
         }
@@ -107,7 +108,7 @@
       "Visible": false,
       "ID": 3,
       "Name": "ExtraAttack",
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_PhantomRelease_A.png",
+      "Icon": "../assets/SkillIcons/E_Stella/S1-2A.png",
       "Levels": {
         "0": {
           "Description": "Number of attacks increase.",
@@ -115,7 +116,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Skill_PhantomRelease_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/B_Skill_PhantomRelease_A.{{auto}}"
           }
         },
         "1": {
@@ -129,38 +130,38 @@
       "Name": "Trouble Pass",
       "DefaultLevel": 1,
       "ID": 4,
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_TroublePass.png",
+      "Icon": "../assets/SkillIcons/E_Stella/S1-3.png",
       "Levels": {
         "0": {
           "Description": "Release guiding-type ghosts to damage enemies. While in support mode, ghosts will heal allies.",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Skill_Trouble Pass.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/B_Skill_Trouble Pass.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Attack Mode]\nDamage: 361%\nSA Damage: 194%\n[Support Mode]\nHP Recovery: 4% per ghost\nSG Cost: 25\nCooldown: 12s",
+          "Effect": "[Attack Mode]\n傷害量：[361%]\n霸體破壞量：[194%]\n[Support Mode]\nHP Recovery: 4%] per ghost]\n靈魂值消耗量：[25]\n冷卻時間：[12s",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "[Attack Mode]\nDamage: 379%\nSA Damage: 203%\n[Support Mode]\nHP Recovery: 4% per ghost\nSG Cost: 25\nCooldown: 12s",
+          "Effect": "[Attack Mode]\n傷害量：[379%]\n霸體破壞量：[203%]\n[Support Mode]\nHP Recovery: 4%] per ghost]\n靈魂值消耗量：[25]\n冷卻時間：[12s",
           "RequiredLevel": 5,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[Attack Mode]\nDamage: 424%\nSA Damage: 228%\n[Support Mode]\nHP Recovery: 4% per ghost\nSG Cost: 25\nCooldown: 12s",
+          "Effect": "[Attack Mode]\n傷害量：[424%]\n霸體破壞量：[228%]\n[Support Mode]\nHP Recovery: 4%] per ghost]\n靈魂值消耗量：[25]\n冷卻時間：[12s",
           "RequiredLevel": 9,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[Attack Mode]\nDamage: 469%\nSA Damage: 252%\n[Support Mode]\nHP Recovery: 4% per ghost\nSG Cost: 25\nCooldown: 12s",
+          "Effect": "[Attack Mode]\n傷害量：[469%]\n霸體破壞量：[252%]\n[Support Mode]\nHP Recovery: 4%] per ghost]\n靈魂值消耗量：[25]\n冷卻時間：[12s",
           "RequiredLevel": 13,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[Attack Mode]\nDamage: 541%\nSA Damage: 290%\n[Support Mode]\nHP Recovery: 4% per ghost\nSG Cost: 25\nCooldown: 12s",
+          "Effect": "[Attack Mode]\n傷害量：[541%]\n霸體破壞量：[290%]\n[Support Mode]\nHP Recovery: 4%] per ghost]\n靈魂值消耗量：[25]\n冷卻時間：[12s",
           "RequiredLevel": 17,
           "RequiredSP": 3
         }
@@ -174,7 +175,7 @@
       "Visible": false,
       "ID": 5,
       "Name": "Range Increase",
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_TroublePass_A.png",
+      "Icon": "../assets/SkillIcons/E_Stella/S1-3A.png",
       "Levels": {
         "0": {
           "Description": "Increase the range of exploding ghosts.",
@@ -203,7 +204,7 @@
       "Visible": false,
       "ID": 6,
       "Name": "Strengthen",
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_TroublePass_B.png",
+      "Icon": "../assets/SkillIcons/E_Stella/S1-3B.png",
       "Levels": {
         "0": {
           "Description": "Ghosts will grant a defense-boosting buff.",
@@ -231,14 +232,14 @@
     "HystericalShock": {
       "Name": "Hysterical Shock",
       "ID": 7,
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_HystericShock-.png",
+      "Icon": "../assets/SkillIcons/E_Stella/S1-4.png",
       "Levels": {
         "0": {
           "Description": "Create cracks on the ground by playing the guitar, and then cause an explosion.",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Skill_HystericShock.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/B_Skill_HystericShock.{{auto}}"
           }
         },
         "1": {
@@ -275,7 +276,7 @@
       "Visible": false,
       "ID": 8,
       "Name": "Extra Attack",
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_HystericShock_A.png",
+      "Icon": "../assets/SkillIcons/E_Stella/S1-4A.png",
       "Levels": {
         "0": {
           "Description": "Number of attacks increase.",
@@ -283,7 +284,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Skill_HystericShock_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/B_Skill_HystericShock_A.{{auto}}"
           }
         },
         "1": {
@@ -301,14 +302,14 @@
     "BeastParade": {
       "ID": 9,
       "Name": "Beast Parade",
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_BeastParade.png",
+      "Icon": "../assets/SkillIcons/E_Stella/S1-5.png",
       "Levels": {
         "0": {
           "Description": "Summon the ghosts and charge forward by riding on their backs.",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Skill_BeastParade.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/B_Skill_BeastParade.{{auto}}"
           }
         },
         "1": {
@@ -341,7 +342,7 @@
     "BeadsPlay": {
       "ID": 10,
       "Name": "Beads Play",
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_BeadsPlay.png",
+      "Icon": "../assets/SkillIcons/E_Stella/S1-6.png",
       "Levels": {
         "0": {
           "Description": "Creates beads which will explode when hitting enemies. In support mode, the beads will restore HP and increase attack.\nCharging will increase number of beads. Push away enemies when charging completes.",
@@ -349,7 +350,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Skill_BeadsPlay_N.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/B_Skill_BeadsPlay_N.{{auto}}"
           }
         },
         "1": {
@@ -387,7 +388,7 @@
       "ID": 11,
       "Visible": false,
       "Name": "Paralyze",
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_BeadsPlay_A.png",
+      "Icon": "../assets/SkillIcons/E_Stella/S1-6A.png",
       "Levels": {
         "0": {
           "Description": "Beads go through enemies and paralyze them.",
@@ -395,7 +396,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Skill_BeadsPlay_N_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/B_Skill_BeadsPlay_N_A.{{auto}}"
           }
         },
         "1": {
@@ -419,7 +420,7 @@
       "ID": 12,
       "Visible": false,
       "Name": "Strengthen",
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_BeadsPlay_B.png",
+      "Icon": "../assets/SkillIcons/E_Stella/S1-6B.png",
       "Levels": {
         "0": {
           "Description": "The beads effect is strengthened.",
@@ -427,7 +428,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Skill_BeadsPlay_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/B_Skill_BeadsPlay_B.{{auto}}"
           }
         },
         "1": {
@@ -450,15 +451,15 @@
     "DecadePulse": {
       "ID": 13,
       "Name": "Decade Pulse",
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_DecadePulse.png",
+      "Icon": "../assets/SkillIcons/E_Stella/S1-7.png",
       "Levels": {
         "0": {
-          "Description": "Using the guitar, you release a pulse that attacks enemies. When switching modes, it paralyzes enemies and steals HP.\nThe lifesteal effect(100% lifesteal) is applied to a maximum of 3 targets.",
+          "Description": "Using the guitar, you release a pulse that attacks enemies. When switching modes, it paralyzes enemies and steals HP.\nThe lifesteal effect(100%] lifesteal) is applied to a maximum of 3 targets.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Skill_DecadePulse.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/B_Skill_DecadePulse.{{auto}}"
           }
         },
         "1": {
@@ -496,7 +497,7 @@
       "ID": 14,
       "Visible": false,
       "Name": "Duration Increase",
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_DecadePulse_A.png",
+      "Icon": "../assets/SkillIcons/E_Stella/S1-7A.png",
       "Levels": {
         "0": {
           "Description": "Increases the duration of pulse.",
@@ -525,7 +526,7 @@
       "ID": 15,
       "Visible": false,
       "Name": "Radius Increase",
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_DecadePulse_B.png",
+      "Icon": "../assets/SkillIcons/E_Stella/S1-7B.png",
       "Levels": {
         "0": {
           "Description": "Pulse range increase to allow more target to be hit.",
@@ -533,7 +534,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Skill_DecadePulse_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/B_Skill_DecadePulse_B.{{auto}}"
           }
         },
         "1": {
@@ -556,7 +557,7 @@
     "SoulScream": {
       "ID": 16,
       "Name": "Soul Scream",
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_SoulScream.png",
+      "Icon": "../assets/SkillIcons/E_Stella/S1-8.png",
       "Levels": {
         "0": {
           "Description": "Make souls go rampant, creating a barrier around the caster. Invincibility will be granted on skill cast. The barrier will damage and paralyze all nearby enemies.",
@@ -564,7 +565,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Skill_SoulScream.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/B_Skill_SoulScream.{{auto}}"
           }
         },
         "1": {
@@ -600,7 +601,7 @@
     "TwistPull": {
       "ID": 17,
       "Name": "Twist Pull",
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_TwistPull.png",
+      "Icon": "../assets/SkillIcons/E_Stella/S1-9.png",
       "Levels": {
         "0": {
           "Description": "Create a black hole formed by ghosts, which pulls in enemies and then explodes.",
@@ -608,7 +609,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Skill_TwistPull.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/B_Skill_TwistPull.{{auto}}"
           }
         },
         "1": {
@@ -645,7 +646,7 @@
       "ID": 18,
       "Visible": false,
       "Name": "Range Increase",
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_TwistPull_A.png",
+      "Icon": "../assets/SkillIcons/E_Stella/S1-9A.png",
       "Levels": {
         "0": {
           "Description": "Increases the Attack Range by ghosts.",
@@ -653,7 +654,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Skill_TwistPull_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/B_Skill_TwistPull_A.{{auto}}"
           }
         },
         "1": {
@@ -671,7 +672,7 @@
     "BeastParty": {
       "ID": 19,
       "Name": "Beast Party",
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_BeastParty.png",
+      "Icon": "../assets/SkillIcons/E_Stella/S1-10.png",
       "Assignable": false,
       "Levels": {
         "0": {
@@ -680,7 +681,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Skill_BeastParty.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/B_Skill_BeastParty.{{auto}}"
           }
         },
         "1": {
@@ -713,7 +714,7 @@
     "BlackMorass": {
       "ID": 20,
       "Name": "Black Morass",
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_BlackMorass.png",
+      "Icon": "../assets/SkillIcons/E_Stella/S1-11.png",
       "Levels": {
         "0": {
           "Description": "Create a marsh of ghosts by playing the guitar. The final attack differs depending on which input is made at the end.\n( LMB = Pull enemies in the center / RMB = Launch the enemies in the air )",
@@ -721,7 +722,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Skill_BlackMorass.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/B_Skill_BlackMorass.{{auto}}"
           }
         },
         "1": {
@@ -758,7 +759,7 @@
       "ID": 21,
       "Visible": false,
       "Name": "Duration Increase",
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_BlackMorass_A.png",
+      "Icon": "../assets/SkillIcons/E_Stella/S1-11A.png",
       "Levels": {
         "0": {
           "Description": " Increase the maximum attack duration.",
@@ -766,7 +767,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Skill_BlackMorass_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/B_Skill_BlackMorass_A.{{auto}}"
           }
         },
         "1": {
@@ -789,7 +790,7 @@
     "BestTempo": {
       "ID": 22,
       "Name": "Best Tempo",
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_BestTempo.png",
+      "Icon": "../assets/SkillIcons/E_Stella/S1-12.png",
       "Levels": {
         "0": {
           "Description": "Playing the guitar inspires your allies. In support mode, it restores the HP of allies instantly.",
@@ -797,7 +798,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Skill_BestTempo.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/B_Skill_BestTempo.{{auto}}"
           }
         },
         "1": {
@@ -830,7 +831,7 @@
     "BassAttack": {
       "ID": 23,
       "Name": "Bass Attack",
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_BassAttack.png",
+      "Icon": "../assets/SkillIcons/E_Stella/S1-13.png",
       "Levels": {
         "0": {
           "Description": "Summon Stella's speakers and create a stage. Speakers violently shake to attack the enemies within its range.",
@@ -838,7 +839,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Skill_BassAttack.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/B_Skill_BassAttack.{{auto}}"
           }
         },
         "1": {
@@ -876,7 +877,7 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_WhirlDance_A.png",
+      "Icon": "../assets/SkillIcons/E_Stella/Icon_Howling_Skill_WhirlDance_A.png",
       "Levels": {
         "0": {
           "Description": "Enables moving while performing Whirl Dance.\nIn addition, Stella will be in invulnerable state when a revolution attack is made. (Some special attacks are not covered)",
@@ -884,21 +885,21 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Skill_WheelDance_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/B_Skill_WheelDance_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: ?%\nSA Damage: ?%\n[Final Attack]\nDamage: ?%\nSA Damage: ?%",
+          "Effect": "傷害量：[?%]\n霸體破壞量：[?%]\n[Final Attack]\n傷害量：[?%]\n霸體破壞量：[?%]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: ?%\nSA Damage: ?%\n[Final Attack]\nDamage: ?%\nSA Damage: ?%",
+          "Effect": "傷害量：[?%]\n霸體破壞量：[?%]\n[Final Attack]\n傷害量：[?%]\n霸體破壞量：[?%]",
           "RequiredLevel": 58,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: 111%\nSA Damage: 50% \n[Final Attack]\nDamage: 558%\nSA Damage: 251%",
+          "Effect": "傷害量：[111%]\n霸體破壞量：[50%] ]\n[Final Attack]\n傷害量：[558%]\n霸體破壞量：[251%]",
           "RequiredLevel": 60,
           "RequiredSP": 2
         }
@@ -912,7 +913,7 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_SoulScream_A.png",
+      "Icon": "../assets/SkillIcons/E_Stella/Icon_Howling_Skill_SoulScream_A.png",
       "Levels": {
         "0": {
           "Description": "??",
@@ -920,26 +921,27 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Skill_SoulScream_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/B_Skill_SoulScream_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Left click]\nDamage: ?%\nSA Damage: ?%\n[Right click]\nDamage: ?%\nSA Damage: ?%",
+          "Effect": "[Left click]\n傷害量：[?%]\n霸體破壞量：[?%]\n[Right click]\n傷害量：[?%]\n霸體破壞量：[?%]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[Left click]\nDamage: ?%\nSA Damage: ?%\n[Right click]\nDamage: ?%\nSA Damage: ?%",
+          "Effect": "[Left click]\n傷害量：[?%]\n霸體破壞量：[?%]\n[Right click]\n傷害量：[?%]\n霸體破壞量：[?%]",
           "RequiredLevel": 59,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[Left click]\nDamage: 695%\nSA Damage: 1737%\n[Right click]\nDamage: 347%\nSA Damage: 868%",
+          "Effect": "[Left click]\n傷害量：[695%]\n霸體破壞量：[1737%]\n[Right click]\n傷害量：[347%]\n霸體破壞量：[868%]",
           "RequiredLevel": 60,
           "RequiredSP": 2
         }
       }
     },
+    
     "RecklessPrincess": {
       "Name": "Reckless Princess",
       "ID": 26,
@@ -947,7 +949,7 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_recklessPrincess.png",
+      "Icon": "../assets/SkillIcons/E_Stella/Icon_Howling_Skill_recklessPrincess.png",
       "Assignable": false,
       "Levels": {
         "0": {
@@ -956,31 +958,31 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Skill_RecklessPrincess.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/B_Skill_RecklessPrincess.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: ?%\nSA Damage: ?%\nSG Cost: 35\nCooldown: 30 seconds",
+          "Effect": "傷害量：[?%]\n霸體破壞量：[?%]\n靈魂值消耗量：[35]\n冷卻時間：[30秒]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: ?%\nSA Damage: ?%\nSG Cost: 35\nCooldown: 30 seconds",
+          "Effect": "傷害量：[?%]\n霸體破壞量：[?%]\n靈魂值消耗量：[35]\n冷卻時間：[30秒]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: ?%\nSA Damage: ?%\nSG Cost: 35\nCooldown: 30 seconds",
+          "Effect": "傷害量：[?%]\n霸體破壞量：[?%]\n靈魂值消耗量：[35]\n冷卻時間：[30秒]",
           "RequiredLevel": 58,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage: ?%\nSA Damage: ?%\nSG Cost: 35\nCooldown: 30 seconds",
+          "Effect": "傷害量：[?%]\n霸體破壞量：[?%]\n靈魂值消耗量：[35]\n冷卻時間：[30秒]",
           "RequiredLevel": 59,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage: 1094%\nSA Damage: 1160%\nSG Cost: 35\nCooldown: 30 seconds",
+          "Effect": "傷害量：[1094%]\n霸體破壞量：[1160%]\n靈魂值消耗量：[35]\n冷卻時間：[30秒]",
           "RequiredLevel": 60,
           "RequiredSP": 3
         }
@@ -993,7 +995,7 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_WolvesShowtime.png",
+      "Icon": "../assets/SkillIcons/E_Stella/Icon_Howling_Skill_WolvesShowtime.png",
       "Levels": {
         "0": {
           "Description": "Summons a Wolf knight.",
@@ -1001,79 +1003,110 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Skill_WolvesShowtime.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/B_Skill_WolvesShowtime.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: ?%\nSA Damage: ?%\nSG Cost: 30\nCooldown: 35 seconds",
+          "Effect": "傷害量：[?%]\n霸體破壞量：[?%]\n靈魂值消耗量：[30]\n冷卻時間：[35秒]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: ?%\nSA Damage: ?%\nSG Cost: 30\nCooldown: 35 seconds",
+          "Effect": "傷害量：[?%]\n霸體破壞量：[?%]\n靈魂值消耗量：[30]\n冷卻時間：[35秒]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: ?%\nSA Damage: ?%\nSG Cost: 30\nCooldown: 35 seconds",
+          "Effect": "傷害量：[?%]\n霸體破壞量：[?%]\n靈魂值消耗量：[30]\n冷卻時間：[35秒]",
           "RequiredLevel": 58,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage: ?%\nSA Damage: ?%\nSG Cost: 30\nCooldown: 35 seconds",
+          "Effect": "傷害量：[?%]\n霸體破壞量：[?%]\n靈魂值消耗量：[30]\n冷卻時間：[35秒]",
           "RequiredLevel": 59,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage: 2602%\nSA Damage: 1130%\nSG Cost: 30\nCooldown: 35 seconds",
+          "Effect": "傷害量：[2602%]\n霸體破壞量：[1130%]\n靈魂值消耗量：[30]\n冷卻時間：[35秒]",
           "RequiredLevel": 60,
           "RequiredSP": 3
         }
       }
     },
-    "BasicAttackMastery": {
-      "Passive": true,
-      "Name": "Basic Attack Mastery",
-      "ID": 1002,
-      "DefaultLevel": 1,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_DefaultAttack.png",
+    "GhostyHunt": {
+      "Name": "壓制彈",
+      "ID": 28,
+      "Icon": "../assets/SkillIcons/A_Haru/H6-1_Trollsverd.png",
       "Levels": {
         "0": {
-          "Description": "Attack with your weapons.\nAs this skill's level increases, you will be able to perform new combo attacks.\nYou will regain SG as you attack.\nSG gain will vary by enemy type",
+          "Description": "使用以靈魂能量形成的光之劍 '巨魔之劍'，對前方的敵人們進行砍殺，並在攻擊線上產生追加的爆炸攻擊。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Attack_01.{{auto}}"
+            "Video": "../assets/SkillPreviews/PC_A_Haru/H6-1_Trollsverd.{{auto}}"
           }
         },
         "1": {
-          "Effect": "SG Gain +20%.\nUnlock alternative attack “A”",
+          "Effect": "[基本攻擊]\n傷害量：[1656%]\n霸體破壞量：[1827%]\n[爆炸攻擊]\n傷害量：[攻擊1回[165%]\n霸體破壞量：攻擊1回[182%]\n靈魂值消耗量：[50]\n冷卻時間：[40秒]",
+          "RequiredLevel": 62,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[基本攻擊]\n傷害量：[1823%]\n霸體破壞量：[2010%]\n[爆炸攻擊]\n傷害量：[攻擊1回[182%]\n霸體破壞量：攻擊1回[201%]\n靈魂值消耗量：[50]\n冷卻時間：[40秒]",
+          "RequiredLevel": 65,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[基本攻擊]\n傷害量：[1823%]\n霸體破壞量：[2010%]\n[爆炸攻擊]\n傷害量：[攻擊1回[182%]\n霸體破壞量：攻擊1回[201%]\n靈魂值消耗量：[50]\n冷卻時間：[40秒]",
+          "RequiredLevel": 68,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "BasicAttackMastery": {
+      "Passive": true,
+      "Name": "基本攻擊精通",
+      "ID": 1002,
+      "DefaultLevel": 1,
+      "Icon": "../assets/SkillIcons/Common/DefaultAttack.png",
+      "Levels": {
+        "0": {
+          "Description": "Attack with your weapons.\nAs this skill's level increases, you will be able to perform new combo attacks.\nYou will regain SG as you attack.\n靈魂值獲得量will vary by enemy type",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/E_Stella/B_Attack_01.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "靈魂值獲得量：[+20%].\nUnlock alternative attack “A”",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "SG Gain +70%.\nUnlock additional basic attack",
+          "Effect": "靈魂值獲得量：[+70%].\nUnlock additional basic attack",
           "RequiredLevel": 5,
           "RequiredSP": 1,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Attack_02.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/B_Attack_02.{{auto}}"
           }
         },
         "3": {
-          "Effect": "SG Gain +120%\nUnlock alternative attack “B”.\nUnlock alternative aerial attack",
+          "Effect": "靈魂值獲得量：[+120%]\nUnlock alternative attack “B”.\nUnlock alternative aerial attack",
           "RequiredLevel": 10,
           "RequiredSP": 2,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Attack_03.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/B_Attack_03.{{auto}}"
           }
         },
         "4": {
-          "Effect": "SG Gain +200%\nUnlock alternative attack “C”",
+          "Effect": "靈魂值獲得量：[+200%]\nUnlock alternative attack “C”",
           "RequiredLevel": 15,
           "RequiredSP": 2,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Attack_04.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/B_Attack_04.{{auto}}"
           }
         },
         "5": {
@@ -1081,7 +1114,7 @@
           "RequiredLevel": 20,
           "RequiredSP": 2,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Attack_05.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/B_Attack_05.{{auto}}"
           }
         }
       }
@@ -1090,30 +1123,30 @@
       "Passive": true,
       "DefaultLevel": 1,
       "ID": 1001,
-      "Name": "Special Ability Mastery",
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_OwnAbility.png",
+      "Name": "特殊能力精通",
+      "Icon": "../assets/SkillIcons/E_Stella/Sh-2s.png",
       "Levels": {
         "0": {
-          "Description": "[Ground]\nChanges modes and the effects of your skills. Activates Sorrowful Note.\n[Air]\nDo a musical performance on your special guitar to change your mode. Using this skill in the air will make your ghost attack with a fist and pushes you backwards.",
+          "Description": "[地面]\nChanges modes and the effects of your skills. Activates Sorrowful Note.\n[Air]\nDo a musical performance on your special guitar to change your mode. Using this skill in the air will make your ghost attack with a fist and pushes you backwards.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_S_Attack_N.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/B_S_Attack_N.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Air]\nDamage: 204%\nSA Damage: 124%\nCooldown: 3s",
+          "Effect": "[Air]\n傷害量：[204%]\n霸體破壞量：[124%]\n冷卻時間：[3s",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "[Air]\nDamage: 214%\nSA Damage: 131%\nCooldown: 3s",
+          "Effect": "[Air]\n傷害量：[214%]\n霸體破壞量：[131%]\n冷卻時間：[3s",
           "RequiredLevel": 15,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[Air]\nDamage: 239%\nSA Damage: 146%\nCooldown: 3s",
+          "Effect": "[Air]\n傷害量：[239%]\n霸體破壞量：[146%]\n冷卻時間：[3s",
           "RequiredLevel": 30,
           "RequiredSP": 2
         }
@@ -1121,22 +1154,22 @@
     },
     "EmergencyDodge": {
       "Passive": true,
-      "Name": "Emergency Dodge",
+      "Name": "緊急迴避",
       "ID": 1004,
       "DefaultLevel": 1,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_Evasion.png",
+      "Icon": "../assets/SkillIcons/Common/EmergencyDodge.png",
       "Levels": {
         "0": {
-          "Description": "Swiftly dodge in a direction. Negate damage during an emergency dodge.",
+          "Description": "向指定的方向快速迴避。\n在緊急迴避的狀態下不會受到任何攻擊。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Evade_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/B_Evade_F.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Stamina Cost: 20",
+          "Effect": "耐力消耗量：[20]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         }
@@ -1144,32 +1177,32 @@
     },
     "RisingRoll": {
       "Passive": true,
-      "Name": "Rising Roll",
+      "Name": "翻滾",
       "ID": 1003,
       "DefaultLevel": 1,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_Welter.png",
+      "Icon": "../assets/SkillIcons/Common/RisingRoll.png",
       "Levels": {
         "0": {
-          "Description": "When downed, get up by rolling in a direction. During the roll, damage is negated",
+          "Description": "受到攻擊而倒地時，朝指定的方向快速翻滾後起身。\n翻滾時不會受到任何傷害。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Roll_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/B_Roll_F.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Stamina Cost: 25",
+          "Effect": "耐力消耗量：[25]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "Stamina Cost: 15",
+          "Effect": "耐力消耗量：[15]",
           "RequiredLevel": 17,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina Cost: 15\nFaster Rolling Speed",
+          "Effect": "耐力消耗量：[15]\n翻滾的更快",
           "RequiredLevel": 34,
           "RequiredSP": 2
         }
@@ -1177,18 +1210,18 @@
     },
     "Dash": {
       "Passive": true,
-      "Name": "Dash",
+      "Name": "衝刺",
       "DefaultLevel": 1,
       "ID": 1006,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_Dash.png",
+      "Icon": "../assets/SkillIcons/Common/Dash.png",
       "Levels": {
         "0": {
-          "Description": "Swiftly dash forward",
+          "Description": "向前快速奔馳。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Run_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/B_Run_F.{{auto}}"
           }
         },
         "1": {
@@ -1197,7 +1230,7 @@
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "Faster Dashing Speed",
+          "Effect": "衝刺速度加快",
           "RequiredLevel": 25,
           "RequiredSP": 2
         }
@@ -1205,32 +1238,32 @@
     },
     "RisingAttack": {
       "Passive": true,
-      "Name": "Rising Attack",
+      "Name": "起身回擊",
       "ID": 1005,
       "DefaultLevel": 1,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_RiseAttack.png",
+      "Icon": "../assets/SkillIcons/Common/RiseAttack.png",
       "Levels": {
         "0": {
-          "Description": "While downed, get up while damaging surrounding enemies",
+          "Description": "受到攻擊而倒地時，瞬間起身並攻擊周遭敵人。\n使用後在一定時間內處於無敵狀態。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Rise_Attack.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/B_Rise_Attack.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Stamina Cost: 30\nInvincibility Duration: 1 seconds",
+          "Effect": "回擊傷害量：[100%]\n耐力消耗量：[30]\n無敵時間：[3秒]\n冷卻時間：[15秒]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "Stamina Cost: 20\nInvincibility Duration: 1 seconds",
+          "Effect": "回擊傷害量：[100%]\n耐力消耗量：[20]\n無敵時間：[3秒]\n冷卻時間：[15秒]",
           "RequiredLevel": 18,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina Cost: 20\nInvincibility Duration: 3 seconds",
+          "Effect": "回擊傷害量：[100%]\n耐力消耗量：[20]\n無敵時間：[5秒]\n冷卻時間：[15秒]",
           "RequiredLevel": 36,
           "RequiredSP": 2
         }
@@ -1238,22 +1271,22 @@
     },
     "DashAttack": {
       "Passive": true,
-      "Name": "Dash Attack",
+      "Name": "衝擊",
       "DefaultLevel": 1,
       "ID": 1008,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_DashAttack.png",
+      "Icon": "../assets/SkillIcons/Common/DashAttack.png",
       "Levels": {
         "0": {
-          "Description": "Perform an attack while dashing. Different character does different attacks. ",
+          "Description": "衝刺時，用力揮劍擊退敵人。\n攻擊時可以獲得靈魂值。\n連續攻擊次數和怪物等級越高，靈魂值獲得量越多。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_N_Attack_Dash.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/B_N_Attack_Dash.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 115%\nSA Damage: 38%",
+          "Effect": "傷害量：[115%]\n霸體破壞量：[38%]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         }
@@ -1261,31 +1294,31 @@
     },
     "SpecialDodge": {
       "Passive": true,
-      "Name": "Special Dodge",
+      "Name": "受身迴避",
       "ID": 1007,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_EvasionAttack.png",
+      "Icon": "../assets/SkillIcons/Common/SpecialDodge.png",
       "Levels": {
         "0": {
-          "Description": "Swiftly dodge as an enemy attacks you. Negate Damage during the special dodge",
+          "Description": "受到攻撃且無法控制時，朝指定方向進行受身迴避。\n在受身迴避的狀態下不會受到傷害。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Special_Evade_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/B_Special_Evade_F.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Stamina Cost: 40\nCooldown: 60 seconds",
+          "Effect": "耐力消耗量：[40]\n冷卻時間：[30秒]",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Stamina Cost: 40\nCooldown: 50 seconds",
+          "Effect": "耐力消耗量：[40]\n冷卻時間：[25秒]",
           "RequiredLevel": 21,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina Cost: 40\nCooldown: 40 seconds",
+          "Effect": "耐力消耗量：[40]\n冷卻時間：[20秒]",
           "RequiredLevel": 38,
           "RequiredSP": 2
         }
@@ -1293,21 +1326,21 @@
     },
     "SpecialDashAttack": {
       "Passive": true,
-      "Name": "Special Dash Attack",
+      "Name": "特殊衝擊",
       "ID": 1010,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_DashSmashAttack.png",
+      "Icon": "../assets/SkillIcons/Common/SpecialDashAttack.png",
       "Levels": {
         "0": {
-          "Description": "Performs a special attack while dashing. Different characters do different special attacks",
+          "Description": "衝刺時，向前方跳躍施展連續迴旋斬。\n攻擊時可以獲得靈魂值。\n連續攻擊次數和怪物等級越高，靈魂值獲得量越多。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_S_Attack_N_Dash.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/B_S_Attack_N_Dash.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 206%\nSA Damage: 92%\nCooldown: 5 seconds",
+          "Effect": "傷害量：[206%]\n霸體破壞量：[92%]\n冷卻時間：[5秒]",
           "RequiredLevel": 13,
           "RequiredSP": 1
         }
@@ -1315,38 +1348,38 @@
     },
     "StaminaMastery": {
       "Passive": true,
-      "Name": "Stamina Mastery",
+      "Name": "耐力精通",
       "ID": 1009,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_StaminaMastery.png",
+      "Icon": "../assets/SkillIcons/Common/StaminaMastery.png",
       "Levels": {
         "0": {
-          "Description": "Increases stamina recovery rate",
+          "Description": "耐力恢復量永久增加。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "Stamina Recovery Rate: +10%",
+          "Effect": "耐力恢復量：[+10%]",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Stamina Recovery Rate: +20%",
+          "Effect": "耐力恢復量：[+20%]",
           "RequiredLevel": 15,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina Recovery Rate: +30%",
+          "Effect": "耐力恢復量：[+30%]",
           "RequiredLevel": 20,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Stamina Recovery Rate: +40%",
+          "Effect": "耐力恢復量：[+40%]",
           "RequiredLevel": 25,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Stamina Recovery Rate: +50%",
+          "Effect": "耐力恢復量：[+50%]",
           "RequiredLevel": 30,
           "RequiredSP": 3
         }
@@ -1360,7 +1393,7 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_SGPassive2.png",
+      "Icon": "../assets/SkillIcons/E_Stella/Icon_Howling_Skill_SGPassive2.png",
       "Levels": {
         "0": {
           "Description": "??",
@@ -1369,17 +1402,17 @@
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "Cooldown reduction: ?%",
+          "Effect": "Cooldown reduction: ?%]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Cooldown reduction: ?%",
+          "Effect": "Cooldown reduction: ?%]",
           "RequiredLevel": 58,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Cooldown reduction: 15%",
+          "Effect": "Cooldown reduction: 15%]",
           "RequiredLevel": 59,
           "RequiredSP": 2
         }
@@ -1393,7 +1426,7 @@
         "0": 2,
         "1": 1
       },
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_SGPassive.png",
+      "Icon": "../assets/SkillIcons/E_Stella/SP1-2.png",
       "Levels": {
         "0": {
           "Description": "Maximum SG increase",
@@ -1402,39 +1435,69 @@
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "SG Capacity Rate: +10%",
+          "Effect": "SG Capacity Rate: +10%]",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "SG Capacity Rate: +15%",
+          "Effect": "SG Capacity Rate: +15%]",
           "RequiredLevel": 20,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "SG Capacity Rate: +20%",
+          "Effect": "SG Capacity Rate: +20%]",
           "RequiredLevel": 30,
           "RequiredSP": 2
         }
       }
     },
     "SorrowfulNote": {
-      "ID": 1012,
       "Passive": true,
+      "Name": "悲傷樂章",
       "DefaultLevel": 1,
-      "RowSpan": 2,
-      "Name": "Sorrowful Note",
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_SoulMastery.png",
+      "ID": 1012,
+      "RowSpan": {
+        "0": 2,
+        "1": 1
+      },
+      "Icon": "../assets/SkillIcons/Common/SoulMastery.png",
       "Levels": {
         "0": {
-          "Description": "Recover an amount of your max SG according to the level of skill [Special Ability Mastery]",
+          "Description": "每隔一定時間自動恢復靈魂值。\n切換姿態時，特殊能力精通等級越高，獲得效果越好。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "Special ability Mastery I: 10% SG recovery.\nSpecial ability Mastery II: 15% SG recovery.\nSpecial ability Mastery III: 20% SG recovery",
-          "RequiredLevel": 10,
+          "Effect": "[特殊能力精通I]\n靈魂值恢復10%。\n\n[特殊能力精通II]\n靈魂值恢復15%。\n\n[特殊能力精通III]\n靈魂值恢復20%。",
+          "RequiredLevel": 1,
+          "RequiredSP": 0
+        }
+      }
+    },
+    "ExtinctionPrelude": {
+      "Passive": true,
+      "Name": "心爆氣流斬",
+      "DefaultLevel": 1,
+      "ID": 1099,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/A_Haru/HADV_SV_EX_Prelude.png",
+      "Levels": {
+        "0": {
+          "Description": "在覺醒狀態下可以使用的技能。\n施展後覺醒狀態會被解除。\n使用雙劍，對前方展開多方位的急速衝刺連斬，最後重擊地面。\n使用條件：處於覺醒狀態。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/PC_A_Haru/HADV_SV_EX_Prelude.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "傷害量：[2250%]\n霸體破壞量：[2950%]",
+          "RequiredLevel": 57,
           "RequiredSP": 0
         }
       }

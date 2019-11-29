@@ -2,8 +2,8 @@
     'use strict'
     // modify the data here to your liking
     let app_data = {
-            "github-repo": "Leayal/swskillsimu", // Set to null to let auto-detect from Github Page default URL, unreliable though
-            maxCharacterLevel: 65 // Default max level will be used if the value cannot be found in a character's JSON data
+            "github-repo": "robin840211/swskillsimu_unofficial", // Set to null to let auto-detect from Github Page default URL, unreliable though
+            maxCharacterLevel: 68 // Default max level will be used if the value cannot be found in a character's JSON data
         },
         // SP table.
         table_SkillPoint = {
@@ -40,6 +40,9 @@
                 63: 1,
                 64: 1,
                 65: 3,
+                66: 1,
+                67: 1,
+                68: 1
             }
         },
         table_Character = {
@@ -55,35 +58,39 @@
                                                   (for example: the skill tree of said character is in building)
                                          reason: The reason when not enabled
             */
-            "Haru Estia": {
-                url: "haru",
-                selectImage: "assets/images/HaruSelect.png"
+            "哈露・伊絲提亞": {
+                url: "Haru",
+                selectImage: "assets/images/Select_A_Haru.png"
             },
-            "Erwin Arclight": {
-                url: "erwin",
-                selectImage: "assets/images/ErwinSelect.png"
+            "歐文・阿克萊特": {
+                url: "Erwin",
+                selectImage: "assets/images/Select_B_Erwin.png"
             },
-            "Lily Bloomerchen": {
-                url: "lily",
-                selectImage: "assets/images/LilySelect.png"
+            "莉莉・普露梅茜": {
+                url: "Lily",
+                selectImage: "assets/images/Select_C_Lily.png"
             },
-            "Stella Unibell": {
-                url: "stella",
-                selectImage: "assets/images/StellaSelect.png"
+            "史黛菈・優妮貝爾": {
+                url: "Stella",
+                selectImage: "assets/images/Select_E_Stella.png"
             },
-            "Jin Seipatsu": {
-                url: "jin",
-                selectImage: "assets/images/JinSelect.png"
+            "金・希帕斯": {
+                url: "Jin",
+                selectImage: "assets/images/Select_D_Jin.png"
             },
-            "Iris Yuma": {
-                url: "iris",
-                selectImage: "assets/images/IrisSelect.png"
+            "伊莉絲・悠娜": {
+                url: "Iris",
+                selectImage: "assets/images/Select_F_Iris.png"
             },
-            "Someone": {
+            "琪・阿露爾": {
+                url: "Chii",
+                selectImage: "assets/images/Select_G_Chii.png"
+            },
+            "??????": {
                 url: "someone",
                 selectImage: "assets/images/SomeoneSelect.png",
                 enabled: false,
-                reason: "Your waifu is not here"
+                reason: "尚未釋出，敬請期待！"
             }
         };
 
@@ -147,7 +154,7 @@
     if (typeof (w.appdata) !== "object") {
         Object.defineProperty(w, "appdata", {
             value: Object.freeze(Object.assign({
-                "github-repo": "Leayal/swskillsimu",
+                "github-repo": "robin840211/swskillsimu_unofficial",
                 maxCharacterLevel: 75,
                 use_h264: null,
                 use_vp9: null,

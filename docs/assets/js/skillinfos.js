@@ -78,6 +78,8 @@ SkillInfo.prototype.readInfos = function (ob) {
     this._string_extensions = ob.Extensions;
     if (ob.Passive)
         this._passive = ob.Passive;
+	if (ob.Vapor)
+        this._vapor = ob.Vapor;
     this._iconURL = ob.Icon;
     if (ob.Assignable == false)
         this.Assignable = ob.Assignable;
@@ -181,6 +183,9 @@ SkillInfo.prototype.GetIconURL = function () {
 }
 SkillInfo.prototype.IsPassive = function () {
     return this._passive;
+}
+SkillInfo.prototype.IsVapor = function () {
+    return this._vapor;
 }
 SkillInfo.prototype.GetDefaultLevel = function () {
     return this._defaultLevel;

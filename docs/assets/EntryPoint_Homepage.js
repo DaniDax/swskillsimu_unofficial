@@ -1,6 +1,10 @@
 (function (w, d) {
     'use strict'
-    let theElement = d.getElementById("isPromiseSupportedLabel");
+    if (w.SkillTreeData.Localization.General.Lang) {
+        d.documentElement.setAttribute('lang', w.SkillTreeData.Localization.General.Lang);
+    }
+    
+	let theElement = d.getElementById("isPromiseSupportedLabel");
     let text;
     if (typeof (Promise) !== "undefined") {
         text = d.createTextNode("The web browser you're using supports Promise object.");

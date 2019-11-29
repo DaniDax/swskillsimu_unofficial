@@ -1,73 +1,1219 @@
 {
-  "CharacterName": "Chii Aruel",
+  "CharacterName": "琪・阿露爾",
   "CharacterWikiURL": "https://wiki.soulworkerhq.com/w/Chii_Aruel",
-  "MaxLevel": 60,
+  "MaxLevel": 68,
   "AvailableClass": {
     "0": {
-      "Name": "Base",
-      "Cover": "../assets/images/bg-chii.png"
+      "Name": "一般",
+      "Cover": "../assets/images/bg_G_Chii.png"
     },
     "1": {
-      "Name": "Upgraded",
-      "Cover": "../assets/images/bg-chii.png",
+      "Name": "晉升",
+      "Cover": "../assets/images/bg_G_Chii_ADV.png",
       "RequiredLevel": 57
     }
   },
   "Skills": {
-    "BasicAttackMastery": {
-      "Passive": true,
-      "Name": "Basic Attack Mastery",
-      "ID": 1002,
+    "ScareClow": {
+      "Name": "創痕一斬",
       "DefaultLevel": 1,
-      "Icon": "../assets/skillicons/Sh-1.png",
+      "ID": 1,
+      "Icon": "../assets/SkillIcons/G_Chii/G_1-1_ScareClow.png",
       "Levels": {
         "0": {
-          "Description": "Attack with your weapon.\nAs this skill's level increases, you will be able to perform new combo attacks.\nYou will regain SG as you attack.\nSG gain will vary by enemy type",
+          "Description": "快速拔刀，對前方的敵人進行攻擊。點擊滑鼠左鍵可以追加連續攻擊。\n追加攻擊時於最後一擊將會吸收少量生命。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/G_Chii/G_1-1_ScareClow.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[基本攻擊]\n傷害量：[64%]\n霸體破壞量：[44%]\n[額外攻擊]\n傷害量：[64%], [192%]\n霸體破壞量：[44%], [132%]\n最後一擊增益效果：HP恢復[3%]\n\n靈魂值消耗量：[35]\n冷卻時間：[7秒]",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        },
+        "2": {
+          "Effect": "[基本攻擊]\n傷害量：[70%]\n霸體破壞量：[48%]\n[額外攻擊]\n傷害量：[70%], [211%]\n霸體破壞量：[48%], [145%]\n最後一擊增益效果：HP恢復[3%]\n\n靈魂值消耗量：[35]\n冷卻時間：[7秒]",
+          "RequiredLevel": 4,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[基本攻擊]\n傷害量：[79%]\n霸體破壞量：[54%]\n[額外攻擊]\n傷害量：[79%], [237%]\n霸體破壞量：[54%], [163%]\n最後一擊增益效果：HP恢復[3%]\n\n靈魂值消耗量：[35]\n冷卻時間：[7秒]",
+          "RequiredLevel": 6,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "[基本攻擊]\n傷害量：[90%]\n霸體破壞量：[62%]\n[額外攻擊]\n[額外攻擊]\n傷害量：[90%], [270%]\n霸體破壞量：[62%], [185%]\n最後一擊增益效果：HP恢復[3%]\n\n靈魂值消耗量：[35]\n冷卻時間：[7秒]",
+          "RequiredLevel": 10,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "[基本攻擊]\n傷害量：[106%]\n霸體破壞量：[73%]\n[額外攻擊]\n[額外攻擊]\n傷害量：[106%], [319%]\n霸體破壞量：[73%], [219%]\n最後一擊增益效果：HP恢復[3%]\n\n靈魂值消耗量：[35]\n冷卻時間：[7秒]",
+          "RequiredLevel": 13,
+          "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "ScareClow-DarkBlood",
+        "ScareClow-Bleeding"
+      ]
+    },
+    "ScareClow-DarkBlood": {
+      "Visible": false,
+      "Name": "黑血 [創痕一斬]",
+      "ID": 2,
+      "Icon": "../assets/SkillIcons/G_Chii/G_X-X_DarkBlood_A.png",
+      "Levels": {
+        "0": {
+          "Description": "消耗生命為代價，強化靈魂暗影之力。\n遭受最後一擊的敵人將會賦予狩獵標記，並於使用特殊攻擊時爆炸。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/G_Chii/G_1-1_ScareClow_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[基本攻擊]\n傷害量：[159%]\n霸體破壞量：[109%]\n[額外攻擊]\n傷害量：[159%], [478%]\n霸體破壞量：[109%], [328%]\n\n[通用]\n增益效果：攻擊速度 [+5%]\n增益持續時間：[15秒]（可堆疊3次）\n敵人減益效果：狩獵標記 [15秒]\n生命消耗量：[7%] 當前生命\n冷卻時間：[10秒]",
+          "RequiredLevel": 13,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[基本攻擊]\n傷害量：[174%]\n霸體破壞量：[119%]\n[額外攻擊]\n傷害量：[174%], [521%]\n霸體破壞量：[119%], [358%]\n\n[通用]\n增益效果：攻擊速度 [+5%]\n增益持續時間：[15秒]（可堆疊3次）\n敵人減益效果：狩獵標記 [15秒]\n生命消耗量：[7%] 當前生命\n冷卻時間：[10秒]",
+          "RequiredLevel": 18,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[基本攻擊]\n傷害量：[189%]\n霸體破壞量：[137%]\n[額外攻擊]\n傷害量：[189%], [568%]\n霸體破壞量：[137%], [412%]\n\n[通用]\n增益效果：攻擊速度 [+5%]\n增益持續時間：[15秒]（可堆疊3次）\n敵人減益效果：狩獵標記 [15秒]\n生命消耗量：[7%] 當前生命\n冷卻時間：[10秒]",
+          "RequiredLevel": 23,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "ScareClow-Bleeding": {
+      "Visible": false,
+      "Name": "流血",
+      "ID": 3,
+      "Icon": "../assets/SkillIcons/G_Chii/G_1-1_ScareClow_B.png",
+      "Levels": {
+        "0": {
+          "Description": "於最後攻擊時給予流血效果。\n每次攻擊命中時可恢復靈魂值。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/G_Chii/G_1-1_ScareClow_B.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[基本攻擊]\n傷害量：[106%]\n霸體破壞量：[73%]\n[額外攻擊]\n傷害量：[106%], [319%]\n霸體破壞量：[73%], [219%]\n\n[通用]\n命中時恢復靈魂值：[12]\n敵人減益效果：流血（每秒減少 [2%] HP）\n敵人減益持續時間：[5秒]",
+          "RequiredLevel": 13,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[基本攻擊]\n傷害量：[116%]\n霸體破壞量：[80%]\n[額外攻擊]\n傷害量：[116%], [347%]\n霸體破壞量：[80%], [239%]\n\n[通用]\n命中時恢復靈魂值：[18]\n敵人減益效果：流血（每秒減少 [3%] HP）\n敵人減益持續時間：[5秒]",
+          "RequiredLevel": 18,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[基本攻擊]\n傷害量：[133%]\n霸體破壞量：[92%]\n[額外攻擊]\n傷害量：[133%], [399%]\n霸體破壞量：[92%], [275%]\n\n[通用]\n命中時恢復靈魂值：[25]\n敵人減益效果：流血（每秒減少 [4%] HP）\n敵人減益持續時間：[5秒]",
+          "RequiredLevel": 23,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "OverturnGround": {
+      "Name": "破竹之勢",
+      "DefaultLevel": 1,
+      "ID": 4,
+      "Icon": "../assets/SkillIcons/G_Chii/G_1-2_OverturnGround.png",
+      "Levels": {
+        "0": {
+          "Description": "武器在收刀狀態下猛力砸向地面，使敵人浮空。點擊滑鼠左鍵可以追加攻擊浮空的敵人。\n追加攻擊時會吸收少量的生命",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/G_Chii/G_1-2_OverturnGround.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[基本攻擊]\n傷害量：[158%]\n霸體破壞量：[128%]\n[額外攻擊]\n傷害量：[237%]\n霸體破壞量：[192%]\n增益效果：HP恢復[3%]\n\n靈魂值消耗量：[30]\n冷卻時間：[12秒]",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        },
+        "2": {
+          "Effect": "[基本攻擊]\n傷害量：[174%]\n霸體破壞量：[141%]\n[額外攻擊]\n傷害量：[261%]\n霸體破壞量：[211%]\n增益效果：HP恢復[3%]\n\n靈魂值消耗量：[30]\n冷卻時間：[12秒]",
+          "RequiredLevel": 6,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[基本攻擊]\n傷害量：[195%]\n霸體破壞量：[158%]\n[額外攻擊]\n傷害量：[292%]\n霸體破壞量：[237%]\n增益效果：HP恢復[3%]\n\n靈魂值消耗量：[30]\n冷卻時間：[12秒]",
+          "RequiredLevel": 11,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "[基本攻擊]\n傷害量：[222%]\n霸體破壞量：[180%]\n[額外攻擊]\n傷害量：[333%]\n霸體破壞量：[270%]\n增益效果：HP恢復[3%]\n\n靈魂值消耗量：[30]\n冷卻時間：[12秒]",
+          "RequiredLevel": 16,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "[基本攻擊]\n傷害量：[262%]\n霸體破壞量：[212%]\n[額外攻擊]\n傷害量：[393%]\n霸體破壞量：[319%]\n增益效果：HP恢復[3%]\n\n靈魂值消耗量：[30]\n冷卻時間：[12秒]",
+          "RequiredLevel": 21,
+          "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "OverturnGround-DarkBlood",
+        "OverturnGround-LifeDrain"
+      ]
+    },
+    "OverturnGround-DarkBlood": {
+      "Visible": false,
+      "Name": "黑血 [破竹之勢]",
+      "ID": 3,
+      "Icon": "../assets/SkillIcons/G_Chii/G_X-X_DarkBlood_A.png",
+      "Levels": {
+        "0": {
+          "Description": "朝浮空的敵人進行連續射擊。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/G_Chii/G_1-2_OverturnGround_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "傷害量：攻擊1回 [35%]\n霸體破壞量：攻擊1回 [45%]\n最大攻擊時間：[0.55秒]\n終結攻擊傷害量：[88%]\n終結攻擊霸體破壞量：[112%]",
+          "RequiredLevel": 21,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "傷害量：攻擊1回 [35%]\n霸體破壞量：攻擊1回 [45%]\n最大攻擊時間：[1.10秒]\n終結攻擊傷害量：[88%]\n終結攻擊霸體破壞量：[112%]",
+          "RequiredLevel": 26,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "傷害量：攻擊1回 [53%]\n霸體破壞量：攻擊1回 [68%]\n最大攻擊時間：[1.65秒]\n終結攻擊傷害量：[88%]\n終結攻擊霸體破壞量：[112%]",
+          "RequiredLevel": 31,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "OverturnGround-LifeDrain": {
+      "Visible": false,
+      "Name": "吸血",
+      "ID": 3,
+      "Icon": "../assets/SkillIcons/G_Chii/G_1-2_OverturnGround_B.png",
+      "Levels": {
+        "0": {
+          "Description": "朝浮空的敵人進行連續射擊。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/G_Chii/G_1-2_OverturnGround_B.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "傷害量：攻擊1回 [35%]\n霸體破壞量：攻擊1回 [45%]\n最大攻擊時間：[0.55秒]\n終結攻擊傷害量：[88%]\n終結攻擊霸體破壞量：[112%]",
+          "RequiredLevel": 21,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "傷害量：攻擊1回 [35%]\n霸體破壞量：攻擊1回 [45%]\n最大攻擊時間：[1.10秒]\n終結攻擊傷害量：[88%]\n終結攻擊霸體破壞量：[112%]",
+          "RequiredLevel": 26,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "傷害量：攻擊1回 [53%]\n霸體破壞量：攻擊1回 [68%]\n最大攻擊時間：[1.65秒]\n終結攻擊傷害量：[88%]\n終結攻擊霸體破壞量：[112%]",
+          "RequiredLevel": 31,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "ThrustArrow": {
+      "Name": "貓刀一式 - 狩獵開始",
+      "DefaultLevel": 1,
+      "ID": 5,
+      "Icon": "../assets/SkillIcons/G_Chii/G_1-3_ThrustArrow.png",
+      "Levels": {
+        "0": {
+          "Description": "衝向前方，使用高速迴旋斬攻擊前方的敵人。\n根據蓄力時間增加衝刺移動的距離。\n攻擊後會吸收少量生命。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/G_Chii/G_1-3_ThrustArrow.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "傷害量：攻擊1回 [61%]\n霸體破壞量：攻擊1回 [30%]\n增益效果：HP恢復 [3%]\n靈魂值消耗量：[15]\n冷卻時間：[7秒]",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        },
+        "2": {
+          "Effect": "傷害量：攻擊1回 [68%]\n霸體破壞量：攻擊1回 [33%]\n增益效果：HP恢復 [3%]\n靈魂值消耗量：[15]\n冷卻時間：[7秒]",
+          "RequiredLevel": 5,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "傷害量：攻擊1回 [76%]\n霸體破壞量：攻擊1回 [37%]\n增益效果：HP恢復 [3%]\n靈魂值消耗量：[15]\n冷卻時間：[7秒]",
+          "RequiredLevel": 9,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "傷害量：攻擊1回 [86%]\n霸體破壞量：攻擊1回 [42%]\n增益效果：HP恢復 [3%]\n靈魂值消耗量：[15]\n冷卻時間：[7秒]",
+          "RequiredLevel": 13,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "傷害量：攻擊1回 [102%]\n霸體破壞量：攻擊1回 [50%]\n增益效果：HP恢復 [3%]\n靈魂值消耗量：[15]\n冷卻時間：[7秒]",
+          "RequiredLevel": 17,
+          "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "ThrustArrow-Explosion"
+      ]
+    },
+    "AllegroSweep": {
+      "Name": "貓刀二式 - 探爪",
+      "ID": 7,
+      "Icon": "../assets/SkillIcons/G_Chii/G_2-1_AllegroSweep.png",
+      "Levels": {
+        "0": {
+          "Description": "用居合斬一掃前方的敵人。\n點擊滑鼠左鍵可以立刻攻擊，但會減少20%傷害量。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/G_Chii/G_2-1_AllegroSweep.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "傷害量：[403%]\n霸體破壞量：[500%]\n靈魂值消耗量：[35]\n冷卻時間：[20秒]",
+          "RequiredLevel": 4,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "傷害量：[444%]\n霸體破壞量：[550%]\n靈魂值消耗量：[35]\n冷卻時間：[20秒]",
+          "RequiredLevel": 8,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "傷害量：[497%]\n霸體破壞量：[616%]\n靈魂值消耗量：[35]\n冷卻時間：[20秒]",
+          "RequiredLevel": 12,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "傷害量：[565%]\n霸體破壞量：[703%]\n靈魂值消耗量：[35]\n冷卻時間：[20秒]",
+          "RequiredLevel": 16,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "傷害量：[668%]\n霸體破壞量：[829%]\n靈魂值消耗量：[35]\n冷卻時間：[20秒]",
+          "RequiredLevel": 20,
+          "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "AllegroSweep-Charge"
+      ]
+    },
+    "AllegroSweep-Charge": {
+      "Visible": false,
+      "Name": "蓄力",
+      "ID": 8,
+      "Icon": "../assets/SkillIcons/G_Chii/G_2-1_AllegroSweep_A.png",
+      "Levels": {
+        "0": {
+          "Description": "在使用技能的位置生成氣體煙霧，使煙幕區域內的敵人減速。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/G_Chii/G_2-1_AllegroSweep_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "減益效果：移動速度降低 [30%]\n減益持續時間：[1秒]\n減益區域持續時間：[6秒]",
+          "RequiredLevel": 20,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "減益效果：移動速度降低 [45%]\n減益持續時間：[2秒]\n減益區域持續時間：[8秒]",
+          "RequiredLevel": 25,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "減益效果：移動速度降低 [75%]\n減益持續時間：[3秒]\n減益區域持續時間：[10秒]",
+          "RequiredLevel": 30,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "SoulChange": {
+      "Name": "血戰姿態",
+      "ID": 10,
+      "Icon": "../assets/SkillIcons/G_Chii/G_2-2_SoulChange.png",
+      "Levels": {
+        "0": {
+          "Description": "以消耗HP為代價，一定時間內強化戰鬥力。\n同隊伍成員（含自己）提升暴擊傷害，自身則額外提高敵人防禦力貫穿。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/G_Chii/G_2-2_SoulChange.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[隊伍成員]\n增益效果：暴擊傷害量 [+150%]\n增益持續時間：[25秒]\n[自身]\n增益效果：敵人防禦力貫穿 [+5%]\n增益持續時間：[25秒]\n當前生命值消耗量：[15%]\n冷卻時間：[35秒]",
+          "RequiredLevel": 6,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[隊伍成員]\n增益效果：暴擊傷害量 [+170%]\n增益持續時間：[25秒]\n[自身]\n增益效果：敵人防禦力貫穿 [+5%]\n增益持續時間：[25秒]\n當前生命值消耗量：[15%]\n冷卻時間：[35秒]",
+          "RequiredLevel": 10,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[隊伍成員]\n增益效果：暴擊傷害量 [+170%]\n增益持續時間：[25秒]\n[自身]\n增益效果：敵人防禦力貫穿 [+10%]\n增益持續時間：[25秒]\n當前生命值消耗量：[15%]\n冷卻時間：[35秒]",
+          "RequiredLevel": 14,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "[隊伍成員]\n增益效果：暴擊傷害量 [+200%]\n增益持續時間：[25秒]\n[自身]\n增益效果：敵人防禦力貫穿 [+10%]\n增益持續時間：[25秒]\n當前生命值消耗量：[15%]\n冷卻時間：[35秒]",
+          "RequiredLevel": 18,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "[隊伍成員]\n增益效果：暴擊傷害量 [+200%]\n增益持續時間：[25秒]\n[自身]\n增益效果：敵人防禦力貫穿 [+15%]\n增益持續時間：[25秒]\n當前生命值消耗量：[15%]\n冷卻時間：[35秒]",
+          "RequiredLevel": 22,
+          "RequiredSP": 3
+        }
+      }
+    },
+    "SeizeField": {
+      "Name": "捕食者的渴望",
+      "ID": 11,
+      "Icon": "../assets/SkillIcons/G_Chii/G_2-3_SeizeField.png",
+      "Levels": {
+        "0": {
+          "Description": "召喚靈魂暗影之力的怪物爪，將周圍的敵人拉到身旁。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/G_Chii/G_2-3_SeizeField.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[推開/吸引]\n傷害量：攻擊1回 [48%]/[58%]\n霸體破壞量：攻擊1回 [53%]/[63%]\n靈魂值消耗量：[45]\n冷卻時間：[15秒]",
+          "RequiredLevel": 8,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[推開/吸引]\n傷害量：攻擊1回 [53%]/[63%]\n霸體破壞量：攻擊1回 [58%]/[69%]\n靈魂值消耗量：[45]\n冷卻時間：[15秒]",
+          "RequiredLevel": 12,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[推開/吸引]\n傷害量：攻擊1回 [59%]/[71%]\n霸體破壞量：攻擊1回 [65%]/[78%]\n靈魂值消耗量：[45]\n冷卻時間：[15秒]",
+          "RequiredLevel": 16,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "[推開/吸引]\n傷害量：攻擊1回 [68%]/[81%]\n霸體破壞量：攻擊1回 [74%]/[89%]\n靈魂值消耗量：[45]\n冷卻時間：[15秒]",
+          "RequiredLevel": 20,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "[推開/吸引]\n傷害量：攻擊1回 [80%]/[96%]\n霸體破壞量：攻擊1回 [87%]/[105%]\n靈魂值消耗量：[45]\n冷卻時間：[15秒]",
+          "RequiredLevel": 24,
+          "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "SeizeField-DarkBlood",
+        "SeizeField-Fang"
+      ]
+    },
+    "SeizeField-DarkBlood": {
+      "Visible": false,
+      "Name": "黑血 [捕食者的渴望]",
+      "ID": 12,
+      "Icon": "../assets/SkillIcons/G_Chii/G_X-X_DarkBlood_A.png",
+      "Levels": {
+        "0": {
+          "Description": "射擊結束時發射充滿強烈能量的一擊，並在命中敵人時生成麻痹區域。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/G_Chii/G_2-3_SeizeField_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "傷害量：[105%]\n霸體破壞量：[60%]\n減益效果：麻痹 [1秒]\n減益區域持續時間：[3秒]",
+          "RequiredLevel": 24,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "傷害量：[120%]\n霸體破壞量：[69%]\n減益效果：麻痹 [1秒]\n減益區域持續時間：[4秒]",
+          "RequiredLevel": 29,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "傷害量：[152%]\n霸體破壞量：[87%]\n減益效果：麻痹 [1秒]\n減益區域持續時間：[5秒]",
+          "RequiredLevel": 34,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "SeizeField-Fang": {
+      "Visible": false,
+      "Name": "獵犬",
+      "ID": 13,
+      "Icon": "../assets/SkillIcons/G_Chii/G_2-3_SeizeField_B.png",
+      "Levels": {
+        "0": {
+          "Description": "射擊結束時發射充滿強烈能量的一擊，並以能量爆炸地點為基準，吸引周遭的所有敵人。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/G_Chii/G_2-3_SeizeField_B.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "傷害量：[105%]\n霸體破壞量：[60%]\n將範圍[4]米內的敵人吸引至中心點",
+          "RequiredLevel": 24,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "傷害量：[120%]\n霸體破壞量：[69%]\n將範圍[6]米內的敵人吸引至中心點",
+          "RequiredLevel": 29,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "傷害量：[152%]\n霸體破壞量：[87%]\n將範圍[8]米內的敵人吸引至中心點",
+          "RequiredLevel": 34,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "PeregrineFalcon": {
+      "Name": "貓刀三式 - 鷹之奇襲",
+      "ID": 14,
+      "Icon": "../assets/SkillIcons/G_Chii/G_3-1_PeregrineFalcon.png",
+      "Levels": {
+        "0": {
+          "Description": "快速斬擊前方的敵人後，將武器迴旋式的向前擲出。一段時間後武器將會自動回歸。\n點擊滑鼠左鍵可立刻將武器收回。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/G_Chii/G_3-1_PeregrineFalcon.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[丟出/收回]\n傷害量：攻擊1回 [245%]/[31%]\n霸體破壞量：攻擊1回 [137%]/[17%]\n靈魂值消耗量：[45]\n冷卻時間：[17秒]",
+          "RequiredLevel": 10,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[丟出/收回]\n傷害量：攻擊1回 [270%]/[34%]\n霸體破壞量：攻擊1回 [151%]/[19%]\n靈魂值消耗量：[45]\n冷卻時間：[17秒]",
+          "RequiredLevel": 15,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[丟出/收回]\n傷害量：攻擊1回 [302%]/[38%]\n霸體破壞量：攻擊1回 [169%]/[21%]\n靈魂值消耗量：[45]\n冷卻時間：[17秒]",
+          "RequiredLevel": 20,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "[丟出/收回]\n傷害量：攻擊1回 [344%]/[43%]\n霸體破壞量：攻擊1回 [192%]/[14%]\n靈魂值消耗量：[45]\n冷卻時間：[17秒]",
+          "RequiredLevel": 25,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "[丟出/收回]\n傷害量：攻擊1回 [406%]/[51%]\n霸體破壞量：攻擊1回 [227%]/[18%]\n靈魂值消耗量：[45]\n冷卻時間：[17秒]",
+          "RequiredLevel": 30,
+          "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "PeregrineFalcon-Sync"
+      ]
+    },
+    "MoonStep": {
+      "Name": "貓刀四式 - 月影之躍",
+      "ID": 15,
+      "Icon": "../assets/SkillIcons/G_Chii/G_3-2_MoonStep.png",
+      "Levels": {
+        "0": {
+          "Description": "向空中跳躍，然後進行360度旋轉的踢擊。\n在浮空狀態下點擊滑鼠左鍵，可以對敵人進行敲打。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/G_Chii/G_3-2_MoonStep.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "傷害量：[348%]\n霸體破壞量：[387%]\n最大蓄力階段：[3]\n靈魂值消耗量：[3]\n冷卻時間：[25秒]",
+          "RequiredLevel": 13,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "傷害量：[369%]\n霸體破壞量：[406%]\n最大蓄力階段：[3]\n靈魂值消耗量：[3]\n冷卻時間：[25秒]",
+          "RequiredLevel": 18,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "傷害量：[409%]\n霸體破壞量：[454%]\n最大蓄力階段：[3]\n靈魂值消耗量：[3]\n冷卻時間：[25秒]",
+          "RequiredLevel": 23,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "傷害量：[453%]\n霸體破壞量：[502%]\n最大蓄力階段：[3]\n靈魂值消耗量：[3]\n冷卻時間：[25秒]",
+          "RequiredLevel": 28,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "傷害量：[522%]\n霸體破壞量：[580%]\n最大蓄力階段：[3]\n靈魂值消耗量：[3]\n冷卻時間：[25秒]",
+          "RequiredLevel": 33,
+          "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "MoonStep-PrecisionStrikes",
+        "MoonStep-Thunderbolt"
+      ]
+    },
+    "MoonStep-PrecisionStrikes": {
+      "Visible": false,
+      "Name": "精確攻擊",
+      "ID": 16,
+      "Icon": "../assets/SkillIcons/G_Chii/G_3-2_MoonStep_A.png",
+      "Levels": {
+        "0": {
+          "Description": "命中敵人時，在一定程度上無視防禦。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/G_Chii/G_3-2_MoonStep_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "傷害量：[548%]\n霸體破壞量：[+1338%]\n無視敵人防禦：[10%]",
+          "RequiredLevel": 33,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "傷害量：[575%]\n霸體破壞量：[+1405%]\n無視敵人防禦：[20%]",
+          "RequiredLevel": 38,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "傷害量：[643%]\n霸體破壞量：[+1572%]\n無視敵人防禦：[40%]",
+          "RequiredLevel": 43,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "MoonStep-Thunderbolt": {
+      "Visible": false,
+      "Name": "麻痺",
+      "ID": 16,
+      "Icon": "../assets/SkillIcons/G_Chii/G_3-2_MoonStep_B.png",
+      "Levels": {
+        "0": {
+          "Description": "命中敵人時，在一定程度上無視防禦。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/G_Chii/G_3-2_MoonStep_B.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "傷害量：[548%]\n霸體破壞量：[+1338%]\n無視敵人防禦：[10%]",
+          "RequiredLevel": 33,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "傷害量：[575%]\n霸體破壞量：[+1405%]\n無視敵人防禦：[20%]",
+          "RequiredLevel": 38,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "傷害量：[643%]\n霸體破壞量：[+1572%]\n無視敵人防禦：[40%]",
+          "RequiredLevel": 43,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "GrownCrevasse": {
+      "Name": "貓刀五式 - 落刃強襲",
+      "ID": 17,
+      "Icon": "../assets/SkillIcons/G_Chii/G_3-3_GrownCrevasse.png",
+      "Levels": {
+        "0": {
+          "Description": "在空中的狀態下，向地面擲出武器，之後朝向武器落下的焦點進行重踏攻擊。處於武器投擲點的敵人會受到額外傷害。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/G_Chii/G_3-3_GrownCrevasse.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "傷害量：[743%]\n霸體破壞量：[185%]\n靈魂值消耗量：[3]\n冷卻時間：[20秒]",
+          "RequiredLevel": 17,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "傷害量：[780%]\n霸體破壞量：[194%]\n靈魂值消耗量：[3]\n冷卻時間：[20秒]",
+          "RequiredLevel": 22,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "傷害量：[873%]\n霸體破壞量：[217%]\n靈魂值消耗量：[3]\n冷卻時間：[20秒]",
+          "RequiredLevel": 27,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "傷害量：[965%]\n霸體破壞量：[240%]\n靈魂值消耗量：[3]\n冷卻時間：[20秒]",
+          "RequiredLevel": 32,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "傷害量：[1114%]\n霸體破壞量：[277%]\n靈魂值消耗量：[3]\n冷卻時間：[20秒]",
+          "RequiredLevel": 37,
+          "RequiredSP": 3
+        }
+      }
+    },
+    "AccelearateGrinder": {
+      "Name": "貓刀六式 - 魂之輓歌",
+      "ID": 18,
+      "Icon": "../assets/SkillIcons/G_Chii/G_4-1_AccelerateGrinder.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "一邊左右移動一邊對敵人進行高速斬擊，並在一定時間後，向前方高速斬擊作為終結一擊。點擊滑鼠右鍵可以提前使出終結攻擊。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/G_Chii/G_4-1_AccelerateGrinder.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "傷害量：[154%]\n霸體破壞量：[1882%]\n減益效果：燒傷（每秒減少 [1%] HP）\n靈魂值消耗量：[4]\n冷卻時間：[20秒]",
+          "RequiredLevel": 21,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "傷害量：[162%]\n霸體破壞量：[1976%]\n減益效果：燒傷（每秒減少 [1%] HP）\n靈魂值消耗量：[4]\n冷卻時間：[20秒]",
+          "RequiredLevel": 26,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "傷害量：[181%]\n霸體破壞量：[2211%]\n減益效果：燒傷（每秒減少 [1%] HP）\n靈魂值消耗量：[4]\n冷卻時間：[20秒]",
+          "RequiredLevel": 31,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "傷害量：[200%]\n霸體破壞量：[2447%]\n減益效果：燒傷（每秒減少 [1%] HP）\n靈魂值消耗量：[4]\n冷卻時間：[20秒]",
+          "RequiredLevel": 36,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "傷害量：[231%]\n霸體破壞量：[2823%]\n減益效果：燒傷（每秒減少 [1%] HP）\n靈魂值消耗量：[4]\n冷卻時間：[20秒]",
+          "RequiredLevel": 41,
+          "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "AccelearateGrinder-DarkBlood"
+      ]
+    },
+    "AccelearateGrinder-DarkBlood": {
+      "Visible": false,
+      "Name": "黑血 [魂之輓歌]",
+      "ID": 16,
+      "Icon": "../assets/SkillIcons/G_Chii/G_X-X_DarkBlood_A.png",
+      "Levels": {
+        "0": {
+          "Description": "命中敵人時，在一定程度上無視防禦。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/G_Chii/G_4-1_AccelerateGrinder_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "傷害量：[548%]\n霸體破壞量：[+1338%]\n無視敵人防禦：[10%]",
+          "RequiredLevel": 41,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "傷害量：[575%]\n霸體破壞量：[+1405%]\n無視敵人防禦：[20%]",
+          "RequiredLevel": 46,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "傷害量：[643%]\n霸體破壞量：[+1572%]\n無視敵人防禦：[40%]",
+          "RequiredLevel": 51,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "AssasinateParty": {
+      "Name": "貓刀零式 - 刀刃風暴",
+      "ID": 19,
+      "Icon": "../assets/SkillIcons/G_Chii/G_4-2_AssassinateParty.png",
+      "Levels": {
+        "0": {
+          "Description": "對前方的敵人進行斬擊，並使敵人僵直後，通過光速斬擊對範圍內的敵人進行連續打擊造成傷害。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/G_Chii/G_4-2_AssassinateParty.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "增益效果：移動速度 [+10%]\n靈魂值消耗量：[4]\n冷卻時間：[45秒]",
+          "RequiredLevel": 28,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "增益效果：移動速度 [+11%]\n靈魂值消耗量：[4]\n冷卻時間：[45秒]",
+          "RequiredLevel": 32,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "增益效果：移動速度 [+13%]\n靈魂值消耗量：[4]\n冷卻時間：[45秒]",
+          "RequiredLevel": 36,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "增益效果：移動速度[+16%]\n靈魂值消耗量：[4]\n冷卻時間：[45秒]",
+          "RequiredLevel": 40,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "增益效果：移動速度[+20%]\n靈魂值消耗量：[4]\n冷卻時間：[45秒]",
+          "RequiredLevel": 44,
+          "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "AssasinateParty-MultiHits"
+      ]
+    },
+    "AssasinateParty-MultiHits": {
+      "Visible": false,
+      "Name": "攻擊次數增加",
+      "ID": 20,
+      "Icon": "../assets/SkillIcons/G_Chii/G_4-2_AssassinateParty_A.png",
+      "Levels": {
+        "0": {
+          "Description": "額外發動恢復靈魂值的增益，對一定範圍內的隊友也有效。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/G_Chii/G_4-2_AssassinateParty_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "增益效果：每秒恢復靈魂值 [2%]\n增益持續時間：[20秒]",
+          "RequiredLevel": 44,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "增益效果：每秒恢復靈魂值 [3%]\n增益持續時間：[20秒]",
+          "RequiredLevel": 49,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "增益效果：每秒恢復靈魂值 [5%]\n增益持續時間：[20秒]",
+          "RequiredLevel": 54,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "Thunderbolt": {
+      "Name": "捕食者之怒",
+      "ID": 21,
+      "Icon": "../assets/SkillIcons/G_Chii/G_4-3_Thunderbolt.png",
+      "Levels": {
+        "0": {
+          "Description": "凝聚靈魂暗影之力於右手，往前方進行爆發性的連續吸引攻擊。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/G_Chii/G_4-3_Thunderbolt.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "傷害量：[100%]\n霸體破壞量：[100%]\n增益效果：無敵 [1秒]\n護盾效果：[霸體] + [完全回避]\n護盾持續時間：[10秒]\n靈魂值消耗量：[5]\n冷卻時間：[60秒]",
+          "RequiredLevel": 34,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "傷害量：[100%]\n霸體破壞量：[100%]\n增益效果：無敵 [1秒]\n護盾效果：[霸體] + [完全回避]\n護盾持續時間：[11秒]\n靈魂值消耗量：[5]\n冷卻時間：[55秒]",
+          "RequiredLevel": 37,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "傷害量：[100%]\n霸體破壞量：[100%]\n增益效果：無敵 [1秒]\n護盾效果：[霸體] + [完全回避]\n護盾持續時間：[13秒]\n靈魂值消耗量：[4]\n冷卻時間：[55秒]",
+          "RequiredLevel": 40,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "傷害量：[100%]\n霸體破壞量：[100%]\n增益效果：無敵 [1秒]\n護盾效果：[霸體] + [完全回避]\n護盾持續時間：[15秒]\n靈魂值消耗量：[4]\n冷卻時間：[45秒]",
+          "RequiredLevel": 43,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "傷害量：[100%]\n霸體破壞量：[100%]\n增益效果：無敵 [1秒]\n護盾效果：[霸體] + [完全回避]\n護盾持續時間：[20秒]\n靈魂值消耗量：[3]\n冷卻時間：[35秒]",
+          "RequiredLevel": 46,
+          "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "Thunderbolt-DarkBlood"
+      ]
+    },
+    "Thunderbolt-DarkBlood": {
+      "Visible": false,
+      "Name": "黑血 [捕食者之怒]",
+      "ID": 20,
+      "Icon": "../assets/SkillIcons/G_Chii/G_X-X_DarkBlood_A.png",
+      "Levels": {
+        "0": {
+          "Description": "額外發動恢復靈魂值的增益，對一定範圍內的隊友也有效。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/G_Chii/G_4-3_Thunderbolt_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "增益效果：每秒恢復靈魂值 [2%]\n增益持續時間：[20秒]",
+          "RequiredLevel": 46,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "增益效果：每秒恢復靈魂值 [3%]\n增益持續時間：[20秒]",
+          "RequiredLevel": 50,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "增益效果：每秒恢復靈魂值 [5%]\n增益持續時間：[20秒]",
+          "RequiredLevel": 54,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "GiantKatana": {
+      "Name": "謳歌捕食者的終焉",
+      "ID": 22,
+      "Icon": "../assets/SkillIcons/G_Chii/G_5-1_GiantKatana.png",
+      "Levels": {
+        "0": {
+          "Description": "凝聚靈魂暗影之力於右手，將武器與手部融為暗影巨劍，猛力向上劈擊前方後重擊地面，並產生追加爆炸攻擊。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/G_Chii/G_5-1_GiantKatana.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[前切攻擊]傷害量：[531%]\n霸體破壞量：[390%]\n[爆炸攻擊]傷害量：[1680%]\n霸體破壞量：[1234%]\n\n靈魂值消耗量：[75]\n冷卻時間：[45秒]",
+          "RequiredLevel": 42,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[前切攻擊]傷害量：[584%]\n霸體破壞量：[429%]\n[爆炸攻擊]傷害量：[1849%]\n霸體破壞量：[1358%]\n\n靈魂值消耗量：[75]\n冷卻時間：[45秒]",
+          "RequiredLevel": 45,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[前切攻擊]傷害量：[654%]\n霸體破壞量：[480%]\n[爆炸攻擊]傷害量：[2070%]\n霸體破壞量：[1521%]\n\n靈魂值消耗量：[75]\n冷卻時間：[45秒]",
+          "RequiredLevel": 48,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "[前切攻擊]傷害量：[745%]\n霸體破壞量：[547%]\n[爆炸攻擊]傷害量：[2361%]\n霸體破壞量：[1734%]\n\n靈魂值消耗量：[75]\n冷卻時間：[45秒]",
+          "RequiredLevel": 52,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "[前切攻擊]傷害量：[880%]\n霸體破壞量：[646%]\n[爆炸攻擊]傷害量：[2785%]\n霸體破壞量：[2046%]\n\n靈魂值消耗量：[75]\n冷卻時間：[45秒]",
+          "RequiredLevel": 55,
+          "RequiredSP": 3
+        }
+      }
+    },
+    "ThrustArrow-Explosion": {
+      "Visible": false,
+      "Name": "爆裂箭",
+      "ID": 24,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/G_Chii/G_ADV_1-3_ThrustArrow_A.png",
+      "Levels": {
+        "0": {
+          "Description": "在發動最後攻擊之前點擊滑鼠右鍵，可再進行一次強大的近距離零式射擊。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/G_Chii/G_ADV_1-3_ThrustArrow_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "傷害總量：[619%]\n霸體破壞總量：[339%]",
+          "RequiredLevel": 57,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "傷害總量：[692%]\n霸體破壞總量：[378%]",
+          "RequiredLevel": 58,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "傷害總量：[765%]\n霸體破壞總量：[419%]",
+          "RequiredLevel": 60,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "PeregrineFalcon-Sync": {
+      "Visible": false,
+      "Name": "萬箭齊發",
+      "ID": 25,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/G_Chii/G_ADV_3-1_PeregrineFalcon_A.png",
+      "Levels": {
+        "0": {
+          "Description": "在脈衝炸彈的引爆地點設置機械膠囊，並從中召喚出機器人幫助攻擊。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/G_Chii/G_ADV_3-1_PeregrineFalcon_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "傷害量：[1215%]\n霸體破壞量：[303%]\n\n[召喚物資訊]\n召喚物：無人機\n傷害量及霸體破壞量：攻擊1回 [100%]\n自爆攻擊傷害量及霸體破壞量：[200%]",
+          "RequiredLevel": 57,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "傷害量：[1275%]\n霸體破壞量：[318%]\n\n[召喚物資訊]\n召喚物：偵察機\n傷害量及霸體破壞量：攻擊1回 [100%]\n自爆攻擊傷害量及霸體破壞量：[300%]",
+          "RequiredLevel": 59,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "傷害量：[1426%]\n霸體破壞量：[355%]\n\n[召喚物資訊]\n召喚物：機械浣熊\n傷害量及霸體破壞量：攻擊1回[100%]\n自爆攻擊傷害量及霸體破壞量：[500%]",
+          "RequiredLevel": 60,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "GaleArrow": {
+      "Name": "貓刀一式・改 - 狂風箭",
+      "ID": 26,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/G_Chii/G_ADV_5-2_GaleArrow.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "在空中狀態下，使用懸浮板邊向前移動邊進行散射攻擊。\n對於浮空狀態下的敵人會給予額外傷害。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/G_Chii/G_ADV_5-2_GaleArrow.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "傷害量：攻擊1回 [220%]\n霸體破壞量：攻擊1回 [112%]\n靈魂值消耗量：[3]\n冷卻時間：[25秒]",
+          "RequiredLevel": 57,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "傷害量：攻擊1回 [231%]\n霸體破壞量：攻擊1回 [118%]\n靈魂值消耗量：[3]\n冷卻時間：[25秒]",
+          "RequiredLevel": 57,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "傷害量：攻擊1回 [258%]\n霸體破壞量：攻擊1回 [132%]\n靈魂值消耗量：[3]\n冷卻時間：[25秒]",
+          "RequiredLevel": 58,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "傷害量：攻擊1回 [286%]\n霸體破壞量：攻擊1回 [145%]\n靈魂值消耗量：[3]\n冷卻時間：[25秒]",
+          "RequiredLevel": 59,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "傷害量：攻擊1回 [330%]\n霸體破壞量：攻擊1回 [168%]\n靈魂值消耗量：[3]\n冷卻時間：[25秒]",
+          "RequiredLevel": 60,
+          "RequiredSP": 3
+        }
+      }
+    },
+    "RedVine": {
+      "Name": "貓刀二式・改 - 紅玉花",
+      "ID": 27,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/G_Chii/G_ADV_5-3_RedVine.png",
+      "Levels": {
+        "0": {
+          "Description": "用滑鼠指定區域目標，以雷射光束進行精準射擊。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/G_Chii/G_ADV_5-3_RedVine.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "傷害量：攻擊1回 [944%]\n霸體破壞量：攻擊1回 [1065%]\n靈魂值消耗量：[4]\n冷卻時間：[30秒]",
+          "RequiredLevel": 57,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "傷害量：攻擊1回 [991%]\n霸體破壞量：攻擊1回 [1118%]\n靈魂值消耗量：[4]\n冷卻時間：[30秒]",
+          "RequiredLevel": 57,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "傷害量：攻擊1回 [1109%]\n霸體破壞量：攻擊1回 [1251%]\n靈魂值消耗量：[4]\n冷卻時間：[30秒]",
+          "RequiredLevel": 58,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "傷害量：攻擊1回 [1226%]\n霸體破壞量：攻擊1回 [1383%]\n靈魂值消耗量：[4]\n冷卻時間：[30秒]",
+          "RequiredLevel": 59,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "傷害量：攻擊1回 [1415%]\n霸體破壞量：攻擊1回 [1596%]\n靈魂值消耗量：[4]\n冷卻時間：[30秒]",
+          "RequiredLevel": 60,
+          "RequiredSP": 3
+        }
+      }
+    },
+    "DevilsToy": {
+      "Name": "掠食者的音調",
+      "ID": 28,
+      "Icon": "../assets/SkillIcons/G_Chii/G_6-1_DevilsToy.png",
+      "Levels": {
+        "0": {
+          "Description": "朝前方射出特殊子彈，在固定區域內多次彈射並貫穿敵人。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/G_Chii/G_6-1_DevilsToy.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[基本攻擊]\n傷害量：攻擊1回 [155%]\n霸體破壞量：攻擊1回 [169%]\n[終結攻擊]\n傷害量：[389%]\n霸體破壞量：[424%]\n\n靈魂值消耗量：[4]\n冷卻時間：[45秒]",
+          "RequiredLevel": 62,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[基本攻擊]\n傷害量：攻擊1回 [171%]\n霸體破壞量：攻擊1回 [186%]\n[終結攻擊]\n傷害量：[428%]\n霸體破壞量：[466%]\n\n靈魂值消耗量：[4]\n冷卻時間：[45秒]",
+          "RequiredLevel": 65,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[基本攻擊]\n傷害量：攻擊1回 [171%]\n霸體破壞量：攻擊1回 [186%]\n[終結攻擊]\n傷害量：[428%]\n霸體破壞量：[466%]\n\n靈魂值消耗量：[4]\n冷卻時間：[45秒]",
+          "RequiredLevel": 68,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "BasicAttackMastery": {
+      "Passive": true,
+      "Name": "基本攻擊精通",
+      "ID": 1002,
+      "DefaultLevel": 1,
+      "Icon": "../assets/SkillIcons/Common/DefaultAttack.png",
+      "Levels": {
+        "0": {
+          "Description": "揮刀攻擊敵人。攻擊時可以獲得靈魂值。\n連續攻擊次數和怪物等級越高，靈魂值獲得量越多。\n技能等級越高，可使用的分支攻擊越多。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "SG Gain +20%.\nUnlock alternative attack “A”",
+          "Effect": "[地面]\n基本攻擊：滑鼠：左鍵x4\n\n[空中]\n滑鼠：跳躍後，左鍵x2",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Attack_01.{{auto}}"
+            "Video": "../assets/SkillPreviews/G_Chii/G_DefaultAttack_01.{{auto}}"
           }
         },
         "2": {
-          "Effect": "SG Gain +70%.\nUnlock additional basic attack",
+          "Effect": "靈魂值獲得量：[+20%]\n可使用分支攻擊A\n[地面]\n[1]基本攻擊：滑鼠：左鍵x4\n[2]分支攻擊A：滑鼠：左鍵x2-右鍵連續點擊\n\n[空中]\n滑鼠：跳躍後，左鍵x2",
           "RequiredLevel": 5,
           "RequiredSP": 1,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Attack_02.{{auto}}"
+            "Video": "../assets/SkillPreviews/G_Chii/G_DefaultAttack_02.{{auto}}"
           }
         },
         "3": {
-          "Effect": "SG Gain +120%\nUnlock alternative attack “B”.\nUnlock alternative aerial attack",
+          "Effect": "靈魂值獲得量：[+70%]\n可使用分支攻擊B\n[地面]\n[1]基本攻擊：滑鼠：左鍵x4\n[2]分支攻擊A：滑鼠：左鍵x2-右鍵連續點擊\n[3]分支攻擊B：滑鼠：左鍵x3-右鍵\n\n[空中]\n滑鼠：跳躍後，左鍵x2",
           "RequiredLevel": 10,
           "RequiredSP": 2,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Attack_03.{{auto}}"
+            "Video": "../assets/SkillPreviews/G_Chii/G_DefaultAttack_03.{{auto}}"
           }
         },
         "4": {
-          "Effect": "SG Gain +200%\nUnlock alternative attack “C”",
+          "Effect": "靈魂值獲得量：[+120%]\n可使用基本攻擊和空中攻擊的追加攻擊\n[地面]\n[1]基本攻擊：滑鼠：左鍵x5\n[2]分支攻擊A：滑鼠：左鍵x2-右鍵連續點擊\n[3]分支攻擊B：滑鼠：左鍵x3-右鍵\n\n[空中]\n滑鼠：跳躍後，左鍵x3",
           "RequiredLevel": 15,
           "RequiredSP": 2,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Attack_04.{{auto}}"
+            "Video": "../assets/SkillPreviews/G_Chii/G_DefaultAttack_04.{{auto}}"
           }
         },
         "5": {
-          "Effect": "",
+          "Effect": "靈魂值獲得量：[+200%]\n可使用分支攻擊C\n[地面]\n[1]基本攻擊：滑鼠：左鍵x5\n[2]分支攻擊A：滑鼠：左鍵x2-右鍵連續點擊\n[3]分支攻擊B：滑鼠：左鍵x3-右鍵\n[4]分支攻擊C：滑鼠：左鍵x4-右鍵\n\n[空中]\n滑鼠：跳躍後，左鍵x3",
           "RequiredLevel": 20,
           "RequiredSP": 2,
           "Preview": {
-            "Video": {
-              "vp9": "../assets/skillpreviews/erwin/B_Attack_05.webm",
-              "h264": "../assets/skillpreviews/erwin/B_Attack_05.mp4"
-            }
+            "Video": "../assets/SkillPreviews/G_Chii/G_DefaultAttack_05.{{auto}}"
           }
         }
       }
@@ -76,30 +1222,30 @@
       "Passive": true,
       "DefaultLevel": 1,
       "ID": 1001,
-      "Name": "Special Ability Mastery",
-      "Icon": "../assets/skillicons/Sh-2e.png",
+      "Name": "特殊能力精通",
+      "Icon": "../assets/SkillIcons/G_Chii/G_SpecialAttack_OwnAbility.png",
       "Levels": {
         "0": {
-          "Description": "[Ground]\nThrow a slowing trap forward.\n[Air]\nShoot an electric wave at the ground to inflict paralysis. Two mines can be placed. Gain SG on hit. SG gain varies by monster-type.",
+          "Description": "釋放靈魂能量攻擊附近的敵人。\n如果範圍內敵人身上帶有「狩獵標記」，則會賦予額外的爆炸傷害。\n標記最多可以疊加3層。\n依據傷害回復自身一定比例的生命（此效果只適用於1個敵人）。\n在空中使用時，迅速以武器向前方進行下落攻擊。\n攻擊時可以獲得靈魂值。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_S_Attack_N.{{auto}}"
+            "Video": "../assets/SkillPreviews/G_Chii/G_SpecialAttack_OwnAbility.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Ground]\nDamage: 172%\nSA Damage: 76%\nDebuff effect: Movement speed -60% in 5s\nCooldown: 5s\n[Air]\nDamage: 274%\nSA Damage: 122%\nDebuff effect: Paralysis in 3s\nCooldown: 5s",
+          "Effect": "[地面]\n傷害量：[175%]\n霸體破壞量：[140%]\n從傷害的 [3%] 回復生命\n[標記爆炸]\n每層標記：傷害量 [350%]\n每層標記：霸體破壞量 [280%]\n\n[空中]\n傷害量：[229%]\n霸體破壞量：[170%]\n\n[通用]\n冷卻時間：[10秒]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "[Ground]\nDamage: 181%\nSA Damage: 80%\nDebuff effect: Movement speed -60% in 5s\nCooldown: 5s\nSG Gain: +20%\n[Air]\nDamage: 287%\nSA Damage: 128%\nDebuff effect: Paralysis in 3s\nCooldown: 5s\nSG Gain: +20%",
+          "Effect": "[地面]\n傷害量：[192%]\n霸體破壞量：[154%]\n從傷害的 [7%] 回復生命\n[標記爆炸]\n每層標記：傷害量 [384%]\n每層標記：霸體破壞量 [308%]\n\n[空中]\n傷害量：[241%]\n霸體破壞量：[178%]\n\n[通用]\n冷卻時間：[10秒]",
           "RequiredLevel": 15,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[Ground]\nDamage: 202%\nSA Damage: 90%\nDebuff effect: Movement speed -60% in 5s\nCooldown: 5s\nSG Gain: +20%\n[Air]\nDamage: 321%\nSA Damage: 143%\nDebuff effect: Paralysis in 3s\nCooldown: 5s\nSG Gain: +20%",
+          "Effect": "[地面]\n傷害量：[211%]\n霸體破壞量：[169%]\n從傷害的 [15%] 回復生命\n[標記爆炸]\n每層標記：傷害量 [422%]\n每層標記：霸體破壞量 [338%]\n\n[空中]\n傷害量：[270%]\n霸體破壞量：[200%]\n\n[通用]\n冷卻時間：[10秒]",
           "RequiredLevel": 30,
           "RequiredSP": 2
         }
@@ -107,22 +1253,22 @@
     },
     "EmergencyDodge": {
       "Passive": true,
-      "Name": "Emergency Dodge",
+      "Name": "緊急迴避",
       "ID": 1004,
       "DefaultLevel": 1,
-      "Icon": "../assets/skillicons/Sh-3.png",
+      "Icon": "../assets/SkillIcons/Common/EmergencyDodge.png",
       "Levels": {
         "0": {
-          "Description": "Swiftly dodge in a direction. Negate damage during an emergency dodge.",
+          "Description": "向指定的方向快速迴避。\n在緊急迴避的狀態下不會受到任何攻擊。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Evade_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/G_Chii/G_EmergencyDodge.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Stamina Cost: 20",
+          "Effect": "耐力消耗量：[20]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         }
@@ -130,32 +1276,32 @@
     },
     "RisingRoll": {
       "Passive": true,
-      "Name": "Rising Roll",
+      "Name": "翻滾",
       "ID": 1003,
       "DefaultLevel": 1,
-      "Icon": "../assets/skillicons/Sh-4.png",
+      "Icon": "../assets/SkillIcons/Common/RisingRoll.png",
       "Levels": {
         "0": {
-          "Description": "When downed, get up by rolling in a direction. During the roll, damage is negated",
+          "Description": "受到攻擊而倒地時，朝指定的方向快速翻滾後起身。\n翻滾時不會受到任何傷害。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Roll_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/G_Chii/G_RisingRoll.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Stamina Cost: 25",
+          "Effect": "耐力消耗量：[25]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "Stamina Cost: 15",
+          "Effect": "耐力消耗量：[15]",
           "RequiredLevel": 17,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina Cost: 15\nFaster Rolling Speed",
+          "Effect": "耐力消耗量：[15]\n翻滾的更快",
           "RequiredLevel": 34,
           "RequiredSP": 2
         }
@@ -163,18 +1309,18 @@
     },
     "Dash": {
       "Passive": true,
-      "Name": "Dash",
+      "Name": "衝刺",
       "DefaultLevel": 1,
       "ID": 1006,
-      "Icon": "../assets/skillicons/Sh-5.png",
+      "Icon": "../assets/SkillIcons/Common/Dash.png",
       "Levels": {
         "0": {
-          "Description": "Swiftly dash forward",
+          "Description": "向前快速奔馳。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Run_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/G_Chii/G_Dash.{{auto}}"
           }
         },
         "1": {
@@ -183,7 +1329,7 @@
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "Faster Dashing Speed",
+          "Effect": "衝刺速度加快",
           "RequiredLevel": 25,
           "RequiredSP": 2
         }
@@ -191,32 +1337,32 @@
     },
     "RisingAttack": {
       "Passive": true,
-      "Name": "Rising Attack",
+      "Name": "起身回擊",
       "ID": 1005,
       "DefaultLevel": 1,
-      "Icon": "../assets/skillicons/Sh-6.png",
+      "Icon": "../assets/SkillIcons/Common/RiseAttack.png",
       "Levels": {
         "0": {
-          "Description": "While downed, get up while damaging surrounding enemies",
+          "Description": "受到攻擊而倒地時，瞬間起身並攻擊周遭敵人。\n使用後在一定時間內處於無敵狀態。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Rise_Attack.{{auto}}"
+            "Video": "../assets/SkillPreviews/G_Chii/G_RiseAttack.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Stamina Cost: 30\nInvincibility Duration: 1 seconds",
+          "Effect": "回擊傷害量：[100%]\n耐力消耗量：[30]\n無敵時間：[3秒]\n冷卻時間：[15秒]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "Stamina Cost: 20\nInvincibility Duration: 1 seconds",
+          "Effect": "回擊傷害量：[100%]\n耐力消耗量：[20]\n無敵時間：[3秒]\n冷卻時間：[15秒]",
           "RequiredLevel": 18,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina Cost: 20\nInvincibility Duration: 3 seconds",
+          "Effect": "回擊傷害量：[100%]\n耐力消耗量：[20]\n無敵時間：[5秒]\n冷卻時間：[15秒]",
           "RequiredLevel": 36,
           "RequiredSP": 2
         }
@@ -224,22 +1370,22 @@
     },
     "DashAttack": {
       "Passive": true,
-      "Name": "Dash Attack",
+      "Name": "衝擊",
       "DefaultLevel": 1,
       "ID": 1008,
-      "Icon": "../assets/skillicons/Sh-7.png",
+      "Icon": "../assets/SkillIcons/Common/DashAttack.png",
       "Levels": {
         "0": {
-          "Description": "Perform an attack while dashing. Different character does different attacks. ",
+          "Description": "衝刺時，往前橫劈攻擊敵人。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_N_Attack_Dash.{{auto}}"
+            "Video": "../assets/SkillPreviews/G_Chii/G_DashAttack.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 115%\nSA Damage: 38%",
+          "Effect": "傷害量：[122%]\n霸體破壞量：[41%]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         }
@@ -247,31 +1393,31 @@
     },
     "SpecialDodge": {
       "Passive": true,
-      "Name": "Special Dodge",
+      "Name": "受身迴避",
       "ID": 1007,
-      "Icon": "../assets/skillicons/Sh-8.png",
+      "Icon": "../assets/SkillIcons/Common/SpecialDodge.png",
       "Levels": {
         "0": {
-          "Description": "Swiftly dodge as an enemy attacks you. Negate Damage during the special dodge",
+          "Description": "受到攻撃且無法控制時，朝指定方向進行受身迴避。\n在受身迴避的狀態下不會受到傷害。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Special_Evade_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/G_Chii/G_SpecialDodge.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Stamina Cost: 40\nCooldown: 60 seconds",
+          "Effect": "耐力消耗量：[40]\n冷卻時間：[30秒]",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Stamina Cost: 40\nCooldown: 50 seconds",
+          "Effect": "耐力消耗量：[40]\n冷卻時間：[25秒]",
           "RequiredLevel": 21,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina Cost: 40\nCooldown: 40 seconds",
+          "Effect": "耐力消耗量：[40]\n冷卻時間：[20秒]",
           "RequiredLevel": 38,
           "RequiredSP": 2
         }
@@ -279,21 +1425,21 @@
     },
     "SpecialDashAttack": {
       "Passive": true,
-      "Name": "Special Dash Attack",
+      "Name": "特殊衝擊",
       "ID": 1010,
-      "Icon": "../assets/skillicons/Sh-9.png",
+      "Icon": "../assets/SkillIcons/Common/SpecialDashAttack.png",
       "Levels": {
         "0": {
-          "Description": "Performs a special attack while dashing. Different characters do different special attacks",
+          "Description": "衝刺時，拔刀施展迴旋挑斬，使敵人浮空。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_S_Attack_Dash.{{auto}}"
+            "Video": "../assets/SkillPreviews/G_Chii/G_SpecialDashAttack.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 206%\nSA Damage: 92%\nCooldown: 5 seconds",
+          "Effect": "傷害量：[241%]\n霸體破壞量：[111%]\n冷卻時間：[5秒]",
           "RequiredLevel": 13,
           "RequiredSP": 1
         }
@@ -301,126 +1447,156 @@
     },
     "StaminaMastery": {
       "Passive": true,
-      "Name": "Stamina Mastery",
+      "Name": "耐力精通",
       "ID": 1009,
-      "Icon": "../assets/skillicons/Sh-10.png",
+      "Icon": "../assets/SkillIcons/Common/StaminaMastery.png",
       "Levels": {
         "0": {
-          "Description": "Increases stamina recovery rate",
+          "Description": "耐力恢復量永久增加。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "Stamina Recovery Rate: +10%",
+          "Effect": "耐力恢復量：[+10%]",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Stamina Recovery Rate: +20%",
+          "Effect": "耐力恢復量：[+20%]",
           "RequiredLevel": 15,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina Recovery Rate: +30%",
+          "Effect": "耐力恢復量：[+30%]",
           "RequiredLevel": 20,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Stamina Recovery Rate: +40%",
+          "Effect": "耐力恢復量：[+40%]",
           "RequiredLevel": 25,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Stamina Recovery Rate: +50%",
+          "Effect": "耐力恢復量：[+50%]",
           "RequiredLevel": 30,
           "RequiredSP": 3
         }
       }
     },
-    "WinningBreak": {
+    "WildInstinct": {
       "Passive": true,
-      "Name": "Winning Break",
+      "Name": "野性本能",
       "ID": 1013,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/skillicons/Icon_Gjazz_Skill_SGPassive2.png",
+      "Icon": "../assets/SkillIcons/G_Chii/G_ADV_Passive_SGPassive2.png",
       "Levels": {
         "0": {
-          "Description": "When a skill that consumes 3 souls (beads) is used, attack power and defense penetration increase for a definite period of time.",
+          "Description": "每使用帶有「黑血」特性的技能後，於5秒內再使用其他帶有相同特性的技能滿3次時，10秒內增加霸體破壞量、暴擊率。\n效果發動期間無法再次計數。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "Attack Power: +200\nDefense Penetration: +4%",
+          "Effect": "[效果發動時]\n霸體破壞量、暴擊率：[+5%]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Attack Power: +400\nDefense Penetration: +7%",
+          "Effect": "[效果發動時]\n霸體破壞量、暴擊率：[+7%]",
           "RequiredLevel": 58,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Attack Power: +600\nDefense Penetration: +10%",
+          "Effect": "[效果發動時]\n霸體破壞量、暴擊率：[+10%]",
           "RequiredLevel": 59,
           "RequiredSP": 2
         }
       }
     },
-    "UnexpectedLuck": {
+    "CatSwiftness": {
       "Passive": true,
-      "Name": "Unexpected Luck",
+      "Name": "貓的韌性",
       "ID": 1011,
       "RowSpan": {
         "0": 2,
         "1": 1
       },
-      "Icon": "../assets/skillicons/EP1-2.png",
+      "Icon": "../assets/SkillIcons/G_Chii/G_Passive_SGPassive.png",
       "Levels": {
         "0": {
-          "Description": "Increases your evasion",
+          "Description": "最大耐力永久增加。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "Evasion Increase by 100",
+          "Effect": "最大耐力：[+10]",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Evasion Increase by 200",
+          "Effect": "最大耐力：[+20]",
           "RequiredLevel": 20,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Evasion Increase by 300",
+          "Effect": "最大耐力：[+30]",
           "RequiredLevel": 30,
           "RequiredSP": 2
         }
       }
     },
-    "BulletofPleasure": {
+    "SoulOfAspiration": {
       "Passive": true,
+      "Name": "渴望的刀身",
       "DefaultLevel": 1,
       "ID": 1012,
-      "RowSpan": 2,
-      "Name": "Bullet of Pleasure",
-      "Icon": "../assets/skillicons/EP1-1.png",
+      "RowSpan": {
+        "0": 2,
+        "1": 1
+      },
+      "Icon": "../assets/SkillIcons/Common/SoulMastery.png",
       "Levels": {
         "0": {
-          "Description": "Gain SG when hitting an enemy. Passively gain SG in set intervals. Using a different skills within 5 seconds will grant 1 stack. Gain 3 SG upon reaching 3 stacks",
+          "Description": "基本攻擊成功時，恢復靈魂值。\n每隔一定時間自動恢復靈魂值。\n使用特定技能特性的時候，會回復靈魂值。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
           "Effect": "",
-          "RequiredLevel": 10,
+          "RequiredLevel": 1,
+          "RequiredSP": 0
+        }
+      }
+    },
+    "DestructionBlade": {
+      "Passive": true,
+      "Name": "虛空的墳場",
+      "DefaultLevel": 1,
+      "ID": 1099,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/G_Chii/G_ADV_SV_EX_DestructionBlade.png",
+      "Levels": {
+        "0": {
+          "Description": "在覺醒狀態下可以使用的技能。\n施展後覺醒狀態會被解除。\n將武器變形為長弓後，向前快速射出凝聚靈魂能量而成的球體，最終以刀向前一斬使球體爆裂，對敵人造成巨量傷害。\n使用條件：處於覺醒狀態。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/G_Chii/G_ADV_SV_EX_DestructionBlade.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "傷害量：[2740%]\n霸體破壞量：[2430%]",
+          "RequiredLevel": 57,
           "RequiredSP": 0
         }
       }

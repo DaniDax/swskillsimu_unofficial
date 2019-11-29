@@ -1,14 +1,15 @@
 {
-  "CharacterName": "Iris Yuma",
+  "CharacterName": "伊莉絲・悠娜",
   "CharacterWikiURL": "https://wiki.soulworkerhq.com/w/Iris_Yuma",
+  "MaxLevel": 68,
   "AvailableClass": {
     "0": {
-      "Name": "Base",
-      "Cover": "../assets/images/bg-iris1.png"
+      "Name": "一般",
+      "Cover": "../assets/images/bg_F_Iris.png"
     },
     "1": {
-      "Name": "Upgraded",
-      "Cover": "../assets/images/bg-iris2.png",
+      "Name": "晉升",
+      "Cover": "../assets/images/bg_F_Iris_ADV.png",
       "RequiredLevel": 57
     }
   },
@@ -17,7 +18,7 @@
       "Name": "Hammer Crash",
       "DefaultLevel": 1,
       "ID": 1,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_HammerCrash.png",
+      "Icon": "../assets/SkillIcons/F_Iris/I1-1.png",
       "Levels": {
         "0": {
           "Description": "Swings the hammer to attack",
@@ -25,7 +26,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_HammerCrash.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_HammerCrash.{{auto}}"
           }
         },
         "1": {
@@ -63,7 +64,7 @@
       "Visible": false,
       "Name": "Continuous Explosion",
       "ID": 2,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_HammerCrash_A.png",
+      "Icon": "../assets/SkillIcons/F_Iris/I1-1A.png",
       "Levels": {
         "0": {
           "Description": "Adds an additional explosion on the ground",
@@ -71,7 +72,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_HammerCrash_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_HammerCrash_A.{{auto}}"
           }
         },
         "1": {
@@ -95,7 +96,7 @@
       "Visible": false,
       "Name": "Full Swing",
       "ID": 3,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_HammerCrash_B.png",
+      "Icon": "../assets/SkillIcons/F_Iris/I1-1B.png",
       "Levels": {
         "0": {
           "Description": "Launch an additional attack after the last attack",
@@ -103,7 +104,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_HammerCrash_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_HammerCrash_B.{{auto}}"
           }
         },
         "1": {
@@ -127,7 +128,7 @@
       "Name": "Camel Spin",
       "DefaultLevel": 1,
       "ID": 4,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_CamelSpin.png",
+      "Icon": "../assets/SkillIcons/F_Iris/I1-2.png",
       "Levels": {
         "0": {
           "Description": "Take a short leap forward and then strike with a 360° rotation",
@@ -135,7 +136,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_CamelSpin.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_CamelSpin.{{auto}}"
           }
         },
         "1": {
@@ -172,7 +173,7 @@
       "Name": "Assault Dive",
       "DefaultLevel": 1,
       "ID": 5,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_AssaultDive.png",
+      "Icon": "../assets/SkillIcons/F_Iris/I1-3.png",
       "Levels": {
         "0": {
           "Description": "Quickly leap forward and push with your weapon, 2 additional rapid-fire explosion attacks",
@@ -180,7 +181,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_AssaultDive.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_AssaultDive.{{auto}}"
           }
         },
         "1": {
@@ -218,7 +219,7 @@
       "Visible": false,
       "Name": "Shatter",
       "ID": 6,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_AssaultDive_A.png",
+      "Icon": "../assets/SkillIcons/F_Iris/I1-3A.png",
       "Levels": {
         "0": {
           "Description": "Replaces the additional attack with an additional consecutive attack",
@@ -226,7 +227,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_AssaultDive_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_AssaultDive_A.{{auto}}"
           }
         },
         "1": {
@@ -250,7 +251,7 @@
       "Visible": false,
       "Name": "Emission",
       "ID": 7,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_AssaultDive_B.png",
+      "Icon": "../assets/SkillIcons/F_Iris/I1-3B.png",
       "Levels": {
         "0": {
           "Description": "Increases the range of the last attack",
@@ -258,7 +259,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_AssaultDive_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_AssaultDive_B.{{auto}}"
           }
         },
         "1": {
@@ -281,7 +282,7 @@
     "FireSomersault": {
       "Name": "Fire Somersault",
       "ID": 8,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_FireSomersault.png",
+      "Icon": "../assets/SkillIcons/F_Iris/I1-4.png",
       "Levels": {
         "0": {
           "Description": "Fires towards the ground and does a backwards somersault, quickly retreating using the recoil from the rotation",
@@ -289,7 +290,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_FireSomersault.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_FireSomersault.{{auto}}"
           }
         },
         "1": {
@@ -326,7 +327,7 @@
       "Visible": false,
       "Name": "Hell Fire",
       "ID": 9,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_FireSomersault_A.png",
+      "Icon": "../assets/SkillIcons/F_Iris/I1-4A.png",
       "Levels": {
         "0": {
           "Description": "Adds attack zones in front of the base one",
@@ -334,7 +335,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_FireSomersault_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_FireSomersault_A.{{auto}}"
           }
         },
         "1": {
@@ -357,7 +358,7 @@
     "SpiralPierce": {
       "Name": "Spiral Pierce",
       "ID": 10,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_SpiralPierce.png",
+      "Icon": "../assets/SkillIcons/F_Iris/I1-5.png",
       "Levels": {
         "0": {
           "Description": "Projects a drill which continuously attacks at gun point. Shock waves are released at the end",
@@ -365,7 +366,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_SpiralPierce.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_SpiralPierce.{{auto}}"
           }
         },
         "1": {
@@ -402,7 +403,7 @@
       "Visible": false,
       "Name": "Gale",
       "ID": 11,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_SpiralPierce_A.png",
+      "Icon": "../assets/SkillIcons/F_Iris/I1-5A.png",
       "Levels": {
         "0": {
           "Description": "A whirlwind with a pulling effect is added",
@@ -410,7 +411,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_SpiralPierce_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_SpiralPierce_A.{{auto}}"
           }
         },
         "1": {
@@ -433,7 +434,7 @@
     "PulseFire": {
       "Name": "Pulse Fire",
       "ID": 12,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_PulseFire.png",
+      "Icon": "../assets/SkillIcons/F_Iris/I1-6.png",
       "Levels": {
         "0": {
           "Description": "Take a firing stance and launch very powerful energy spheres for a fixed amount of time or attacks",
@@ -441,7 +442,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_PulseFire.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_PulseFire.{{auto}}"
           }
         },
         "1": {
@@ -479,7 +480,7 @@
       "Visible": false,
       "Name": "Rapid Shot",
       "ID": 13,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_PulseFire_A.png",
+      "Icon": "../assets/SkillIcons/F_Iris/I1-6A.png",
       "Levels": {
         "0": {
           "Description": "Increases the number of shots",
@@ -487,7 +488,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_PulseFire_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_PulseFire_A.{{auto}}"
           }
         },
         "1": {
@@ -511,7 +512,7 @@
       "Visible": false,
       "Name": "Power Shot",
       "ID": 14,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_PulseFire_B.png",
+      "Icon": "../assets/SkillIcons/F_Iris/I1-6B.png",
       "Levels": {
         "0": {
           "Description": "Fire long-range bullets",
@@ -519,7 +520,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_PulseFire_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_PulseFire_B.{{auto}}"
           }
         },
         "1": {
@@ -542,7 +543,7 @@
     "LimitBreak": {
       "Name": "Limit Break",
       "ID": 15,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_LimitBrake.png",
+      "Icon": "../assets/SkillIcons/F_Iris/I1-7.png",
       "Levels": {
         "0": {
           "Description": "Releases soul energy within the body to amplify the damage of the next attack",
@@ -550,7 +551,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_LimitBrake.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_LimitBrake.{{auto}}"
           }
         },
         "1": {
@@ -583,7 +584,7 @@
     "BulletStorm": {
       "Name": "Bullet Storm",
       "ID": 16,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_BulletStorm.png",
+      "Icon": "../assets/SkillIcons/F_Iris/I1-8.png",
       "Levels": {
         "0": {
           "Description": "Shoots a powerful shell upwards. The fired shells separates mid-air into several small shells that will explode when reaching the ground",
@@ -591,7 +592,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_BulletStorm.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_BulletStorm.{{auto}}"
           }
         },
         "1": {
@@ -629,7 +630,7 @@
       "Visible": false,
       "Name": "Range Increase",
       "ID": 17,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_BulletStorm_A.png",
+      "Icon": "../assets/SkillIcons/F_Iris/I1-8A.png",
       "Levels": {
         "0": {
           "Description": "Extends the attack range",
@@ -637,7 +638,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_BulletStorm_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_BulletStorm_A.{{auto}}"
           }
         },
         "1": {
@@ -661,7 +662,7 @@
       "Visible": false,
       "Name": "Meteor Fall",
       "ID": 18,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_BulletStorm_B.png",
+      "Icon": "../assets/SkillIcons/F_Iris/I1-8B.png",
       "Levels": {
         "0": {
           "Description": "Attack with series of exploding meteorites . Deals continuous damage in the area",
@@ -669,7 +670,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_BulletStorm_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_BulletStorm_B.{{auto}}"
           }
         },
         "1": {
@@ -692,7 +693,7 @@
     "FullBurst": {
       "Name": "Full Burst",
       "ID": 19,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_FullBurst.png",
+      "Icon": "../assets/SkillIcons/F_Iris/I1-9.png",
       "Levels": {
         "0": {
           "Description": "Hold the weapon with both hands and swing it like a laser beam sword and attack the enemies",
@@ -700,7 +701,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_FullBurst.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_FullBurst.{{auto}}"
           }
         },
         "1": {
@@ -736,7 +737,7 @@
     "EternalAbyss": {
       "Name": "Eternal Abyss",
       "ID": 20,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_EternalAbyss.png",
+      "Icon": "../assets/SkillIcons/F_Iris/I1-10.png",
       "Assignable": false,
       "Levels": {
         "0": {
@@ -745,7 +746,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_EternalAbyss.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_EternalAbyss.{{auto}}"
           }
         },
         "1": {
@@ -778,7 +779,7 @@
     "Earthquake": {
       "Name": "Earthquake",
       "ID": 21,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_Earthquake.png",
+      "Icon": "../assets/SkillIcons/F_Iris/I1-11.png",
       "Levels": {
         "0": {
           "Description": "Insert the weapon into the ground then shoot towards the ground to create several shock waves",
@@ -786,7 +787,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_Earthquake.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_Earthquake.{{auto}}"
           }
         },
         "1": {
@@ -824,7 +825,7 @@
       "Visible": false,
       "Name": "Volcano",
       "ID": 22,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_Earthquake_A.png",
+      "Icon": "../assets/SkillIcons/F_Iris/I1-11A.png",
       "Levels": {
         "0": {
           "Description": "Generates a volcano after the last attack",
@@ -832,7 +833,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_Earthquake_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_Earthquake_A.{{auto}}"
           }
         },
         "1": {
@@ -856,7 +857,7 @@
       "Visible": false,
       "Name": "Fire Pillar",
       "ID": 23,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_Earthquake_B.png",
+      "Icon": "../assets/SkillIcons/F_Iris/I1-11B.png",
       "Levels": {
         "0": {
           "Description": "Generates a volcano after the last attack",
@@ -864,7 +865,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_Earthquake_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_Earthquake_B.{{auto}}"
           }
         },
         "1": {
@@ -887,7 +888,7 @@
     "ElectricCannon": {
       "Name": "Electric Cannon",
       "ID": 24,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_ElectricCannon.png",
+      "Icon": "../assets/SkillIcons/F_Iris/I1-12.png",
       "Levels": {
         "0": {
           "Description": "Make the weapons float and ride on it facing forwards. Afterwards, fire a laser beam forwards. Can move while the skill is in use",
@@ -895,7 +896,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_ElectricCannon.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_ElectricCannon.{{auto}}"
           }
         },
         "1": {
@@ -928,7 +929,7 @@
     "ExceedDriver": {
       "Name": "Exceed Driver",
       "ID": 25,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_ExceedDriver.png",
+      "Icon": "../assets/SkillIcons/F_Iris/I1-13.png",
       "Levels": {
         "0": {
           "Description": "Disassemble the soul weapon and absorbs it in your hand. Afterwards, countless energy portals appear firing powerful energy simultaneously",
@@ -936,7 +937,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_ExceedDriver.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_ExceedDriver.{{auto}}"
           }
         },
         "1": {
@@ -974,7 +975,7 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/skillicons/HammerStol/Icon_HamerStoll_Skill_CamelSpin_A.png",
+      "Icon": "../assets/SkillIcons/F_Iris/Icon_HamerStoll_Skill_CamelSpin_A.png",
       "Levels": {
         "0": {
           "Description": "???",
@@ -982,7 +983,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_CamelSpin_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_CamelSpin_A.{{auto}}"
           }
         },
         "1": {
@@ -1010,7 +1011,7 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/skillicons/HammerStol/Icon_HamerStoll_Skill_FullBurst_A.png",
+      "Icon": "../assets/SkillIcons/F_Iris/Icon_HamerStoll_Skill_FullBurst_A.png",
       "Levels": {
         "0": {
           "Description": "???",
@@ -1018,7 +1019,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_FullBurst_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_FullBurst_A.{{auto}}"
           }
         },
         "1": {
@@ -1045,7 +1046,7 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/skillicons/HammerStol/Icon_HamerStoll_Skill_RhinoHeadButt.png",
+      "Icon": "../assets/SkillIcons/F_Iris/Icon_HamerStoll_Skill_RhinoHeadButt.png",
       "Assignable": false,
       "Levels": {
         "0": {
@@ -1054,7 +1055,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_PulverizeHeadButt.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_PulverizeHeadButt.{{auto}}"
           }
         },
         "1": {
@@ -1091,7 +1092,7 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/skillicons/HammerStol/Icon_HamerStoll_Skill_CombatFalcons.png",
+      "Icon": "../assets/SkillIcons/F_Iris/Icon_HamerStoll_Skill_CombatFalcons.png",
       "Levels": {
         "0": {
           "Description": "???",
@@ -1099,7 +1100,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_Operation Ashes.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_Operation Ashes.{{auto}}"
           }
         },
         "1": {
@@ -1129,45 +1130,76 @@
         }
       }
     },
-    "BasicAttackMastery": {
-      "Passive": true,
-      "Name": "Basic Attack Mastery",
-      "ID": 1002,
-      "DefaultLevel": 1,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_DefaultAttack.png",
+    "Expocalypse": {
+      "Name": "急速的火神炮",
+      "ID": 30,
+      "Icon": "../assets/SkillIcons/A_Haru/H6-1_Trollsverd.png",
       "Levels": {
         "0": {
-          "Description": "Attack with your sword.\nAs this skill's level increases, you will be able to perform new combo attacks.\nYou will regain SG as you attack.\nSG gain will vary by enemy type",
+          "Description": "使用以靈魂能量形成的光之劍 '巨魔之劍'，對前方的敵人們進行砍殺，並在攻擊線上產生追加的爆炸攻擊。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Attack_01.{{auto}}"
+            "Video": "../assets/SkillPreviews/PC_A_Haru/H6-1_Trollsverd.{{auto}}"
           }
         },
         "1": {
-          "Effect": "SG Gain +20%.\nUnlock alternative attack “A”",
+          "Effect": "[基本攻擊]\n傷害量：[1656%]\n霸體破壞量：[1827%]\n[爆炸攻擊]\n傷害量：[攻擊1回[165%]\n霸體破壞量：攻擊1回[182%]\n靈魂值消耗量：[50]\n冷卻時間：[40秒]",
+          "RequiredLevel": 62,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[基本攻擊]\n傷害量：[1823%]\n霸體破壞量：[2010%]\n[爆炸攻擊]\n傷害量：[攻擊1回[182%]\n霸體破壞量：攻擊1回[201%]\n靈魂值消耗量：[50]\n冷卻時間：[40秒]",
+          "RequiredLevel": 65,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[基本攻擊]\n傷害量：[1823%]\n霸體破壞量：[2010%]\n[爆炸攻擊]\n傷害量：[攻擊1回[182%]\n霸體破壞量：攻擊1回[201%]\n靈魂值消耗量：[50]\n冷卻時間：[40秒]",
+          "RequiredLevel": 68,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "BasicAttackMastery": {
+      "Passive": true,
+      "Name": "基本攻擊精通",
+      "ID": 1002,
+      "DefaultLevel": 1,
+      "Icon": "../assets/SkillIcons/Common/DefaultAttack.png",
+      "Levels": {
+        "0": {
+          "Description": "Attack with your sword.\nAs this skill's level increases, you will be able to perform new combo attacks.\nYou will regain SG as you attack.\n靈魂值獲得量will vary by enemy type",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/F_Iris/B_Attack_01.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "靈魂值獲得量：[+20%].\nUnlock alternative attack “A”",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "SG Gain +70%.\nUnlock additional basic attack",
+          "Effect": "靈魂值獲得量：[+70%].\nUnlock additional basic attack",
           "RequiredLevel": 5,
           "RequiredSP": 1,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Attack_02.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/B_Attack_02.{{auto}}"
           }
         },
         "3": {
-          "Effect": "SG Gain +120%\nUnlock alternative attack “B”.\nUnlock alternative aerial attack",
+          "Effect": "靈魂值獲得量：[+120%]\nUnlock alternative attack “B”.\nUnlock alternative aerial attack",
           "RequiredLevel": 10,
           "RequiredSP": 2,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Attack_04_02.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/B_Attack_04_02.{{auto}}"
           }
         },
         "4": {
-          "Effect": "SG Gain +200%\nUnlock alternative attack “C”",
+          "Effect": "靈魂值獲得量：[+200%]\nUnlock alternative attack “C”",
           "RequiredLevel": 15,
           "RequiredSP": 2
         },
@@ -1176,7 +1208,7 @@
           "RequiredLevel": 20,
           "RequiredSP": 2,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Attack_05.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/B_Attack_05.{{auto}}"
           }
         }
       }
@@ -1185,30 +1217,30 @@
       "Passive": true,
       "DefaultLevel": 1,
       "ID": 1001,
-      "Name": "Special Ability Mastery",
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_OwnAbility.png",
+      "Name": "特殊能力精通",
+      "Icon": "../assets/SkillIcons/F_Iris/Sh-2I.png",
       "Levels": {
         "0": {
-          "Description": "[Ground]\nInstantly recovers SG and acquire a fire buff.\n[Air]\nHit the hammer on the ground. Gain SG on hit. SG gain varies on attack and monster-type.",
+          "Description": "[地面]\nInstantly recovers SG and acquire a fire buff.\n[Air]\nHit the hammer on the ground. Gain SG on hit. 靈魂值獲得量varies on attack and monster-type.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_S_Attack_N.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/B_S_Attack_N.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Ground]\nSG Recovery: 15%\nBuff effect: 'Fire' in 5s\nCooldown: 15s\n[Air]\nDamage: 382%\nSA Damage: 197%\nCooldown: 10s",
+          "Effect": "[地面]\nSG Recovery: 15%]\n增益效果：'Fire' in 5s]\n冷卻時間：[15s]\n[Air]\n傷害量：[382%]\n霸體破壞量：[197%]\n冷卻時間：[10s",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "[Ground]\nSG Recovery: 20%\nBuff effect: 'Fire' in 7s\nCooldown: 15s\n[Air]\nDamage: 384%\nSA Damage: 202%\nCooldown: 10s\nSG Gain: +20%",
+          "Effect": "[地面]\nSG Recovery: 20%]\n增益效果：'Fire' in 7s]\n冷卻時間：[15s]\n[Air]\n傷害量：[384%]\n霸體破壞量：[202%]\n冷卻時間：[10s]\n靈魂值獲得量：[+20%]",
           "RequiredLevel": 15,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[Ground]\nSG Recovery: 25%\nBuff effect: 'Fire' in 10s\nCooldown: 15s\n[Air]\nDamage: 430%\nSA Damage: 249%\nCooldown: 10s\nSG Gain: +70%",
+          "Effect": "[地面]\nSG Recovery: 25%]\n增益效果：'Fire' in 10s]\n冷卻時間：[15s]\n[Air]\n傷害量：[430%]\n霸體破壞量：[249%]\n冷卻時間：[10s]\n靈魂值獲得量：[+70%]",
           "RequiredLevel": 30,
           "RequiredSP": 2
         }
@@ -1216,22 +1248,22 @@
     },
     "EmergencyDodge": {
       "Passive": true,
-      "Name": "Emergency Dodge",
+      "Name": "緊急迴避",
       "ID": 1004,
       "DefaultLevel": 1,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_Evasion.png",
+      "Icon": "../assets/SkillIcons/Common/EmergencyDodge.png",
       "Levels": {
         "0": {
-          "Description": "Swiftly dodge in a direction. Negate damage during an emergency dodge.",
+          "Description": "向指定的方向快速迴避。\n在緊急迴避的狀態下不會受到任何攻擊。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Evade_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/B_Evade_F.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Stamina Cost: 20",
+          "Effect": "耐力消耗量：[20]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         }
@@ -1239,32 +1271,32 @@
     },
     "RisingRoll": {
       "Passive": true,
-      "Name": "Rising Roll",
+      "Name": "翻滾",
       "ID": 1003,
       "DefaultLevel": 1,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_Welter.png",
+      "Icon": "../assets/SkillIcons/Common/RisingRoll.png",
       "Levels": {
         "0": {
-          "Description": "When downed, get up by rolling in a direction. During the roll, damage is negated",
+          "Description": "受到攻擊而倒地時，朝指定的方向快速翻滾後起身。\n翻滾時不會受到任何傷害。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Roll_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/B_Roll_F.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Stamina Cost: 25",
+          "Effect": "耐力消耗量：[25]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "Stamina Cost: 15",
+          "Effect": "耐力消耗量：[15]",
           "RequiredLevel": 17,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina Cost: 15\nFaster Rolling Speed",
+          "Effect": "耐力消耗量：[15]\n翻滾的更快",
           "RequiredLevel": 34,
           "RequiredSP": 2
         }
@@ -1272,18 +1304,18 @@
     },
     "Dash": {
       "Passive": true,
-      "Name": "Dash",
+      "Name": "衝刺",
       "DefaultLevel": 1,
       "ID": 1006,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_Dash.png",
+      "Icon": "../assets/SkillIcons/Common/Dash.png",
       "Levels": {
         "0": {
-          "Description": "Swiftly dash forward",
+          "Description": "向前快速奔馳。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Run_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/B_Run_F.{{auto}}"
           }
         },
         "1": {
@@ -1292,7 +1324,7 @@
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "Faster Dashing Speed",
+          "Effect": "衝刺速度加快",
           "RequiredLevel": 25,
           "RequiredSP": 2
         }
@@ -1300,32 +1332,32 @@
     },
     "RisingAttack": {
       "Passive": true,
-      "Name": "Rising Attack",
+      "Name": "起身回擊",
       "ID": 1005,
       "DefaultLevel": 1,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_RiseAttack.png",
+      "Icon": "../assets/SkillIcons/Common/RiseAttack.png",
       "Levels": {
         "0": {
-          "Description": "While downed, get up while damaging surrounding enemies",
+          "Description": "受到攻擊而倒地時，瞬間起身並攻擊周遭敵人。\n使用後在一定時間內處於無敵狀態。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Rise_Attack.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/B_Rise_Attack.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Stamina Cost: 30\nInvincibility Duration: 1 seconds",
+          "Effect": "回擊傷害量：[100%]\n耐力消耗量：[30]\n無敵時間：[3秒]\n冷卻時間：[15秒]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "Stamina Cost: 20\nInvincibility Duration: 1 seconds",
+          "Effect": "回擊傷害量：[100%]\n耐力消耗量：[20]\n無敵時間：[3秒]\n冷卻時間：[15秒]",
           "RequiredLevel": 18,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina Cost: 20\nInvincibility Duration: 3 seconds",
+          "Effect": "回擊傷害量：[100%]\n耐力消耗量：[20]\n無敵時間：[5秒]\n冷卻時間：[15秒]",
           "RequiredLevel": 36,
           "RequiredSP": 2
         }
@@ -1333,22 +1365,22 @@
     },
     "DashAttack": {
       "Passive": true,
-      "Name": "Dash Attack",
+      "Name": "衝擊",
       "DefaultLevel": 1,
       "ID": 1008,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_DashAttack.png",
+      "Icon": "../assets/SkillIcons/Common/DashAttack.png",
       "Levels": {
         "0": {
-          "Description": "Perform an attack while dashing. Different character does different attacks. ",
+          "Description": "衝刺時，用力揮劍擊退敵人。\n攻擊時可以獲得靈魂值。\n連續攻擊次數和怪物等級越高，靈魂值獲得量越多。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_N_Attack_Dash.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/B_N_Attack_Dash.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 115%\nSA Damage: 38%",
+          "Effect": "傷害量：[115%]\n霸體破壞量：[38%]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         }
@@ -1356,31 +1388,31 @@
     },
     "SpecialDodge": {
       "Passive": true,
-      "Name": "Special Dodge",
+      "Name": "受身迴避",
       "ID": 1007,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_EvasionAttack.png",
+      "Icon": "../assets/SkillIcons/Common/SpecialDodge.png",
       "Levels": {
         "0": {
-          "Description": "Swiftly dodge as an enemy attacks you. Negate Damage during the special dodge",
+          "Description": "受到攻撃且無法控制時，朝指定方向進行受身迴避。\n在受身迴避的狀態下不會受到傷害。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Special_Evade_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/B_Special_Evade_F.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Stamina Cost: 40\nCooldown: 60 seconds",
+          "Effect": "耐力消耗量：[40]\n冷卻時間：[30秒]",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Stamina Cost: 40\nCooldown: 50 seconds",
+          "Effect": "耐力消耗量：[40]\n冷卻時間：[25秒]",
           "RequiredLevel": 21,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina Cost: 40\nCooldown: 40 seconds",
+          "Effect": "耐力消耗量：[40]\n冷卻時間：[20秒]",
           "RequiredLevel": 38,
           "RequiredSP": 2
         }
@@ -1388,21 +1420,21 @@
     },
     "SpecialDashAttack": {
       "Passive": true,
-      "Name": "Special Dash Attack",
+      "Name": "特殊衝擊",
       "ID": 1010,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_DashSmashAttack.png",
+      "Icon": "../assets/SkillIcons/Common/SpecialDashAttack.png",
       "Levels": {
         "0": {
-          "Description": "Performs a special attack while dashing. Different characters do different special attacks",
+          "Description": "衝刺時，向前方跳躍施展連續迴旋斬。\n攻擊時可以獲得靈魂值。\n連續攻擊次數和怪物等級越高，靈魂值獲得量越多。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_S_Attack_N_Dash.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/B_S_Attack_N_Dash.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 206%\nSA Damage: 92%\nCooldown: 5 seconds",
+          "Effect": "傷害量：[206%]\n霸體破壞量：[92%]\n冷卻時間：[5秒]",
           "RequiredLevel": 13,
           "RequiredSP": 1
         }
@@ -1410,38 +1442,38 @@
     },
     "StaminaMastery": {
       "Passive": true,
-      "Name": "Stamina Mastery",
+      "Name": "耐力精通",
       "ID": 1009,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_StaminaMastery.png",
+      "Icon": "../assets/SkillIcons/Common/StaminaMastery.png",
       "Levels": {
         "0": {
-          "Description": "Increases stamina recovery rate",
+          "Description": "耐力恢復量永久增加。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "Stamina Recovery Rate: +10%",
+          "Effect": "耐力恢復量：[+10%]",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Stamina Recovery Rate: +20%",
+          "Effect": "耐力恢復量：[+20%]",
           "RequiredLevel": 15,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina Recovery Rate: +30%",
+          "Effect": "耐力恢復量：[+30%]",
           "RequiredLevel": 20,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Stamina Recovery Rate: +40%",
+          "Effect": "耐力恢復量：[+40%]",
           "RequiredLevel": 25,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Stamina Recovery Rate: +50%",
+          "Effect": "耐力恢復量：[+50%]",
           "RequiredLevel": 30,
           "RequiredSP": 3
         }
@@ -1455,7 +1487,7 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/skillicons/HammerStol/Icon_HamerStoll_Skill_SGPassive2.png",
+      "Icon": "../assets/SkillIcons/F_Iris/Icon_HamerStoll_Skill_SGPassive2.png",
       "Levels": {
         "0": {
           "Description": "Provides the ability to gain invulnerable state when using special attack.",
@@ -1463,21 +1495,21 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/Contributor_iris_ExtremeRush.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/Contributor_iris_ExtremeRush.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Duration: 3s\nCooldown: 60 seconds",
+          "Effect": "持續時間：[3s]\n冷卻時間：[60秒]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Duration: 4s\nCooldown: 60 seconds",
+          "Effect": "持續時間：[4s]\n冷卻時間：[60秒]",
           "RequiredLevel": 58,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Duration: 5s\nCooldown: 60 seconds",
+          "Effect": "持續時間：[5s]\n冷卻時間：[60秒]",
           "RequiredLevel": 59,
           "RequiredSP": 2
         }
@@ -1491,7 +1523,7 @@
         "0": 2,
         "1": 1
       },
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_SGPassive.png",
+      "Icon": "../assets/SkillIcons/F_Iris/IP1-2.png",
       "Levels": {
         "0": {
           "Description": "Reduces SG Cost of skills",
@@ -1500,17 +1532,17 @@
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "SG Cost Rate: -5%",
+          "Effect": "SG Cost Rate: -5%]",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "SG Cost Rate: -8%",
+          "Effect": "SG Cost Rate: -8%]",
           "RequiredLevel": 20,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "SG Cost Rate: -10%",
+          "Effect": "SG Cost Rate: -10%]",
           "RequiredLevel": 30,
           "RequiredSP": 2
         }
@@ -1518,21 +1550,51 @@
     },
     "FuryStrike": {
       "Passive": true,
+      "Name": "憤怒一擊",
       "DefaultLevel": 1,
       "ID": 1012,
-      "RowSpan": 2,
-      "Name": "Fury Strike",
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_SoulMastery.png",
+      "RowSpan": {
+        "0": 2,
+        "1": 1
+      },
+      "Icon": "../assets/SkillIcons/Common/SoulMastery.png",
       "Levels": {
         "0": {
-          "Description": "Recovers SG on successful basic attacks. Automatically restore SG at regular time intervals",
+          "Description": "基本攻擊成功時，恢復靈魂值。\n每隔一定時間自動恢復靈魂值。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
           "Effect": "",
-          "RequiredLevel": 10,
+          "RequiredLevel": 1,
+          "RequiredSP": 0
+        }
+      }
+    },
+    "ExtinctionPrelude": {
+      "Passive": true,
+      "Name": "心爆氣流斬",
+      "DefaultLevel": 1,
+      "ID": 1099,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/A_Haru/HADV_SV_EX_Prelude.png",
+      "Levels": {
+        "0": {
+          "Description": "在覺醒狀態下可以使用的技能。\n施展後覺醒狀態會被解除。\n使用雙劍，對前方展開多方位的急速衝刺連斬，最後重擊地面。\n使用條件：處於覺醒狀態。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/PC_A_Haru/HADV_SV_EX_Prelude.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "傷害量：[2250%]\n霸體破壞量：[2950%]",
+          "RequiredLevel": 57,
           "RequiredSP": 0
         }
       }

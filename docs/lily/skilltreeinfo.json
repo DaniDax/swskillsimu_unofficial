@@ -1,14 +1,15 @@
 {
-  "CharacterName": "Lily Bloomerchen",
+  "CharacterName": "莉莉・普露梅茜",
   "CharacterWikiURL": "https://wiki.soulworkerhq.com/w/Lily_Bloomerchen",
+  "MaxLevel": 68,
   "AvailableClass": {
     "0": {
-      "Name": "Base",
-      "Cover": "../assets/images/bg-lily1.png"
+      "Name": "一般",
+      "Cover": "../assets/images/bg_C_Lily.png"
     },
     "1": {
-      "Name": "Upgraded",
-      "Cover": "../assets/images/bg-lily2.png",
+      "Name": "晉升",
+      "Cover": "../assets/images/bg_C_Lily_ADV.png",
       "RequiredLevel": 57
     }
   },
@@ -17,7 +18,7 @@
       "Name": "Evil Slash",
       "DefaultLevel": 1,
       "ID": 1,
-      "Icon": "../assets/skillicons/Mistscythe/Icon_MCythe_Skill_EvilSlash.png",
+      "Icon": "../assets/SkillIcons/C_Lily/L1-1.png",
       "Levels": {
         "0": {
           "Description": "Quickly rotate the scythe, pushes out the enemy at the end of the blow.",
@@ -25,31 +26,31 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/lily/B_Skill_EvilSlash.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_EvilSlash.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 182%\nSA Damage: 196%\nSG Cost: 30\nCooldown: 10s",
+          "Effect": "傷害量：[182%]\n霸體破壞量：[196%]\n靈魂值消耗量：[30]\n冷卻時間：[10s",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "Damage: 191%\nSA Damage: 206%\nSG Cost: 30\nCooldown: 10s",
+          "Effect": "傷害量：[191%]\n霸體破壞量：[206%]\n靈魂值消耗量：[30]\n冷卻時間：[10s",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: 214%\nSA Damage: 230%\nSG Cost: 30\nCooldown: 10s",
+          "Effect": "傷害量：[214%]\n霸體破壞量：[230%]\n靈魂值消耗量：[30]\n冷卻時間：[10s",
           "RequiredLevel": 7,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage: 237%\nSA Damage: 255%\nSG Cost: 30\nCooldown: 10s",
+          "Effect": "傷害量：[237%]\n霸體破壞量：[255%]\n靈魂值消耗量：[30]\n冷卻時間：[10s",
           "RequiredLevel": 10,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage: 273%\nSA Damage: 294%\nSG Cost: 30\nCooldown: 10s",
+          "Effect": "傷害量：[273%]\n霸體破壞量：[294%]\n靈魂值消耗量：[30]\n冷卻時間：[10s",
           "RequiredLevel": 13,
           "RequiredSP": 3
         }
@@ -62,7 +63,7 @@
       "Name": "Spinning Devil",
       "DefaultLevel": 1,
       "ID": 2,
-      "Icon": "../assets/skillicons/Mistscythe/Icon_MCythe_Skill_SpinningDevil.png",
+      "Icon": "../assets/SkillIcons/C_Lily/L1-2.png",
       "Levels": {
         "0": {
           "Description": "Quickly dash forward, using the speed perform a spinning slash.",
@@ -70,7 +71,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/lily/B_Skill_SpinningDevil.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_SpinningDevil.{{auto}}"
           }
         },
         "1": {
@@ -104,14 +105,14 @@
       "Name": "Scythe Cutter",
       "DefaultLevel": 1,
       "ID": 3,
-      "Icon": "../assets/skillicons/Mistscythe/Icon_Mcythe_Skill_ScytheCutter.png",
+      "Icon": "../assets/SkillIcons/C_Lily/L1-3.png",
       "Levels": {
         "0": {
           "Description": "Swiftly raise the scythe. Enemies will be launched in the air.",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/lily/B_Skill_ScytheCuter.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_ScytheCuter.{{auto}}"
           }
         },
         "1": {
@@ -148,7 +149,7 @@
       "Visible": false,
       "Name": "Charge Attack",
       "ID": 4,
-      "Icon": "../assets/skillicons/Mistscythe/Icon_Mcythe_Skill_ScytheCutter_A.PNG",
+      "Icon": "../assets/SkillIcons/C_Lily/L1-3A.png",
       "Levels": {
         "0": {
           "Description": "If charged, it launches the enemy higher.",
@@ -156,7 +157,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/lily/B_Skill_ScytheCuter_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_ScytheCuter_A.{{auto}}"
           }
         },
         "1": {
@@ -169,14 +170,14 @@
     "GrimCountdown": {
       "Name": "Grim Countdown",
       "ID": 5,
-      "Icon": "../assets/skillicons/Mistscythe/Icon_MCythe_Skill_GrimCountDown.png",
+      "Icon": "../assets/SkillIcons/C_Lily/L1-4.png",
       "Levels": {
         "0": {
           "Description": "After doing a rotation slash, cut the front enemies alongside the summoned Grim Reaper.",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/lily/B_Skill_GrimCountdown.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_GrimCountdown.{{auto}}"
           }
         },
         "1": {
@@ -213,7 +214,7 @@
       "Visible": false,
       "Name": "Lifesteal",
       "ID": 6,
-      "Icon": "../assets/skillicons/Mistscythe/Icon_Mcythe_Skill_GrimCountdown_A.PNG",
+      "Icon": "../assets/SkillIcons/C_Lily/L1-4A.png",
       "Levels": {
         "0": {
           "Description": "Steal HP from the afflicted enemies, and heals HP of oneself.",
@@ -221,7 +222,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/lily/B_Skill_GrimCountdown_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_GrimCountdown_A.{{auto}}"
           }
         },
         "1": {
@@ -244,14 +245,14 @@
     "FearChain": {
       "Name": "Fear Chain",
       "ID": 7,
-      "Icon": "../assets/skillicons/Mistscythe/Icon_Mcythe_Skill_FearChain.png",
+      "Icon": "../assets/SkillIcons/C_Lily/L1-5.png",
       "Levels": {
         "0": {
           "Description": "Summons the Grim Reaper in front, the Grim Reaper connects the enemies with a chain, they are drawn towards the center of the attack range.",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/lily/B_Skill_FearChain_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_FearChain_A.{{auto}}"
           }
         },
         "1": {
@@ -288,7 +289,7 @@
       "Visible": false,
       "Name": "Range Increase",
       "ID": 8,
-      "Icon": "../assets/skillicons/Mistscythe/Icon_Mcythe_Skill_FearChain_A.PNG",
+      "Icon": "../assets/SkillIcons/C_Lily/L1-5A.png",
       "Levels": {
         "0": {
           "Description": "Increase the attack range.",
@@ -296,7 +297,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/lily/B_Skill_FearChain_A_01.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_FearChain_A_01.{{auto}}"
           }
         },
         "1": {
@@ -309,7 +310,7 @@
           "RequiredLevel": 27,
           "RequiredSP": 1,
           "Preview": {
-            "Video": "../assets/skillpreviews/lily/B_Skill_FearChain_A_02.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_FearChain_A_02.{{auto}}"
           }
         },
         "3": {
@@ -317,7 +318,7 @@
           "RequiredLevel": 32,
           "RequiredSP": 2,
           "Preview": {
-            "Video": "../assets/skillpreviews/lily/B_Skill_FearChain_A_03.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_FearChain_A_03.{{auto}}"
           }
         }
       }
@@ -325,7 +326,7 @@
     "DeathGrinder": {
       "Name": "Death Grinder",
       "ID": 9,
-      "Icon": "../assets/skillicons/Mistscythe/Icon_MCythe_Skill_DeathGrinder.png",
+      "Icon": "../assets/SkillIcons/C_Lily/L1-6.png",
       "Levels": {
         "0": {
           "Description": "Attack by throwing the scythe like a boomerang. Attract the enemies attacked when the scythe comes back to the owner.",
@@ -333,7 +334,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/lily/B_Skill_DeathGrinder.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_DeathGrinder.{{auto}}"
           }
         },
         "1": {
@@ -371,7 +372,7 @@
       "Visible": false,
       "Name": "Summon Grim Reaper",
       "ID": 10,
-      "Icon": "../assets/skillicons/Mistscythe/Icon_Mcythe_Skill_DeathGrinder_A.PNG",
+      "Icon": "../assets/SkillIcons/C_Lily/L1-6A.png",
       "Levels": {
         "0": {
           "Description": "Throw the scythe and summon the Grim Reaper.",
@@ -379,7 +380,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/lily/B_Skill_DeathGrinder_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_DeathGrinder_A.{{auto}}"
           }
         },
         "1": {
@@ -403,7 +404,7 @@
       "Visible": false,
       "Name": "Whirlwind",
       "ID": 11,
-      "Icon": "../assets/skillicons/Mistscythe/Icon_Mcythe_Skill_DeathGrinder_B.PNG",
+      "Icon": "../assets/SkillIcons/C_Lily/L1-6B.png",
       "Levels": {
         "0": {
           "Description": "Create a whirlwind by throwing the scythe forward. Scythe will stop at a point and damage the enemies at the place.",
@@ -411,7 +412,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/lily/B_Skill_DeathGrinder_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_DeathGrinder_B.{{auto}}"
           }
         },
         "1": {
@@ -434,7 +435,7 @@
     "DeathScythe": {
       "Name": "Death Scythe",
       "ID": 12,
-      "Icon": "../assets/skillicons/Mistscythe/Icon_MCythe_Skill_DeathScythe.png",
+      "Icon": "../assets/SkillIcons/C_Lily/L1-7.png",
       "Levels": {
         "0": {
           "Description": "Grim Reaper appears, it attracts the enemies around. After the Grim Reaper attacks, the last attack is changed by the next command.",
@@ -442,7 +443,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/lily/B_Skill_DeathScythe.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_DeathScythe.{{auto}}"
           }
         },
         "1": {
@@ -478,7 +479,7 @@
     "CruelSlash": {
       "Name": "Cruel Slash",
       "ID": 13,
-      "Icon": "../assets/skillicons/Mistscythe/Icon_MCythe_Skill_CruelSlash.png",
+      "Icon": "../assets/SkillIcons/C_Lily/L1-8.png",
       "Levels": {
         "0": {
           "Description": "Deform the sickle to the scimitar form to attack. LMB to quickly perform repeated attacks on the spot for a period of time.",
@@ -486,7 +487,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/lily/B_Skill_CruelSlash.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_CruelSlash.{{auto}}"
           }
         },
         "1": {
@@ -524,7 +525,7 @@
       "Visible": false,
       "Name": "Defense Penetration",
       "ID": 14,
-      "Icon": "../assets/skillicons/Mistscythe/Icon_Mcythe_Skill_CruelSlash_A.PNG",
+      "Icon": "../assets/SkillIcons/C_Lily/L1-8A.png",
       "Levels": {
         "0": {
           "Description": "Attacks done to the enemy ignore enemy's defense",
@@ -532,7 +533,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/lily/B_Skill_CruelSlash_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_CruelSlash_A.{{auto}}"
           }
         },
         "1": {
@@ -556,7 +557,7 @@
       "Visible": false,
       "Name": "Critical Rate Increase",
       "ID": 15,
-      "Icon": "../assets/skillicons/Mistscythe/Icon_Mcythe_Skill_CruelSlash_B.PNG",
+      "Icon": "../assets/SkillIcons/C_Lily/L1-8B.png",
       "Levels": {
         "0": {
           "Description": "Increases Critical Rate",
@@ -564,7 +565,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/lily/B_Skill_CruelSlash_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_CruelSlash_B.{{auto}}"
           }
         },
         "1": {
@@ -587,7 +588,7 @@
     "GrimReaper": {
       "Name": "Grim Reaper",
       "ID": 16,
-      "Icon": "../assets/skillicons/Mistscythe/Icon_MCythe_Skill_GrimReaper.png",
+      "Icon": "../assets/SkillIcons/C_Lily/L1-9.png",
       "Assignable": false,
       "Levels": {
         "0": {
@@ -596,7 +597,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/lily/B_Skill_GrimReaper.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_GrimReaper.{{auto}}"
           }
         },
         "1": {
@@ -629,7 +630,7 @@
     "ForceRegion": {
       "Name": "Force Region",
       "ID": 17,
-      "Icon": "../assets/skillicons/Mistscythe/Icon_Mcythe_Skill_ForceRegion.png",
+      "Icon": "../assets/SkillIcons/C_Lily/L1-10.png",
       "Levels": {
         "0": {
           "Description": "The summoned Grim Reaper's roar will grant a buff that increases critical rate to the party members in range, including self.",
@@ -637,7 +638,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/lily/B_Skill_ForceRegion.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_ForceRegion.{{auto}}"
           }
         },
         "1": {
@@ -670,7 +671,7 @@
     "DeathTornado": {
       "Name": "Death Tornado",
       "ID": 18,
-      "Icon": "../assets/skillicons/Mistscythe/Icon_MCythe_Skill_DeathTornado.png",
+      "Icon": "../assets/SkillIcons/C_Lily/L1-11.png",
       "Levels": {
         "0": {
           "Description": "It creates a powerful tornado to attack the enemies in front.",
@@ -678,7 +679,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/lily/B_Skill_DeathTornado.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_DeathTornado.{{auto}}"
           }
         },
         "1": {
@@ -716,7 +717,7 @@
       "Visible": false,
       "Name": "Induction",
       "ID": 19,
-      "Icon": "../assets/skillicons/Mistscythe/Icon_Mcythe_Skill_DeathTornado_A.PNG",
+      "Icon": "../assets/SkillIcons/C_Lily/L1-11A.png",
       "Levels": {
         "0": {
           "Description": "Summons a tornado that moves towards the enemy",
@@ -724,7 +725,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/lily/B_Skill_DeathTornado_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_DeathTornado_A.{{auto}}"
           }
         },
         "1": {
@@ -748,7 +749,7 @@
       "Visible": false,
       "Name": "Area Widener",
       "ID": 20,
-      "Icon": "../assets/skillicons/Mistscythe/Icon_Mcythe_Skill_DeathTornado_B.PNG",
+      "Icon": "../assets/SkillIcons/C_Lily/L1-11B.png",
       "Levels": {
         "0": {
           "Description": "Tornado moves towards the front.",
@@ -756,7 +757,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/lily/B_Skill_DeathTornado_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_DeathTornado_B.{{auto}}"
           }
         },
         "1": {
@@ -779,7 +780,7 @@
     "EvilTrinity": {
       "Name": "Evil Trinity",
       "ID": 21,
-      "Icon": "../assets/skillicons/Mistscythe/Icon_MCythe_Skill_EvilTrinity.png",
+      "Icon": "../assets/SkillIcons/C_Lily/L1-12.png",
       "Levels": {
         "0": {
           "Description": "The Grim Reaper with two scythes appears, swinging them along with Lily. The ground smash creates three shock waves that will hit the enemies in the range.",
@@ -787,7 +788,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/lily/B_Skill_EvilTrinity.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_EvilTrinity.{{auto}}"
           }
         },
         "1": {
@@ -820,7 +821,7 @@
     "DeathGuillotine": {
       "Name": "Death Guillotine",
       "ID": 22,
-      "Icon": "../assets/skillicons/Mistscythe/Icon_Mcythe_Skill_DeathGuillotine.png",
+      "Icon": "../assets/SkillIcons/C_Lily/L1-13.png",
       "Levels": {
         "0": {
           "Description": "Surrounds and restraints the enemies with chains, pushing them under a summoning gigantic guillotine.",
@@ -828,7 +829,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/lily/B_Skill_DeathGuillotine.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_DeathGuillotine.{{auto}}"
           }
         },
         "1": {
@@ -866,7 +867,7 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/skillicons/Mistscythe/Icon_Mcythe_Skill_EvilSlash_A.png",
+      "Icon": "../assets/SkillIcons/C_Lily/Icon_Mcythe_Skill_EvilSlash_A.png",
       "Levels": {
         "0": {
           "Description": "鎌の代わりに鎖鎌を利用して、より広い範囲の敵を攻撃します。",
@@ -874,21 +875,21 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/lily/B_Skill_EvilSlash_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_EvilSlash_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 384%\nSA Damage: 304%",
+          "Effect": "傷害量：[384%]\n霸體破壞量：[304%]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: 423%\nSA Damage: 335%",
+          "Effect": "傷害量：[423%]\n霸體破壞量：[335%]",
           "RequiredLevel": 58,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: 498%\nSA Damage: 394%",
+          "Effect": "傷害量：[498%]\n霸體破壞量：[394%]",
           "RequiredLevel": 60,
           "RequiredSP": 2
         }
@@ -902,7 +903,7 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/skillicons/Mistscythe/Icon_Mcythe_Skill_DeathScythe_A.png",
+      "Icon": "../assets/SkillIcons/C_Lily/Icon_Mcythe_Skill_DeathScythe_A.png",
       "Levels": {
         "0": {
           "Description": "The afterimage of the death god rushes towards the enemy and attacks according to the attack action of Lily.",
@@ -910,21 +911,21 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/lily/B_Skill_DeathScythe_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_DeathScythe_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 628%\nSA Damage: 1168%",
+          "Effect": "傷害量：[628%]\n霸體破壞量：[1168%]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: 710%\nSA Damage: 1198%",
+          "Effect": "傷害量：[710%]\n霸體破壞量：[1198%]",
           "RequiredLevel": 59,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: 880%\nSA Damage: 1484%",
+          "Effect": "傷害量：[880%]\n霸體破壞量：[1484%]",
           "RequiredLevel": 60,
           "RequiredSP": 2
         }
@@ -937,7 +938,7 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/skillicons/Mistscythe/Icon_Mcythe_Skill_BloodyBlossom.png",
+      "Icon": "../assets/SkillIcons/C_Lily/Icon_Mcythe_Skill_BloodyBlossom.png",
       "Assignable": false,
       "Levels": {
         "0": {
@@ -946,31 +947,31 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/lily/B_Skill_FallingPetals.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_FallingPetals.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 752%\nSA Damage: 480%\nSG Cost: 30\nCooldown: 28s",
+          "Effect": "傷害量：[752%]\n霸體破壞量：[480%]\n靈魂值消耗量：[30]\n冷卻時間：[28s",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: 828%\nSA Damage: 504%\nSG Cost: 30\nCooldown: 28s",
+          "Effect": "傷害量：[828%]\n霸體破壞量：[504%]\n靈魂值消耗量：[30]\n冷卻時間：[28s",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: 927%\nSA Damage: 550%\nSG Cost: 30\nCooldown: 28s",
+          "Effect": "傷害量：[927%]\n霸體破壞量：[550%]\n靈魂值消耗量：[30]\n冷卻時間：[28s",
           "RequiredLevel": 58,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage: 1057%\nSA Damage: 616%\nSG Cost: 30\nCooldown: 28s",
+          "Effect": "傷害量：[1057%]\n霸體破壞量：[616%]\n靈魂值消耗量：[30]\n冷卻時間：[28s",
           "RequiredLevel": 59,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage: 1247%\nSA Damage: 708%\nSG Cost: 30\nCooldown: 28s",
+          "Effect": "傷害量：[1247%]\n霸體破壞量：[708%]\n靈魂值消耗量：[30]\n冷卻時間：[28s",
           "RequiredLevel": 60,
           "RequiredSP": 3
         }
@@ -983,7 +984,7 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/skillicons/Mistscythe/Icon_Mcythe_Skill_Furymach.png",
+      "Icon": "../assets/SkillIcons/C_Lily/Icon_Mcythe_Skill_Furymach.png",
       "Levels": {
         "0": {
           "Description": "Joining the sickle and the scissors and do a lash rush in the front.\nIt attacks enemies and moves forward by operation.\n\n[1] Left click: Cuts forward enemies and makes short rush.\n\n[2] Right click: It moves quickly towards the front.",
@@ -991,75 +992,106 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/lily/B_Skill_FuryMach.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_FuryMach.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 2000%\nSA Damage: 2130%\nSG Cost: 55\nCooldown: 30s\n\n[Additional Attack]\nDamage: 375%\nSA Damage: 399%",
+          "Effect": "傷害量：[2000%]\n霸體破壞量：[2130%]\n靈魂值消耗量：[55]\n冷卻時間：[30s]\n\n[Additional Attack]\n傷害量：[375%]\n霸體破壞量：[399%]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: 2200%\nSA Damage: 2236%\nSG Cost: 55\nCooldown: 30s\n\n[Additional Attack]\nDamage: 412%\nSA Damage: 419%",
+          "Effect": "傷害量：[2200%]\n霸體破壞量：[2236%]\n靈魂值消耗量：[55]\n冷卻時間：[30s]\n\n[Additional Attack]\n傷害量：[412%]\n霸體破壞量：[419%]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: 2464%\nSA Damage: 2438%\nSG Cost: 55\nCooldown: 30s\n\n[Additional Attack]\nDamage: 462%\nSA Damage: 457%",
+          "Effect": "傷害量：[2464%]\n霸體破壞量：[2438%]\n靈魂值消耗量：[55]\n冷卻時間：[30s]\n\n[Additional Attack]\n傷害量：[462%]\n霸體破壞量：[457%]",
           "RequiredLevel": 58,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage: 2808%\nSA Damage: 2730%\nSG Cost: 55\nCooldown: 30s\n\n[Additional Attack]\nDamage: 526%\nSA Damage: 511%",
+          "Effect": "傷害量：[2808%]\n霸體破壞量：[2730%]\n靈魂值消耗量：[55]\n冷卻時間：[30s]\n\n[Additional Attack]\n傷害量：[526%]\n霸體破壞量：[511%]",
           "RequiredLevel": 59,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage: 3314%\nSA Damage: 3140%\nSG Cost: 55\nCooldown: 30s\n\n[Additional Attack]\nDamage: 621%\nSA Damage: 588%",
+          "Effect": "傷害量：[3314%]\n霸體破壞量：[3140%]\n靈魂值消耗量：[55]\n冷卻時間：[30s]\n\n[Additional Attack]\n傷害量：[621%]\n霸體破壞量：[588%]",
           "RequiredLevel": 60,
           "RequiredSP": 3
         }
       }
     },
-    "BasicAttackMastery": {
-      "Passive": true,
-      "Name": "Basic Attack Mastery",
-      "ID": 1002,
-      "DefaultLevel": 1,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_DefaultAttack.png",
+    "LeashedBeast": {
+      "Name": "拴住的野獸",
+      "ID": 27,
+      "Icon": "../assets/SkillIcons/A_Haru/H6-1_Trollsverd.png",
       "Levels": {
         "0": {
-          "Description": "Attack with your sword.\nAs this skill's level increases, you will be able to perform new combo attacks.\nYou will regain SG as you attack.\nSG gain will vary by enemy type",
+          "Description": "使用以靈魂能量形成的光之劍 '巨魔之劍'，對前方的敵人們進行砍殺，並在攻擊線上產生追加的爆炸攻擊。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/lily/B_Attack_01.{{auto}}"
+            "Video": "../assets/SkillPreviews/PC_A_Haru/H6-1_Trollsverd.{{auto}}"
           }
         },
         "1": {
-          "Effect": "SG Gain +20%.\nUnlock alternative attack “A”",
+          "Effect": "[基本攻擊]\n傷害量：[1656%]\n霸體破壞量：[1827%]\n[爆炸攻擊]\n傷害量：[攻擊1回[165%]\n霸體破壞量：攻擊1回[182%]\n靈魂值消耗量：[50]\n冷卻時間：[40秒]",
+          "RequiredLevel": 62,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[基本攻擊]\n傷害量：[1823%]\n霸體破壞量：[2010%]\n[爆炸攻擊]\n傷害量：[攻擊1回[182%]\n霸體破壞量：攻擊1回[201%]\n靈魂值消耗量：[50]\n冷卻時間：[40秒]",
+          "RequiredLevel": 65,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[基本攻擊]\n傷害量：[1823%]\n霸體破壞量：[2010%]\n[爆炸攻擊]\n傷害量：[攻擊1回[182%]\n霸體破壞量：攻擊1回[201%]\n靈魂值消耗量：[50]\n冷卻時間：[40秒]",
+          "RequiredLevel": 68,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "BasicAttackMastery": {
+      "Passive": true,
+      "Name": "基本攻擊精通",
+      "ID": 1002,
+      "DefaultLevel": 1,
+      "Icon": "../assets/SkillIcons/Common/DefaultAttack.png",
+      "Levels": {
+        "0": {
+          "Description": "Attack with your sword.\nAs this skill's level increases, you will be able to perform new combo attacks.\nYou will regain SG as you attack.\n靈魂值獲得量will vary by enemy type",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/C_Lily/B_Attack_01.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "靈魂值獲得量：[+20%].\nUnlock alternative attack “A”",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "SG Gain +70%.\nUnlock additional basic attack",
+          "Effect": "靈魂值獲得量：[+70%].\nUnlock additional basic attack",
           "RequiredLevel": 5,
           "RequiredSP": 1,
           "Preview": {
-            "Video": "../assets/skillpreviews/lily/B_Attack_02.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/B_Attack_02.{{auto}}"
           }
         },
         "3": {
-          "Effect": "SG Gain +120%\nUnlock alternative attack “B”.\nUnlock alternative aerial attack",
+          "Effect": "靈魂值獲得量：[+120%]\nUnlock alternative attack “B”.\nUnlock alternative aerial attack",
           "RequiredLevel": 10,
           "RequiredSP": 2,
           "Preview": {
-            "Video": "../assets/skillpreviews/lily/B_Attack_04_02.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/B_Attack_04_02.{{auto}}"
           }
         },
         "4": {
-          "Effect": "SG Gain +200%\nUnlock alternative attack “C”",
+          "Effect": "靈魂值獲得量：[+200%]\nUnlock alternative attack “C”",
           "RequiredLevel": 15,
           "RequiredSP": 2
         },
@@ -1068,7 +1100,7 @@
           "RequiredLevel": 20,
           "RequiredSP": 2,
           "Preview": {
-            "Video": "../assets/skillpreviews/lily/B_Attack_05.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/B_Attack_05.{{auto}}"
           }
         }
       }
@@ -1077,30 +1109,30 @@
       "Passive": true,
       "DefaultLevel": 1,
       "ID": 1001,
-      "Name": "Special Ability Mastery",
-      "Icon": "../assets/skillicons/Mistscythe/Icon_Mcythe_Skill_OwnAbility.png",
+      "Name": "特殊能力精通",
+      "Icon": "../assets/SkillIcons/C_Lily/Sh-2l.png",
       "Levels": {
         "0": {
-          "Description": "[Ground]\nQuickly dash forward, enemies in the way are inflicted with debuff effect.\n[Air]\nPerformed a slashing rotation. On additional inputs, continue slashing.",
+          "Description": "[地面]\nQuickly dash forward, enemies in the way are inflicted with debuff effect.\n[Air]\nPerformed a slashing rotation. On additional inputs, continue slashing.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/lily/B_S_Attack_N_01.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/B_S_Attack_N_01.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Ground]\nDamage: 164%\nSA Damage: 119%\nDebuff effect: Movement speed -50% in 3s\nCooldown: 10s\n[Air]\nDamage: 239%\nSA Damage: 119%\nCooldown: 10s",
+          "Effect": "[地面]\n傷害量：[164%]\n霸體破壞量：[119%]\nDe增益效果：Movement speed -50%] in 3s]\n冷卻時間：[10s]\n[Air]\n傷害量：[239%]\n霸體破壞量：[119%]\n冷卻時間：[10s",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "[Ground]\nDamage: 173%\nSA Damage: 125%\nDebuff effect: Movement speed -50% in 3s\nCooldown: 10s\nSG Gain: +20%\n[Air]\nDamage: 251%\nSA Damage: 125%\nCooldown: 10s\nSG Gain: +20%",
+          "Effect": "[地面]\n傷害量：[173%]\n霸體破壞量：[125%]\nDe增益效果：Movement speed -50%] in 3s]\n冷卻時間：[10s]\n靈魂值獲得量：[+20%]\n[Air]\n傷害量：[251%]\n霸體破壞量：[125%]\n冷卻時間：[10s]\n靈魂值獲得量：[+20%]",
           "RequiredLevel": 15,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[Ground]\nDamage: 193%\nSA Damage: 140%\nDebuff effect: Movement speed -50% in 3s\nCooldown: 10s\nSG Gain: +70%\n[Air]\nDamage: 281%\nSA Damage: 140%\nCooldown: 10s\nSG Gain: +70%",
+          "Effect": "[地面]\n傷害量：[193%]\n霸體破壞量：[140%]\nDe增益效果：Movement speed -50%] in 3s]\n冷卻時間：[10s]\n靈魂值獲得量：[+70%]\n[Air]\n傷害量：[281%]\n霸體破壞量：[140%]\n冷卻時間：[10s]\n靈魂值獲得量：[+70%]",
           "RequiredLevel": 30,
           "RequiredSP": 2
         }
@@ -1108,22 +1140,22 @@
     },
     "EmergencyDodge": {
       "Passive": true,
-      "Name": "Emergency Dodge",
+      "Name": "緊急迴避",
       "ID": 1004,
       "DefaultLevel": 1,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_Evasion.png",
+      "Icon": "../assets/SkillIcons/Common/EmergencyDodge.png",
       "Levels": {
         "0": {
-          "Description": "Swiftly dodge in a direction. Negate damage during an emergency dodge.",
+          "Description": "向指定的方向快速迴避。\n在緊急迴避的狀態下不會受到任何攻擊。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/lily/B_Evade_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/B_Evade_F.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Stamina Cost: 20",
+          "Effect": "耐力消耗量：[20]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         }
@@ -1131,32 +1163,32 @@
     },
     "RisingRoll": {
       "Passive": true,
-      "Name": "Rising Roll",
+      "Name": "翻滾",
       "ID": 1003,
       "DefaultLevel": 1,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_Welter.png",
+      "Icon": "../assets/SkillIcons/Common/RisingRoll.png",
       "Levels": {
         "0": {
-          "Description": "When downed, get up by rolling in a direction. During the roll, damage is negated",
+          "Description": "受到攻擊而倒地時，朝指定的方向快速翻滾後起身。\n翻滾時不會受到任何傷害。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/lily/B_Roll_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/B_Roll_F.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Stamina Cost: 25",
+          "Effect": "耐力消耗量：[25]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "Stamina Cost: 15",
+          "Effect": "耐力消耗量：[15]",
           "RequiredLevel": 17,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina Cost: 15\nFaster Rolling Speed",
+          "Effect": "耐力消耗量：[15]\n翻滾的更快",
           "RequiredLevel": 34,
           "RequiredSP": 2
         }
@@ -1164,18 +1196,18 @@
     },
     "Dash": {
       "Passive": true,
-      "Name": "Dash",
+      "Name": "衝刺",
       "DefaultLevel": 1,
       "ID": 1006,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_Dash.png",
+      "Icon": "../assets/SkillIcons/Common/Dash.png",
       "Levels": {
         "0": {
-          "Description": "Swiftly dash forward",
+          "Description": "向前快速奔馳。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/lily/B_Run_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/B_Run_F.{{auto}}"
           }
         },
         "1": {
@@ -1184,7 +1216,7 @@
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "Faster Dashing Speed",
+          "Effect": "衝刺速度加快",
           "RequiredLevel": 25,
           "RequiredSP": 2
         }
@@ -1192,32 +1224,32 @@
     },
     "RisingAttack": {
       "Passive": true,
-      "Name": "Rising Attack",
+      "Name": "起身回擊",
       "ID": 1005,
       "DefaultLevel": 1,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_RiseAttack.png",
+      "Icon": "../assets/SkillIcons/Common/RiseAttack.png",
       "Levels": {
         "0": {
-          "Description": "While downed, get up while damaging surrounding enemies",
+          "Description": "受到攻擊而倒地時，瞬間起身並攻擊周遭敵人。\n使用後在一定時間內處於無敵狀態。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/lily/B_Rise_Attack.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/B_Rise_Attack.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Stamina Cost: 30\nInvincibility Duration: 1 seconds",
+          "Effect": "回擊傷害量：[100%]\n耐力消耗量：[30]\n無敵時間：[3秒]\n冷卻時間：[15秒]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "Stamina Cost: 20\nInvincibility Duration: 1 seconds",
+          "Effect": "回擊傷害量：[100%]\n耐力消耗量：[20]\n無敵時間：[3秒]\n冷卻時間：[15秒]",
           "RequiredLevel": 18,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina Cost: 20\nInvincibility Duration: 3 seconds",
+          "Effect": "回擊傷害量：[100%]\n耐力消耗量：[20]\n無敵時間：[5秒]\n冷卻時間：[15秒]",
           "RequiredLevel": 36,
           "RequiredSP": 2
         }
@@ -1225,22 +1257,22 @@
     },
     "DashAttack": {
       "Passive": true,
-      "Name": "Dash Attack",
+      "Name": "衝擊",
       "DefaultLevel": 1,
       "ID": 1008,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_DashAttack.png",
+      "Icon": "../assets/SkillIcons/Common/DashAttack.png",
       "Levels": {
         "0": {
-          "Description": "Perform an attack while dashing. Different character does different attacks. ",
+          "Description": "衝刺時，用力揮劍擊退敵人。\n攻擊時可以獲得靈魂值。\n連續攻擊次數和怪物等級越高，靈魂值獲得量越多。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/lily/B_N_Attack_Dash.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/B_N_Attack_Dash.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 115%\nSA Damage: 38%",
+          "Effect": "傷害量：[115%]\n霸體破壞量：[38%]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         }
@@ -1248,31 +1280,31 @@
     },
     "SpecialDodge": {
       "Passive": true,
-      "Name": "Special Dodge",
+      "Name": "受身迴避",
       "ID": 1007,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_EvasionAttack.png",
+      "Icon": "../assets/SkillIcons/Common/SpecialDodge.png",
       "Levels": {
         "0": {
-          "Description": "Swiftly dodge as an enemy attacks you. Negate Damage during the special dodge",
+          "Description": "受到攻撃且無法控制時，朝指定方向進行受身迴避。\n在受身迴避的狀態下不會受到傷害。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/lily/B_S_Evade_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/B_S_Evade_F.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Stamina Cost: 40\nCooldown: 60 seconds",
+          "Effect": "耐力消耗量：[40]\n冷卻時間：[30秒]",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Stamina Cost: 40\nCooldown: 50 seconds",
+          "Effect": "耐力消耗量：[40]\n冷卻時間：[25秒]",
           "RequiredLevel": 21,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina Cost: 40\nCooldown: 40 seconds",
+          "Effect": "耐力消耗量：[40]\n冷卻時間：[20秒]",
           "RequiredLevel": 38,
           "RequiredSP": 2
         }
@@ -1280,21 +1312,21 @@
     },
     "SpecialDashAttack": {
       "Passive": true,
-      "Name": "Special Dash Attack",
+      "Name": "特殊衝擊",
       "ID": 1010,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_DashSmashAttack.png",
+      "Icon": "../assets/SkillIcons/Common/SpecialDashAttack.png",
       "Levels": {
         "0": {
-          "Description": "Performs a special attack while dashing. Different characters do different special attacks",
+          "Description": "衝刺時，向前方跳躍施展連續迴旋斬。\n攻擊時可以獲得靈魂值。\n連續攻擊次數和怪物等級越高，靈魂值獲得量越多。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/lily/B_S_Attack_N_Dash.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/B_S_Attack_N_Dash.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 206%\nSA Damage: 92%\nCooldown: 5 seconds",
+          "Effect": "傷害量：[206%]\n霸體破壞量：[92%]\n冷卻時間：[5秒]",
           "RequiredLevel": 13,
           "RequiredSP": 1
         }
@@ -1302,38 +1334,38 @@
     },
     "StaminaMastery": {
       "Passive": true,
-      "Name": "Stamina Mastery",
+      "Name": "耐力精通",
       "ID": 1009,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_StaminaMastery.png",
+      "Icon": "../assets/SkillIcons/Common/StaminaMastery.png",
       "Levels": {
         "0": {
-          "Description": "Increases stamina recovery rate",
+          "Description": "耐力恢復量永久增加。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "Stamina Recovery Rate: +10%",
+          "Effect": "耐力恢復量：[+10%]",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Stamina Recovery Rate: +20%",
+          "Effect": "耐力恢復量：[+20%]",
           "RequiredLevel": 15,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina Recovery Rate: +30%",
+          "Effect": "耐力恢復量：[+30%]",
           "RequiredLevel": 20,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Stamina Recovery Rate: +40%",
+          "Effect": "耐力恢復量：[+40%]",
           "RequiredLevel": 25,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Stamina Recovery Rate: +50%",
+          "Effect": "耐力恢復量：[+50%]",
           "RequiredLevel": 30,
           "RequiredSP": 3
         }
@@ -1347,29 +1379,29 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/skillicons/Mistscythe/Icon_Mcythe_Skill_SGPassive2.png",
+      "Icon": "../assets/SkillIcons/C_Lily/Icon_Mcythe_Skill_SGPassive2.png",
       "Levels": {
         "0": {
-          "Description": "Every 1 minute while SG is above 70%, decrease SG consumption, increase critical attack power, increase defense penetration for 15 seconds.",
+          "Description": "Every 1 minute while SG is above 70%], decrease SG consumption, increase critical attack power, increase defense penetration for 15秒].",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/lily/Contributor_lily_RampagingMadness.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/Contributor_lily_RampagingMadness.{{auto}}"
           }
         },
         "1": {
-          "Effect": "SG consumption decrease ?%.\nCritical attack power increase ???.\nDefense penetration increase ?%.",
+          "Effect": "SG consumption decrease ?%].\nCritical attack power increase ???.\nDefense penetration increase ?%].",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "SG consumption decrease ?%.\nCritical attack power increase ????.\nDefense penetration increase ?%.",
+          "Effect": "SG consumption decrease ?%].\nCritical attack power increase ????.\nDefense penetration increase ?%].",
           "RequiredLevel": 58,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "SG consumption decrease 15%.\nCritical attack power increase 2000.\nDefense penetration increase 20%.",
+          "Effect": "SG consumption decrease 15%].\nCritical attack power increase 2000.\nDefense penetration increase 20%].",
           "RequiredLevel": 59,
           "RequiredSP": 2
         }
@@ -1383,7 +1415,7 @@
         "0": 2,
         "1": 1
       },
-      "Icon": "../assets/skillicons/Mistscythe/Icon_Mcythe_Skill_SGPassive.png",
+      "Icon": "../assets/SkillIcons/C_Lily/LP1-2.png",
       "Levels": {
         "0": {
           "Description": "Increase Critical Damage",
@@ -1410,21 +1442,51 @@
     },
     "MadScythe": {
       "Passive": true,
+      "Name": "狂亂之鐮",
       "DefaultLevel": 1,
       "ID": 1012,
-      "RowSpan": 2,
-      "Name": "Mad Scythe",
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_SoulMastery.png",
+      "RowSpan": {
+        "0": 2,
+        "1": 1
+      },
+      "Icon": "../assets/SkillIcons/Common/SoulMastery.png",
       "Levels": {
         "0": {
-          "Description": "Gain SG when hitting an enemy. Passively gain SG in set intervals. Collecting a certain amount of SG will activate Madness Mode",
+          "Description": "基本攻擊成功時，恢復靈魂值。\n每隔一定時間自動恢復靈魂值。\n靈魂值積累到一定數值以上時，進入狂暴狀態。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "Attack Power +5%\nCritical Rate +5%",
-          "RequiredLevel": 10,
+          "Effect": "狂暴狀態：攻擊力 [+5%]、暴擊率 [+5%]",
+          "RequiredLevel": 1,
+          "RequiredSP": 0
+        }
+      }
+    },
+    "ExtinctionPrelude": {
+      "Passive": true,
+      "Name": "心爆氣流斬",
+      "DefaultLevel": 1,
+      "ID": 1099,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/A_Haru/HADV_SV_EX_Prelude.png",
+      "Levels": {
+        "0": {
+          "Description": "在覺醒狀態下可以使用的技能。\n施展後覺醒狀態會被解除。\n使用雙劍，對前方展開多方位的急速衝刺連斬，最後重擊地面。\n使用條件：處於覺醒狀態。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/PC_A_Haru/HADV_SV_EX_Prelude.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "傷害量：[2250%]\n霸體破壞量：[2950%]",
+          "RequiredLevel": 57,
           "RequiredSP": 0
         }
       }

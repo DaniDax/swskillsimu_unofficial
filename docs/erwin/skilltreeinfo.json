@@ -1,55 +1,56 @@
 {
-  "CharacterName": "Erwin Arclight",
+  "CharacterName": "歐文・阿克萊特",
   "CharacterWikiURL": "https://wiki.soulworkerhq.com/w/Erwin_Arclight",
+  "MaxLevel": 68,
   "AvailableClass": {
     "0": {
-      "Name": "Base",
-      "Cover": "../assets/images/bg-erwin1.png"
+      "Name": "一般",
+      "Cover": "../assets/images/bg_B_Erwin.png"
     },
     "1": {
-      "Name": "Upgraded",
-      "Cover": "../assets/images/bg-erwin2.png",
+      "Name": "晉升",
+      "Cover": "../assets/images/bg_B_Erwin_ADV.png",
       "RequiredLevel": 57
     }
   },
   "Skills": {
     "SkyHigh": {
-      "Name": "Sky High",
+      "Name": "飛升",
       "DefaultLevel": 1,
       "ID": 1,
-      "Icon": "../assets/skillicons/GunJazz/Icon_GJazz_Skill_SkyHigh.png",
+      "Icon": "../assets/SkillIcons/B_Erwin/B_1-1_SkyHigh.png",
       "Levels": {
         "0": {
-          "Description": "Kick the enemies ahead of you, launching them to the air.",
+          "Description": "原地快速向後旋轉，利用離心力施展踢腿攻擊，使敵人浮空。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_SkyHigh.{{auto}}"
+            "Video": "../assets/SkillPreviews/B_Erwin/B_1-1_SkyHigh.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "傷害量：[117%]\n霸體破壞量：[156%]\n靈魂值消耗量：[1]\n冷卻時間：[5秒]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "傷害量：[123%]\n霸體破壞量：[163%]\n靈魂值消耗量：[1]\n冷卻時間：[5秒]",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "傷害量：[137%]\n霸體破壞量：[183%]\n靈魂值消耗量：[1]\n冷卻時間：[5秒]",
           "RequiredLevel": 7,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "傷害量：[152%]\n霸體破壞量：[202%]\n靈魂值消耗量：[1]\n冷卻時間：[5秒]",
           "RequiredLevel": 10,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "傷害量：[175%]\n霸體破壞量：[233%]\n靈魂值消耗量：[1]\n冷卻時間：[5秒]",
           "RequiredLevel": 13,
           "RequiredSP": 3
         }
@@ -61,21 +62,21 @@
     },
     "SkyHigh-ImpactBullets": {
       "Visible": false,
-      "Name": "Impact Bullets",
+      "Name": "衝擊彈",
       "ID": 2,
-      "Icon": "../assets/skillicons/GunJazz/Icon_GJazz_Skill_SkyHigh_A.png",
+      "Icon": "../assets/SkillIcons/B_Erwin/B_1-1_SkyHigh_A.png",
       "Levels": {
         "0": {
-          "Description": "Shoot a powerful energy bullet that attacks the enemies in front.",
+          "Description": "發射威力強大的能量彈，攻擊前方的敵人。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_SkyHigh_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/B_Erwin/B_1-1_SkyHigh_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "傷害量：[140%]\n霸體破壞量：[186%]",
           "RequiredLevel": 13,
           "RequiredSP": 1
         }
@@ -83,115 +84,115 @@
     },
     "SkyHigh-AerialShots": {
       "Visible": false,
-      "Name": "Aerial Shots",
+      "Name": "空中連射",
       "ID": 3,
-      "Icon": "../assets/skillicons/GunJazz/Icon_GJazz_Skill_SkyHigh_B.png",
+      "Icon": "../assets/SkillIcons/B_Erwin/B_1-1_SkyHigh_B.png",
       "Levels": {
         "0": {
-          "Description": "Shoot continuously at enemies knocked into the air.",
+          "Description": "朝浮空的敵人進行連續射擊。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_SkyHigh_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/B_Erwin/B_1-1_SkyHigh_B.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "傷害量：攻擊1回 [35%]\n霸體破壞量：攻擊1回 [45%]\n最大攻擊時間：[0.55秒]\n終結攻擊傷害量：[88%]\n終結攻擊霸體破壞量：[112%]",
           "RequiredLevel": 13,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "傷害量：攻擊1回 [35%]\n霸體破壞量：攻擊1回 [45%]\n最大攻擊時間：[1.10秒]\n終結攻擊傷害量：[88%]\n終結攻擊霸體破壞量：[112%]",
           "RequiredLevel": 18,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "傷害量：攻擊1回 [53%]\n霸體破壞量：攻擊1回 [68%]\n最大攻擊時間：[1.65秒]\n終結攻擊傷害量：[88%]\n終結攻擊霸體破壞量：[112%]",
           "RequiredLevel": 23,
           "RequiredSP": 2
         }
       }
     },
     "RapidFire": {
-      "Name": "Rapid Fire",
+      "Name": "漫遊射撃",
       "DefaultLevel": 1,
       "ID": 4,
-      "Icon": "../assets/skillicons/GunJazz/Icon_GJazz_Skill_RapidFire.png",
+      "Icon": "../assets/SkillIcons/B_Erwin/B_1-2_RapidFire.png",
       "Levels": {
         "0": {
-          "Description": "Quickly fire with both guns. Can move while using this skill.",
+          "Description": "利用兩隻手中的槍，向前方快速連射。\n攻擊時可以移動。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_RapidFire.{{auto}}"
+            "Video": "../assets/SkillPreviews/B_Erwin/B_1-2_RapidFire.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[每次擊中]\n傷害量：[52%]\n霸體破壞量：[42%]\n[最後一擊]\n傷害量：[158%]\n霸體破壞量：[125%]\n靈魂值消耗量：[1]\n冷卻時間：[10秒]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[每次擊中]\n傷害量：[55%]\n霸體破壞量：[43%]\n[最後一擊]\n傷害量：[166%]\n霸體破壞量：[131%]\n靈魂值消耗量：[1]\n冷卻時間：[10秒]",
           "RequiredLevel": 6,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[每次擊中]\n傷害量：[61%]\n霸體破壞量：[48%]\n[最後一擊]\n傷害量：[185%]\n霸體破壞量：[146%]\n靈魂值消耗量：[1]\n冷卻時間：[10秒]",
           "RequiredLevel": 11,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "[每次擊中]\n傷害量：[68%]\n霸體破壞量：[54%]\n[最後一擊]\n傷害量：[205%]\n霸體破壞量：[162%]\n靈魂值消耗量：[1]\n冷卻時間：[10秒]",
           "RequiredLevel": 16,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "[每次擊中]\n傷害量：[79%]\n霸體破壞量：[62%]\n[最後一擊]\n傷害量：[237%]\n霸體破壞量：[187%]\n靈魂值消耗量：[1]\n冷卻時間：[10秒]",
           "RequiredLevel": 21,
           "RequiredSP": 3
         }
       }
     },
     "GunCombination": {
-      "Name": "Gun Combination",
+      "Name": "回轉連射",
       "DefaultLevel": 1,
       "ID": 5,
-      "Icon": "../assets/skillicons/GunJazz/Icon_GJazz_Skill_GunCombination.png",
+      "Icon": "../assets/SkillIcons/B_Erwin/B_1-3_GunCombination.png",
       "Levels": {
         "0": {
-          "Description": "Approach the enemies with great speed, and then fire at enemies close range.",
+          "Description": "迅速縮短與前方敵人的距離，同時進行11次近身連射。\n發射的子彈會向多個方向擴散，附近的敵人會受到最大的傷害。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_GunCombination.{{auto}}"
+            "Video": "../assets/SkillPreviews/B_Erwin/B_1-3_GunCombination.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[每次近身射擊]\n傷害量：[49%]\n霸體破壞量：[27%]\n[每次擴散射擊]\n傷害量：[34%]\n霸體破壞量：[19%]\n靈魂值消耗量：[2]\n冷卻時間：[14秒]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[每次近身射擊]\n傷害量：[52%]\n霸體破壞量：[28%]\n[每次擴散射擊]\n傷害量：[36%]\n霸體破壞量：[19%]\n靈魂值消耗量：[2]\n冷卻時間：[14秒]",
           "RequiredLevel": 5,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[每次近身射擊]\n傷害量：[58%]\n霸體破壞量：[31%]\n[每次擴散射擊]\n傷害量：[40%]\n霸體破壞量：[21%]\n靈魂值消耗量：[2]\n冷卻時間：[14秒]",
           "RequiredLevel": 9,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "[每次近身射擊]\n傷害量：[64%]\n霸體破壞量：[34%]\n[每次擴散射擊]\n傷害量：[45%]\n霸體破壞量：[24%]\n靈魂值消耗量：[2]\n冷卻時間：[14秒]",
           "RequiredLevel": 13,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "[每次近身射擊]\n傷害量：[74%]\n霸體破壞量：[40%]\n[每次擴散射擊]\n傷害量：[51%]\n霸體破壞量：[28%]\n靈魂值消耗量：[2]\n冷卻時間：[14秒]",
           "RequiredLevel": 17,
           "RequiredSP": 3
         }
@@ -202,72 +203,72 @@
     },
     "GunCombination-Penetration": {
       "Visible": false,
-      "Name": "Penetration",
+      "Name": "穿透",
       "ID": 6,
-      "Icon": "../assets/skillicons/GunJazz/Icon_GJazz_Skill_GunCombination_A.png",
+      "Icon": "../assets/SkillIcons/B_Erwin/B_1-3_GunCombination_A.png",
       "Levels": {
         "0": {
-          "Description": "Attacks done by the guns go through enemies.",
+          "Description": "使子彈可以穿透敵人。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_GunCombination_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/B_Erwin/B_1-3_GunCombination_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "使子彈可以穿透敵人",
           "RequiredLevel": 17,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[每次近身射擊]\n傷害量：[85%]\n霸體破壞量：[46%]\n[每次擴散射擊]\n傷害量：[59%]\n霸體破壞量：[32%]\n子彈可以穿透敵人",
           "RequiredLevel": 22,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[每次近身射擊]\n傷害量：[107%]\n霸體破壞量：[57%]\n[每次擴散射擊]\n傷害量：[75%]\n霸體破壞量：[40%]\n子彈可以穿透敵人",
           "RequiredLevel": 27,
           "RequiredSP": 2
         }
       }
     },
     "SlideStep": {
-      "Name": "Slide Step",
+      "Name": "後撤",
       "ID": 7,
-      "Icon": "../assets/skillicons/GunJazz/Icon_GJazz_Skill_SlideStep.png",
+      "Icon": "../assets/SkillIcons/B_Erwin/B_2-1_SlideStep.png",
       "Levels": {
         "0": {
-          "Description": "Rapidly slide back and avoid incoming attacks.",
+          "Description": "快速向後滑步，回避攻擊。\n可迴避取消。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_SlidingStep.{{auto}}"
+            "Video": "../assets/SkillPreviews/B_Erwin/B_2-1_SlideStep.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "傷害量：[129%]\n霸體破壞量：[132%]\n靈魂值消耗量：[1]\n冷卻時間：[5秒]",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "傷害量：[136%]\n霸體破壞量：[138%]\n靈魂值消耗量：[1]\n冷卻時間：[5秒]",
           "RequiredLevel": 8,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "傷害量：[152%]\n霸體破壞量：[155%]\n靈魂值消耗量：[1]\n冷卻時間：[5秒]",
           "RequiredLevel": 12,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "傷害量：[168%]\n霸體破壞量：[171%]\n靈魂值消耗量：[1]\n冷卻時間：[5秒]",
           "RequiredLevel": 16,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "傷害量：[194%]\n霸體破壞量：[197%]\n靈魂值消耗量：[1]\n冷卻時間：[5秒]",
           "RequiredLevel": 20,
           "RequiredSP": 3
         }
@@ -279,31 +280,31 @@
     },
     "SlideStep-SmokeGrenade": {
       "Visible": false,
-      "Name": "Smoke Grenade",
+      "Name": "減速煙幕",
       "ID": 8,
-      "Icon": "../assets/skillicons/GunJazz/Icon_GJazz_Skill_SlideStep_A.png",
+      "Icon": "../assets/SkillIcons/B_Erwin/B_2-1_SlideStep_A.png",
       "Levels": {
         "0": {
-          "Description": "Throws a smoke screen in an area. Enemies in the smoke will be slowed.",
+          "Description": "在使用技能的位置生成氣體煙霧，使煙幕區域內的敵人減速。\n可使用此技能強制中斷其他技能。\n使用技能時0.5秒內不會受到攻擊。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_SlidingStep_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/B_Erwin/B_2-1_SlideStep_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "減益效果：移動速度降低 [30%]\n減益持續時間：[3秒]\n減益區域持續時間：[6秒]",
           "RequiredLevel": 20,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "減益效果：移動速度降低 [45%]\n減益持續時間：[3秒]\n減益區域持續時間：[8秒]",
           "RequiredLevel": 25,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "減益效果：移動速度降低 [75%]\n減益持續時間：[3秒]\n減益區域持續時間：[10秒]",
           "RequiredLevel": 30,
           "RequiredSP": 2
         }
@@ -311,113 +312,113 @@
     },
     "SlideStep-PoisonGasGrenade": {
       "Visible": false,
-      "Name": "Poison Gas Grenade",
+      "Name": "毒霧",
       "ID": 9,
-      "Icon": "../assets/skillicons/GunJazz/Icon_GJazz_Skill_SlideStep_B.png",
+      "Icon": "../assets/SkillIcons/B_Erwin/B_2-1_SlideStep_B.png",
       "Levels": {
         "0": {
-          "Description": "Throws a poisonous gas grenade in an area. Enemies in the smoke will be poisoned.",
+          "Description": "在使用技能的位置生成氣體煙霧，使煙幕區域內的敵人中毒。\n可使用此技能強制中斷其他技能。\n使用技能時0.5秒內不會受到攻擊。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_SlidingStep_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/B_Erwin/B_2-1_SlideStep_B.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "減益效果：中毒（每秒減少 [1%] HP）\n減益持續時間：[3秒]\n減益區域持續時間：[5秒]",
           "RequiredLevel": 20,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "減益效果：中毒（每秒減少 [1%] HP）\n減益持續時間：[3秒]\n減益區域持續時間：[5秒]",
           "RequiredLevel": 25,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "減益效果：中毒（每秒減少 [1%] HP）\n減益持續時間：[3秒]\n減益區域持續時間：[5秒]",
           "RequiredLevel": 30,
           "RequiredSP": 2
         }
       }
     },
     "TakeAim": {
-      "Name": "Take Aim",
+      "Name": "弱點鎖定",
       "ID": 10,
-      "Icon": "../assets/skillicons/GunJazz/Icon_GJazz_Skill_TakeAim.png",
+      "Icon": "../assets/SkillIcons/B_Erwin/B_2-2_TakeAim.png",
       "Levels": {
         "0": {
-          "Description": "Improve concentration to aim at the enemy's weak points.",
+          "Description": "提高集中力，瞄準敵人的弱點。\n暫時提高敵人防禦力貫穿。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_TakeAim.{{auto}}"
+            "Video": "../assets/SkillPreviews/B_Erwin/B_2-2_TakeAim.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "增益效果：敵人防禦力貫穿 [+7%]\n增益持續時間：[40秒]\n靈魂值消耗量：[3]\n冷卻時間：[60秒]",
           "RequiredLevel": 6,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "增益效果：敵人防禦力貫穿 [+9%]\n增益持續時間：[40秒]\n靈魂值消耗量：[3]\n冷卻時間：[60秒]",
           "RequiredLevel": 11,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "增益效果：敵人防禦力貫穿 [+12%]\n增益持續時間：[40秒]\n靈魂值消耗量：[3]\n冷卻時間：[60秒]",
           "RequiredLevel": 16,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "增益效果：敵人防禦力貫穿 [+15%]\n增益持續時間：[40秒]\n靈魂值消耗量：[3]\n冷卻時間：[60秒]",
           "RequiredLevel": 21,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "增益效果：敵人防禦力貫穿 [+20%]\n增益持續時間：[40秒]\n靈魂值消耗量：[3]\n冷卻時間：[60秒]",
           "RequiredLevel": 26,
           "RequiredSP": 3
         }
       }
     },
     "FocusShot": {
-      "Name": "Focus Shot",
+      "Name": "集中射擊",
       "ID": 11,
-      "Icon": "../assets/skillicons/GunJazz/Icon_GJazz_Skill_FocusShot.png",
+      "Icon": "../assets/SkillIcons/B_Erwin/B_2-3_FocusShot.png",
       "Levels": {
         "0": {
-          "Description": "Convert the guns into a machine gun, firing rapidly at enemies. The fire duration increases as the skill level increases.",
+          "Description": "將武器變為機關槍的形態，在原地向前方快速連射，攻擊敵人。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_FocusShot.{{auto}}"
+            "Video": "../assets/SkillPreviews/B_Erwin/B_2-3_FocusShot.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "傷害量：攻擊1回 [56%]\n霸體破壞量：攻擊1回 [32%]\n靈魂值消耗量：[2]\n冷卻時間：[15秒]",
           "RequiredLevel": 8,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "傷害量：攻擊1回 [58%]\n霸體破壞量：攻擊1回 [34%]\n靈魂值消耗量：[2]\n冷卻時間：[15秒]",
           "RequiredLevel": 12,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "傷害量：攻擊1回 [66%]\n霸體破壞量：攻擊1回 [38%]\n靈魂值消耗量：[2]\n冷卻時間：[15秒]",
           "RequiredLevel": 16,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "傷害量：攻擊1回 [72%]\n霸體破壞量：攻擊1回 [42%]\n靈魂值消耗量：[2]\n冷卻時間：[15秒]",
           "RequiredLevel": 20,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "傷害量：攻擊1回 [84%]\n霸體破壞量：攻擊1回 [48%]\n靈魂值消耗量：[2]\n冷卻時間：[15秒]",
           "RequiredLevel": 24,
           "RequiredSP": 3
         }
@@ -429,31 +430,31 @@
     },
     "FocusShot-ParalyzingShot": {
       "Visible": false,
-      "Name": "Paralyzing Shot",
+      "Name": "麻痹射擊",
       "ID": 12,
-      "Icon": "../assets/skillicons/GunJazz/Icon_GJazz_Skill_FocusShot_A.png",
+      "Icon": "../assets/SkillIcons/B_Erwin/B_2-3_FocusShot_A.png",
       "Levels": {
         "0": {
-          "Description": "Fires a powerful energy at the end of the attack. Inflicts paralysis at the affected area.",
+          "Description": "射擊結束時發射充滿強烈能量的一擊，命中敵人後生成麻痹區域。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_FocusShot_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/B_Erwin/B_2-3_FocusShot_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[追加攻擊]\n傷害量：[84%]\n霸體破壞量：[48%]\n減益效果：麻痹 [1秒]\n減益區域持續時間：[3秒]",
           "RequiredLevel": 24,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[追加攻擊]\n傷害量：[97%]\n霸體破壞量：[55%]\n減益效果：麻痹 [1秒]\n減益區域持續時間：[4秒]",
           "RequiredLevel": 29,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[追加攻擊]\n傷害量：[122%]\n霸體破壞量：[70%]\n減益效果：麻痹 [1秒]\n減益區域持續時間：[5秒]",
           "RequiredLevel": 34,
           "RequiredSP": 2
         }
@@ -461,72 +462,72 @@
     },
     "FocusShot-BlackHole": {
       "Visible": false,
-      "Name": "Black Hole",
+      "Name": "黑洞",
       "ID": 13,
-      "Icon": "../assets/skillicons/GunJazz/Icon_GJazz_Skill_FocusShot_B.png",
+      "Icon": "../assets/SkillIcons/B_Erwin/B_2-3_FocusShot_B.png",
       "Levels": {
         "0": {
-          "Description": "Fires a powerful energy at the end of the attack. Enemies will be pulled to the center of the affected area.",
+          "Description": "射擊結束時發射充滿強烈能量的一擊，並以能量爆炸地點為基準，吸引周遭的所有敵人。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_FocusShot_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/B_Erwin/B_2-3_FocusShot_B.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[追加攻擊]\n傷害量：[84%]\n霸體破壞量：[48%]\n將範圍[4]米內的敵人吸引至中心點",
           "RequiredLevel": 24,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[追加攻擊]\n傷害量：[97%]\n霸體破壞量：[55%]\n將範圍[6]米內的敵人吸引至中心點",
           "RequiredLevel": 29,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[追加攻擊]\n傷害量：[122%]\n霸體破壞量：[70%]\n將範圍[8]米內的敵人吸引至中心點",
           "RequiredLevel": 34,
           "RequiredSP": 2
         }
       }
     },
     "CombatMaster": {
-      "Name": "Combat Master",
+      "Name": "死亡綻放",
       "ID": 14,
-      "Icon": "../assets/skillicons/GunJazz/Icon_GJazz_Skill_CombatMaster.png",
+      "Icon": "../assets/SkillIcons/B_Erwin/B_3-1_CombatMaster.png",
       "Levels": {
         "0": {
-          "Description": "Fastly move forward and fire at enemies close range.",
+          "Description": "以電光火石般的速度前進，同時進行近距離射擊。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_CombatMaster.{{auto}}"
+            "Video": "../assets/SkillPreviews/B_Erwin/B_3-1_CombatMaster.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "傷害量：[607%]\n霸體破壞量：[332%]\n靈魂值消耗量：[3]\n冷卻時間：[25秒]",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "傷害量：[637%]\n霸體破壞量：[350%]\n靈魂值消耗量：[3]\n冷卻時間：[25秒]",
           "RequiredLevel": 15,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "傷害量：[712%]\n霸體破壞量：[390%]\n靈魂值消耗量：[3]\n冷卻時間：[25秒]",
           "RequiredLevel": 20,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "傷害量：[787%]\n霸體破壞量：[432%]\n靈魂值消耗量：[3]\n冷卻時間：[25秒]",
           "RequiredLevel": 25,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "傷害量：[910%]\n霸體破壞量：[497%]\n靈魂值消耗量：[3]\n冷卻時間：[25秒]",
           "RequiredLevel": 30,
           "RequiredSP": 3
         }
@@ -536,41 +537,41 @@
       ]
     },
     "GuidedShot": {
-      "Name": "Guided Shot",
+      "Name": "電磁步槍",
       "ID": 15,
-      "Icon": "../assets/skillicons/GunJazz/Icon_GJazz_Skill_GuidedShot.png",
+      "Icon": "../assets/SkillIcons/B_Erwin/B_3-2_GuidedShot.png",
       "Levels": {
         "0": {
-          "Description": "Convert the guns into a sniper rifle, shooting a powerful shot that penetrates through enemies in a straight line.",
+          "Description": "將武器變為狙擊槍形態，向前方瞄準後射出威力強大的一槍。具有穿透效果，可以給一直線上的敵人造成相同的傷害。\n每蓄滿1階段時，性能提高為1.5倍，最多提高為2.25倍。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_GuidedShot.{{auto}}"
+            "Video": "../assets/SkillPreviews/B_Erwin/B_3-2_GuidedShot.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "傷害量：[452%]\n霸體破壞量：[387%]\n最大蓄力階段：[3]\n靈魂值消耗量：[3]\n冷卻時間：[25秒]",
           "RequiredLevel": 13,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "傷害量：[476%]\n霸體破壞量：[406%]\n最大蓄力階段：[3]\n靈魂值消耗量：[3]\n冷卻時間：[25秒]",
           "RequiredLevel": 18,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "傷害量：[532%]\n霸體破壞量：[454%]\n最大蓄力階段：[3]\n靈魂值消耗量：[3]\n冷卻時間：[25秒]",
           "RequiredLevel": 23,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "傷害量：[589%]\n霸體破壞量：[502%]\n最大蓄力階段：[3]\n靈魂值消耗量：[3]\n冷卻時間：[25秒]",
           "RequiredLevel": 28,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "傷害量：[679%]\n霸體破壞量：[580%]\n最大蓄力階段：[3]\n靈魂值消耗量：[3]\n冷卻時間：[25秒]",
           "RequiredLevel": 33,
           "RequiredSP": 3
         }
@@ -581,72 +582,72 @@
     },
     "GuidedShot-DefensePenetration": {
       "Visible": false,
-      "Name": "Defense Penetration",
+      "Name": "穿甲",
       "ID": 16,
-      "Icon": "../assets/skillicons/GunJazz/Icon_GJazz_Skill_GuidedShot_A.png",
+      "Icon": "../assets/SkillIcons/B_Erwin/B_3-2_GuidedShot_A.png",
       "Levels": {
         "0": {
-          "Description": "Attacks done to the enemy ignore enemy's defense.",
+          "Description": "命中敵人時，無視一定程度的防禦。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_GuidedShot_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/B_Erwin/B_3-2_GuidedShot_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "傷害量：[712%]\n霸體破壞量：[1338%]\n敵人防禦貫穿：[5%]",
           "RequiredLevel": 33,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "傷害量：[748%]\n霸體破壞量：[1405%]\n敵人防禦貫穿：[15%]",
           "RequiredLevel": 38,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "傷害量：[836%]\n霸體破壞量：[1572%]\n敵人防禦貫穿：[25%]",
           "RequiredLevel": 43,
           "RequiredSP": 2
         }
       }
     },
     "ElectricShot": {
-      "Name": "Electric Shot",
+      "Name": "脈衝炸彈",
       "ID": 17,
-      "Icon": "../assets/skillicons/GunJazz/Icon_GJazz_Skill_ElectricShot.png",
+      "Icon": "../assets/SkillIcons/B_Erwin/B_3-3_ElectricShot.png",
       "Levels": {
         "0": {
-          "Description": "Convert the guns into a grenade launcher, which fires a powerful grenade that explodes and deal damage to the enemies.",
+          "Description": "將武器變為榴彈發射器形態，朝指定方向發射威力強大的榴彈，落地爆炸後給範圍內敵人造成傷害。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_ElectricShot.{{auto}}"
+            "Video": "../assets/SkillPreviews/B_Erwin/B_3-3_ElectricShot.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "傷害量：[743%]\n霸體破壞量：[185%]\n靈魂值消耗量：[3]\n冷卻時間：[20秒]",
           "RequiredLevel": 17,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "傷害量：[780%]\n霸體破壞量：[194%]\n靈魂值消耗量：[3]\n冷卻時間：[20秒]",
           "RequiredLevel": 22,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "傷害量：[873%]\n霸體破壞量：[217%]\n靈魂值消耗量：[3]\n冷卻時間：[20秒]",
           "RequiredLevel": 27,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "傷害量：[965%]\n霸體破壞量：[240%]\n靈魂值消耗量：[3]\n冷卻時間：[20秒]",
           "RequiredLevel": 32,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "傷害量：[1114%]\n霸體破壞量：[277%]\n靈魂值消耗量：[3]\n冷卻時間：[20秒]",
           "RequiredLevel": 37,
           "RequiredSP": 3
         }
@@ -656,83 +657,83 @@
       ]
     },
     "NapalmBomb": {
-      "Name": "Napalm Bomb",
+      "Name": "燃燒彈",
       "ID": 18,
-      "Icon": "../assets/skillicons/GunJazz/Icon_GJazz_Skill_NapalmBomb.png",
+      "Icon": "../assets/SkillIcons/B_Erwin/B_4-1_NapalmBomb.png",
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "Fire many grenades by converting the guns into a grenade launcher in the air, dealing damage over a large area.",
+          "Description": "在空中狀態下，將武器轉換成榴彈發射器，朝前方地面進行大範圍轟炸。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_NapalmBomb.{{auto}}"
+            "Video": "../assets/SkillPreviews/B_Erwin/B_4-1_NapalmBomb.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "傷害量：[462%]\n霸體破壞量：[1882%]\n減益效果：燒傷（每秒減少 [1%] HP）\n靈魂值消耗量：[3]\n冷卻時間：[20秒]",
           "RequiredLevel": 21,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "傷害量：[486%]\n霸體破壞量：[1976%]\n減益效果：燒傷（每秒減少 [1%] HP）\n靈魂值消耗量：[3]\n冷卻時間：[20秒]",
           "RequiredLevel": 26,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "傷害量：[543%]\n霸體破壞量：[2211%]\n減益效果：燒傷（每秒減少 [1%] HP）\n靈魂值消耗量：[3]\n冷卻時間：[20秒]",
           "RequiredLevel": 31,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "傷害量：[600%]\n霸體破壞量：[2447%]\n減益效果：燒傷（每秒減少 [1%] HP）\n靈魂值消耗量：[3]\n冷卻時間：[20秒]",
           "RequiredLevel": 36,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "傷害量：[693%]\n霸體破壞量：[2823%]\n減益效果：燒傷（每秒減少 [1%] HP）\n靈魂值消耗量：[3]\n冷卻時間：[20秒]",
           "RequiredLevel": 41,
           "RequiredSP": 3
         }
       }
     },
     "Sprinter": {
-      "Name": "Sprinter",
+      "Name": "加速彈",
       "ID": 19,
-      "Icon": "../assets/skillicons/GunJazz/Icon_GJazz_Skill_Splinter.png",
+      "Icon": "../assets/SkillIcons/B_Erwin/B_4-2_Sprinter.png",
       "Levels": {
         "0": {
-          "Description": "Fire a bullet in the air that temporarily increases movement speed of all party members.",
+          "Description": "朝空中發射能在一定時間內提高自己和一定範圍內隊友移動速度的子彈。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_Sprinter.{{auto}}"
+            "Video": "../assets/SkillPreviews/B_Erwin/B_4-2_Sprinter.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "增益效果：移動速度 [+10%]\n增益持續時間：[20秒]\n靈魂值消耗量：[3]\n冷卻時間：[45秒]",
           "RequiredLevel": 28,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "增益效果：移動速度 [+11%]\n增益持續時間：[20秒]\n靈魂值消耗量：[3]\n冷卻時間：[45秒]",
           "RequiredLevel": 32,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "增益效果：移動速度 [+13%]\n增益持續時間：[20秒]\n靈魂值消耗量：[3]\n冷卻時間：[45秒]",
           "RequiredLevel": 36,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "增益效果：移動速度[+16%]\n增益持續時間：[20秒]\n靈魂值消耗量：[3]\n冷卻時間：[45秒]",
           "RequiredLevel": 40,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "增益效果：移動速度[+20%]\n增益持續時間：[20秒]\n靈魂值消耗量：[3]\n冷卻時間：[45秒]",
           "RequiredLevel": 44,
           "RequiredSP": 3
         }
@@ -743,113 +744,113 @@
     },
     "Sprinter-SGRecovery": {
       "Visible": false,
-      "Name": "SG Recovery",
+      "Name": "靈魂值恢復",
       "ID": 20,
-      "Icon": "../assets/skillicons/GunJazz/Icon_GJazz_Skill_Splinter_A.png",
+      "Icon": "../assets/SkillIcons/B_Erwin/B_4-2_Sprinter_A.png",
       "Levels": {
         "0": {
-          "Description": "Gives a buff that recovers allies SG.",
+          "Description": "額外獲得恢復靈魂值的增益，對一定範圍內的隊友也有效。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_Sprinter_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/B_Erwin/B_4-2_Sprinter_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "增益效果：每秒恢復靈魂值 [2%]\n增益持續時間：[20秒]",
           "RequiredLevel": 44,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "增益效果：每秒恢復靈魂值 [3%]\n增益持續時間：[20秒]",
           "RequiredLevel": 49,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "增益效果：每秒恢復靈魂值 [5%]\n增益持續時間：[20秒]",
           "RequiredLevel": 54,
           "RequiredSP": 2
         }
       }
     },
     "HideAndSeek": {
-      "Name": "Hide & Seek",
+      "Name": "光子護盾",
       "ID": 21,
-      "Icon": "../assets/skillicons/GunJazz/Icon_GJazz_Skill_Hide.png",
+      "Icon": "../assets/SkillIcons/B_Erwin/B_4-3_Hide.png",
       "Levels": {
         "0": {
-          "Description": "Charge up a barrier, while charging you are invincible. After the barrier actives, you will gain Super Armor and all damage will be avoided.",
+          "Description": "瞬間產生護盾衝擊身旁敵人，保護自己不受傷害。\n充能後護盾轉為霸體狀態，且受到的所有傷害將按攻擊失敗（MISS）處理。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_HideAndSeek.{{auto}}"
+            "Video": "../assets/SkillPreviews/B_Erwin/B_4-3_Hide.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "傷害量：[100%]\n霸體破壞量：[100%]\n增益效果：無敵 [1秒]\n護盾效果：[霸體] + [完全回避]\n護盾持續時間：[10秒]\n靈魂值消耗量：[3]\n冷卻時間：[35秒]",
           "RequiredLevel": 34,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "傷害量：[100%]\n霸體破壞量：[100%]\n增益效果：無敵 [1秒]\n護盾效果：[霸體] + [完全回避]\n護盾持續時間：[11秒]\n靈魂值消耗量：[3]\n冷卻時間：[35秒]",
           "RequiredLevel": 39,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "傷害量：[100%]\n霸體破壞量：[100%]\n增益效果：無敵 [1秒]\n護盾效果：[霸體] + [完全回避]\n護盾持續時間：[13秒]\n靈魂值消耗量：[3]\n冷卻時間：[35秒]",
           "RequiredLevel": 44,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "傷害量：[100%]\n霸體破壞量：[100%]\n增益效果：無敵 [1秒]\n護盾效果：[霸體] + [完全回避]\n護盾持續時間：[15秒]\n靈魂值消耗量：[3]\n冷卻時間：[35秒]",
           "RequiredLevel": 49,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "傷害量：[100%]\n霸體破壞量：[100%]\n增益效果：無敵 [1秒]\n護盾效果：[霸體] + [完全回避]\n護盾持續時間：[20秒]\n靈魂值消耗量：[3]\n冷卻時間：[35秒]",
           "RequiredLevel": 54,
           "RequiredSP": 3
         }
       }
     },
     "SoulLauncher": {
-      "Name": "Soul Launcher",
+      "Name": "靈魂壁壘",
       "ID": 22,
-      "Icon": "../assets/skillicons/GunJazz/Icon_GJazz_Skill_SoulLauncher.png",
+      "Icon": "../assets/SkillIcons/B_Erwin/B_5-1_SoulLauncher.png",
       "Levels": {
         "0": {
-          "Description": "By turning guns into grenade launchers, fire a barrage of artillery up to 10 meters. Hit enemies will be pushed back.",
+          "Description": "將武器變為終極榴彈發射器，向前方最遠10米的距離進行威力驚人的轟擊。\n被攻擊命中的敵人會被擊退。\n攻擊中可以滑鼠右鍵取消。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_SoulLauncher.{{auto}}"
+            "Video": "../assets/SkillPreviews/B_Erwin/B_5-1_SoulLauncher.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "傷害量：攻擊1回 [142%]\n霸體破壞量：攻擊1回 [125%]\n靈魂值消耗量：[4]\n冷卻時間：[45秒]",
           "RequiredLevel": 42,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "傷害量：攻擊1回 [149%]\n霸體破壞量：攻擊1回 [132%]\n靈魂值消耗量：[4]\n冷卻時間：[45秒]",
           "RequiredLevel": 45,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "傷害量：攻擊1回 [166%]\n霸體破壞量：攻擊1回 [147%]\n靈魂值消耗量：[4]\n冷卻時間：[45秒]",
           "RequiredLevel": 48,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "傷害量：攻擊1回 [184%]\n霸體破壞量：攻擊1回 [163%]\n靈魂值消耗量：[4]\n冷卻時間：[45秒]",
           "RequiredLevel": 51,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "傷害量：攻擊1回 [212%]\n霸體破壞量：攻擊1回 [188%]\n靈魂值消耗量：[4]\n冷卻時間：[45秒]",
           "RequiredLevel": 54,
           "RequiredSP": 3
         }
@@ -857,35 +858,35 @@
     },
     "CombatMaster-WesternFinish": {
       "Visible": false,
-      "Name": "Western Finish",
+      "Name": "零式射擊",
       "ID": 24,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/skillicons/GunJazz/Icon_Gjazz_Skill_CombatMaster_A.png",
+      "Icon": "../assets/SkillIcons/B_Erwin/B_ADV_3-1_CombatMaster_A.png",
       "Levels": {
         "0": {
-          "Description": "After attacking with combat master, performs an additional powerful attack.",
+          "Description": "在發動最後攻擊之前點擊滑鼠右鍵，可再進行一次強大的近距離零式射擊。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_CombatMaster_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/B_Erwin/B_ADV_3-1_CombatMaster_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 619%\nSA Damage: 339%",
+          "Effect": "傷害量：[1092%]\n霸體破壞量：[597%]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: 692%\nSA Damage: 378%",
+          "Effect": "傷害量：[1220%]\n霸體破壞量：[666%]",
           "RequiredLevel": 58,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: 765%\nSA Damage: 419%",
+          "Effect": "傷害量：[1350%]\n霸體破壞量：[738%]",
           "RequiredLevel": 60,
           "RequiredSP": 2
         }
@@ -893,191 +894,219 @@
     },
     "ElectricShot-DropCapsule": {
       "Visible": false,
-      "Name": "Drop Capsule",
+      "Name": "機械膠囊",
       "ID": 25,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/skillicons/GunJazz/Icon_Gjazz_Skill_ElectricShot_A.png",
+      "Icon": "../assets/SkillIcons/B_Erwin/B_ADV_3-3_ElectricShot_A.png",
       "Levels": {
         "0": {
-          "Description": "Fire a capsule, and summons a robot from the bombing site.",
+          "Description": "在脈衝炸彈的引爆地點設置機械膠囊，並從中召喚出機器人幫助攻擊。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_ElectricShot_A_01.{{auto}}"
+            "Video": "../assets/SkillPreviews/B_Erwin/B_ADV_3-3_ElectricShot_A_01.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 1215%\nSA Damage: 303%\n[Final Attack]\nDamage and SA Damage increase to 200%",
+          "Effect": "傷害量：[1215%]\n霸體破壞量：[303%]\n\n[召喚物資訊]\n召喚物：無人機\n傷害量及霸體破壞量：攻擊1回 [100%]\n自爆攻擊 傷害量及霸體破壞量：[200%]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: 1275%\nSA Damage: 318%\n[Final Attack]\nDamage and SA Damage increase to 300%",
+          "Effect": "傷害量：[1275%]\n霸體破壞量：[318%]\n\n[召喚物資訊]\n召喚物：偵察機\n傷害量及霸體破壞量：攻擊1回 [100%]\n自爆攻擊 傷害量及霸體破壞量：[300%]",
           "RequiredLevel": 59,
           "RequiredSP": 1,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_ElectricShot_A_02.{{auto}}"
+            "Video": "../assets/SkillPreviews/B_Erwin/B_ADV_3-3_ElectricShot_A_02.{{auto}}"
           }
         },
         "3": {
-          "Effect": "Damage: 1426%\nSA Damage: 355%\n[Final Attack]\nDamage and SA Damage increase to 500%",
+          "Effect": "傷害量：[1426%]\n霸體破壞量：[355%]\n\n[召喚物資訊]\n召喚物：機械浣熊\n傷害量及霸體破壞量：攻擊1回[100%]\n自爆攻擊 傷害量及霸體破壞量：[500%]",
           "RequiredLevel": 60,
           "RequiredSP": 2,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_ElectricShot_A_03.{{auto}}"
+            "Video": "../assets/SkillPreviews/B_Erwin/B_ADV_3-3_ElectricShot_A_03.{{auto}}"
           }
         }
       }
     },
     "BlazeHover": {
-      "Name": "Blaze Hover",
+      "Name": "閃耀飛翔",
       "ID": 26,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/skillicons/GunJazz/Icon_Gjazz_Skill_BlazeHover.png",
+      "Icon": "../assets/SkillIcons/B_Erwin/B_ADV_5-2_BlazeHover.png",
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "Summons a hoverboard in the air, and bombards while moving forward.",
+          "Description": "在空中狀態下，使用懸浮板邊向前移動邊進行散射攻擊。\n對於浮空狀態下的敵人會給予額外傷害。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_BlazeHover.{{auto}}"
+            "Video": "../assets/SkillPreviews/B_Erwin/B_ADV_5-2_BlazeHover.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 220%\nSA Damage: 112%\nSG Cost: 3\nCooldown: 25 seconds",
+          "Effect": "傷害量：攻擊1回 [220%]\n霸體破壞量：攻擊1回 [112%]\n靈魂值消耗量：[3]\n冷卻時間：[25秒]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: 231%\nSA Damage: 118%\nSG Cost: 3\nCooldown: 25 seconds",
+          "Effect": "傷害量：攻擊1回 [231%]\n霸體破壞量：攻擊1回 [118%]\n靈魂值消耗量：[3]\n冷卻時間：[25秒]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: 258%\nSA Damage: 132%\nSG Cost: 3\nCooldown: 25 seconds",
+          "Effect": "傷害量：攻擊1回 [258%]\n霸體破壞量：攻擊1回 [132%]\n靈魂值消耗量：[3]\n冷卻時間：[25秒]",
           "RequiredLevel": 58,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage: 286%\nSA Damage: 145%\nSG Cost: 3\nCooldown: 25 seconds",
+          "Effect": "傷害量：攻擊1回 [286%]\n霸體破壞量：攻擊1回 [145%]\n靈魂值消耗量：[3]\n冷卻時間：[25秒]",
           "RequiredLevel": 59,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage: 330%\nSA Damage: 168%\nSG Cost: 3\nCooldown: 25 seconds",
+          "Effect": "傷害量：攻擊1回 [330%]\n霸體破壞量：攻擊1回 [168%]\n靈魂值消耗量：[3]\n冷卻時間：[25秒]",
           "RequiredLevel": 60,
           "RequiredSP": 3
         }
       }
     },
     "MissonCall": {
-      "Name": "Misson Call",
+      "Name": "精準射擊",
       "ID": 27,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/skillicons/GunJazz/Icon_Gjazz_Skill_MissionCall.png",
+      "Icon": "../assets/SkillIcons/B_Erwin/B_ADV_5-3_MissionCall.png",
       "Levels": {
         "0": {
-          "Description": "Attack the specified area with a laser.",
+          "Description": "用滑鼠指定區域目標，以雷射光束進行精準射擊。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_MissionCall.{{auto}}"
+            "Video": "../assets/SkillPreviews/B_Erwin/B_ADV_5-3_MissionCall.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 944%\nSA Damage: 1065%\nSG Cost: 4\nCooldown: 30 seconds",
+          "Effect": "傷害量：攻擊1回 [1416%]\n霸體破壞量：攻擊1回 [1598%]\n靈魂值消耗量：[4]\n冷卻時間：[30秒]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: 991%\nSA Damage: 1118%\nSG Cost: 4\nCooldown: 30 seconds",
+          "Effect": "傷害量：攻擊1回 [1487%]\n霸體破壞量：攻擊1回 [1676%]\n靈魂值消耗量：[4]\n冷卻時間：[30秒]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: 1109%\nSA Damage: 1251%\nSG Cost: 4\nCooldown: 30 seconds",
+          "Effect": "傷害量：攻擊1回 [1663%]\n霸體破壞量：攻擊1回 [1877%]\n靈魂值消耗量：[4]\n冷卻時間：[30秒]",
           "RequiredLevel": 58,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage: 1226%\nSA Damage: 1383%\nSG Cost: 4\nCooldown: 30 seconds",
+          "Effect": "傷害量：攻擊1回 [1839%]\n霸體破壞量：攻擊1回 [2074%]\n靈魂值消耗量：[4]\n冷卻時間：[30秒]",
           "RequiredLevel": 59,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage: 1415%\nSA Damage: 1596%\nSG Cost: 4\nCooldown: 30 seconds",
+          "Effect": "傷害量：攻擊1回 [2123%]\n霸體破壞量：攻擊1回 [2394%]\n靈魂值消耗量：[4]\n冷卻時間：[30秒]",
           "RequiredLevel": 60,
           "RequiredSP": 3
         }
       }
     },
-    "BasicAttackMastery": {
-      "Passive": true,
-      "Name": "Basic Attack Mastery",
-      "ID": 1002,
-      "DefaultLevel": 1,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_DefaultAttack.png",
+    "SwallowBullet": {
+      "Name": "燕返彈",
+      "ID": 28,
+      "Icon": "../assets/SkillIcons/B_Erwin/B_6-1_Deadline.png",
       "Levels": {
         "0": {
-          "Description": "Attack with your weapon.\nAs this skill's level increases, you will be able to perform new combo attacks.\nYou will regain SG as you attack.\nSG gain will vary by enemy type",
+          "Description": "蓄能後朝前方射出特殊子彈，在固定區域內多次彈射並貫穿敵人。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/B_Erwin/B_6-1_Deadline.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[基本攻擊]\n傷害量：攻擊1回 [155%]\n霸體破壞量：攻擊1回 [169%]\n[終結攻擊]\n傷害量：[389%]\n霸體破壞量：[424%]\n\n靈魂值消耗量：[4]\n冷卻時間：[45秒]",
+          "RequiredLevel": 62,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[基本攻擊]\n傷害量：攻擊1回 [171%]\n霸體破壞量：攻擊1回 [186%]\n[終結攻擊]\n傷害量：[428%]\n霸體破壞量：[466%]\n\n靈魂值消耗量：[4]\n冷卻時間：[45秒]",
+          "RequiredLevel": 65,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[基本攻擊]\n傷害量：攻擊1回 [192%]\n霸體破壞量：攻擊1回 [209%]\n[終結攻擊]\n傷害量：[480%]\n霸體破壞量：[522%]\n\n靈魂值消耗量：[4]\n冷卻時間：[45秒]",
+          "RequiredLevel": 68,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "BasicAttackMastery": {
+      "Passive": true,
+      "Name": "基本攻擊精通",
+      "ID": 1002,
+      "DefaultLevel": 1,
+      "Icon": "../assets/SkillIcons/Common/DefaultAttack.png",
+      "Levels": {
+        "0": {
+          "Description": "用手槍射擊，攻擊敵人。攻擊時可以獲得靈魂值。\n連續攻擊次數和怪物等級越高，靈魂值獲得量越多。\n技能等級越高，可使用的分支攻擊越多。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "SG Gain +20%.\nUnlock alternative attack “A”",
+          "Effect": "[地面]\n基本攻擊：滑鼠：左鍵x5\n\n[空中]\n滑鼠：跳躍後，左鍵x2",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Attack_01.{{auto}}"
+            "Video": "../assets/SkillPreviews/B_Erwin/B_DefaultAttack_01.{{auto}}"
           }
         },
         "2": {
-          "Effect": "SG Gain +70%.\nUnlock additional basic attack",
+          "Effect": "靈魂值獲得量：[+20%]\n可使用分支攻擊A\n[地面]\n[1]基本攻擊：滑鼠：左鍵x5\n[2]分支攻擊A：滑鼠：左鍵x2-右鍵x2\n\n[空中]\n滑鼠：跳躍後，左鍵x2",
           "RequiredLevel": 5,
           "RequiredSP": 1,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Attack_02.{{auto}}"
+            "Video": "../assets/SkillPreviews/B_Erwin/B_DefaultAttack_02.{{auto}}"
           }
         },
         "3": {
-          "Effect": "SG Gain +120%\nUnlock alternative attack “B”.\nUnlock alternative aerial attack",
+          "Effect": "靈魂值獲得量：[+70%]\n可使用基本攻擊的追加攻擊\n[地面]\n[1]基本攻擊：滑鼠：左鍵x6\n[2]分支攻擊A：滑鼠：左鍵x2-右鍵x2\n\n[空中]\n滑鼠：跳躍後，左鍵x2",
           "RequiredLevel": 10,
           "RequiredSP": 2,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Attack_03.{{auto}}"
+            "Video": "../assets/SkillPreviews/B_Erwin/B_DefaultAttack_03.{{auto}}"
           }
         },
         "4": {
-          "Effect": "SG Gain +200%\nUnlock alternative attack “C”",
+          "Effect": "靈魂值獲得量：[+120%]\n可使用空中攻擊的追加攻擊\n[地面]\n[1]基本攻擊：滑鼠：左鍵x6\n[2]分支攻擊A：滑鼠：左鍵x2-右鍵x2\n\n[空中]\n滑鼠：跳躍後，左鍵x3",
           "RequiredLevel": 15,
           "RequiredSP": 2,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Attack_04.{{auto}}"
+            "Video": "../assets/SkillPreviews/B_Erwin/B_DefaultAttack_04.{{auto}}"
           }
         },
         "5": {
-          "Effect": "",
+          "Effect": "靈魂值獲得量：[+200%]\n可使用分支攻擊B\n[地面]\n[1]基本攻擊：滑鼠：左鍵x6\n[2]分支攻擊A：滑鼠：左鍵x2-右鍵x2\n[3]分支攻擊B：滑鼠：左鍵x5-右鍵\n\n[空中]\n滑鼠：跳躍後，左鍵x3",
           "RequiredLevel": 20,
           "RequiredSP": 2,
           "Preview": {
-            "Video": {
-              "vp9": "../assets/skillpreviews/erwin/B_Attack_05.webm",
-              "h264": "../assets/skillpreviews/erwin/B_Attack_05.mp4"
-            }
+            "Video": "../assets/SkillPreviews/B_Erwin/B_DefaultAttack_05.{{auto}}"
           }
         }
       }
@@ -1086,30 +1115,30 @@
       "Passive": true,
       "DefaultLevel": 1,
       "ID": 1001,
-      "Name": "Special Ability Mastery",
-      "Icon": "../assets/skillicons/GunJazz/Icon_GJazz_Skill_OwnAbility.png",
+      "Name": "特殊能力精通",
+      "Icon": "../assets/SkillIcons/B_Erwin/B_SpecialAttack_OwnAbility.png",
       "Levels": {
         "0": {
-          "Description": "[Ground]\nThrow a slowing trap forward.\n[Air]\nShoot an electric wave at the ground to inflict paralysis. Two mines can be placed. Gain SG on hit. SG gain varies by monster-type.",
+          "Description": "向前方地面擲出並設置具有減速效果的陷阱，最多可同時設置 2 個。\n在空中使用時，向指定方向發射電磁彈，使敵人麻痺。\n攻擊時可以獲得靈魂值。\n怪物等級越高，靈魂值獲得量越多。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_S_Attack_N.{{auto}}"
+            "Video": "../assets/SkillPreviews/B_Erwin/B_SpecialAttack_OwnAbility.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Ground]\nDamage: 172%\nSA Damage: 76%\nDebuff effect: Movement speed -60% in 5s\nCooldown: 5s\n[Air]\nDamage: 274%\nSA Damage: 122%\nDebuff effect: Paralysis in 3s\nCooldown: 5s",
+          "Effect": "[地面]\n傷害量：[172%]\n霸體破壞量：[76%]\n減益效果：移動速度降低 [60%]\n減益持續時間：[5秒]\n\n[空中]\n傷害量：[274%]\n霸體破壞量：[122%]\n減益效果：麻痺 [3秒]\n\n[通用]\n冷卻時間：[5秒]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "[Ground]\nDamage: 181%\nSA Damage: 80%\nDebuff effect: Movement speed -60% in 5s\nCooldown: 5s\nSG Gain: +20%\n[Air]\nDamage: 287%\nSA Damage: 128%\nDebuff effect: Paralysis in 3s\nCooldown: 5s\nSG Gain: +20%",
+          "Effect": "[地面]\n傷害量：[181%]\n霸體破壞量：[80%]\n減益效果：移動速度降低 [60%]\n減益持續時間：[5秒]\n\n[空中]\n傷害量：[287%]\n霸體破壞量：[128%]\n減益效果：麻痺 [3秒]\n\n[通用]\n冷卻時間：[5秒]\n靈魂值獲得量：[+20%]",
           "RequiredLevel": 15,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[Ground]\nDamage: 202%\nSA Damage: 90%\nDebuff effect: Movement speed -60% in 5s\nCooldown: 5s\nSG Gain: +20%\n[Air]\nDamage: 321%\nSA Damage: 143%\nDebuff effect: Paralysis in 3s\nCooldown: 5s\nSG Gain: +20%",
+          "Effect": "[地面]\n傷害量：[202%]\n霸體破壞量：[90%]\n減益效果：移動速度降低 [60%]\n減益持續時間：[5秒]\n\n[空中]\n傷害量：[321%]\n霸體破壞量：[143%]\n減益效果：麻痺 [3秒]\n\n[通用]\n冷卻時間：[5秒]\n靈魂值獲得量：[+70%]",
           "RequiredLevel": 30,
           "RequiredSP": 2
         }
@@ -1117,22 +1146,22 @@
     },
     "EmergencyDodge": {
       "Passive": true,
-      "Name": "Emergency Dodge",
+      "Name": "緊急迴避",
       "ID": 1004,
       "DefaultLevel": 1,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_Evasion.png",
+      "Icon": "../assets/SkillIcons/Common/EmergencyDodge.png",
       "Levels": {
         "0": {
-          "Description": "Swiftly dodge in a direction. Negate damage during an emergency dodge.",
+          "Description": "向指定的方向快速迴避。\n在緊急迴避的狀態下不會受到任何攻擊。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Evade_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/B_Erwin/B_EmergencyDodge.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Stamina Cost: 20",
+          "Effect": "耐力消耗量：[20]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         }
@@ -1140,32 +1169,32 @@
     },
     "RisingRoll": {
       "Passive": true,
-      "Name": "Rising Roll",
+      "Name": "翻滾",
       "ID": 1003,
       "DefaultLevel": 1,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_Welter.png",
+      "Icon": "../assets/SkillIcons/Common/RisingRoll.png",
       "Levels": {
         "0": {
-          "Description": "When downed, get up by rolling in a direction. During the roll, damage is negated",
+          "Description": "受到攻擊而倒地時，朝指定的方向快速翻滾後起身。\n翻滾時不會受到任何傷害。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Roll_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/B_Erwin/B_RisingRoll.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Stamina Cost: 25",
+          "Effect": "耐力消耗量：[25]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "Stamina Cost: 15",
+          "Effect": "耐力消耗量：[15]",
           "RequiredLevel": 17,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina Cost: 15\nFaster Rolling Speed",
+          "Effect": "耐力消耗量：[15]\n翻滾的更快",
           "RequiredLevel": 34,
           "RequiredSP": 2
         }
@@ -1173,18 +1202,18 @@
     },
     "Dash": {
       "Passive": true,
-      "Name": "Dash",
+      "Name": "衝刺",
       "DefaultLevel": 1,
       "ID": 1006,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_Dash.png",
+      "Icon": "../assets/SkillIcons/Common/Dash.png",
       "Levels": {
         "0": {
-          "Description": "Swiftly dash forward",
+          "Description": "向前快速奔馳。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Run_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/B_Erwin/B_Dash.{{auto}}"
           }
         },
         "1": {
@@ -1193,7 +1222,7 @@
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "Faster Dashing Speed",
+          "Effect": "衝刺速度加快",
           "RequiredLevel": 25,
           "RequiredSP": 2
         }
@@ -1201,32 +1230,32 @@
     },
     "RisingAttack": {
       "Passive": true,
-      "Name": "Rising Attack",
+      "Name": "起身回擊",
       "ID": 1005,
       "DefaultLevel": 1,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_RiseAttack.png",
+      "Icon": "../assets/SkillIcons/Common/RiseAttack.png",
       "Levels": {
         "0": {
-          "Description": "While downed, get up while damaging surrounding enemies",
+          "Description": "受到攻擊而倒地時，瞬間起身並攻擊周遭敵人。\n使用後在一定時間內處於無敵狀態。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Rise_Attack.{{auto}}"
+            "Video": "../assets/SkillPreviews/B_Erwin/B_RiseAttack.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Stamina Cost: 30\nInvincibility Duration: 1 seconds",
+          "Effect": "回擊傷害量：[100%]\n耐力消耗量：[30]\n無敵時間：[3秒]\n冷卻時間：[15秒]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "Stamina Cost: 20\nInvincibility Duration: 1 seconds",
+          "Effect": "回擊傷害量：[100%]\n耐力消耗量：[20]\n無敵時間：[3秒]\n冷卻時間：[15秒]",
           "RequiredLevel": 18,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina Cost: 20\nInvincibility Duration: 3 seconds",
+          "Effect": "回擊傷害量：[100%]\n耐力消耗量：[20]\n無敵時間：[5秒]\n冷卻時間：[15秒]",
           "RequiredLevel": 36,
           "RequiredSP": 2
         }
@@ -1234,22 +1263,22 @@
     },
     "DashAttack": {
       "Passive": true,
-      "Name": "Dash Attack",
+      "Name": "衝擊",
       "DefaultLevel": 1,
       "ID": 1008,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_DashAttack.png",
+      "Icon": "../assets/SkillIcons/Common/DashAttack.png",
       "Levels": {
         "0": {
-          "Description": "Perform an attack while dashing. Different character does different attacks. ",
+          "Description": "衝刺時，在空中旋轉身體，施展踢腿攻擊，使敵人浮空。\n攻擊時可以獲得靈魂值。\n連續攻擊次數和怪物等級越高，靈魂值獲得量越多。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_N_Attack_Dash.{{auto}}"
+            "Video": "../assets/SkillPreviews/B_Erwin/B_DashAttack.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 115%\nSA Damage: 38%",
+          "Effect": "傷害量：[102%]\n霸體破壞量：[54%]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         }
@@ -1257,31 +1286,31 @@
     },
     "SpecialDodge": {
       "Passive": true,
-      "Name": "Special Dodge",
+      "Name": "受身迴避",
       "ID": 1007,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_EvasionAttack.png",
+      "Icon": "../assets/SkillIcons/Common/SpecialDodge.png",
       "Levels": {
         "0": {
-          "Description": "Swiftly dodge as an enemy attacks you. Negate Damage during the special dodge",
+          "Description": "受到攻撃且無法控制時，朝指定方向進行受身迴避。\n在受身迴避的狀態下不會受到傷害。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Special_Evade_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/B_Erwin/B_SpecialDodge.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Stamina Cost: 40\nCooldown: 60 seconds",
+          "Effect": "耐力消耗量：[40]\n冷卻時間：[30秒]",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Stamina Cost: 40\nCooldown: 50 seconds",
+          "Effect": "耐力消耗量：[40]\n冷卻時間：[25秒]",
           "RequiredLevel": 21,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina Cost: 40\nCooldown: 40 seconds",
+          "Effect": "耐力消耗量：[40]\n冷卻時間：[20秒]",
           "RequiredLevel": 38,
           "RequiredSP": 2
         }
@@ -1289,21 +1318,21 @@
     },
     "SpecialDashAttack": {
       "Passive": true,
-      "Name": "Special Dash Attack",
+      "Name": "特殊衝擊",
       "ID": 1010,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_DashSmashAttack.png",
+      "Icon": "../assets/SkillIcons/Common/SpecialDashAttack.png",
       "Levels": {
         "0": {
-          "Description": "Performs a special attack while dashing. Different characters do different special attacks",
+          "Description": "衝刺時，向前滑步靠近敵人後，進行近距離射擊。\n攻擊時可以獲得靈魂值。\n連續攻擊次數和怪物等級越高，靈魂值獲得量越多。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_S_Attack_Dash.{{auto}}"
+            "Video": "../assets/SkillPreviews/B_Erwin/B_SpecialDashAttack.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 206%\nSA Damage: 92%\nCooldown: 5 seconds",
+          "Effect": "傷害量：[271%]\n霸體破壞量：[121%]",
           "RequiredLevel": 13,
           "RequiredSP": 1
         }
@@ -1311,38 +1340,38 @@
     },
     "StaminaMastery": {
       "Passive": true,
-      "Name": "Stamina Mastery",
+      "Name": "耐力精通",
       "ID": 1009,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_StaminaMastery.png",
+      "Icon": "../assets/SkillIcons/Common/StaminaMastery.png",
       "Levels": {
         "0": {
-          "Description": "Increases stamina recovery rate",
+          "Description": "耐力恢復量永久增加。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "Stamina Recovery Rate: +10%",
+          "Effect": "耐力恢復量：[+10%]",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Stamina Recovery Rate: +20%",
+          "Effect": "耐力恢復量：[+20%]",
           "RequiredLevel": 15,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina Recovery Rate: +30%",
+          "Effect": "耐力恢復量：[+30%]",
           "RequiredLevel": 20,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Stamina Recovery Rate: +40%",
+          "Effect": "耐力恢復量：[+40%]",
           "RequiredLevel": 25,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Stamina Recovery Rate: +50%",
+          "Effect": "耐力恢復量：[+50%]",
           "RequiredLevel": 30,
           "RequiredSP": 3
         }
@@ -1350,32 +1379,32 @@
     },
     "WinningBreak": {
       "Passive": true,
-      "Name": "Winning Break",
+      "Name": "爭取的幸運",
       "ID": 1013,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/skillicons/GunJazz/Icon_Gjazz_Skill_SGPassive2.png",
+      "Icon": "../assets/SkillIcons/B_Erwin/B_ADV_Passive_SGPassive2.png",
       "Levels": {
         "0": {
-          "Description": "When a skill that consumes 3 souls (beads) is used, attack power and defense penetration increase for a definite period of time.",
+          "Description": "使用技能後可以疊加1次計數。在5秒內使用其他技能並疊加3次時，會於10秒內增加攻擊力、敵人防禦力貫穿。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "Attack Power: +200\nDefense Penetration: +4%",
+          "Effect": "[效果發動時]\n攻擊力：[+200]\n敵人防禦力貫穿：[+4%]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Attack Power: +400\nDefense Penetration: +7%",
+          "Effect": "[效果發動時]\n攻擊力：[+400]\n敵人防禦力貫穿：[+7%]",
           "RequiredLevel": 58,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Attack Power: +600\nDefense Penetration: +10%",
+          "Effect": "[效果發動時]\n攻擊力：[+600]\n敵人防禦力貫穿：[+10%]",
           "RequiredLevel": 59,
           "RequiredSP": 2
         }
@@ -1383,32 +1412,32 @@
     },
     "UnexpectedLuck": {
       "Passive": true,
-      "Name": "Unexpected Luck",
+      "Name": "意外好運",
       "ID": 1011,
       "RowSpan": {
         "0": 2,
         "1": 1
       },
-      "Icon": "../assets/skillicons/GunJazz/Icon_GJazz_Skill_SGPassive.png",
+      "Icon": "../assets/SkillIcons/B_Erwin/B_Passive_SGPassive.png",
       "Levels": {
         "0": {
-          "Description": "Increases your evasion",
+          "Description": "回避度永久增加。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "Evasion Increase by 100",
+          "Effect": "回避度：[+100]",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Evasion Increase by 200",
+          "Effect": "回避度：[+200]",
           "RequiredLevel": 20,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Evasion Increase by 300",
+          "Effect": "回避度：[+300]",
           "RequiredLevel": 30,
           "RequiredSP": 2
         }
@@ -1416,21 +1445,51 @@
     },
     "BulletofPleasure": {
       "Passive": true,
+      "Name": "快樂之彈",
       "DefaultLevel": 1,
       "ID": 1012,
-      "RowSpan": 2,
-      "Name": "Bullet of Pleasure",
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_SoulMastery.png",
+      "RowSpan": {
+        "0": 2,
+        "1": 1
+      },
+      "Icon": "../assets/SkillIcons/Common/SoulMastery.png",
       "Levels": {
         "0": {
-          "Description": "Gain SG when hitting an enemy. Passively gain SG in set intervals. Using a different skills within 5 seconds will grant 1 stack. Gain 3 SG upon reaching 3 stacks",
+          "Description": "基本攻擊成功時，恢復靈魂值。\n每隔一定時間自動恢復靈魂值。\n使用技能後可以疊加1次計數。在5秒內使用其他技能並疊加3次時，恢復2點靈魂值。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
           "Effect": "",
-          "RequiredLevel": 10,
+          "RequiredLevel": 1,
+          "RequiredSP": 0
+        }
+      }
+    },
+    "GeometryPlatoon": {
+      "Passive": true,
+      "Name": "不科學超電磁砲",
+      "DefaultLevel": 1,
+      "ID": 1099,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/B_Erwin/B_ADV_SV_EX_GeometryPlatoon.png",
+      "Levels": {
+        "0": {
+          "Description": "在覺醒狀態下可以使用的技能。\n施展後覺醒狀態會被解除。\n施放技能後可點擊滑鼠右鍵提前結束。\n召喚軍隊陣列，對前方進行猛烈的砲火攻擊，在朝空射擊後以落下的雷射砲結束一切。\n使用條件：處於覺醒狀態。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/B_Erwin/B_ADV_SV_EX_GeometryPlatoon.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "傷害量：[2500%]\n霸體破壞量：[2700%]",
+          "RequiredLevel": 57,
           "RequiredSP": 0
         }
       }

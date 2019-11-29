@@ -12,6 +12,14 @@ li.tablelike {
     margin: 7px;
 }
 
+li.tablelike-sv {
+    float: left;
+    display: block;
+    width: 300px;
+    height: 75px;
+    margin: 7px;
+}
+
 div.skillinfopanel {
     position: relative;
     border: 1px solid black;
