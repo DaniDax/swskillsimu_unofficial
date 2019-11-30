@@ -1,32 +1,32 @@
 {
-  "CharacterName": "金・希帕斯",
-  "CharacterWikiURL": "https://wiki.soulworkerhq.com/w/Jin_Seipatsu",
+  "CharacterName": "伊莉絲・悠娜",
+  "CharacterWikiURL": "https://wiki.soulworkerhq.com/w/Iris_Yuma",
   "MaxLevel": 68,
   "AvailableClass": {
     "0": {
       "Name": "一般",
-      "Cover": "../assets/images/bg_D_Jin.png"
+      "Cover": "../assets/images/bg_F_Iris.png"
     },
     "1": {
       "Name": "晉升",
-      "Cover": "../assets/images/bg_D_Jin_ADV.png",
+      "Cover": "../assets/images/bg_F_Iris_ADV.png",
       "RequiredLevel": 57
     }
   },
   "Skills": {
-    "GloryUpper": {
-      "Name": "Glory Upper",
+    "HammerCrash": {
+      "Name": "Hammer Crash",
       "DefaultLevel": 1,
       "ID": 1,
-      "Icon": "../assets/SkillIcons/D_Jin/J1-1.png",
+      "Icon": "../assets/SkillIcons/F_Iris/F_1-1_HammerCrash.png",
       "Levels": {
         "0": {
-          "Description": "Approach and knock-up enemies with an upper attack. Afterwards, launches additional consecutive attacks. When this skill is strengthen , it increases the performance by 1.5x",
+          "Description": "Swings the hammer to attack",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/D_Jin/B_Skill_GloryUpper.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/F_1-1_HammerCrash.{{auto}}"
           }
         },
         "1": {
@@ -56,23 +56,23 @@
         }
       },
       "Extensions": [
-        "GloryUpper-Knockdown",
-        "GloryUpper-Upper"
+        "HammerCrash-ContinuousExplosion",
+        "HammerCrash-FullSwing"
       ]
     },
-    "GloryUpper-Knockdown": {
+    "HammerCrash-ContinuousExplosion": {
       "Visible": false,
-      "Name": "Knockdown",
+      "Name": "Continuous Explosion",
       "ID": 2,
-      "Icon": "../assets/SkillIcons/D_Jin/J1-1A.png",
+      "Icon": "../assets/SkillIcons/F_Iris/F_1-1_HammerCrash_A.png",
       "Levels": {
         "0": {
-          "Description": "Activated after Glory Upper's additional attack. Follow up with a powerful blow on the enemy",
+          "Description": "Adds an additional explosion on the ground",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/D_Jin/B_Skill_GloryUpper_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/F_1-1_HammerCrash_A.{{auto}}"
           }
         },
         "1": {
@@ -92,19 +92,19 @@
         }
       }
     },
-    "GloryUpper-Upper": {
+    "HammerCrash-FullSwing": {
       "Visible": false,
-      "Name": "Upper",
+      "Name": "Full Swing",
       "ID": 3,
-      "Icon": "../assets/SkillIcons/D_Jin/J1-1B.png",
+      "Icon": "../assets/SkillIcons/F_Iris/F_1-1_HammerCrash_B.png",
       "Levels": {
         "0": {
-          "Description": "Activated after Glory Upper's additional attack. Attacks facing enemies with tremendous power",
+          "Description": "Launch an additional attack after the last attack",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/D_Jin/B_Skill_GloryUpper_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/F_1-1_HammerCrash_B.{{auto}}"
           }
         },
         "1": {
@@ -124,18 +124,64 @@
         }
       }
     },
-    "PerfectCombination": {
-      "Name": "Perfect Combination",
+    "CamelSpin": {
+      "Name": "Camel Spin",
       "DefaultLevel": 1,
       "ID": 4,
-      "Icon": "../assets/SkillIcons/D_Jin/J1-2.png",
+      "Icon": "../assets/SkillIcons/F_Iris/F_1-2_CamelSpin.png",
       "Levels": {
         "0": {
-          "Description": "Quickly rush and tackle the enemy. Afterwards, launches additional consecutive attacks",
+          "Description": "Take a short leap forward and then strike with a 360° rotation",
+          "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/D_Jin/B_Skill_PerfectCombination.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/F_1-2_CamelSpin.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        },
+        "2": {
+          "Effect": "",
+          "RequiredLevel": 6,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "",
+          "RequiredLevel": 11,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "",
+          "RequiredLevel": 16,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "",
+          "RequiredLevel": 21,
+          "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "CamelSpin-BladeWings"
+      ]
+    },
+    "AssaultDive": {
+      "Name": "Assault Dive",
+      "DefaultLevel": 1,
+      "ID": 5,
+      "Icon": "../assets/SkillIcons/F_Iris/F_1-3_AssaultDive.png",
+      "Levels": {
+        "0": {
+          "Description": "Quickly leap forward and push with your weapon, 2 additional rapid-fire explosion attacks",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/F_Iris/F_1-3_AssaultDive.{{auto}}"
           }
         },
         "1": {
@@ -165,63 +211,86 @@
         }
       },
       "Extensions": [
-        "PerfectCombination-RisingUpper"
+        "AssaultDive-Shatter",
+        "AssaultDive-Emission"
       ]
     },
-    "HammerKick": {
-      "Name": "Hammer Kick",
-      "DefaultLevel": 1,
-      "ID": 5,
-      "Icon": "../assets/SkillIcons/D_Jin/J1-3.png",
+    "AssaultDive-Shatter": {
+      "Visible": false,
+      "Name": "Shatter",
+      "ID": 6,
+      "Icon": "../assets/SkillIcons/F_Iris/F_1-3_AssaultDive_A.png",
       "Levels": {
         "0": {
-          "Description": " After jumping forwards, spin your body in the air and launch a kick. Attack enemies are knocked up. When this skill is strengthen increases the performance by 1.5x",
+          "Description": "Replaces the additional attack with an additional consecutive attack",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/D_Jin/B_Skill_HammerKick.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/F_1-3_AssaultDive_A.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
-          "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredLevel": 17,
+          "RequiredSP": 1
         },
         "2": {
           "Effect": "",
-          "RequiredLevel": 6,
+          "RequiredLevel": 22,
           "RequiredSP": 1
         },
         "3": {
           "Effect": "",
-          "RequiredLevel": 11,
+          "RequiredLevel": 27,
           "RequiredSP": 2
-        },
-        "4": {
-          "Effect": "",
-          "RequiredLevel": 16,
-          "RequiredSP": 2
-        },
-        "5": {
-          "Effect": "",
-          "RequiredLevel": 21,
-          "RequiredSP": 3
         }
       }
     },
-    "CounterAttack": {
-      "Name": "Counter Attack",
-      "ID": 6,
-      "Icon": "../assets/SkillIcons/D_Jin/J1-4.png",
+    "AssaultDive-Emission": {
+      "Visible": false,
+      "Name": "Emission",
+      "ID": 7,
+      "Icon": "../assets/SkillIcons/F_Iris/F_1-3_AssaultDive_B.png",
       "Levels": {
         "0": {
-          "Description": "Can only counter short-ranged attacks, if it's successful, a part of the skill will be strengthened for 5秒]",
+          "Description": "Increases the range of the last attack",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/D_Jin/B_Skill_CounterAttack.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/F_1-3_AssaultDive_B.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "",
+          "RequiredLevel": 17,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "",
+          "RequiredLevel": 22,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "",
+          "RequiredLevel": 27,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "FireSomersault": {
+      "Name": "Fire Somersault",
+      "ID": 8,
+      "Icon": "../assets/SkillIcons/F_Iris/F_2-1_FireSomersault.png",
+      "Levels": {
+        "0": {
+          "Description": "Fires towards the ground and does a backwards somersault, quickly retreating using the recoil from the rotation",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/F_Iris/F_2-1_FireSomersault.{{auto}}"
           }
         },
         "1": {
@@ -251,22 +320,22 @@
         }
       },
       "Extensions": [
-        "CounterAttack-KnockOut",
-        "CounterAttack-SADestruction"
+        "FireSomersault-HellFire"
       ]
     },
-    "CounterAttack-KnockOut": {
-      "Name": "暈眩",
-      "ID": 7,
+    "FireSomersault-HellFire": {
       "Visible": false,
-      "Icon": "../assets/SkillIcons/D_Jin/J1-4A.png",
+      "Name": "Hell Fire",
+      "ID": 9,
+      "Icon": "../assets/SkillIcons/F_Iris/F_2-1_FireSomersault_A.png",
       "Levels": {
         "0": {
-          "Description": "Stuns attacked enemies",
+          "Description": "Adds attack zones in front of the base one",
+          "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/D_Jin/B_Skill_CounterAttack_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/F_2-1_FireSomersault_A.{{auto}}"
           }
         },
         "1": {
@@ -286,46 +355,18 @@
         }
       }
     },
-    "CounterAttack-SADestruction": {
-      "Visible": false,
-      "Name": "SA Destruction",
-      "ID": 8,
-      "Icon": "../assets/SkillIcons/D_Jin/J1-4B.png",
+    "SpiralPierce": {
+      "Name": "Spiral Pierce",
+      "ID": 10,
+      "Icon": "../assets/SkillIcons/F_Iris/F_2-2_SpiralPierce.png",
       "Levels": {
         "0": {
-          "Description": "Increases SA Destruction",
+          "Description": "Projects a drill which continuously attacks at gun point. Shock waves are released at the end",
           "Effect": "",
-          "RequiredLevel": 0,
-          "RequiredSP": 0
-        },
-        "1": {
-          "Effect": "",
-          "RequiredLevel": 20,
-          "RequiredSP": 1
-        },
-        "2": {
-          "Effect": "",
-          "RequiredLevel": 25,
-          "RequiredSP": 1
-        },
-        "3": {
-          "Effect": "",
-          "RequiredLevel": 30,
-          "RequiredSP": 2
-        }
-      }
-    },
-    "SpiritSurge": {
-      "Name": "Spirit Surge",
-      "ID": 9,
-      "Icon": "../assets/SkillIcons/D_Jin/J1-5.png",
-      "Levels": {
-        "0": {
-          "Description": "After releasing tremendous power, intimidate enemies while protecting allies",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/D_Jin/B_Skill_SpiritSurge.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/F_2-2_SpiralPierce.{{auto}}"
           }
         },
         "1": {
@@ -355,22 +396,22 @@
         }
       },
       "Extensions": [
-        "SpiritSurge-Strengthen"
+        "SpiralPierce-Gale"
       ]
     },
-    "SpiritSurge-Strengthen": {
-      "Name": "Strengthen",
-      "ID": 10,
+    "SpiralPierce-Gale": {
       "Visible": false,
-      "Icon": "../assets/SkillIcons/D_Jin/J1-5A.png",
+      "Name": "Gale",
+      "ID": 11,
+      "Icon": "../assets/SkillIcons/F_Iris/F_2-2_SpiralPierce_A.png",
       "Levels": {
         "0": {
-          "Description": "Taunted enemies become excited causing their evasion to decrease",
+          "Description": "A whirlwind with a pulling effect is added",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/D_Jin/B_Skill_SpiritSurge_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/F_2-2_SpiralPierce_A.{{auto}}"
           }
         },
         "1": {
@@ -390,18 +431,18 @@
         }
       }
     },
-    "GravityTwister": {
-      "Name": "Gravity Twister",
-      "ID": 11,
-      "Icon": "../assets/SkillIcons/D_Jin/J1-6.png",
+    "PulseFire": {
+      "Name": "Pulse Fire",
+      "ID": 12,
+      "Icon": "../assets/SkillIcons/F_Iris/F_2-3_PulseFire.png",
       "Levels": {
         "0": {
-          "Description": "Unleash tremendous power before the enemy. When the skill is strengthen increases the pulling range performance by 1.5x",
+          "Description": "Take a firing stance and launch very powerful energy spheres for a fixed amount of time or attacks",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/D_Jin/B_Skill_GravityTwister.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/F_2-3_PulseFire.{{auto}}"
           }
         },
         "1": {
@@ -431,22 +472,23 @@
         }
       },
       "Extensions": [
-        "GravityTwister-ShockWaves"
+        "PulseFire-RapidShot",
+        "PulseFire-PowerShot"
       ]
     },
-    "GravityTwister-ShockWaves": {
+    "PulseFire-RapidShot": {
       "Visible": false,
-      "Name": "Shock Waves",
-      "ID": 12,
-      "Icon": "../assets/SkillIcons/D_Jin/J1-6A.png",
+      "Name": "Rapid Shot",
+      "ID": 13,
+      "Icon": "../assets/SkillIcons/F_Iris/F_2-3_PulseFire_A.png",
       "Levels": {
         "0": {
-          "Description": "Existing skill is changed into a multi-hit shock wave",
+          "Description": "Increases the number of shots",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/D_Jin/B_Skill_GravityTwister_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/F_2-3_PulseFire_A.{{auto}}"
           }
         },
         "1": {
@@ -466,18 +508,50 @@
         }
       }
     },
-    "SpiritExplosion": {
-      "Name": "Spirit Explosion",
-      "ID": 13,
-      "Icon": "../assets/SkillIcons/D_Jin/J1-7.png",
+    "PulseFire-PowerShot": {
+      "Visible": false,
+      "Name": "Power Shot",
+      "ID": 14,
+      "Icon": "../assets/SkillIcons/F_Iris/F_2-3_PulseFire_B.png",
       "Levels": {
         "0": {
-          "Description": "Store energy in the gauntlet, unleash a powerful blow forwards. While charging , it increases the performance by 1.4x, up to 2.0x.\nWhen the skill is strengthen , a 3-stage charge attack will be unleashed immediately without charging",
+          "Description": "Fire long-range bullets",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/D_Jin/B_Skill_SpiritExplosion.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/F_2-3_PulseFire_B.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "",
+          "RequiredLevel": 24,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "",
+          "RequiredLevel": 29,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "",
+          "RequiredLevel": 34,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "LimitBreak": {
+      "Name": "Limit Break",
+      "ID": 15,
+      "Icon": "../assets/SkillIcons/F_Iris/F_3-1_LimitBrake.png",
+      "Levels": {
+        "0": {
+          "Description": "Releases soul energy within the body to amplify the damage of the next attack",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/F_Iris/F_3-1_LimitBrake.{{auto}}"
           }
         },
         "1": {
@@ -505,88 +579,20 @@
           "RequiredLevel": 30,
           "RequiredSP": 3
         }
-      },
-      "Extensions": [
-        "SpiritExplosion-ImpactBullets",
-        "SpiritExplosion-RangeIncrease"
-      ]
-    },
-    "SpiritExplosion-ImpactBullets": {
-      "Visible": false,
-      "Name": "Impact Bullets",
-      "ID": 14,
-      "Icon": "../assets/SkillIcons/D_Jin/J1-7A.png",
-      "Levels": {
-        "0": {
-          "Description": "Removes existing skill effect , charges energy and fires it forwards",
-          "Effect": "",
-          "RequiredLevel": 0,
-          "RequiredSP": 0,
-          "Preview": {
-            "Video": "../assets/SkillPreviews/D_Jin/B_Skill_SpiritExplosion_A.{{auto}}"
-          }
-        },
-        "1": {
-          "Effect": "",
-          "RequiredLevel": 30,
-          "RequiredSP": 1
-        },
-        "2": {
-          "Effect": "",
-          "RequiredLevel": 35,
-          "RequiredSP": 1
-        },
-        "3": {
-          "Effect": "",
-          "RequiredLevel": 40,
-          "RequiredSP": 2
-        }
       }
     },
-    "SpiritExplosion-RangeIncrease": {
-      "Visible": false,
-      "Name": "Range Increase",
-      "ID": 15,
-      "Icon": "../assets/SkillIcons/D_Jin/J1-7B.png",
-      "Levels": {
-        "0": {
-          "Description": "Charge energy to create a big wave to attack the enemies",
-          "Effect": "",
-          "RequiredLevel": 0,
-          "RequiredSP": 0,
-          "Preview": {
-            "Video": "../assets/SkillPreviews/D_Jin/B_Skill_SpiritExplosion_B.{{auto}}"
-          }
-        },
-        "1": {
-          "Effect": "",
-          "RequiredLevel": 30,
-          "RequiredSP": 1
-        },
-        "2": {
-          "Effect": "",
-          "RequiredLevel": 35,
-          "RequiredSP": 1
-        },
-        "3": {
-          "Effect": "",
-          "RequiredLevel": 40,
-          "RequiredSP": 2
-        }
-      }
-    },
-    "SpiritShooter": {
-      "Name": "Spirit Shooter",
+    "BulletStorm": {
+      "Name": "Bullet Storm",
       "ID": 16,
-      "Icon": "../assets/SkillIcons/D_Jin/J1-8.png",
+      "Icon": "../assets/SkillIcons/F_Iris/F_3-2_BulletStorm.png",
       "Levels": {
         "0": {
-          "Description": " Generates a shockwave that instantly paralyzes enemies. Retreats using the recoil",
+          "Description": "Shoots a powerful shell upwards. The fired shells separates mid-air into several small shells that will explode when reaching the ground",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/D_Jin/B_Skill_SpiritShooter.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/F_3-2_BulletStorm.{{auto}}"
           }
         },
         "1": {
@@ -616,21 +622,86 @@
         }
       },
       "Extensions": [
-        "SpiritShooter-RecoilBound"
+        "BulletStorm-RangeIncrease",
+        "BulletStorm-MeteorFall"
       ]
     },
-    "QuadraBlow": {
-      "Name": "Quadra Blow",
+    "BulletStorm-RangeIncrease": {
+      "Visible": false,
+      "Name": "Range Increase",
       "ID": 17,
-      "Icon": "../assets/SkillIcons/D_Jin/J1-9.png",
+      "Icon": "../assets/SkillIcons/F_Iris/F_3-2_BulletStorm_A.png",
       "Levels": {
         "0": {
-          "Description": "Fire a powerful sphere at the enemy. The fired sphere explodes , damaging its surroundings. When the skill is strengthen, it increases the performance by 1.5x",
+          "Description": "Extends the attack range",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/D_Jin/B_Skill_QuadraBlow.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/F_3-2_BulletStorm_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "",
+          "RequiredLevel": 33,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "",
+          "RequiredLevel": 38,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "",
+          "RequiredLevel": 43,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "BulletStorm-MeteorFall": {
+      "Visible": false,
+      "Name": "Meteor Fall",
+      "ID": 18,
+      "Icon": "../assets/SkillIcons/F_Iris/F_3-2_BulletStorm_B.png",
+      "Levels": {
+        "0": {
+          "Description": "Attack with series of exploding meteorites . Deals continuous damage in the area",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/F_Iris/F_3-2_BulletStorm_B.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "",
+          "RequiredLevel": 33,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "",
+          "RequiredLevel": 38,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "",
+          "RequiredLevel": 43,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "FullBurst": {
+      "Name": "Full Burst",
+      "ID": 19,
+      "Icon": "../assets/SkillIcons/F_Iris/F_3-3_FullBurst.png",
+      "Levels": {
+        "0": {
+          "Description": "Hold the weapon with both hands and swing it like a laser beam sword and attack the enemies",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/F_Iris/F_3-3_FullBurst.{{auto}}"
           }
         },
         "1": {
@@ -660,54 +731,22 @@
         }
       },
       "Extensions": [
-        "QuadraBlow-QuantityIncrease"
+        "FullBurst-Rend"
       ]
     },
-    "QuadraBlow-QuantityIncrease": {
-      "Visible": false,
-      "Name": "Quantity Increase",
-      "ID": 18,
-      "Icon": "../assets/SkillIcons/D_Jin/J1-9A.png",
-      "Levels": {
-        "0": {
-          "Description": "Fires additional tiny spheres",
-          "Effect": "",
-          "RequiredLevel": 0,
-          "RequiredSP": 0,
-          "Preview": {
-            "Video": "../assets/SkillPreviews/D_Jin/B_Skill_QuadraBlow_A.{{auto}}"
-          }
-        },
-        "1": {
-          "Effect": "",
-          "RequiredLevel": 37,
-          "RequiredSP": 1
-        },
-        "2": {
-          "Effect": "",
-          "RequiredLevel": 42,
-          "RequiredSP": 1
-        },
-        "3": {
-          "Effect": "",
-          "RequiredLevel": 47,
-          "RequiredSP": 2
-        }
-      }
-    },
-    "HeavyDrop": {
-      "Name": "Heavy Drop",
-      "ID": 19,
-      "Icon": "../assets/SkillIcons/D_Jin/J1-10.png",
+    "EternalAbyss": {
+      "Name": "Eternal Abyss",
+      "ID": 20,
+      "Icon": "../assets/SkillIcons/F_Iris/F_4-1_EternalAbyss.png",
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "Gather up tremendous power in the air to create a gigantic sphere. The sphere generates a big explosion when touching the ground , damaging all nearby enemies",
+          "Description": "While in mid-air, throw a weapon towards the ground to create a black hole that pulls enemies",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/D_Jin/B_Skill_HeavyDrop.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/F_4-1_EternalAbyss.{{auto}}"
           }
         },
         "1": {
@@ -735,55 +774,20 @@
           "RequiredLevel": 41,
           "RequiredSP": 3
         }
-      },
-      "Extensions": [
-        "HeavyDrop-ExtraAttack"
-      ]
-    },
-    "HeavyDrop-ExtraAttack": {
-      "Visible": false,
-      "Name": "Extra Attack",
-      "ID": 20,
-      "Icon": "../assets/SkillIcons/D_Jin/J1-10A.png",
-      "Levels": {
-        "0": {
-          "Description": "Sphere speed will decrease, becomes continuous attack, grants debuff",
-          "Effect": "",
-          "RequiredLevel": 0,
-          "RequiredSP": 0,
-          "Preview": {
-            "Video": "../assets/SkillPreviews/D_Jin/B_Skill_HeavyDrop_A.{{auto}}"
-          }
-        },
-        "1": {
-          "Effect": "",
-          "RequiredLevel": 41,
-          "RequiredSP": 1
-        },
-        "2": {
-          "Effect": "",
-          "RequiredLevel": 46,
-          "RequiredSP": 1
-        },
-        "3": {
-          "Effect": "",
-          "RequiredLevel": 51,
-          "RequiredSP": 2
-        }
       }
     },
-    "FusionArmor": {
-      "Name": "Fusion Armor",
+    "Earthquake": {
+      "Name": "Earthquake",
       "ID": 21,
-      "Icon": "../assets/SkillIcons/D_Jin/J1-11.png",
+      "Icon": "../assets/SkillIcons/F_Iris/F_4-2_Earthquake.png",
       "Levels": {
         "0": {
-          "Description": "Collect Soul Energy to grant a barrier to allies",
+          "Description": "Insert the weapon into the ground then shoot towards the ground to create several shock waves",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/D_Jin/B_Skill_FusionArmor.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/F_4-2_Earthquake.{{auto}}"
           }
         },
         "1": {
@@ -798,33 +802,101 @@
         },
         "3": {
           "Effect": "",
-          "RequiredLevel": 38,
+          "RequiredLevel": 36,
           "RequiredSP": 2
         },
         "4": {
           "Effect": "",
-          "RequiredLevel": 42,
+          "RequiredLevel": 40,
           "RequiredSP": 2
         },
         "5": {
           "Effect": "",
-          "RequiredLevel": 48,
+          "RequiredLevel": 44,
           "RequiredSP": 3
         }
-      }
+      },
+      "Extensions": [
+        "Earthquake-Volcano",
+        "Earthquake-FirePillar"
+      ]
     },
-    "RapidPuncher": {
-      "Name": "Rapid Puncher",
+    "Earthquake-Volcano": {
+      "Visible": false,
+      "Name": "Volcano",
       "ID": 22,
-      "Icon": "../assets/SkillIcons/D_Jin/J1-12.png",
+      "Icon": "../assets/SkillIcons/F_Iris/F_4-2_Earthquake_A.png",
       "Levels": {
         "0": {
-          "Description": "Pushes the Gauntlets to their maximum output power to strike with the fists left and right alternatively. Afterwards adds a powerful finishing attack at any time",
+          "Description": "Generates a volcano after the last attack",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/D_Jin/B_Skill_RapidPuncher.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/F_4-2_Earthquake_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "",
+          "RequiredLevel": 44,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "",
+          "RequiredLevel": 49,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "",
+          "RequiredLevel": 54,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "Earthquake-FirePillar": {
+      "Visible": false,
+      "Name": "Fire Pillar",
+      "ID": 23,
+      "Icon": "../assets/SkillIcons/F_Iris/F_4-2_Earthquake_B.png",
+      "Levels": {
+        "0": {
+          "Description": "Generates a volcano after the last attack",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/F_Iris/F_4-2_Earthquake_B.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "",
+          "RequiredLevel": 44,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "",
+          "RequiredLevel": 49,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "",
+          "RequiredLevel": 54,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "ElectricCannon": {
+      "Name": "Electric Cannon",
+      "ID": 24,
+      "Icon": "../assets/SkillIcons/F_Iris/F_4-3_ElectricCannon.png",
+      "Levels": {
+        "0": {
+          "Description": "Make the weapons float and ride on it facing forwards. Afterwards, fire a laser beam forwards. Can move while the skill is in use",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/F_Iris/F_4-3_ElectricCannon.{{auto}}"
           }
         },
         "1": {
@@ -834,38 +906,38 @@
         },
         "2": {
           "Effect": "",
-          "RequiredLevel": 39,
+          "RequiredLevel": 38,
           "RequiredSP": 1
         },
         "3": {
           "Effect": "",
-          "RequiredLevel": 44,
+          "RequiredLevel": 42,
           "RequiredSP": 2
         },
         "4": {
           "Effect": "",
-          "RequiredLevel": 49,
+          "RequiredLevel": 46,
           "RequiredSP": 2
         },
         "5": {
           "Effect": "",
-          "RequiredLevel": 54,
+          "RequiredLevel": 50,
           "RequiredSP": 3
         }
       }
     },
-    "FinalFist": {
-      "Name": "Final Fist",
-      "ID": 23,
-      "Icon": "../assets/SkillIcons/D_Jin/J1-13.png",
+    "ExceedDriver": {
+      "Name": "Exceed Driver",
+      "ID": 25,
+      "Icon": "../assets/SkillIcons/F_Iris/F_5-1_ExceedDriver.png",
       "Levels": {
         "0": {
-          "Description": "Pushes the Gauntlets to their maximum output power to hit the ground. Causes a wide explosion every time it hits the ground",
+          "Description": "Disassemble the soul weapon and absorbs it in your hand. Afterwards, countless energy portals appear firing powerful energy simultaneously",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/D_Jin/B_SKill_FinalFist.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/F_5-1_ExceedDriver.{{auto}}"
           }
         },
         "1": {
@@ -895,95 +967,23 @@
         }
       }
     },
-    "PerfectCombination-RisingUpper": {
+    "CamelSpin-BladeWings": {
       "Visible": false,
-      "Name": "Rising Upper",
-      "ID": 24,
-      "RequireClass": {
-        "CompareType": "atleast",
-        "ClassIndex": 1
-      },
-      "Icon": "../assets/SkillIcons/D_Jin/Icon_Sprit_Skill_PerfectCombination_A.png",
-      "Levels": {
-        "0": {
-          "Description": "The final blow changes to an Upper(cut), with the Boost Shield hitting the vicinity. When right-clicking halfway of the Upper(cut), Jin supplements it with a thrust down to the ground.",
-          "Effect": "",
-          "RequiredLevel": 0,
-          "RequiredSP": 0,
-          "Preview": {
-            "Video": "../assets/SkillPreviews/D_Jin/B_Skill_PerfectCombination_A.{{auto}}"
-          }
-        },
-        "1": {
-          "Effect": "",
-          "RequiredLevel": 57,
-          "RequiredSP": 1
-        },
-        "2": {
-          "Effect": "",
-          "RequiredLevel": 58,
-          "RequiredSP": 1
-        },
-        "3": {
-          "Effect": "",
-          "RequiredLevel": 60,
-          "RequiredSP": 2
-        }
-      }
-    },
-    "SpiritShooter-RecoilBound": {
-      "Visible": false,
-      "Name": "Recoil Bound",
-      "ID": 25,
-      "RequireClass": {
-        "CompareType": "atleast",
-        "ClassIndex": 1
-      },
-      "Icon": "../assets/SkillIcons/D_Jin/Icon_Sprit_Skill_SpiritShooter_A.png",
-      "Levels": {
-        "0": {
-          "Description": "Debuffs the enemies with a Defense Reduction effect, then rise backwards in mid-air.",
-          "Effect": "",
-          "RequiredLevel": 0,
-          "RequiredSP": 0,
-          "Preview": {
-            "Video": "../assets/SkillPreviews/D_Jin/B_Skill_SpiritShooter_A.{{auto}}"
-          }
-        },
-        "1": {
-          "Effect": "",
-          "RequiredLevel": 57,
-          "RequiredSP": 1
-        },
-        "2": {
-          "Effect": "",
-          "RequiredLevel": 59,
-          "RequiredSP": 1
-        },
-        "3": {
-          "Effect": "",
-          "RequiredLevel": 60,
-          "RequiredSP": 2
-        }
-      }
-    },
-    "DrasticLanding": {
-      "Name": "Drastic Landing",
+      "Name": "Blade Wings",
       "ID": 26,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/D_Jin/Icon_Sprit_Skill_DrasticLanding.png",
-      "Assignable": false,
+      "Icon": "../assets/SkillIcons/F_Iris/F_ADV_1-2_CamelSpin_A.png",
       "Levels": {
         "0": {
-          "Description": "In mid-air, deploys the Boost Shield in front, then attacks with the shockwaves caused upon swinging it down to the ground.",
+          "Description": "???",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/D_Jin/B_Skill_DrasticLanding.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/F_ADV_1-2_CamelSpin_A.{{auto}}"
           }
         },
         "1": {
@@ -993,42 +993,69 @@
         },
         "2": {
           "Effect": "",
-          "RequiredLevel": 57,
+          "RequiredLevel": 58,
           "RequiredSP": 1
         },
         "3": {
           "Effect": "",
-          "RequiredLevel": 58,
-          "RequiredSP": 2
-        },
-        "4": {
-          "Effect": "",
-          "RequiredLevel": 59,
-          "RequiredSP": 2
-        },
-        "5": {
-          "Effect": "",
           "RequiredLevel": 60,
-          "RequiredSP": 3
+          "RequiredSP": 2
         }
       }
     },
-    "CounterStream": {
-      "Name": "Counter Stream",
+    "FullBurst-Rend": {
+      "Visible": false,
+      "Name": "Rend",
       "ID": 27,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/D_Jin/Icon_Sprit_Skill_CounterStream.png",
+      "Icon": "../assets/SkillIcons/F_Iris/F_ADV_3-3_FullBurst_A.png",
       "Levels": {
         "0": {
-          "Description": "Takes a stance, and use a maximum of 3 counter attacks. When counterattacking, Jin will deal more damage depending on the number of times that counter is activated.",
+          "Description": "???",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/D_Jin/B_Skill_CounterStream.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/F_ADV_3-3_FullBurst_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "",
+          "RequiredLevel": 57,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "",
+          "RequiredLevel": 59,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "",
+          "RequiredLevel": 60,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "PulverizerHeadbutt": {
+      "Name": "Pulverizer Headbutt",
+      "ID": 28,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/F_Iris/F_ADV_5-2_RhinoHeadButt.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "???",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/F_Iris/F_ADV_5-2_RhinoHeadButt.{{auto}}"
           }
         },
         "1": {
@@ -1058,10 +1085,55 @@
         }
       }
     },
-    "BarrettStraight": {
-      "Name": "巴雷特直拳",
-      "ID": 28,
-      "Icon": "../assets/SkillIcons/A_Haru/H6-1_Trollsverd.png",
+    "OperationAsh": {
+      "Name": "Operation Ash",
+      "ID": 29,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/F_Iris/F_ADV_5-3_CombatFalcons.png",
+      "Levels": {
+        "0": {
+          "Description": "???",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/F_Iris/F_ADV_5-3_CombatFalcons.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "",
+          "RequiredLevel": 57,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "",
+          "RequiredLevel": 57,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "",
+          "RequiredLevel": 58,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "",
+          "RequiredLevel": 59,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "",
+          "RequiredLevel": 60,
+          "RequiredSP": 3
+        }
+      }
+    },
+    "Expocalypse": {
+      "Name": "急速的火神炮",
+      "ID": 30,
+      "Icon": "../assets/SkillIcons/F_Iris/F_6-1_Expocalypse.png",
       "Levels": {
         "0": {
           "Description": "使用以靈魂能量形成的光之劍 '巨魔之劍'，對前方的敵人們進行砍殺，並在攻擊線上產生追加的爆炸攻擊。",
@@ -1069,7 +1141,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/PC_A_Haru/H6-1_Trollsverd.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/F_6-1_Expocalypse.{{auto}}"
           }
         },
         "1": {
@@ -1102,7 +1174,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/D_Jin/B_Attack_01.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/F_DefaultAttack_01.{{auto}}"
           }
         },
         "1": {
@@ -1115,7 +1187,7 @@
           "RequiredLevel": 5,
           "RequiredSP": 1,
           "Preview": {
-            "Video": "../assets/SkillPreviews/D_Jin/B_Attack_02.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/F_DefaultAttack_02.{{auto}}"
           }
         },
         "3": {
@@ -1123,7 +1195,7 @@
           "RequiredLevel": 10,
           "RequiredSP": 2,
           "Preview": {
-            "Video": "../assets/SkillPreviews/D_Jin/B_Attack_03.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/F_DefaultAttack_03.{{auto}}"
           }
         },
         "4": {
@@ -1131,7 +1203,7 @@
           "RequiredLevel": 15,
           "RequiredSP": 2,
           "Preview": {
-            "Video": "../assets/SkillPreviews/D_Jin/B_Attack_04.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/F_DefaultAttack_04.{{auto}}"
           }
         },
         "5": {
@@ -1139,7 +1211,7 @@
           "RequiredLevel": 20,
           "RequiredSP": 2,
           "Preview": {
-            "Video": "../assets/SkillPreviews/D_Jin/B_Attack_05.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/F_DefaultAttack_05.{{auto}}"
           }
         }
       }
@@ -1149,40 +1221,40 @@
       "DefaultLevel": 1,
       "ID": 1001,
       "Name": "特殊能力精通",
-      "Icon": "../assets/SkillIcons/D_Jin/Sh-2j.png",
+      "Icon": "../assets/SkillIcons/F_Iris/F_SpecialAttack_OwnAbility.png",
       "Levels": {
         "0": {
-          "Description": "[地面]\nSmash the ground with your foot, inflict status effect to nearby enemies.\n[Air]\nSwing the fist towards the ground.",
+          "Description": "[地面]\nInstantly recovers SG and acquire a fire buff.\n[Air]\nHit the hammer on the ground. Gain SG on hit. 靈魂值獲得量varies on attack and monster-type.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/D_Jin/B_S_Attack_N.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/F_SpecialAttack_OwnAbility.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[地面]\n傷害量：[168%]\n霸體破壞量：[75%]\nStatus effect: 'Stun' in 2s]\n冷卻時間：[10s]\n[Air]\n傷害量：[269%]\n霸體破壞量：[119%]\n冷卻時間：[10s",
+          "Effect": "[地面]\nSG Recovery: 15%]\n增益效果：'Fire' in 5s]\n冷卻時間：[15s]\n[Air]\n傷害量：[382%]\n霸體破壞量：[197%]\n冷卻時間：[10s",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "[地面]\n傷害量：[177%]\n霸體破壞量：[78%]\nStatus effect: 'Stun' in 2.5s]\n冷卻時間：[10s]\n靈魂值獲得量：[+20%]\n[Air]\n傷害量：[282%]\n霸體破壞量：[125%]\n冷卻時間：[10s]\n靈魂值獲得量：[+20%]",
+          "Effect": "[地面]\nSG Recovery: 20%]\n增益效果：'Fire' in 7s]\n冷卻時間：[15s]\n[Air]\n傷害量：[384%]\n霸體破壞量：[202%]\n冷卻時間：[10s]\n靈魂值獲得量：[+20%]",
           "RequiredLevel": 15,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[地面]\n傷害量：[198%]\n霸體破壞量：[88%]\nStatus effect: 'Stun' in 3s]\n冷卻時間：[10s]\n靈魂值獲得量：[+70%]\n[Air]\n傷害量：[316%]\n霸體破壞量：[140%]\n冷卻時間：[10s]\n靈魂值獲得量：[+70%]",
+          "Effect": "[地面]\nSG Recovery: 25%]\n增益效果：'Fire' in 10s]\n冷卻時間：[15s]\n[Air]\n傷害量：[430%]\n霸體破壞量：[249%]\n冷卻時間：[10s]\n靈魂值獲得量：[+70%]",
           "RequiredLevel": 30,
           "RequiredSP": 2
         }
       }
     },
-    "EmergencyDodge": {
+    "Dodge": {
       "Passive": true,
       "Name": "緊急迴避",
       "ID": 1004,
       "DefaultLevel": 1,
-      "Icon": "../assets/SkillIcons/Common/EmergencyDodge.png",
+      "Icon": "../assets/SkillIcons/Common/Dodge.png",
       "Levels": {
         "0": {
           "Description": "向指定的方向快速迴避。\n在緊急迴避的狀態下不會受到任何攻擊。",
@@ -1190,7 +1262,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/D_Jin/B_Evade_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/F_Dodge.{{auto}}"
           }
         },
         "1": {
@@ -1213,7 +1285,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/D_Jin/B_Roll_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/F_RisingRoll.{{auto}}"
           }
         },
         "1": {
@@ -1246,7 +1318,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/D_Jin/B_Run_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/F_Dash.{{auto}}"
           }
         },
         "1": {
@@ -1274,7 +1346,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/D_Jin/B_Rise_Attack.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/F_RiseAttack.{{auto}}"
           }
         },
         "1": {
@@ -1307,7 +1379,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/D_Jin/B_N_Attack_Dash.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/F_DashAttack.{{auto}}"
           }
         },
         "1": {
@@ -1329,7 +1401,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/D_Jin/B_Special_Evade_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/F_SpecialDodge.{{auto}}"
           }
         },
         "1": {
@@ -1361,7 +1433,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/D_Jin/B_S_Attack_N_Dash.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/F_SpecialDashAttack.{{auto}}"
           }
         },
         "1": {
@@ -1410,75 +1482,78 @@
         }
       }
     },
-    "Offense-DefenseUnitedBody": {
+    "ExtremeRush": {
       "Passive": true,
-      "Name": "Offense-Defense United Body",
+      "Name": "Extreme Rush",
       "ID": 1013,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/D_Jin/Icon_Sprit_Skill_SGPassive2.png",
+      "Icon": "../assets/SkillIcons/F_Iris/F_ADV_Passive_SGPassive2.png",
       "Levels": {
         "0": {
-          "Description": "If Jin or his allies defeats 5 enemies in succession within 5秒], received damage will decrease and attack will increase for 10秒].",
+          "Description": "Provides the ability to gain invulnerable state when using special attack.",
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/F_Iris/others/F_ADV_Passive_SGPassive2(byContributor).{{auto}}"
+          }
         },
         "1": {
-          "Effect": "",
+          "Effect": "持續時間：[3s]\n冷卻時間：[60秒]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "持續時間：[4s]\n冷卻時間：[60秒]",
           "RequiredLevel": 58,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "持續時間：[5s]\n冷卻時間：[60秒]",
           "RequiredLevel": 59,
           "RequiredSP": 2
         }
       }
     },
-    "StrongBody": {
+    "RapidAttack": {
       "Passive": true,
-      "Name": "Strong Body",
+      "Name": "Rapid Attack",
       "ID": 1011,
       "RowSpan": {
         "0": 2,
         "1": 1
       },
-      "Icon": "../assets/SkillIcons/D_Jin/JP1-2.png",
+      "Icon": "../assets/SkillIcons/F_Iris/F_Passive_SGPassive1.png",
       "Levels": {
         "0": {
-          "Description": "Reduces the damage taken by enemies",
+          "Description": "Reduces SG Cost of skills",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "Damage taken: -10%]",
+          "Effect": "SG Cost Rate: -5%]",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage taken: -15%]",
+          "Effect": "SG Cost Rate: -8%]",
           "RequiredLevel": 20,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage taken: -20%]",
+          "Effect": "SG Cost Rate: -10%]",
           "RequiredLevel": 30,
           "RequiredSP": 2
         }
       }
     },
-    "WillofPassion": {
+    "FuryStrike": {
       "Passive": true,
-      "Name": "熱情意志",
+      "Name": "憤怒一擊",
       "DefaultLevel": 1,
       "ID": 1012,
       "RowSpan": {
@@ -1488,7 +1563,7 @@
       "Icon": "../assets/SkillIcons/Common/SoulMastery.png",
       "Levels": {
         "0": {
-          "Description": "基本攻擊成功時，恢復靈魂值。\n在非戰鬥狀態下自動恢復靈魂值。\n長時間處於非戰鬥狀態可以恢復更多的靈魂值。\n反擊成功時，額外恢復靈魂值。",
+          "Description": "基本攻擊成功時，恢復靈魂值。\n每隔一定時間自動恢復靈魂值。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
@@ -1500,7 +1575,7 @@
         }
       }
     },
-    "ExtinctionPrelude": {
+    "SpiralofInfinity": {
       "Passive": true,
       "Name": "心爆氣流斬",
       "DefaultLevel": 1,
@@ -1509,7 +1584,8 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/A_Haru/HADV_SV_EX_Prelude.png",
+      "Icon": "../assets/SkillIcons/F_Iris/F_ADV_SV_EX_SpiralofInfinity.png",
+      "Assignable": false,
       "Levels": {
         "0": {
           "Description": "在覺醒狀態下可以使用的技能。\n施展後覺醒狀態會被解除。\n使用雙劍，對前方展開多方位的急速衝刺連斬，最後重擊地面。\n使用條件：處於覺醒狀態。",
@@ -1517,7 +1593,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/PC_A_Haru/HADV_SV_EX_Prelude.{{auto}}"
+            "Video": "../assets/SkillPreviews/F_Iris/F_ADV_SV_EX_SpiralofInfinity.{{auto}}"
           }
         },
         "1": {

@@ -1,183 +1,245 @@
 {
-  "CharacterName": "莉莉・普露梅茜",
-  "CharacterWikiURL": "https://wiki.soulworkerhq.com/w/Lily_Bloomerchen",
+  "CharacterName": "史黛菈・優妮貝爾",
+  "CharacterWikiURL": "https://wiki.soulworkerhq.com/w/Stella_Unibell",
   "MaxLevel": 68,
   "AvailableClass": {
     "0": {
       "Name": "一般",
-      "Cover": "../assets/images/bg_C_Lily.png"
+      "Cover": "../assets/images/bg_E_Stella.png"
     },
     "1": {
       "Name": "晉升",
-      "Cover": "../assets/images/bg_C_Lily_ADV.png",
+      "Cover": "../assets/images/bg_E_Stella_ADV.png",
       "RequiredLevel": 57
     }
   },
   "Skills": {
-    "EvilSlash": {
-      "Name": "Evil Slash",
+    "WhirlDance": {
+      "Name": "Whirl Dance",
       "DefaultLevel": 1,
       "ID": 1,
-      "Icon": "../assets/SkillIcons/C_Lily/L1-1.png",
+      "Icon": "../assets/SkillIcons/E_Stella/E_1-1_WhirlDance.png",
       "Levels": {
         "0": {
-          "Description": "Quickly rotate the scythe, pushes out the enemy at the end of the blow.",
+          "Description": "Possess the guitar with ghosts, and swing it around to deal damage. The final slam launches enemies to the air.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_EvilSlash.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/E_1-1_WhirlDance.{{auto}}"
           }
         },
         "1": {
-          "Effect": "傷害量：[182%]\n霸體破壞量：[196%]\n靈魂值消耗量：[30]\n冷卻時間：[10s",
+          "Effect": "傷害量：[164%]\n霸體破壞量：[231%]\n靈魂值消耗量：[15]\n冷卻時間：[8s",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "傷害量：[191%]\n霸體破壞量：[206%]\n靈魂值消耗量：[30]\n冷卻時間：[10s",
+          "Effect": "傷害量：[172%]\n霸體破壞量：[242%]\n靈魂值消耗量：[15]\n冷卻時間：[8s",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "傷害量：[214%]\n霸體破壞量：[230%]\n靈魂值消耗量：[30]\n冷卻時間：[10s",
+          "Effect": "傷害量：[192%]\n霸體破壞量：[271%]\n靈魂值消耗量：[15]\n冷卻時間：[8s",
           "RequiredLevel": 7,
-          "RequiredSP": 2
+          "RequiredSP": 1
         },
         "4": {
-          "Effect": "傷害量：[237%]\n霸體破壞量：[255%]\n靈魂值消耗量：[30]\n冷卻時間：[10s",
+          "Effect": "傷害量：[213%]\n霸體破壞量：[300%]\n靈魂值消耗量：[15]\n冷卻時間：[8s",
           "RequiredLevel": 10,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "傷害量：[273%]\n霸體破壞量：[294%]\n靈魂值消耗量：[30]\n冷卻時間：[10s",
+          "Effect": "傷害量：[245%]\n霸體破壞量：[346%]\n靈魂值消耗量：[15]\n冷卻時間：[8s",
           "RequiredLevel": 13,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "EvilSlash-Kusarigama"
+        "WhirlDance-PerformanceIncrease"
       ]
     },
-    "SpinningDevil": {
-      "Name": "Spinning Devil",
+    "PhantomRelease": {
+      "Name": "Phantom Release",
       "DefaultLevel": 1,
       "ID": 2,
-      "Icon": "../assets/SkillIcons/C_Lily/L1-2.png",
+      "Icon": "../assets/SkillIcons/E_Stella/E_1-2_PhantomRelease.png",
       "Levels": {
         "0": {
-          "Description": "Quickly dash forward, using the speed perform a spinning slash.",
+          "Description": "Release ghosts by playing the guitar at the current location.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_SpinningDevil.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/E_1-2_PhantomRelease.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "傷害量：[265%]\n霸體破壞量：[143%]\n靈魂值消耗量：[20]\n冷卻時間：[10s",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "傷害量：[279%]\n霸體破壞量：[150%]\n靈魂值消耗量：[20]\n冷卻時間：[10s",
           "RequiredLevel": 6,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "傷害量：[312%]\n霸體破壞量：[168%]\n靈魂值消耗量：[20]\n冷卻時間：[10s",
           "RequiredLevel": 11,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "傷害量：[345%]\n霸體破壞量：[186%]\n靈魂值消耗量：[20]\n冷卻時間：[10s",
           "RequiredLevel": 16,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "傷害量：[398%]\n霸體破壞量：[214%]\n靈魂值消耗量：[20]\n冷卻時間：[10s",
           "RequiredLevel": 21,
           "RequiredSP": 3
         }
-      }
+      },
+      "Extensions": [
+        "PhantomRelease-ExtraAttack"
+      ]
     },
-    "ScytheCutter": {
-      "Name": "Scythe Cutter",
-      "DefaultLevel": 1,
+    "PhantomRelease-ExtraAttack": {
+      "Visible": false,
       "ID": 3,
-      "Icon": "../assets/SkillIcons/C_Lily/L1-3.png",
+      "Name": "ExtraAttack",
+      "Icon": "../assets/SkillIcons/E_Stella/E_1-2_PhantomRelease_A.png",
       "Levels": {
         "0": {
-          "Description": "Swiftly raise the scythe. Enemies will be launched in the air.",
+          "Description": "Number of attacks increase.",
+          "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_ScytheCuter.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/E_1-2_PhantomRelease_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "Additional number of attacks: +4",
+          "RequiredLevel": 21,
+          "RequiredSP": 1
+        }
+      }
+    },
+    "TroublePass": {
+      "Name": "Trouble Pass",
+      "DefaultLevel": 1,
+      "ID": 4,
+      "Icon": "../assets/SkillIcons/E_Stella/E_1-3_TroublePass.png",
+      "Levels": {
+        "0": {
+          "Description": "Release guiding-type ghosts to damage enemies. While in support mode, ghosts will heal allies.",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/E_Stella/E_1-3_TroublePass.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[Attack Mode]\n傷害量：[361%]\n霸體破壞量：[194%]\n[Support Mode]\nHP Recovery: 4%] per ghost]\n靈魂值消耗量：[25]\n冷卻時間：[12s",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[Attack Mode]\n傷害量：[379%]\n霸體破壞量：[203%]\n[Support Mode]\nHP Recovery: 4%] per ghost]\n靈魂值消耗量：[25]\n冷卻時間：[12s",
           "RequiredLevel": 5,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[Attack Mode]\n傷害量：[424%]\n霸體破壞量：[228%]\n[Support Mode]\nHP Recovery: 4%] per ghost]\n靈魂值消耗量：[25]\n冷卻時間：[12s",
           "RequiredLevel": 9,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "[Attack Mode]\n傷害量：[469%]\n霸體破壞量：[252%]\n[Support Mode]\nHP Recovery: 4%] per ghost]\n靈魂值消耗量：[25]\n冷卻時間：[12s",
           "RequiredLevel": 13,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "[Attack Mode]\n傷害量：[541%]\n霸體破壞量：[290%]\n[Support Mode]\nHP Recovery: 4%] per ghost]\n靈魂值消耗量：[25]\n冷卻時間：[12s",
           "RequiredLevel": 17,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "ScytheCutter-ChargeAttack"
+        "TroublePass-RangeIncrease",
+        "TroublePass-Strengthen"
       ]
     },
-    "ScytheCutter-ChargeAttack": {
+    "TroublePass-RangeIncrease": {
       "Visible": false,
-      "Name": "Charge Attack",
-      "ID": 4,
-      "Icon": "../assets/SkillIcons/C_Lily/L1-3A.png",
+      "ID": 5,
+      "Name": "Range Increase",
+      "Icon": "../assets/SkillIcons/E_Stella/E_1-3_TroublePass_A.png",
       "Levels": {
         "0": {
-          "Description": "If charged, it launches the enemy higher.",
+          "Description": "Increase the range of exploding ghosts.",
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0,
-          "Preview": {
-            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_ScytheCuter_A.{{auto}}"
-          }
+          "RequiredSP": 0
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 17,
           "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "",
+          "RequiredLevel": 22,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "",
+          "RequiredLevel": 27,
+          "RequiredSP": 2
         }
       }
     },
-    "GrimCountdown": {
-      "Name": "Grim Countdown",
-      "ID": 5,
-      "Icon": "../assets/SkillIcons/C_Lily/L1-4.png",
+    "TroublePass-Strengthen": {
+      "Visible": false,
+      "ID": 6,
+      "Name": "Strengthen",
+      "Icon": "../assets/SkillIcons/E_Stella/E_1-3_TroublePass_B.png",
       "Levels": {
         "0": {
-          "Description": "After doing a rotation slash, cut the front enemies alongside the summoned Grim Reaper.",
+          "Description": "Ghosts will grant a defense-boosting buff.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        },
+        "1": {
+          "Effect": "",
+          "RequiredLevel": 17,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "",
+          "RequiredLevel": 22,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "",
+          "RequiredLevel": 27,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "HystericalShock": {
+      "Name": "Hysterical Shock",
+      "ID": 7,
+      "Icon": "../assets/SkillIcons/E_Stella/E_2-1_HystericShock.png",
+      "Levels": {
+        "0": {
+          "Description": "Create cracks on the ground by playing the guitar, and then cause an explosion.",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_GrimCountdown.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/E_2-1_HystericShock.{{auto}}"
           }
         },
         "1": {
@@ -207,22 +269,22 @@
         }
       },
       "Extensions": [
-        "GrimCountdown-Lifesteal"
+        "HystericalShock-ExtraAttack"
       ]
     },
-    "GrimCountdown-Lifesteal": {
+    "HystericalShock-ExtraAttack": {
       "Visible": false,
-      "Name": "Lifesteal",
-      "ID": 6,
-      "Icon": "../assets/SkillIcons/C_Lily/L1-4A.png",
+      "ID": 8,
+      "Name": "Extra Attack",
+      "Icon": "../assets/SkillIcons/E_Stella/E_2-1_HystericShock_A.png",
       "Levels": {
         "0": {
-          "Description": "Steal HP from the afflicted enemies, and heals HP of oneself.",
+          "Description": "Number of attacks increase.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_GrimCountdown_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/E_2-1_HystericShock_A.{{auto}}"
           }
         },
         "1": {
@@ -234,25 +296,20 @@
           "Effect": "",
           "RequiredLevel": 25,
           "RequiredSP": 1
-        },
-        "3": {
-          "Effect": "",
-          "RequiredLevel": 30,
-          "RequiredSP": 2
         }
       }
     },
-    "FearChain": {
-      "Name": "Fear Chain",
-      "ID": 7,
-      "Icon": "../assets/SkillIcons/C_Lily/L1-5.png",
+    "BeastParade": {
+      "ID": 9,
+      "Name": "Beast Parade",
+      "Icon": "../assets/SkillIcons/E_Stella/E_2-2_BeastParade.png",
       "Levels": {
         "0": {
-          "Description": "Summons the Grim Reaper in front, the Grim Reaper connects the enemies with a chain, they are drawn towards the center of the attack range.",
+          "Description": "Summon the ghosts and charge forward by riding on their backs.",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_FearChain_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/E_2-2_BeastParade.{{auto}}"
           }
         },
         "1": {
@@ -262,79 +319,38 @@
         },
         "2": {
           "Effect": "",
-          "RequiredLevel": 10,
+          "RequiredLevel": 11,
           "RequiredSP": 1
         },
         "3": {
           "Effect": "",
-          "RequiredLevel": 14,
+          "RequiredLevel": 16,
           "RequiredSP": 2
         },
         "4": {
           "Effect": "",
-          "RequiredLevel": 18,
+          "RequiredLevel": 21,
           "RequiredSP": 2
         },
         "5": {
           "Effect": "",
-          "RequiredLevel": 22,
+          "RequiredLevel": 26,
           "RequiredSP": 3
-        }
-      },
-      "Extensions": [
-        "FearChain-RangeIncrease"
-      ]
-    },
-    "FearChain-RangeIncrease": {
-      "Visible": false,
-      "Name": "Range Increase",
-      "ID": 8,
-      "Icon": "../assets/SkillIcons/C_Lily/L1-5A.png",
-      "Levels": {
-        "0": {
-          "Description": "Increase the attack range.",
-          "Effect": "",
-          "RequiredLevel": 0,
-          "RequiredSP": 0,
-          "Preview": {
-            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_FearChain_A_01.{{auto}}"
-          }
-        },
-        "1": {
-          "Effect": "",
-          "RequiredLevel": 22,
-          "RequiredSP": 1
-        },
-        "2": {
-          "Effect": "",
-          "RequiredLevel": 27,
-          "RequiredSP": 1,
-          "Preview": {
-            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_FearChain_A_02.{{auto}}"
-          }
-        },
-        "3": {
-          "Effect": "",
-          "RequiredLevel": 32,
-          "RequiredSP": 2,
-          "Preview": {
-            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_FearChain_A_03.{{auto}}"
-          }
         }
       }
     },
-    "DeathGrinder": {
-      "Name": "Death Grinder",
-      "ID": 9,
-      "Icon": "../assets/SkillIcons/C_Lily/L1-6.png",
+    "BeadsPlay": {
+      "ID": 10,
+      "Name": "Beads Play",
+      "Icon": "../assets/SkillIcons/E_Stella/E_2-3_BeadsPlay.png",
       "Levels": {
         "0": {
-          "Description": "Attack by throwing the scythe like a boomerang. Attract the enemies attacked when the scythe comes back to the owner.",
+          "Description": "Creates beads which will explode when hitting enemies. In support mode, the beads will restore HP and increase attack.\nCharging will increase number of beads. Push away enemies when charging completes.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_DeathGrinder.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/E_2-3_BeadsPlay.{{auto}}"
           }
         },
         "1": {
@@ -364,55 +380,23 @@
         }
       },
       "Extensions": [
-        "DeathGrinder-SummonGrimReaper",
-        "DeathGrinder-Whirlwind"
+        "BeadsPlay-Paralyze",
+        "BeadsPlay-Strengthen"
       ]
     },
-    "DeathGrinder-SummonGrimReaper": {
-      "Visible": false,
-      "Name": "Summon Grim Reaper",
-      "ID": 10,
-      "Icon": "../assets/SkillIcons/C_Lily/L1-6A.png",
-      "Levels": {
-        "0": {
-          "Description": "Throw the scythe and summon the Grim Reaper.",
-          "Effect": "",
-          "RequiredLevel": 0,
-          "RequiredSP": 0,
-          "Preview": {
-            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_DeathGrinder_A.{{auto}}"
-          }
-        },
-        "1": {
-          "Effect": "",
-          "RequiredLevel": 24,
-          "RequiredSP": 1
-        },
-        "2": {
-          "Effect": "",
-          "RequiredLevel": 29,
-          "RequiredSP": 1
-        },
-        "3": {
-          "Effect": "",
-          "RequiredLevel": 34,
-          "RequiredSP": 2
-        }
-      }
-    },
-    "DeathGrinder-Whirlwind": {
-      "Visible": false,
-      "Name": "Whirlwind",
+    "BeadsPlay-Paralyze": {
       "ID": 11,
-      "Icon": "../assets/SkillIcons/C_Lily/L1-6B.png",
+      "Visible": false,
+      "Name": "Paralyze",
+      "Icon": "../assets/SkillIcons/E_Stella/E_2-3_BeadsPlay_A.png",
       "Levels": {
         "0": {
-          "Description": "Create a whirlwind by throwing the scythe forward. Scythe will stop at a point and damage the enemies at the place.",
+          "Description": "Beads go through enemies and paralyze them.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_DeathGrinder_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/E_2-3_BeadsPlay_A.{{auto}}"
           }
         },
         "1": {
@@ -432,18 +416,50 @@
         }
       }
     },
-    "DeathScythe": {
-      "Name": "Death Scythe",
+    "BeadsPlay-Strengthen": {
       "ID": 12,
-      "Icon": "../assets/SkillIcons/C_Lily/L1-7.png",
+      "Visible": false,
+      "Name": "Strengthen",
+      "Icon": "../assets/SkillIcons/E_Stella/E_2-3_BeadsPlay_B.png",
       "Levels": {
         "0": {
-          "Description": "Grim Reaper appears, it attracts the enemies around. After the Grim Reaper attacks, the last attack is changed by the next command.",
+          "Description": "The beads effect is strengthened.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_DeathScythe.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/E_2-3_BeadsPlay_B.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "",
+          "RequiredLevel": 24,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "",
+          "RequiredLevel": 29,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "",
+          "RequiredLevel": 34,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "DecadePulse": {
+      "ID": 13,
+      "Name": "Decade Pulse",
+      "Icon": "../assets/SkillIcons/E_Stella/E_3-1_DecadePulse.png",
+      "Levels": {
+        "0": {
+          "Description": "Using the guitar, you release a pulse that attacks enemies. When switching modes, it paralyzes enemies and steals HP.\nThe lifesteal effect(100%] lifesteal) is applied to a maximum of 3 targets.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/E_Stella/E_3-1_DecadePulse.{{auto}}"
           }
         },
         "1": {
@@ -473,21 +489,86 @@
         }
       },
       "Extensions": [
-        "DeathScythe-Afterimage"
+        "DecadePulse-DurationIncrease",
+        "DecadePulse-RadiusIncrease"
       ]
     },
-    "CruelSlash": {
-      "Name": "Cruel Slash",
-      "ID": 13,
-      "Icon": "../assets/SkillIcons/C_Lily/L1-8.png",
+    "DecadePulse-DurationIncrease": {
+      "ID": 14,
+      "Visible": false,
+      "Name": "Duration Increase",
+      "Icon": "../assets/SkillIcons/E_Stella/E_3-1_DecadePulse_A.png",
       "Levels": {
         "0": {
-          "Description": "Deform the sickle to the scimitar form to attack. LMB to quickly perform repeated attacks on the spot for a period of time.",
+          "Description": "Increases the duration of pulse.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_CruelSlash.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/E_3-1_DecadePulse_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "",
+          "RequiredLevel": 30,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "",
+          "RequiredLevel": 35,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "",
+          "RequiredLevel": 40,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "DecadePulse-RadiusIncrease": {
+      "ID": 15,
+      "Visible": false,
+      "Name": "Radius Increase",
+      "Icon": "../assets/SkillIcons/E_Stella/E_3-1_DecadePulse_B.png",
+      "Levels": {
+        "0": {
+          "Description": "Pulse range increase to allow more target to be hit.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/E_Stella/E_3-1_DecadePulse_B.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "",
+          "RequiredLevel": 30,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "",
+          "RequiredLevel": 35,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "",
+          "RequiredLevel": 40,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "SoulScream": {
+      "ID": 16,
+      "Name": "Soul Scream",
+      "Icon": "../assets/SkillIcons/E_Stella/E_3-2_SoulScream.png",
+      "Levels": {
+        "0": {
+          "Description": "Make souls go rampant, creating a barrier around the caster. Invincibility will be granted on skill cast. The barrier will damage and paralyze all nearby enemies.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/E_Stella/E_3-2_SoulScream.{{auto}}"
           }
         },
         "1": {
@@ -517,87 +598,21 @@
         }
       },
       "Extensions": [
-        "CruelSlash-DefensePenetration",
-        "CruelSlash-CriticalRateIncrease"
+        "SoulScream-StarlightStage"
       ]
     },
-    "CruelSlash-DefensePenetration": {
-      "Visible": false,
-      "Name": "Defense Penetration",
-      "ID": 14,
-      "Icon": "../assets/SkillIcons/C_Lily/L1-8A.png",
+    "TwistPull": {
+      "ID": 17,
+      "Name": "Twist Pull",
+      "Icon": "../assets/SkillIcons/E_Stella/E_3-3_TwistPull.png",
       "Levels": {
         "0": {
-          "Description": "Attacks done to the enemy ignore enemy's defense",
+          "Description": "Create a black hole formed by ghosts, which pulls in enemies and then explodes.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_CruelSlash_A.{{auto}}"
-          }
-        },
-        "1": {
-          "Effect": "",
-          "RequiredLevel": 33,
-          "RequiredSP": 1
-        },
-        "2": {
-          "Effect": "",
-          "RequiredLevel": 38,
-          "RequiredSP": 1
-        },
-        "3": {
-          "Effect": "",
-          "RequiredLevel": 43,
-          "RequiredSP": 2
-        }
-      }
-    },
-    "CruelSlash-CriticalRateIncrease": {
-      "Visible": false,
-      "Name": "Critical Rate Increase",
-      "ID": 15,
-      "Icon": "../assets/SkillIcons/C_Lily/L1-8B.png",
-      "Levels": {
-        "0": {
-          "Description": "Increases Critical Rate",
-          "Effect": "",
-          "RequiredLevel": 0,
-          "RequiredSP": 0,
-          "Preview": {
-            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_CruelSlash_B.{{auto}}"
-          }
-        },
-        "1": {
-          "Effect": "",
-          "RequiredLevel": 33,
-          "RequiredSP": 1
-        },
-        "2": {
-          "Effect": "",
-          "RequiredLevel": 38,
-          "RequiredSP": 1
-        },
-        "3": {
-          "Effect": "",
-          "RequiredLevel": 43,
-          "RequiredSP": 2
-        }
-      }
-    },
-    "GrimReaper": {
-      "Name": "Grim Reaper",
-      "ID": 16,
-      "Icon": "../assets/SkillIcons/C_Lily/L1-9.png",
-      "Assignable": false,
-      "Levels": {
-        "0": {
-          "Description": "Only available in the air. Summons the Grim Reaper, launching the enemies in the air. It will attack the enemies in the air.",
-          "Effect": "",
-          "RequiredLevel": 0,
-          "RequiredSP": 0,
-          "Preview": {
-            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_GrimReaper.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/E_3-3_TwistPull.{{auto}}"
           }
         },
         "1": {
@@ -625,20 +640,51 @@
           "RequiredLevel": 37,
           "RequiredSP": 3
         }
-      }
+      },
+      "Extensions": [
+        "TwistPull-RangeIncrease"
+      ]
     },
-    "ForceRegion": {
-      "Name": "Force Region",
-      "ID": 17,
-      "Icon": "../assets/SkillIcons/C_Lily/L1-10.png",
+    "TwistPull-RangeIncrease": {
+      "ID": 18,
+      "Visible": false,
+      "Name": "Range Increase",
+      "Icon": "../assets/SkillIcons/E_Stella/E_3-3_TwistPull_A.png",
       "Levels": {
         "0": {
-          "Description": "The summoned Grim Reaper's roar will grant a buff that increases critical rate to the party members in range, including self.",
+          "Description": "Increases the Attack Range by ghosts.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_ForceRegion.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/E_3-3_TwistPull_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "",
+          "RequiredLevel": 37,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "",
+          "RequiredLevel": 42,
+          "RequiredSP": 1
+        }
+      }
+    },
+    "BeastParty": {
+      "ID": 19,
+      "Name": "Beast Party",
+      "Icon": "../assets/SkillIcons/E_Stella/E_4-1_BeastParty.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "Summons a pack of ghosts that charge forward. Enemies that are hit by the ghosts will be pushed back.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/E_Stella/E_4-1_BeastParty.{{auto}}"
           }
         },
         "1": {
@@ -668,18 +714,18 @@
         }
       }
     },
-    "DeathTornado": {
-      "Name": "Death Tornado",
-      "ID": 18,
-      "Icon": "../assets/SkillIcons/C_Lily/L1-11.png",
+    "BlackMorass": {
+      "ID": 20,
+      "Name": "Black Morass",
+      "Icon": "../assets/SkillIcons/E_Stella/E_4-2_BlackMorass.png",
       "Levels": {
         "0": {
-          "Description": "It creates a powerful tornado to attack the enemies in front.",
+          "Description": "Create a marsh of ghosts by playing the guitar. The final attack differs depending on which input is made at the end.\n( LMB = Pull enemies in the center / RMB = Launch the enemies in the air )",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_DeathTornado.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/E_4-2_BlackMorass.{{auto}}"
           }
         },
         "1": {
@@ -709,86 +755,53 @@
         }
       },
       "Extensions": [
-        "DeathTornado-Induction",
-        "DeathTornado-AreaWidener"
+        "BlackMorass-DurationIncrease"
       ]
     },
-    "DeathTornado-Induction": {
-      "Visible": false,
-      "Name": "Induction",
-      "ID": 19,
-      "Icon": "../assets/SkillIcons/C_Lily/L1-11A.png",
-      "Levels": {
-        "0": {
-          "Description": "Summons a tornado that moves towards the enemy",
-          "Effect": "",
-          "RequiredLevel": 0,
-          "RequiredSP": 0,
-          "Preview": {
-            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_DeathTornado_A.{{auto}}"
-          }
-        },
-        "1": {
-          "Effect": "",
-          "RequiredLevel": 44,
-          "RequiredSP": 1
-        },
-        "2": {
-          "Effect": "",
-          "RequiredLevel": 49,
-          "RequiredSP": 1
-        },
-        "3": {
-          "Effect": "",
-          "RequiredLevel": 54,
-          "RequiredSP": 2
-        }
-      }
-    },
-    "DeathTornado-AreaWidener": {
-      "Visible": false,
-      "Name": "Area Widener",
-      "ID": 20,
-      "Icon": "../assets/SkillIcons/C_Lily/L1-11B.png",
-      "Levels": {
-        "0": {
-          "Description": "Tornado moves towards the front.",
-          "Effect": "",
-          "RequiredLevel": 0,
-          "RequiredSP": 0,
-          "Preview": {
-            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_DeathTornado_B.{{auto}}"
-          }
-        },
-        "1": {
-          "Effect": "",
-          "RequiredLevel": 44,
-          "RequiredSP": 1
-        },
-        "2": {
-          "Effect": "",
-          "RequiredLevel": 49,
-          "RequiredSP": 1
-        },
-        "3": {
-          "Effect": "",
-          "RequiredLevel": 54,
-          "RequiredSP": 2
-        }
-      }
-    },
-    "EvilTrinity": {
-      "Name": "Evil Trinity",
+    "BlackMorass-DurationIncrease": {
       "ID": 21,
-      "Icon": "../assets/SkillIcons/C_Lily/L1-12.png",
+      "Visible": false,
+      "Name": "Duration Increase",
+      "Icon": "../assets/SkillIcons/E_Stella/E_4-2_BlackMorass_A.png",
       "Levels": {
         "0": {
-          "Description": "The Grim Reaper with two scythes appears, swinging them along with Lily. The ground smash creates three shock waves that will hit the enemies in the range.",
+          "Description": " Increase the maximum attack duration.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_EvilTrinity.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/E_4-2_BlackMorass_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "",
+          "RequiredLevel": 44,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "",
+          "RequiredLevel": 49,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "",
+          "RequiredLevel": 54,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "BestTempo": {
+      "ID": 22,
+      "Name": "Best Tempo",
+      "Icon": "../assets/SkillIcons/E_Stella/E_4-3_BestTempo.png",
+      "Levels": {
+        "0": {
+          "Description": "Playing the guitar inspires your allies. In support mode, it restores the HP of allies instantly.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/E_Stella/E_4-3_BestTempo.{{auto}}"
           }
         },
         "1": {
@@ -818,18 +831,18 @@
         }
       }
     },
-    "DeathGuillotine": {
-      "Name": "Death Guillotine",
-      "ID": 22,
-      "Icon": "../assets/SkillIcons/C_Lily/L1-13.png",
+    "BassAttack": {
+      "ID": 23,
+      "Name": "Bass Attack",
+      "Icon": "../assets/SkillIcons/E_Stella/E_5-1_BassAttack.png",
       "Levels": {
         "0": {
-          "Description": "Surrounds and restraints the enemies with chains, pushing them under a summoning gigantic guillotine.",
+          "Description": "Summon Stella's speakers and create a stage. Speakers violently shake to attack the enemies within its range.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_DeathGuillotine.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/E_5-1_BassAttack.{{auto}}"
           }
         },
         "1": {
@@ -859,173 +872,174 @@
         }
       }
     },
-    "EvilSlash-Kusarigama": {
+    "WhirlDance-PerformanceIncrease": {
       "Visible": false,
-      "Name": "Sickle and Chain",
-      "ID": 23,
-      "RequireClass": {
-        "CompareType": "atleast",
-        "ClassIndex": 1
-      },
-      "Icon": "../assets/SkillIcons/C_Lily/Icon_Mcythe_Skill_EvilSlash_A.png",
-      "Levels": {
-        "0": {
-          "Description": "鎌の代わりに鎖鎌を利用して、より広い範囲の敵を攻撃します。",
-          "Effect": "",
-          "RequiredLevel": 0,
-          "RequiredSP": 0,
-          "Preview": {
-            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_EvilSlash_A.{{auto}}"
-          }
-        },
-        "1": {
-          "Effect": "傷害量：[384%]\n霸體破壞量：[304%]",
-          "RequiredLevel": 57,
-          "RequiredSP": 1
-        },
-        "2": {
-          "Effect": "傷害量：[423%]\n霸體破壞量：[335%]",
-          "RequiredLevel": 58,
-          "RequiredSP": 1
-        },
-        "3": {
-          "Effect": "傷害量：[498%]\n霸體破壞量：[394%]",
-          "RequiredLevel": 60,
-          "RequiredSP": 2
-        }
-      }
-    },
-    "DeathScythe-Afterimage": {
-      "Visible": false,
-      "Name": "Afterimage",
+      "Name": "Performance Increase",
       "ID": 24,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/C_Lily/Icon_Mcythe_Skill_DeathScythe_A.png",
+      "Icon": "../assets/SkillIcons/E_Stella/E_ADV_1-1_WhirlDance_WhirlDance_A.png",
       "Levels": {
         "0": {
-          "Description": "The afterimage of the death god rushes towards the enemy and attacks according to the attack action of Lily.",
+          "Description": "Enables moving while performing Whirl Dance.\nIn addition, Stella will be in invulnerable state when a revolution attack is made. (Some special attacks are not covered)",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_DeathScythe_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/E_ADV_1-1_WhirlDance_WhirlDance_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "傷害量：[628%]\n霸體破壞量：[1168%]",
+          "Effect": "傷害量：[?%]\n霸體破壞量：[?%]\n[Final Attack]\n傷害量：[?%]\n霸體破壞量：[?%]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "傷害量：[710%]\n霸體破壞量：[1198%]",
-          "RequiredLevel": 59,
+          "Effect": "傷害量：[?%]\n霸體破壞量：[?%]\n[Final Attack]\n傷害量：[?%]\n霸體破壞量：[?%]",
+          "RequiredLevel": 58,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "傷害量：[880%]\n霸體破壞量：[1484%]",
+          "Effect": "傷害量：[111%]\n霸體破壞量：[50%] ]\n[Final Attack]\n傷害量：[558%]\n霸體破壞量：[251%]",
           "RequiredLevel": 60,
           "RequiredSP": 2
         }
       }
     },
-    "BloodyBlossom": {
-      "Name": "Bloody Blossom",
+    "SoulScream-StarlightStage": {
+      "Visible": false,
+      "Name": "Starlight Stage",
       "ID": 25,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/C_Lily/Icon_Mcythe_Skill_BloodyBlossom.png",
-      "Assignable": false,
+      "Icon": "../assets/SkillIcons/E_Stella/E_ADV_3-2_SoulScream_A.png",
       "Levels": {
         "0": {
-          "Description": "After attacking while swiftly rotating the scythe of both hands in the air, performing a powerful cross strike attack.",
+          "Description": "??",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_FallingPetals.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/E_ADV_3-2_SoulScream_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "傷害量：[752%]\n霸體破壞量：[480%]\n靈魂值消耗量：[30]\n冷卻時間：[28s",
+          "Effect": "[Left click]\n傷害量：[?%]\n霸體破壞量：[?%]\n[Right click]\n傷害量：[?%]\n霸體破壞量：[?%]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "傷害量：[828%]\n霸體破壞量：[504%]\n靈魂值消耗量：[30]\n冷卻時間：[28s",
-          "RequiredLevel": 57,
+          "Effect": "[Left click]\n傷害量：[?%]\n霸體破壞量：[?%]\n[Right click]\n傷害量：[?%]\n霸體破壞量：[?%]",
+          "RequiredLevel": 59,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "傷害量：[927%]\n霸體破壞量：[550%]\n靈魂值消耗量：[30]\n冷卻時間：[28s",
-          "RequiredLevel": 58,
-          "RequiredSP": 2
-        },
-        "4": {
-          "Effect": "傷害量：[1057%]\n霸體破壞量：[616%]\n靈魂值消耗量：[30]\n冷卻時間：[28s",
-          "RequiredLevel": 59,
-          "RequiredSP": 2
-        },
-        "5": {
-          "Effect": "傷害量：[1247%]\n霸體破壞量：[708%]\n靈魂值消耗量：[30]\n冷卻時間：[28s",
+          "Effect": "[Left click]\n傷害量：[695%]\n霸體破壞量：[1737%]\n[Right click]\n傷害量：[347%]\n霸體破壞量：[868%]",
           "RequiredLevel": 60,
-          "RequiredSP": 3
+          "RequiredSP": 2
         }
       }
     },
-    "FuryScythe": {
-      "Name": "Fury Scythe",
+    
+    "RecklessPrincess": {
+      "Name": "Reckless Princess",
       "ID": 26,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/C_Lily/Icon_Mcythe_Skill_Furymach.png",
+      "Icon": "../assets/SkillIcons/E_Stella/E_ADV_5-2_RecklessPrincess.png",
+      "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "Joining the sickle and the scissors and do a lash rush in the front.\nIt attacks enemies and moves forward by operation.\n\n[1] Left click: Cuts forward enemies and makes short rush.\n\n[2] Right click: It moves quickly towards the front.",
+          "Description": "??",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/C_Lily/B_Skill_FuryMach.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/E_ADV_5-2_RecklessPrincess.{{auto}}"
           }
         },
         "1": {
-          "Effect": "傷害量：[2000%]\n霸體破壞量：[2130%]\n靈魂值消耗量：[55]\n冷卻時間：[30s]\n\n[Additional Attack]\n傷害量：[375%]\n霸體破壞量：[399%]",
+          "Effect": "傷害量：[?%]\n霸體破壞量：[?%]\n靈魂值消耗量：[35]\n冷卻時間：[30秒]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "傷害量：[2200%]\n霸體破壞量：[2236%]\n靈魂值消耗量：[55]\n冷卻時間：[30s]\n\n[Additional Attack]\n傷害量：[412%]\n霸體破壞量：[419%]",
+          "Effect": "傷害量：[?%]\n霸體破壞量：[?%]\n靈魂值消耗量：[35]\n冷卻時間：[30秒]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "傷害量：[2464%]\n霸體破壞量：[2438%]\n靈魂值消耗量：[55]\n冷卻時間：[30s]\n\n[Additional Attack]\n傷害量：[462%]\n霸體破壞量：[457%]",
+          "Effect": "傷害量：[?%]\n霸體破壞量：[?%]\n靈魂值消耗量：[35]\n冷卻時間：[30秒]",
           "RequiredLevel": 58,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "傷害量：[2808%]\n霸體破壞量：[2730%]\n靈魂值消耗量：[55]\n冷卻時間：[30s]\n\n[Additional Attack]\n傷害量：[526%]\n霸體破壞量：[511%]",
+          "Effect": "傷害量：[?%]\n霸體破壞量：[?%]\n靈魂值消耗量：[35]\n冷卻時間：[30秒]",
           "RequiredLevel": 59,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "傷害量：[3314%]\n霸體破壞量：[3140%]\n靈魂值消耗量：[55]\n冷卻時間：[30s]\n\n[Additional Attack]\n傷害量：[621%]\n霸體破壞量：[588%]",
+          "Effect": "傷害量：[1094%]\n霸體破壞量：[1160%]\n靈魂值消耗量：[35]\n冷卻時間：[30秒]",
           "RequiredLevel": 60,
           "RequiredSP": 3
         }
       }
     },
-    "LeashedBeast": {
-      "Name": "拴住的野獸",
+    "Wolf'sShowtime": {
+      "Name": "Wolf's Showtime",
       "ID": 27,
-      "Icon": "../assets/SkillIcons/A_Haru/H6-1_Trollsverd.png",
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/E_Stella/E_ADV_5-3_WolvesShowtime.png",
+      "Levels": {
+        "0": {
+          "Description": "Summons a Wolf knight.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/E_Stella/E_ADV_5-3_WolvesShowtime.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "傷害量：[?%]\n霸體破壞量：[?%]\n靈魂值消耗量：[30]\n冷卻時間：[35秒]",
+          "RequiredLevel": 57,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "傷害量：[?%]\n霸體破壞量：[?%]\n靈魂值消耗量：[30]\n冷卻時間：[35秒]",
+          "RequiredLevel": 57,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "傷害量：[?%]\n霸體破壞量：[?%]\n靈魂值消耗量：[30]\n冷卻時間：[35秒]",
+          "RequiredLevel": 58,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "傷害量：[?%]\n霸體破壞量：[?%]\n靈魂值消耗量：[30]\n冷卻時間：[35秒]",
+          "RequiredLevel": 59,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "傷害量：[2602%]\n霸體破壞量：[1130%]\n靈魂值消耗量：[30]\n冷卻時間：[35秒]",
+          "RequiredLevel": 60,
+          "RequiredSP": 3
+        }
+      }
+    },
+    "GhostyHunt": {
+      "Name": "壓制彈",
+      "ID": 28,
+      "Icon": "../assets/SkillIcons/E_Stella/E_6-1_GhostyHunt.png",
       "Levels": {
         "0": {
           "Description": "使用以靈魂能量形成的光之劍 '巨魔之劍'，對前方的敵人們進行砍殺，並在攻擊線上產生追加的爆炸攻擊。",
@@ -1033,7 +1047,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/PC_A_Haru/H6-1_Trollsverd.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/E_6-1_GhostyHunt.{{auto}}"
           }
         },
         "1": {
@@ -1061,12 +1075,12 @@
       "Icon": "../assets/SkillIcons/Common/DefaultAttack.png",
       "Levels": {
         "0": {
-          "Description": "Attack with your sword.\nAs this skill's level increases, you will be able to perform new combo attacks.\nYou will regain SG as you attack.\n靈魂值獲得量will vary by enemy type",
+          "Description": "Attack with your weapons.\nAs this skill's level increases, you will be able to perform new combo attacks.\nYou will regain SG as you attack.\n靈魂值獲得量will vary by enemy type",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/C_Lily/B_Attack_01.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/E_DefaultAttack_01.{{auto}}"
           }
         },
         "1": {
@@ -1079,7 +1093,7 @@
           "RequiredLevel": 5,
           "RequiredSP": 1,
           "Preview": {
-            "Video": "../assets/SkillPreviews/C_Lily/B_Attack_02.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/E_DefaultAttack_02.{{auto}}"
           }
         },
         "3": {
@@ -1087,20 +1101,23 @@
           "RequiredLevel": 10,
           "RequiredSP": 2,
           "Preview": {
-            "Video": "../assets/SkillPreviews/C_Lily/B_Attack_04_02.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/E_DefaultAttack_03.{{auto}}"
           }
         },
         "4": {
           "Effect": "靈魂值獲得量：[+200%]\nUnlock alternative attack “C”",
           "RequiredLevel": 15,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/E_Stella/E_DefaultAttack_04.{{auto}}"
+          }
         },
         "5": {
           "Effect": "",
           "RequiredLevel": 20,
           "RequiredSP": 2,
           "Preview": {
-            "Video": "../assets/SkillPreviews/C_Lily/B_Attack_05.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/E_DefaultAttack_05.{{auto}}"
           }
         }
       }
@@ -1110,40 +1127,40 @@
       "DefaultLevel": 1,
       "ID": 1001,
       "Name": "特殊能力精通",
-      "Icon": "../assets/SkillIcons/C_Lily/Sh-2l.png",
+      "Icon": "../assets/SkillIcons/E_Stella/E_SpecialAttack_OwnAbility.png",
       "Levels": {
         "0": {
-          "Description": "[地面]\nQuickly dash forward, enemies in the way are inflicted with debuff effect.\n[Air]\nPerformed a slashing rotation. On additional inputs, continue slashing.",
+          "Description": "[地面]\nChanges modes and the effects of your skills. Activates Sorrowful Note.\n[Air]\nDo a musical performance on your special guitar to change your mode. Using this skill in the air will make your ghost attack with a fist and pushes you backwards.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/C_Lily/B_S_Attack_N_01.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/E_SpecialAttack_OwnAbility.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[地面]\n傷害量：[164%]\n霸體破壞量：[119%]\nDe增益效果：Movement speed -50%] in 3s]\n冷卻時間：[10s]\n[Air]\n傷害量：[239%]\n霸體破壞量：[119%]\n冷卻時間：[10s",
+          "Effect": "[Air]\n傷害量：[204%]\n霸體破壞量：[124%]\n冷卻時間：[3s",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "[地面]\n傷害量：[173%]\n霸體破壞量：[125%]\nDe增益效果：Movement speed -50%] in 3s]\n冷卻時間：[10s]\n靈魂值獲得量：[+20%]\n[Air]\n傷害量：[251%]\n霸體破壞量：[125%]\n冷卻時間：[10s]\n靈魂值獲得量：[+20%]",
+          "Effect": "[Air]\n傷害量：[214%]\n霸體破壞量：[131%]\n冷卻時間：[3s",
           "RequiredLevel": 15,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[地面]\n傷害量：[193%]\n霸體破壞量：[140%]\nDe增益效果：Movement speed -50%] in 3s]\n冷卻時間：[10s]\n靈魂值獲得量：[+70%]\n[Air]\n傷害量：[281%]\n霸體破壞量：[140%]\n冷卻時間：[10s]\n靈魂值獲得量：[+70%]",
+          "Effect": "[Air]\n傷害量：[239%]\n霸體破壞量：[146%]\n冷卻時間：[3s",
           "RequiredLevel": 30,
           "RequiredSP": 2
         }
       }
     },
-    "EmergencyDodge": {
+    "Dodge": {
       "Passive": true,
       "Name": "緊急迴避",
       "ID": 1004,
       "DefaultLevel": 1,
-      "Icon": "../assets/SkillIcons/Common/EmergencyDodge.png",
+      "Icon": "../assets/SkillIcons/Common/Dodge.png",
       "Levels": {
         "0": {
           "Description": "向指定的方向快速迴避。\n在緊急迴避的狀態下不會受到任何攻擊。",
@@ -1151,7 +1168,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/C_Lily/B_Evade_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/E_Dodge.{{auto}}"
           }
         },
         "1": {
@@ -1174,7 +1191,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/C_Lily/B_Roll_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/E_RisingRoll.{{auto}}"
           }
         },
         "1": {
@@ -1207,7 +1224,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/C_Lily/B_Run_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/E_Dash.{{auto}}"
           }
         },
         "1": {
@@ -1235,7 +1252,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/C_Lily/B_Rise_Attack.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/E_RiseAttack.{{auto}}"
           }
         },
         "1": {
@@ -1268,7 +1285,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/C_Lily/B_N_Attack_Dash.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/E_DashAttack.{{auto}}"
           }
         },
         "1": {
@@ -1290,7 +1307,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/C_Lily/B_S_Evade_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/E_SpecialDodge.{{auto}}"
           }
         },
         "1": {
@@ -1322,7 +1339,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/C_Lily/B_S_Attack_N_Dash.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/E_SpecialDashAttack.{{auto}}"
           }
         },
         "1": {
@@ -1371,78 +1388,75 @@
         }
       }
     },
-    "RampagingMadness": {
+    "BounceWave": {
       "Passive": true,
-      "Name": "Rampaging Madness",
+      "Name": "Bounce Wave",
       "ID": 1013,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/C_Lily/Icon_Mcythe_Skill_SGPassive2.png",
+      "Icon": "../assets/SkillIcons/E_Stella/E_ADV_Passive_SGPassive2.png",
       "Levels": {
         "0": {
-          "Description": "Every 1 minute while SG is above 70%], decrease SG consumption, increase critical attack power, increase defense penetration for 15秒].",
-          "Effect": "",
-          "RequiredLevel": 0,
-          "RequiredSP": 0,
-          "Preview": {
-            "Video": "../assets/SkillPreviews/C_Lily/Contributor_lily_RampagingMadness.{{auto}}"
-          }
-        },
-        "1": {
-          "Effect": "SG consumption decrease ?%].\nCritical attack power increase ???.\nDefense penetration increase ?%].",
-          "RequiredLevel": 57,
-          "RequiredSP": 1
-        },
-        "2": {
-          "Effect": "SG consumption decrease ?%].\nCritical attack power increase ????.\nDefense penetration increase ?%].",
-          "RequiredLevel": 58,
-          "RequiredSP": 1
-        },
-        "3": {
-          "Effect": "SG consumption decrease 15%].\nCritical attack power increase 2000.\nDefense penetration increase 20%].",
-          "RequiredLevel": 59,
-          "RequiredSP": 2
-        }
-      }
-    },
-    "IntensifyingMadness": {
-      "Passive": true,
-      "Name": "Intensifying Madness",
-      "ID": 1011,
-      "RowSpan": {
-        "0": 2,
-        "1": 1
-      },
-      "Icon": "../assets/SkillIcons/C_Lily/LP1-2.png",
-      "Levels": {
-        "0": {
-          "Description": "Increase Critical Damage",
+          "Description": "??",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "Critical Damage Increase by 400",
+          "Effect": "Cooldown reduction: ?%]",
+          "RequiredLevel": 57,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "Cooldown reduction: ?%]",
+          "RequiredLevel": 58,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "Cooldown reduction: 15%]",
+          "RequiredLevel": 59,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "SoundWave": {
+      "Passive": true,
+      "Name": "Sound Wave",
+      "ID": 1011,
+      "RowSpan": {
+        "0": 2,
+        "1": 1
+      },
+      "Icon": "../assets/SkillIcons/E_Stella/E_Passive_SGPassive1.png",
+      "Levels": {
+        "0": {
+          "Description": "Maximum SG increase",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        },
+        "1": {
+          "Effect": "SG Capacity Rate: +10%]",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Critical Damage Increase by 800",
+          "Effect": "SG Capacity Rate: +15%]",
           "RequiredLevel": 20,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Critical Damage Increase by 1300",
+          "Effect": "SG Capacity Rate: +20%]",
           "RequiredLevel": 30,
           "RequiredSP": 2
         }
       }
     },
-    "MadScythe": {
+    "SorrowfulNote": {
       "Passive": true,
-      "Name": "狂亂之鐮",
+      "Name": "悲傷樂章",
       "DefaultLevel": 1,
       "ID": 1012,
       "RowSpan": {
@@ -1452,19 +1466,19 @@
       "Icon": "../assets/SkillIcons/Common/SoulMastery.png",
       "Levels": {
         "0": {
-          "Description": "基本攻擊成功時，恢復靈魂值。\n每隔一定時間自動恢復靈魂值。\n靈魂值積累到一定數值以上時，進入狂暴狀態。",
+          "Description": "每隔一定時間自動恢復靈魂值。\n切換姿態時，特殊能力精通等級越高，獲得效果越好。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "狂暴狀態：攻擊力 [+5%]、暴擊率 [+5%]",
+          "Effect": "[特殊能力精通I]\n靈魂值恢復10%。\n\n[特殊能力精通II]\n靈魂值恢復15%。\n\n[特殊能力精通III]\n靈魂值恢復20%。",
           "RequiredLevel": 1,
           "RequiredSP": 0
         }
       }
     },
-    "ExtinctionPrelude": {
+    "StelliaSymphony": {
       "Passive": true,
       "Name": "心爆氣流斬",
       "DefaultLevel": 1,
@@ -1473,7 +1487,8 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/A_Haru/HADV_SV_EX_Prelude.png",
+      "Icon": "../assets/SkillIcons/E_Stella/E_ADV_SV_EX_StelliaSymphony.png",
+      "Assignable": false,
       "Levels": {
         "0": {
           "Description": "在覺醒狀態下可以使用的技能。\n施展後覺醒狀態會被解除。\n使用雙劍，對前方展開多方位的急速衝刺連斬，最後重擊地面。\n使用條件：處於覺醒狀態。",
@@ -1481,7 +1496,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/PC_A_Haru/HADV_SV_EX_Prelude.{{auto}}"
+            "Video": "../assets/SkillPreviews/E_Stella/E_ADV_SV_EX_StelliaSymphony.{{auto}}"
           }
         },
         "1": {

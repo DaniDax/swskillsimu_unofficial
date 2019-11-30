@@ -1,245 +1,227 @@
 {
-  "CharacterName": "史黛菈・優妮貝爾",
-  "CharacterWikiURL": "https://wiki.soulworkerhq.com/w/Stella_Unibell",
+  "CharacterName": "金・希帕斯",
+  "CharacterWikiURL": "https://wiki.soulworkerhq.com/w/Jin_Seipatsu",
   "MaxLevel": 68,
   "AvailableClass": {
     "0": {
       "Name": "一般",
-      "Cover": "../assets/images/bg_E_Stella.png"
+      "Cover": "../assets/images/bg_D_Jin.png"
     },
     "1": {
       "Name": "晉升",
-      "Cover": "../assets/images/bg_E_Stella_ADV.png",
+      "Cover": "../assets/images/bg_D_Jin_ADV.png",
       "RequiredLevel": 57
     }
   },
   "Skills": {
-    "WhirlDance": {
-      "Name": "Whirl Dance",
+    "GloryUpper": {
+      "Name": "Glory Upper",
       "DefaultLevel": 1,
       "ID": 1,
-      "Icon": "../assets/SkillIcons/E_Stella/S1-1.png",
+      "Icon": "../assets/SkillIcons/D_Jin/D_1-1_GloryUpper.png",
       "Levels": {
         "0": {
-          "Description": "Possess the guitar with ghosts, and swing it around to deal damage. The final slam launches enemies to the air.",
+          "Description": "Approach and knock-up enemies with an upper attack. Afterwards, launches additional consecutive attacks. When this skill is strengthen , it increases the performance by 1.5x",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/E_Stella/B_Skill_WheelDance.{{auto}}"
+            "Video": "../assets/SkillPreviews/D_Jin/D_1-1_GloryUpper.{{auto}}"
           }
         },
         "1": {
-          "Effect": "傷害量：[164%]\n霸體破壞量：[231%]\n靈魂值消耗量：[15]\n冷卻時間：[8s",
+          "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "傷害量：[172%]\n霸體破壞量：[242%]\n靈魂值消耗量：[15]\n冷卻時間：[8s",
+          "Effect": "",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "傷害量：[192%]\n霸體破壞量：[271%]\n靈魂值消耗量：[15]\n冷卻時間：[8s",
+          "Effect": "",
           "RequiredLevel": 7,
-          "RequiredSP": 1
+          "RequiredSP": 2
         },
         "4": {
-          "Effect": "傷害量：[213%]\n霸體破壞量：[300%]\n靈魂值消耗量：[15]\n冷卻時間：[8s",
+          "Effect": "",
           "RequiredLevel": 10,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "傷害量：[245%]\n霸體破壞量：[346%]\n靈魂值消耗量：[15]\n冷卻時間：[8s",
+          "Effect": "",
           "RequiredLevel": 13,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "WhirlDance-PerformanceIncrease"
+        "GloryUpper-Knockdown",
+        "GloryUpper-Upper"
       ]
     },
-    "PhantomRelease": {
-      "Name": "Phantom Release",
-      "DefaultLevel": 1,
+    "GloryUpper-Knockdown": {
+      "Visible": false,
+      "Name": "Knockdown",
       "ID": 2,
-      "Icon": "../assets/SkillIcons/E_Stella/S1-2.png",
+      "Icon": "../assets/SkillIcons/D_Jin/D_1-1_GloryUpper_A.png",
       "Levels": {
         "0": {
-          "Description": "Release ghosts by playing the guitar at the current location.",
+          "Description": "Activated after Glory Upper's additional attack. Follow up with a powerful blow on the enemy",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/E_Stella/B_Skill_PhantomRelease.{{auto}}"
+            "Video": "../assets/SkillPreviews/D_Jin/D_1-1_GloryUpper_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "傷害量：[265%]\n霸體破壞量：[143%]\n靈魂值消耗量：[20]\n冷卻時間：[10s",
-          "RequiredLevel": 0,
-          "RequiredSP": 0
+          "Effect": "",
+          "RequiredLevel": 13,
+          "RequiredSP": 1
         },
         "2": {
-          "Effect": "傷害量：[279%]\n霸體破壞量：[150%]\n靈魂值消耗量：[20]\n冷卻時間：[10s",
-          "RequiredLevel": 6,
+          "Effect": "",
+          "RequiredLevel": 18,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "傷害量：[312%]\n霸體破壞量：[168%]\n靈魂值消耗量：[20]\n冷卻時間：[10s",
-          "RequiredLevel": 11,
+          "Effect": "",
+          "RequiredLevel": 23,
           "RequiredSP": 2
-        },
-        "4": {
-          "Effect": "傷害量：[345%]\n霸體破壞量：[186%]\n靈魂值消耗量：[20]\n冷卻時間：[10s",
-          "RequiredLevel": 16,
-          "RequiredSP": 2
-        },
-        "5": {
-          "Effect": "傷害量：[398%]\n霸體破壞量：[214%]\n靈魂值消耗量：[20]\n冷卻時間：[10s",
-          "RequiredLevel": 21,
-          "RequiredSP": 3
         }
-      },
-      "Extensions": [
-        "PhantomRelease-ExtraAttack"
-      ]
+      }
     },
-    "PhantomRelease-ExtraAttack": {
+    "GloryUpper-Upper": {
       "Visible": false,
+      "Name": "Upper",
       "ID": 3,
-      "Name": "ExtraAttack",
-      "Icon": "../assets/SkillIcons/E_Stella/S1-2A.png",
+      "Icon": "../assets/SkillIcons/D_Jin/D_1-1_GloryUpper_B.png",
       "Levels": {
         "0": {
-          "Description": "Number of attacks increase.",
+          "Description": "Activated after Glory Upper's additional attack. Attacks facing enemies with tremendous power",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/E_Stella/B_Skill_PhantomRelease_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/D_Jin/D_1-1_GloryUpper_B.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Additional number of attacks: +4",
-          "RequiredLevel": 21,
+          "Effect": "",
+          "RequiredLevel": 13,
           "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "",
+          "RequiredLevel": 18,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "",
+          "RequiredLevel": 23,
+          "RequiredSP": 2
         }
       }
     },
-    "TroublePass": {
-      "Name": "Trouble Pass",
+    "PerfectCombination": {
+      "Name": "Perfect Combination",
       "DefaultLevel": 1,
       "ID": 4,
-      "Icon": "../assets/SkillIcons/E_Stella/S1-3.png",
+      "Icon": "../assets/SkillIcons/D_Jin/D_1-2_PerfectCombination.png",
       "Levels": {
         "0": {
-          "Description": "Release guiding-type ghosts to damage enemies. While in support mode, ghosts will heal allies.",
+          "Description": "Quickly rush and tackle the enemy. Afterwards, launches additional consecutive attacks",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/E_Stella/B_Skill_Trouble Pass.{{auto}}"
+            "Video": "../assets/SkillPreviews/D_Jin/D_1-2_PerfectCombination.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Attack Mode]\n傷害量：[361%]\n霸體破壞量：[194%]\n[Support Mode]\nHP Recovery: 4%] per ghost]\n靈魂值消耗量：[25]\n冷卻時間：[12s",
+          "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "[Attack Mode]\n傷害量：[379%]\n霸體破壞量：[203%]\n[Support Mode]\nHP Recovery: 4%] per ghost]\n靈魂值消耗量：[25]\n冷卻時間：[12s",
+          "Effect": "",
           "RequiredLevel": 5,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[Attack Mode]\n傷害量：[424%]\n霸體破壞量：[228%]\n[Support Mode]\nHP Recovery: 4%] per ghost]\n靈魂值消耗量：[25]\n冷卻時間：[12s",
+          "Effect": "",
           "RequiredLevel": 9,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[Attack Mode]\n傷害量：[469%]\n霸體破壞量：[252%]\n[Support Mode]\nHP Recovery: 4%] per ghost]\n靈魂值消耗量：[25]\n冷卻時間：[12s",
+          "Effect": "",
           "RequiredLevel": 13,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[Attack Mode]\n傷害量：[541%]\n霸體破壞量：[290%]\n[Support Mode]\nHP Recovery: 4%] per ghost]\n靈魂值消耗量：[25]\n冷卻時間：[12s",
+          "Effect": "",
           "RequiredLevel": 17,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "TroublePass-RangeIncrease",
-        "TroublePass-Strengthen"
+        "PerfectCombination-RisingUpper"
       ]
     },
-    "TroublePass-RangeIncrease": {
-      "Visible": false,
+    "HammerKick": {
+      "Name": "Hammer Kick",
+      "DefaultLevel": 1,
       "ID": 5,
-      "Name": "Range Increase",
-      "Icon": "../assets/SkillIcons/E_Stella/S1-3A.png",
+      "Icon": "../assets/SkillIcons/D_Jin/D_1-3_HammerKick.png",
       "Levels": {
         "0": {
-          "Description": "Increase the range of exploding ghosts.",
+          "Description": " After jumping forwards, spin your body in the air and launch a kick. Attack enemies are knocked up. When this skill is strengthen increases the performance by 1.5x",
           "Effect": "",
-          "RequiredLevel": 0,
-          "RequiredSP": 0
-        },
-        "1": {
-          "Effect": "",
-          "RequiredLevel": 17,
-          "RequiredSP": 1
-        },
-        "2": {
-          "Effect": "",
-          "RequiredLevel": 22,
-          "RequiredSP": 1
-        },
-        "3": {
-          "Effect": "",
-          "RequiredLevel": 27,
-          "RequiredSP": 2
-        }
-      }
-    },
-    "TroublePass-Strengthen": {
-      "Visible": false,
-      "ID": 6,
-      "Name": "Strengthen",
-      "Icon": "../assets/SkillIcons/E_Stella/S1-3B.png",
-      "Levels": {
-        "0": {
-          "Description": "Ghosts will grant a defense-boosting buff.",
-          "Effect": "",
-          "RequiredLevel": 0,
-          "RequiredSP": 0
-        },
-        "1": {
-          "Effect": "",
-          "RequiredLevel": 17,
-          "RequiredSP": 1
-        },
-        "2": {
-          "Effect": "",
-          "RequiredLevel": 22,
-          "RequiredSP": 1
-        },
-        "3": {
-          "Effect": "",
-          "RequiredLevel": 27,
-          "RequiredSP": 2
-        }
-      }
-    },
-    "HystericalShock": {
-      "Name": "Hysterical Shock",
-      "ID": 7,
-      "Icon": "../assets/SkillIcons/E_Stella/S1-4.png",
-      "Levels": {
-        "0": {
-          "Description": "Create cracks on the ground by playing the guitar, and then cause an explosion.",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/E_Stella/B_Skill_HystericShock.{{auto}}"
+            "Video": "../assets/SkillPreviews/D_Jin/D_1-3_HammerKick.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        },
+        "2": {
+          "Effect": "",
+          "RequiredLevel": 6,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "",
+          "RequiredLevel": 11,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "",
+          "RequiredLevel": 16,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "",
+          "RequiredLevel": 21,
+          "RequiredSP": 3
+        }
+      }
+    },
+    "CounterAttack": {
+      "Name": "Counter Attack",
+      "ID": 6,
+      "Icon": "../assets/SkillIcons/D_Jin/D_2-1_CounterAttack.png",
+      "Levels": {
+        "0": {
+          "Description": "Can only counter short-ranged attacks, if it's successful, a part of the skill will be strengthened for 5秒]",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/D_Jin/D_2-1_CounterAttack.{{auto}}"
           }
         },
         "1": {
@@ -269,22 +251,22 @@
         }
       },
       "Extensions": [
-        "HystericalShock-ExtraAttack"
+        "CounterAttack-KnockOut",
+        "CounterAttack-SADestruction"
       ]
     },
-    "HystericalShock-ExtraAttack": {
+    "CounterAttack-KnockOut": {
+      "Name": "暈眩",
+      "ID": 7,
       "Visible": false,
-      "ID": 8,
-      "Name": "Extra Attack",
-      "Icon": "../assets/SkillIcons/E_Stella/S1-4A.png",
+      "Icon": "../assets/SkillIcons/D_Jin/D_2-1_CounterAttack_A.png",
       "Levels": {
         "0": {
-          "Description": "Number of attacks increase.",
-          "Effect": "",
+          "Description": "Stuns attacked enemies",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/E_Stella/B_Skill_HystericShock_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/D_Jin/D_2-1_CounterAttack_A.{{auto}}"
           }
         },
         "1": {
@@ -296,20 +278,54 @@
           "Effect": "",
           "RequiredLevel": 25,
           "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "",
+          "RequiredLevel": 30,
+          "RequiredSP": 2
         }
       }
     },
-    "BeastParade": {
-      "ID": 9,
-      "Name": "Beast Parade",
-      "Icon": "../assets/SkillIcons/E_Stella/S1-5.png",
+    "CounterAttack-SADestruction": {
+      "Visible": false,
+      "Name": "SA Destruction",
+      "ID": 8,
+      "Icon": "../assets/SkillIcons/D_Jin/D_2-1_CounterAttack_B.png",
       "Levels": {
         "0": {
-          "Description": "Summon the ghosts and charge forward by riding on their backs.",
+          "Description": "Increases SA Destruction",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        },
+        "1": {
+          "Effect": "",
+          "RequiredLevel": 20,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "",
+          "RequiredLevel": 25,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "",
+          "RequiredLevel": 30,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "SpiritSurge": {
+      "Name": "Spirit Surge",
+      "ID": 9,
+      "Icon": "../assets/SkillIcons/D_Jin/D_2-2_SpiritSurge.png",
+      "Levels": {
+        "0": {
+          "Description": "After releasing tremendous power, intimidate enemies while protecting allies",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/E_Stella/B_Skill_BeastParade.{{auto}}"
+            "Video": "../assets/SkillPreviews/D_Jin/D_2-2_SpiritSurge.{{auto}}"
           }
         },
         "1": {
@@ -319,38 +335,70 @@
         },
         "2": {
           "Effect": "",
-          "RequiredLevel": 11,
+          "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "3": {
           "Effect": "",
-          "RequiredLevel": 16,
+          "RequiredLevel": 14,
           "RequiredSP": 2
         },
         "4": {
           "Effect": "",
-          "RequiredLevel": 21,
+          "RequiredLevel": 18,
           "RequiredSP": 2
         },
         "5": {
           "Effect": "",
-          "RequiredLevel": 26,
+          "RequiredLevel": 22,
           "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "SpiritSurge-Strengthen"
+      ]
+    },
+    "SpiritSurge-Strengthen": {
+      "Name": "Strengthen",
+      "ID": 10,
+      "Visible": false,
+      "Icon": "../assets/SkillIcons/D_Jin/D_2-2_SpiritSurge_A.png",
+      "Levels": {
+        "0": {
+          "Description": "Taunted enemies become excited causing their evasion to decrease",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        },
+        "1": {
+          "Effect": "",
+          "RequiredLevel": 22,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "",
+          "RequiredLevel": 27,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "",
+          "RequiredLevel": 32,
+          "RequiredSP": 2
         }
       }
     },
-    "BeadsPlay": {
-      "ID": 10,
-      "Name": "Beads Play",
-      "Icon": "../assets/SkillIcons/E_Stella/S1-6.png",
+    "GravityTwister": {
+      "Name": "Gravity Twister",
+      "ID": 11,
+      "Icon": "../assets/SkillIcons/D_Jin/D_2-3_GravityTwister.png",
       "Levels": {
         "0": {
-          "Description": "Creates beads which will explode when hitting enemies. In support mode, the beads will restore HP and increase attack.\nCharging will increase number of beads. Push away enemies when charging completes.",
+          "Description": "Unleash tremendous power before the enemy. When the skill is strengthen increases the pulling range performance by 1.5x",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/E_Stella/B_Skill_BeadsPlay_N.{{auto}}"
+            "Video": "../assets/SkillPreviews/D_Jin/D_2-3_GravityTwister.{{auto}}"
           }
         },
         "1": {
@@ -380,55 +428,22 @@
         }
       },
       "Extensions": [
-        "BeadsPlay-Paralyze",
-        "BeadsPlay-Strengthen"
+        "GravityTwister-ShockWaves"
       ]
     },
-    "BeadsPlay-Paralyze": {
-      "ID": 11,
+    "GravityTwister-ShockWaves": {
       "Visible": false,
-      "Name": "Paralyze",
-      "Icon": "../assets/SkillIcons/E_Stella/S1-6A.png",
-      "Levels": {
-        "0": {
-          "Description": "Beads go through enemies and paralyze them.",
-          "Effect": "",
-          "RequiredLevel": 0,
-          "RequiredSP": 0,
-          "Preview": {
-            "Video": "../assets/SkillPreviews/E_Stella/B_Skill_BeadsPlay_N_A.{{auto}}"
-          }
-        },
-        "1": {
-          "Effect": "",
-          "RequiredLevel": 24,
-          "RequiredSP": 1
-        },
-        "2": {
-          "Effect": "",
-          "RequiredLevel": 29,
-          "RequiredSP": 1
-        },
-        "3": {
-          "Effect": "",
-          "RequiredLevel": 34,
-          "RequiredSP": 2
-        }
-      }
-    },
-    "BeadsPlay-Strengthen": {
+      "Name": "Shock Waves",
       "ID": 12,
-      "Visible": false,
-      "Name": "Strengthen",
-      "Icon": "../assets/SkillIcons/E_Stella/S1-6B.png",
+      "Icon": "../assets/SkillIcons/D_Jin/D_2-3_GravityTwister_A.png",
       "Levels": {
         "0": {
-          "Description": "The beads effect is strengthened.",
+          "Description": "Existing skill is changed into a multi-hit shock wave",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/E_Stella/B_Skill_BeadsPlay_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/D_Jin/D_2-3_GravityTwister_A.{{auto}}"
           }
         },
         "1": {
@@ -448,18 +463,18 @@
         }
       }
     },
-    "DecadePulse": {
+    "SpiritExplosion": {
+      "Name": "Spirit Explosion",
       "ID": 13,
-      "Name": "Decade Pulse",
-      "Icon": "../assets/SkillIcons/E_Stella/S1-7.png",
+      "Icon": "../assets/SkillIcons/D_Jin/D_3-1_SpiritExplosion.png",
       "Levels": {
         "0": {
-          "Description": "Using the guitar, you release a pulse that attacks enemies. When switching modes, it paralyzes enemies and steals HP.\nThe lifesteal effect(100%] lifesteal) is applied to a maximum of 3 targets.",
+          "Description": "Store energy in the gauntlet, unleash a powerful blow forwards. While charging , it increases the performance by 1.4x, up to 2.0x.\nWhen the skill is strengthen , a 3-stage charge attack will be unleashed immediately without charging",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/E_Stella/B_Skill_DecadePulse.{{auto}}"
+            "Video": "../assets/SkillPreviews/D_Jin/D_3-1_SpiritExplosion.{{auto}}"
           }
         },
         "1": {
@@ -489,52 +504,23 @@
         }
       },
       "Extensions": [
-        "DecadePulse-DurationIncrease",
-        "DecadePulse-RadiusIncrease"
+        "SpiritExplosion-ImpactBullets",
+        "SpiritExplosion-RangeIncrease"
       ]
     },
-    "DecadePulse-DurationIncrease": {
+    "SpiritExplosion-ImpactBullets": {
+      "Visible": false,
+      "Name": "Impact Bullets",
       "ID": 14,
-      "Visible": false,
-      "Name": "Duration Increase",
-      "Icon": "../assets/SkillIcons/E_Stella/S1-7A.png",
+      "Icon": "../assets/SkillIcons/D_Jin/D_3-1_SpiritExplosion_A.png",
       "Levels": {
         "0": {
-          "Description": "Increases the duration of pulse.",
-          "Effect": "",
-          "RequiredLevel": 0,
-          "RequiredSP": 0
-        },
-        "1": {
-          "Effect": "",
-          "RequiredLevel": 30,
-          "RequiredSP": 1
-        },
-        "2": {
-          "Effect": "",
-          "RequiredLevel": 35,
-          "RequiredSP": 1
-        },
-        "3": {
-          "Effect": "",
-          "RequiredLevel": 40,
-          "RequiredSP": 2
-        }
-      }
-    },
-    "DecadePulse-RadiusIncrease": {
-      "ID": 15,
-      "Visible": false,
-      "Name": "Radius Increase",
-      "Icon": "../assets/SkillIcons/E_Stella/S1-7B.png",
-      "Levels": {
-        "0": {
-          "Description": "Pulse range increase to allow more target to be hit.",
+          "Description": "Removes existing skill effect , charges energy and fires it forwards",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/E_Stella/B_Skill_DecadePulse_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/D_Jin/D_3-1_SpiritExplosion_A.{{auto}}"
           }
         },
         "1": {
@@ -554,18 +540,50 @@
         }
       }
     },
-    "SoulScream": {
-      "ID": 16,
-      "Name": "Soul Scream",
-      "Icon": "../assets/SkillIcons/E_Stella/S1-8.png",
+    "SpiritExplosion-RangeIncrease": {
+      "Visible": false,
+      "Name": "Range Increase",
+      "ID": 15,
+      "Icon": "../assets/SkillIcons/D_Jin/D_3-1_SpiritExplosion_B.png",
       "Levels": {
         "0": {
-          "Description": "Make souls go rampant, creating a barrier around the caster. Invincibility will be granted on skill cast. The barrier will damage and paralyze all nearby enemies.",
+          "Description": "Charge energy to create a big wave to attack the enemies",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/E_Stella/B_Skill_SoulScream.{{auto}}"
+            "Video": "../assets/SkillPreviews/D_Jin/D_3-1_SpiritExplosion_B.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "",
+          "RequiredLevel": 30,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "",
+          "RequiredLevel": 35,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "",
+          "RequiredLevel": 40,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "SpiritShooter": {
+      "Name": "Spirit Shooter",
+      "ID": 16,
+      "Icon": "../assets/SkillIcons/D_Jin/D_3-2_SpiritShooter.png",
+      "Levels": {
+        "0": {
+          "Description": " Generates a shockwave that instantly paralyzes enemies. Retreats using the recoil",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/D_Jin/D_3-2_SpiritShooter.{{auto}}"
           }
         },
         "1": {
@@ -595,21 +613,21 @@
         }
       },
       "Extensions": [
-        "SoulScream-StarlightStage"
+        "SpiritShooter-RecoilBound"
       ]
     },
-    "TwistPull": {
+    "QuadraBlow": {
+      "Name": "Quadra Blow",
       "ID": 17,
-      "Name": "Twist Pull",
-      "Icon": "../assets/SkillIcons/E_Stella/S1-9.png",
+      "Icon": "../assets/SkillIcons/D_Jin/D_3-3_QuadraBlow.png",
       "Levels": {
         "0": {
-          "Description": "Create a black hole formed by ghosts, which pulls in enemies and then explodes.",
+          "Description": "Fire a powerful sphere at the enemy. The fired sphere explodes , damaging its surroundings. When the skill is strengthen, it increases the performance by 1.5x",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/E_Stella/B_Skill_TwistPull.{{auto}}"
+            "Video": "../assets/SkillPreviews/D_Jin/D_3-3_QuadraBlow.{{auto}}"
           }
         },
         "1": {
@@ -639,22 +657,22 @@
         }
       },
       "Extensions": [
-        "TwistPull-RangeIncrease"
+        "QuadraBlow-QuantityIncrease"
       ]
     },
-    "TwistPull-RangeIncrease": {
-      "ID": 18,
+    "QuadraBlow-QuantityIncrease": {
       "Visible": false,
-      "Name": "Range Increase",
-      "Icon": "../assets/SkillIcons/E_Stella/S1-9A.png",
+      "Name": "Quantity Increase",
+      "ID": 18,
+      "Icon": "../assets/SkillIcons/D_Jin/D_3-3_QuadraBlow_A.png",
       "Levels": {
         "0": {
-          "Description": "Increases the Attack Range by ghosts.",
+          "Description": "Fires additional tiny spheres",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/E_Stella/B_Skill_TwistPull_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/D_Jin/D_3-3_QuadraBlow_A.{{auto}}"
           }
         },
         "1": {
@@ -666,22 +684,27 @@
           "Effect": "",
           "RequiredLevel": 42,
           "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "",
+          "RequiredLevel": 47,
+          "RequiredSP": 2
         }
       }
     },
-    "BeastParty": {
+    "HeavyDrop": {
+      "Name": "Heavy Drop",
       "ID": 19,
-      "Name": "Beast Party",
-      "Icon": "../assets/SkillIcons/E_Stella/S1-10.png",
+      "Icon": "../assets/SkillIcons/D_Jin/D_4-1_HeavyDrop.png",
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "Summons a pack of ghosts that charge forward. Enemies that are hit by the ghosts will be pushed back.",
+          "Description": "Gather up tremendous power in the air to create a gigantic sphere. The sphere generates a big explosion when touching the ground , damaging all nearby enemies",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/E_Stella/B_Skill_BeastParty.{{auto}}"
+            "Video": "../assets/SkillPreviews/D_Jin/D_4-1_HeavyDrop.{{auto}}"
           }
         },
         "1": {
@@ -709,20 +732,55 @@
           "RequiredLevel": 41,
           "RequiredSP": 3
         }
-      }
+      },
+      "Extensions": [
+        "HeavyDrop-ExtraAttack"
+      ]
     },
-    "BlackMorass": {
+    "HeavyDrop-ExtraAttack": {
+      "Visible": false,
+      "Name": "Extra Attack",
       "ID": 20,
-      "Name": "Black Morass",
-      "Icon": "../assets/SkillIcons/E_Stella/S1-11.png",
+      "Icon": "../assets/SkillIcons/D_Jin/D_4-1_HeavyDrop_A.png",
       "Levels": {
         "0": {
-          "Description": "Create a marsh of ghosts by playing the guitar. The final attack differs depending on which input is made at the end.\n( LMB = Pull enemies in the center / RMB = Launch the enemies in the air )",
+          "Description": "Sphere speed will decrease, becomes continuous attack, grants debuff",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/E_Stella/B_Skill_BlackMorass.{{auto}}"
+            "Video": "../assets/SkillPreviews/D_Jin/D_4-1_HeavyDrop_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "",
+          "RequiredLevel": 41,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "",
+          "RequiredLevel": 46,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "",
+          "RequiredLevel": 51,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "FusionArmor": {
+      "Name": "Fusion Armor",
+      "ID": 21,
+      "Icon": "../assets/SkillIcons/D_Jin/D_4-2_FusionArmor.png",
+      "Levels": {
+        "0": {
+          "Description": "Collect Soul Energy to grant a barrier to allies",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/D_Jin/D_4-2_FusionArmor.{{auto}}"
           }
         },
         "1": {
@@ -737,68 +795,33 @@
         },
         "3": {
           "Effect": "",
-          "RequiredLevel": 36,
+          "RequiredLevel": 38,
           "RequiredSP": 2
         },
         "4": {
           "Effect": "",
-          "RequiredLevel": 40,
+          "RequiredLevel": 42,
           "RequiredSP": 2
         },
         "5": {
           "Effect": "",
-          "RequiredLevel": 44,
+          "RequiredLevel": 48,
           "RequiredSP": 3
-        }
-      },
-      "Extensions": [
-        "BlackMorass-DurationIncrease"
-      ]
-    },
-    "BlackMorass-DurationIncrease": {
-      "ID": 21,
-      "Visible": false,
-      "Name": "Duration Increase",
-      "Icon": "../assets/SkillIcons/E_Stella/S1-11A.png",
-      "Levels": {
-        "0": {
-          "Description": " Increase the maximum attack duration.",
-          "Effect": "",
-          "RequiredLevel": 0,
-          "RequiredSP": 0,
-          "Preview": {
-            "Video": "../assets/SkillPreviews/E_Stella/B_Skill_BlackMorass_A.{{auto}}"
-          }
-        },
-        "1": {
-          "Effect": "",
-          "RequiredLevel": 44,
-          "RequiredSP": 1
-        },
-        "2": {
-          "Effect": "",
-          "RequiredLevel": 49,
-          "RequiredSP": 1
-        },
-        "3": {
-          "Effect": "",
-          "RequiredLevel": 54,
-          "RequiredSP": 2
         }
       }
     },
-    "BestTempo": {
+    "RapidPuncher": {
+      "Name": "Rapid Puncher",
       "ID": 22,
-      "Name": "Best Tempo",
-      "Icon": "../assets/SkillIcons/E_Stella/S1-12.png",
+      "Icon": "../assets/SkillIcons/D_Jin/D_4-3_RapidPuncher.png",
       "Levels": {
         "0": {
-          "Description": "Playing the guitar inspires your allies. In support mode, it restores the HP of allies instantly.",
+          "Description": "Pushes the Gauntlets to their maximum output power to strike with the fists left and right alternatively. Afterwards adds a powerful finishing attack at any time",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/E_Stella/B_Skill_BestTempo.{{auto}}"
+            "Video": "../assets/SkillPreviews/D_Jin/D_4-3_RapidPuncher.{{auto}}"
           }
         },
         "1": {
@@ -808,38 +831,38 @@
         },
         "2": {
           "Effect": "",
-          "RequiredLevel": 38,
+          "RequiredLevel": 39,
           "RequiredSP": 1
         },
         "3": {
           "Effect": "",
-          "RequiredLevel": 42,
+          "RequiredLevel": 44,
           "RequiredSP": 2
         },
         "4": {
           "Effect": "",
-          "RequiredLevel": 46,
+          "RequiredLevel": 49,
           "RequiredSP": 2
         },
         "5": {
           "Effect": "",
-          "RequiredLevel": 50,
+          "RequiredLevel": 54,
           "RequiredSP": 3
         }
       }
     },
-    "BassAttack": {
+    "FinalFist": {
+      "Name": "Final Fist",
       "ID": 23,
-      "Name": "Bass Attack",
-      "Icon": "../assets/SkillIcons/E_Stella/S1-13.png",
+      "Icon": "../assets/SkillIcons/D_Jin/D_5-1_FinalFist.png",
       "Levels": {
         "0": {
-          "Description": "Summon Stella's speakers and create a stage. Speakers violently shake to attack the enemies within its range.",
+          "Description": "Pushes the Gauntlets to their maximum output power to hit the ground. Causes a wide explosion every time it hits the ground",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/E_Stella/B_Skill_BassAttack.{{auto}}"
+            "Video": "../assets/SkillPreviews/D_Jin/D_5-1_FinalFist.{{auto}}"
           }
         },
         "1": {
@@ -869,174 +892,173 @@
         }
       }
     },
-    "WhirlDance-PerformanceIncrease": {
+    "PerfectCombination-RisingUpper": {
       "Visible": false,
-      "Name": "Performance Increase",
+      "Name": "Rising Upper",
       "ID": 24,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/E_Stella/Icon_Howling_Skill_WhirlDance_A.png",
+      "Icon": "../assets/SkillIcons/D_Jin/D_ADV_1-2_PerfectCombination_A.png",
       "Levels": {
         "0": {
-          "Description": "Enables moving while performing Whirl Dance.\nIn addition, Stella will be in invulnerable state when a revolution attack is made. (Some special attacks are not covered)",
+          "Description": "The final blow changes to an Upper(cut), with the Boost Shield hitting the vicinity. When right-clicking halfway of the Upper(cut), Jin supplements it with a thrust down to the ground.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/E_Stella/B_Skill_WheelDance_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/D_Jin/D_ADV_1-2_PerfectCombination_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "傷害量：[?%]\n霸體破壞量：[?%]\n[Final Attack]\n傷害量：[?%]\n霸體破壞量：[?%]",
+          "Effect": "",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "傷害量：[?%]\n霸體破壞量：[?%]\n[Final Attack]\n傷害量：[?%]\n霸體破壞量：[?%]",
+          "Effect": "",
           "RequiredLevel": 58,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "傷害量：[111%]\n霸體破壞量：[50%] ]\n[Final Attack]\n傷害量：[558%]\n霸體破壞量：[251%]",
+          "Effect": "",
           "RequiredLevel": 60,
           "RequiredSP": 2
         }
       }
     },
-    "SoulScream-StarlightStage": {
+    "SpiritShooter-RecoilBound": {
       "Visible": false,
-      "Name": "Starlight Stage",
+      "Name": "Recoil Bound",
       "ID": 25,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/E_Stella/Icon_Howling_Skill_SoulScream_A.png",
+      "Icon": "../assets/SkillIcons/D_Jin/D_ADV_3-2_SpiritShooter_A.png",
       "Levels": {
         "0": {
-          "Description": "??",
+          "Description": "Debuffs the enemies with a Defense Reduction effect, then rise backwards in mid-air.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/E_Stella/B_Skill_SoulScream_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/D_Jin/D_ADV_3-2_SpiritShooter_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Left click]\n傷害量：[?%]\n霸體破壞量：[?%]\n[Right click]\n傷害量：[?%]\n霸體破壞量：[?%]",
+          "Effect": "",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[Left click]\n傷害量：[?%]\n霸體破壞量：[?%]\n[Right click]\n傷害量：[?%]\n霸體破壞量：[?%]",
+          "Effect": "",
           "RequiredLevel": 59,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[Left click]\n傷害量：[695%]\n霸體破壞量：[1737%]\n[Right click]\n傷害量：[347%]\n霸體破壞量：[868%]",
+          "Effect": "",
           "RequiredLevel": 60,
           "RequiredSP": 2
         }
       }
     },
-    
-    "RecklessPrincess": {
-      "Name": "Reckless Princess",
+    "DrasticLanding": {
+      "Name": "Drastic Landing",
       "ID": 26,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/E_Stella/Icon_Howling_Skill_recklessPrincess.png",
+      "Icon": "../assets/SkillIcons/D_Jin/D_ADV_5-2_DrasticLanding.png",
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "??",
+          "Description": "In mid-air, deploys the Boost Shield in front, then attacks with the shockwaves caused upon swinging it down to the ground.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/E_Stella/B_Skill_RecklessPrincess.{{auto}}"
+            "Video": "../assets/SkillPreviews/D_Jin/D_ADV_5-2_DrasticLanding.{{auto}}"
           }
         },
         "1": {
-          "Effect": "傷害量：[?%]\n霸體破壞量：[?%]\n靈魂值消耗量：[35]\n冷卻時間：[30秒]",
+          "Effect": "",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "傷害量：[?%]\n霸體破壞量：[?%]\n靈魂值消耗量：[35]\n冷卻時間：[30秒]",
+          "Effect": "",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "傷害量：[?%]\n霸體破壞量：[?%]\n靈魂值消耗量：[35]\n冷卻時間：[30秒]",
+          "Effect": "",
           "RequiredLevel": 58,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "傷害量：[?%]\n霸體破壞量：[?%]\n靈魂值消耗量：[35]\n冷卻時間：[30秒]",
+          "Effect": "",
           "RequiredLevel": 59,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "傷害量：[1094%]\n霸體破壞量：[1160%]\n靈魂值消耗量：[35]\n冷卻時間：[30秒]",
+          "Effect": "",
           "RequiredLevel": 60,
           "RequiredSP": 3
         }
       }
     },
-    "Wolf'sShowtime": {
-      "Name": "Wolf's Showtime",
+    "CounterStream": {
+      "Name": "Counter Stream",
       "ID": 27,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/E_Stella/Icon_Howling_Skill_WolvesShowtime.png",
+      "Icon": "../assets/SkillIcons/D_Jin/D_ADV_5-3_CounterStream.png",
       "Levels": {
         "0": {
-          "Description": "Summons a Wolf knight.",
+          "Description": "Takes a stance, and use a maximum of 3 counter attacks. When counterattacking, Jin will deal more damage depending on the number of times that counter is activated.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/E_Stella/B_Skill_WolvesShowtime.{{auto}}"
+            "Video": "../assets/SkillPreviews/D_Jin/D_ADV_5-3_CounterStream.{{auto}}"
           }
         },
         "1": {
-          "Effect": "傷害量：[?%]\n霸體破壞量：[?%]\n靈魂值消耗量：[30]\n冷卻時間：[35秒]",
+          "Effect": "",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "傷害量：[?%]\n霸體破壞量：[?%]\n靈魂值消耗量：[30]\n冷卻時間：[35秒]",
+          "Effect": "",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "傷害量：[?%]\n霸體破壞量：[?%]\n靈魂值消耗量：[30]\n冷卻時間：[35秒]",
+          "Effect": "",
           "RequiredLevel": 58,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "傷害量：[?%]\n霸體破壞量：[?%]\n靈魂值消耗量：[30]\n冷卻時間：[35秒]",
+          "Effect": "",
           "RequiredLevel": 59,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "傷害量：[2602%]\n霸體破壞量：[1130%]\n靈魂值消耗量：[30]\n冷卻時間：[35秒]",
+          "Effect": "",
           "RequiredLevel": 60,
           "RequiredSP": 3
         }
       }
     },
-    "GhostyHunt": {
-      "Name": "壓制彈",
+    "BarrettStraight": {
+      "Name": "巴雷特直拳",
       "ID": 28,
-      "Icon": "../assets/SkillIcons/A_Haru/H6-1_Trollsverd.png",
+      "Icon": "../assets/SkillIcons/D_Jin/D_6-1_BarrettStraight.png",
       "Levels": {
         "0": {
           "Description": "使用以靈魂能量形成的光之劍 '巨魔之劍'，對前方的敵人們進行砍殺，並在攻擊線上產生追加的爆炸攻擊。",
@@ -1044,7 +1066,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/PC_A_Haru/H6-1_Trollsverd.{{auto}}"
+            "Video": "../assets/SkillPreviews/D_Jin/D_6-1_BarrettStraight.{{auto}}"
           }
         },
         "1": {
@@ -1072,12 +1094,12 @@
       "Icon": "../assets/SkillIcons/Common/DefaultAttack.png",
       "Levels": {
         "0": {
-          "Description": "Attack with your weapons.\nAs this skill's level increases, you will be able to perform new combo attacks.\nYou will regain SG as you attack.\n靈魂值獲得量will vary by enemy type",
+          "Description": "Attack with your sword.\nAs this skill's level increases, you will be able to perform new combo attacks.\nYou will regain SG as you attack.\n靈魂值獲得量will vary by enemy type",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/E_Stella/B_Attack_01.{{auto}}"
+            "Video": "../assets/SkillPreviews/D_Jin/D_DefaultAttack_01.{{auto}}"
           }
         },
         "1": {
@@ -1090,7 +1112,7 @@
           "RequiredLevel": 5,
           "RequiredSP": 1,
           "Preview": {
-            "Video": "../assets/SkillPreviews/E_Stella/B_Attack_02.{{auto}}"
+            "Video": "../assets/SkillPreviews/D_Jin/D_DefaultAttack_02.{{auto}}"
           }
         },
         "3": {
@@ -1098,7 +1120,7 @@
           "RequiredLevel": 10,
           "RequiredSP": 2,
           "Preview": {
-            "Video": "../assets/SkillPreviews/E_Stella/B_Attack_03.{{auto}}"
+            "Video": "../assets/SkillPreviews/D_Jin/D_DefaultAttack_03.{{auto}}"
           }
         },
         "4": {
@@ -1106,7 +1128,7 @@
           "RequiredLevel": 15,
           "RequiredSP": 2,
           "Preview": {
-            "Video": "../assets/SkillPreviews/E_Stella/B_Attack_04.{{auto}}"
+            "Video": "../assets/SkillPreviews/D_Jin/D_DefaultAttack_04.{{auto}}"
           }
         },
         "5": {
@@ -1114,7 +1136,7 @@
           "RequiredLevel": 20,
           "RequiredSP": 2,
           "Preview": {
-            "Video": "../assets/SkillPreviews/E_Stella/B_Attack_05.{{auto}}"
+            "Video": "../assets/SkillPreviews/D_Jin/D_DefaultAttack_05.{{auto}}"
           }
         }
       }
@@ -1124,40 +1146,40 @@
       "DefaultLevel": 1,
       "ID": 1001,
       "Name": "特殊能力精通",
-      "Icon": "../assets/SkillIcons/E_Stella/Sh-2s.png",
+      "Icon": "../assets/SkillIcons/D_Jin/D_SpecialAttack_OwnAbility.png",
       "Levels": {
         "0": {
-          "Description": "[地面]\nChanges modes and the effects of your skills. Activates Sorrowful Note.\n[Air]\nDo a musical performance on your special guitar to change your mode. Using this skill in the air will make your ghost attack with a fist and pushes you backwards.",
+          "Description": "[地面]\nSmash the ground with your foot, inflict status effect to nearby enemies.\n[Air]\nSwing the fist towards the ground.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/E_Stella/B_S_Attack_N.{{auto}}"
+            "Video": "../assets/SkillPreviews/D_Jin/D_SpecialAttack_OwnAbility.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Air]\n傷害量：[204%]\n霸體破壞量：[124%]\n冷卻時間：[3s",
+          "Effect": "[地面]\n傷害量：[168%]\n霸體破壞量：[75%]\nStatus effect: 'Stun' in 2s]\n冷卻時間：[10s]\n[Air]\n傷害量：[269%]\n霸體破壞量：[119%]\n冷卻時間：[10s",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "[Air]\n傷害量：[214%]\n霸體破壞量：[131%]\n冷卻時間：[3s",
+          "Effect": "[地面]\n傷害量：[177%]\n霸體破壞量：[78%]\nStatus effect: 'Stun' in 2.5s]\n冷卻時間：[10s]\n靈魂值獲得量：[+20%]\n[Air]\n傷害量：[282%]\n霸體破壞量：[125%]\n冷卻時間：[10s]\n靈魂值獲得量：[+20%]",
           "RequiredLevel": 15,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[Air]\n傷害量：[239%]\n霸體破壞量：[146%]\n冷卻時間：[3s",
+          "Effect": "[地面]\n傷害量：[198%]\n霸體破壞量：[88%]\nStatus effect: 'Stun' in 3s]\n冷卻時間：[10s]\n靈魂值獲得量：[+70%]\n[Air]\n傷害量：[316%]\n霸體破壞量：[140%]\n冷卻時間：[10s]\n靈魂值獲得量：[+70%]",
           "RequiredLevel": 30,
           "RequiredSP": 2
         }
       }
     },
-    "EmergencyDodge": {
+    "Dodge": {
       "Passive": true,
       "Name": "緊急迴避",
       "ID": 1004,
       "DefaultLevel": 1,
-      "Icon": "../assets/SkillIcons/Common/EmergencyDodge.png",
+      "Icon": "../assets/SkillIcons/Common/Dodge.png",
       "Levels": {
         "0": {
           "Description": "向指定的方向快速迴避。\n在緊急迴避的狀態下不會受到任何攻擊。",
@@ -1165,7 +1187,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/E_Stella/B_Evade_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/D_Jin/D_Dodge.{{auto}}"
           }
         },
         "1": {
@@ -1188,7 +1210,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/E_Stella/B_Roll_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/D_Jin/D_RisingRoll.{{auto}}"
           }
         },
         "1": {
@@ -1221,7 +1243,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/E_Stella/B_Run_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/D_Jin/D_Dash.{{auto}}"
           }
         },
         "1": {
@@ -1249,7 +1271,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/E_Stella/B_Rise_Attack.{{auto}}"
+            "Video": "../assets/SkillPreviews/D_Jin/D_RiseAttack.{{auto}}"
           }
         },
         "1": {
@@ -1282,7 +1304,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/E_Stella/B_N_Attack_Dash.{{auto}}"
+            "Video": "../assets/SkillPreviews/D_Jin/D_DashAttack.{{auto}}"
           }
         },
         "1": {
@@ -1304,7 +1326,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/E_Stella/B_Special_Evade_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/D_Jin/D_SpecialDodge.{{auto}}"
           }
         },
         "1": {
@@ -1336,7 +1358,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/E_Stella/B_S_Attack_N_Dash.{{auto}}"
+            "Video": "../assets/SkillPreviews/D_Jin/D_SpecialDashAttack.{{auto}}"
           }
         },
         "1": {
@@ -1385,75 +1407,75 @@
         }
       }
     },
-    "BounceWave": {
+    "Offense-DefenseUnitedBody": {
       "Passive": true,
-      "Name": "Bounce Wave",
+      "Name": "Offense-Defense United Body",
       "ID": 1013,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/E_Stella/Icon_Howling_Skill_SGPassive2.png",
+      "Icon": "../assets/SkillIcons/D_Jin/D_ADV_Passive_SGPassive2.png",
       "Levels": {
         "0": {
-          "Description": "??",
+          "Description": "If Jin or his allies defeats 5 enemies in succession within 5秒], received damage will decrease and attack will increase for 10秒].",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "Cooldown reduction: ?%]",
+          "Effect": "",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Cooldown reduction: ?%]",
+          "Effect": "",
           "RequiredLevel": 58,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Cooldown reduction: 15%]",
+          "Effect": "",
           "RequiredLevel": 59,
           "RequiredSP": 2
         }
       }
     },
-    "SoundWave": {
+    "StrongBody": {
       "Passive": true,
-      "Name": "Sound Wave",
+      "Name": "Strong Body",
       "ID": 1011,
       "RowSpan": {
         "0": 2,
         "1": 1
       },
-      "Icon": "../assets/SkillIcons/E_Stella/SP1-2.png",
+      "Icon": "../assets/SkillIcons/D_Jin/D_Passive_SGPassive1.png",
       "Levels": {
         "0": {
-          "Description": "Maximum SG increase",
+          "Description": "Reduces the damage taken by enemies",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "SG Capacity Rate: +10%]",
+          "Effect": "Damage taken: -10%]",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "SG Capacity Rate: +15%]",
+          "Effect": "Damage taken: -15%]",
           "RequiredLevel": 20,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "SG Capacity Rate: +20%]",
+          "Effect": "Damage taken: -20%]",
           "RequiredLevel": 30,
           "RequiredSP": 2
         }
       }
     },
-    "SorrowfulNote": {
+    "WillofPassion": {
       "Passive": true,
-      "Name": "悲傷樂章",
+      "Name": "熱情意志",
       "DefaultLevel": 1,
       "ID": 1012,
       "RowSpan": {
@@ -1463,19 +1485,19 @@
       "Icon": "../assets/SkillIcons/Common/SoulMastery.png",
       "Levels": {
         "0": {
-          "Description": "每隔一定時間自動恢復靈魂值。\n切換姿態時，特殊能力精通等級越高，獲得效果越好。",
+          "Description": "基本攻擊成功時，恢復靈魂值。\n在非戰鬥狀態下自動恢復靈魂值。\n長時間處於非戰鬥狀態可以恢復更多的靈魂值。\n反擊成功時，額外恢復靈魂值。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "[特殊能力精通I]\n靈魂值恢復10%。\n\n[特殊能力精通II]\n靈魂值恢復15%。\n\n[特殊能力精通III]\n靈魂值恢復20%。",
+          "Effect": "",
           "RequiredLevel": 1,
           "RequiredSP": 0
         }
       }
     },
-    "ExtinctionPrelude": {
+    "ActivityOverCharge": {
       "Passive": true,
       "Name": "心爆氣流斬",
       "DefaultLevel": 1,
@@ -1484,7 +1506,8 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/A_Haru/HADV_SV_EX_Prelude.png",
+      "Icon": "../assets/SkillIcons/D_Jin/D_ADV_SV_EX_ActivityOverCharge.png",
+      "Assignable": false,
       "Levels": {
         "0": {
           "Description": "在覺醒狀態下可以使用的技能。\n施展後覺醒狀態會被解除。\n使用雙劍，對前方展開多方位的急速衝刺連斬，最後重擊地面。\n使用條件：處於覺醒狀態。",
@@ -1492,7 +1515,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/PC_A_Haru/HADV_SV_EX_Prelude.{{auto}}"
+            "Video": "../assets/SkillPreviews/D_Jin/D_ADV_SV_EX_ActivityOverCharge.{{auto}}"
           }
         },
         "1": {

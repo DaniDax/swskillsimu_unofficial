@@ -4,6 +4,12 @@
         d.documentElement.setAttribute('lang', w.SkillTreeData.Localization.General.Lang);
     }
     
+    if (w.SkillTreeData.Localization.Others.CreativeCommonNoteIndex) {
+        let link_cc = "<a href=\"https://creativecommons.org/licenses/by-nc-sa/3.0/\" target=\"_blank\">" + w.SkillTreeData.Localization.Others.CreativeCommon + " </a>",
+            link_liongames = "<a href=\"http://www.liongames.co.kr/Front/\" target=\"_blank\">Lion Games</a>";
+        d.getElementById("creativecommon-index").innerHTML = w.SkillTreeData.Localization.Others.CreativeCommonNoteIndex.fformat(link_cc, link_liongames);
+    }
+    
 	let theElement = d.getElementById("isPromiseSupportedLabel");
     let text;
     if (typeof (Promise) !== "undefined") {
@@ -24,7 +30,8 @@
     theElement.appendChild(text);
 
     d.getElementById("commit-link").href = "https://github.com/" + window.appdata["github-repo"] + "/commits/master";
-
+    
+    
     if (w.SkillTreeData.hasOwnProperty("CharacterTable")) {
         let characterTable = w.SkillTreeData.CharacterTable,
             domCharacterList = d.getElementById("character_select");

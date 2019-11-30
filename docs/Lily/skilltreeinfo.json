@@ -1,142 +1,77 @@
 {
-  "CharacterName": "伊莉絲・悠娜",
-  "CharacterWikiURL": "https://wiki.soulworkerhq.com/w/Iris_Yuma",
+  "CharacterName": "莉莉・普露梅茜",
+  "CharacterWikiURL": "https://wiki.soulworkerhq.com/w/Lily_Bloomerchen",
   "MaxLevel": 68,
   "AvailableClass": {
     "0": {
       "Name": "一般",
-      "Cover": "../assets/images/bg_F_Iris.png"
+      "Cover": "../assets/images/bg_C_Lily.png"
     },
     "1": {
       "Name": "晉升",
-      "Cover": "../assets/images/bg_F_Iris_ADV.png",
+      "Cover": "../assets/images/bg_C_Lily_ADV.png",
       "RequiredLevel": 57
     }
   },
   "Skills": {
-    "HammerCrash": {
-      "Name": "Hammer Crash",
+    "EvilSlash": {
+      "Name": "Evil Slash",
       "DefaultLevel": 1,
       "ID": 1,
-      "Icon": "../assets/SkillIcons/F_Iris/I1-1.png",
+      "Icon": "../assets/SkillIcons/C_Lily/C_1-1_EvilSlash.png",
       "Levels": {
         "0": {
-          "Description": "Swings the hammer to attack",
+          "Description": "Quickly rotate the scythe, pushes out the enemy at the end of the blow.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_HammerCrash.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/C_1-1_EvilSlash.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "傷害量：[182%]\n霸體破壞量：[196%]\n靈魂值消耗量：[30]\n冷卻時間：[10s",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "傷害量：[191%]\n霸體破壞量：[206%]\n靈魂值消耗量：[30]\n冷卻時間：[10s",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "傷害量：[214%]\n霸體破壞量：[230%]\n靈魂值消耗量：[30]\n冷卻時間：[10s",
           "RequiredLevel": 7,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "傷害量：[237%]\n霸體破壞量：[255%]\n靈魂值消耗量：[30]\n冷卻時間：[10s",
           "RequiredLevel": 10,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "傷害量：[273%]\n霸體破壞量：[294%]\n靈魂值消耗量：[30]\n冷卻時間：[10s",
           "RequiredLevel": 13,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "HammerCrash-ContinuousExplosion",
-        "HammerCrash-FullSwing"
+        "EvilSlash-Kusarigama"
       ]
     },
-    "HammerCrash-ContinuousExplosion": {
-      "Visible": false,
-      "Name": "Continuous Explosion",
-      "ID": 2,
-      "Icon": "../assets/SkillIcons/F_Iris/I1-1A.png",
-      "Levels": {
-        "0": {
-          "Description": "Adds an additional explosion on the ground",
-          "Effect": "",
-          "RequiredLevel": 0,
-          "RequiredSP": 0,
-          "Preview": {
-            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_HammerCrash_A.{{auto}}"
-          }
-        },
-        "1": {
-          "Effect": "",
-          "RequiredLevel": 13,
-          "RequiredSP": 1
-        },
-        "2": {
-          "Effect": "",
-          "RequiredLevel": 18,
-          "RequiredSP": 1
-        },
-        "3": {
-          "Effect": "",
-          "RequiredLevel": 23,
-          "RequiredSP": 2
-        }
-      }
-    },
-    "HammerCrash-FullSwing": {
-      "Visible": false,
-      "Name": "Full Swing",
-      "ID": 3,
-      "Icon": "../assets/SkillIcons/F_Iris/I1-1B.png",
-      "Levels": {
-        "0": {
-          "Description": "Launch an additional attack after the last attack",
-          "Effect": "",
-          "RequiredLevel": 0,
-          "RequiredSP": 0,
-          "Preview": {
-            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_HammerCrash_B.{{auto}}"
-          }
-        },
-        "1": {
-          "Effect": "",
-          "RequiredLevel": 13,
-          "RequiredSP": 1
-        },
-        "2": {
-          "Effect": "",
-          "RequiredLevel": 18,
-          "RequiredSP": 1
-        },
-        "3": {
-          "Effect": "",
-          "RequiredLevel": 23,
-          "RequiredSP": 2
-        }
-      }
-    },
-    "CamelSpin": {
-      "Name": "Camel Spin",
+    "SpinningDevil": {
+      "Name": "Spinning Devil",
       "DefaultLevel": 1,
-      "ID": 4,
-      "Icon": "../assets/SkillIcons/F_Iris/I1-2.png",
+      "ID": 2,
+      "Icon": "../assets/SkillIcons/C_Lily/C_1-2_SpinningDevil.png",
       "Levels": {
         "0": {
-          "Description": "Take a short leap forward and then strike with a 360° rotation",
+          "Description": "Quickly dash forward, using the speed perform a spinning slash.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_CamelSpin.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/C_1-2_SpinningDevil.{{auto}}"
           }
         },
         "1": {
@@ -164,24 +99,20 @@
           "RequiredLevel": 21,
           "RequiredSP": 3
         }
-      },
-      "Extensions": [
-        "CamelSpin-BladeWings"
-      ]
+      }
     },
-    "AssaultDive": {
-      "Name": "Assault Dive",
+    "ScytheCutter": {
+      "Name": "Scythe Cutter",
       "DefaultLevel": 1,
-      "ID": 5,
-      "Icon": "../assets/SkillIcons/F_Iris/I1-3.png",
+      "ID": 3,
+      "Icon": "../assets/SkillIcons/C_Lily/C_1-3_ScytheCutter.png",
       "Levels": {
         "0": {
-          "Description": "Quickly leap forward and push with your weapon, 2 additional rapid-fire explosion attacks",
-          "Effect": "",
+          "Description": "Swiftly raise the scythe. Enemies will be launched in the air.",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_AssaultDive.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/C_1-3_ScytheCutter.{{auto}}"
           }
         },
         "1": {
@@ -211,86 +142,42 @@
         }
       },
       "Extensions": [
-        "AssaultDive-Shatter",
-        "AssaultDive-Emission"
+        "ScytheCutter-ChargeAttack"
       ]
     },
-    "AssaultDive-Shatter": {
+    "ScytheCutter-ChargeAttack": {
       "Visible": false,
-      "Name": "Shatter",
-      "ID": 6,
-      "Icon": "../assets/SkillIcons/F_Iris/I1-3A.png",
+      "Name": "Charge Attack",
+      "ID": 4,
+      "Icon": "../assets/SkillIcons/C_Lily/C_1-3_ScytheCutter_A.png",
       "Levels": {
         "0": {
-          "Description": "Replaces the additional attack with an additional consecutive attack",
+          "Description": "If charged, it launches the enemy higher.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_AssaultDive_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/C_1-3_ScytheCutter_A.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 17,
           "RequiredSP": 1
-        },
-        "2": {
-          "Effect": "",
-          "RequiredLevel": 22,
-          "RequiredSP": 1
-        },
-        "3": {
-          "Effect": "",
-          "RequiredLevel": 27,
-          "RequiredSP": 2
         }
       }
     },
-    "AssaultDive-Emission": {
-      "Visible": false,
-      "Name": "Emission",
-      "ID": 7,
-      "Icon": "../assets/SkillIcons/F_Iris/I1-3B.png",
+    "GrimCountdown": {
+      "Name": "Grim Countdown",
+      "ID": 5,
+      "Icon": "../assets/SkillIcons/C_Lily/C_2-1_GrimCountdown.png",
       "Levels": {
         "0": {
-          "Description": "Increases the range of the last attack",
-          "Effect": "",
+          "Description": "After doing a rotation slash, cut the front enemies alongside the summoned Grim Reaper.",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_AssaultDive_B.{{auto}}"
-          }
-        },
-        "1": {
-          "Effect": "",
-          "RequiredLevel": 17,
-          "RequiredSP": 1
-        },
-        "2": {
-          "Effect": "",
-          "RequiredLevel": 22,
-          "RequiredSP": 1
-        },
-        "3": {
-          "Effect": "",
-          "RequiredLevel": 27,
-          "RequiredSP": 2
-        }
-      }
-    },
-    "FireSomersault": {
-      "Name": "Fire Somersault",
-      "ID": 8,
-      "Icon": "../assets/SkillIcons/F_Iris/I1-4.png",
-      "Levels": {
-        "0": {
-          "Description": "Fires towards the ground and does a backwards somersault, quickly retreating using the recoil from the rotation",
-          "Effect": "",
-          "RequiredLevel": 0,
-          "RequiredSP": 0,
-          "Preview": {
-            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_FireSomersault.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/C_2-1_GrimCountdown.{{auto}}"
           }
         },
         "1": {
@@ -320,22 +207,22 @@
         }
       },
       "Extensions": [
-        "FireSomersault-HellFire"
+        "GrimCountdown-Lifesteal"
       ]
     },
-    "FireSomersault-HellFire": {
+    "GrimCountdown-Lifesteal": {
       "Visible": false,
-      "Name": "Hell Fire",
-      "ID": 9,
-      "Icon": "../assets/SkillIcons/F_Iris/I1-4A.png",
+      "Name": "Lifesteal",
+      "ID": 6,
+      "Icon": "../assets/SkillIcons/C_Lily/C_2-1_GrimCountdown_A.png",
       "Levels": {
         "0": {
-          "Description": "Adds attack zones in front of the base one",
+          "Description": "Steal HP from the afflicted enemies, and heals HP of oneself.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_FireSomersault_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/C_2-1_GrimCountdown_A.{{auto}}"
           }
         },
         "1": {
@@ -355,18 +242,17 @@
         }
       }
     },
-    "SpiralPierce": {
-      "Name": "Spiral Pierce",
-      "ID": 10,
-      "Icon": "../assets/SkillIcons/F_Iris/I1-5.png",
+    "FearChain": {
+      "Name": "Fear Chain",
+      "ID": 7,
+      "Icon": "../assets/SkillIcons/C_Lily/C_2-2_FearChain.png",
       "Levels": {
         "0": {
-          "Description": "Projects a drill which continuously attacks at gun point. Shock waves are released at the end",
-          "Effect": "",
+          "Description": "Summons the Grim Reaper in front, the Grim Reaper connects the enemies with a chain, they are drawn towards the center of the attack range.",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_SpiralPierce.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/C_2-2_FearChain.{{auto}}"
           }
         },
         "1": {
@@ -396,22 +282,22 @@
         }
       },
       "Extensions": [
-        "SpiralPierce-Gale"
+        "FearChain-RangeIncrease"
       ]
     },
-    "SpiralPierce-Gale": {
+    "FearChain-RangeIncrease": {
       "Visible": false,
-      "Name": "Gale",
-      "ID": 11,
-      "Icon": "../assets/SkillIcons/F_Iris/I1-5A.png",
+      "Name": "Range Increase",
+      "ID": 8,
+      "Icon": "../assets/SkillIcons/C_Lily/C_2-2_FearChain_A.png",
       "Levels": {
         "0": {
-          "Description": "A whirlwind with a pulling effect is added",
+          "Description": "Increase the attack range.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_SpiralPierce_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/C_2-2_FearChain_A_01.{{auto}}"
           }
         },
         "1": {
@@ -422,27 +308,33 @@
         "2": {
           "Effect": "",
           "RequiredLevel": 27,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/C_Lily/C_2-2_FearChain_A_02.{{auto}}"
+          }
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 32,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/C_Lily/C_2-2_FearChain_A_03.{{auto}}"
+          }
         }
       }
     },
-    "PulseFire": {
-      "Name": "Pulse Fire",
-      "ID": 12,
-      "Icon": "../assets/SkillIcons/F_Iris/I1-6.png",
+    "DeathGrinder": {
+      "Name": "Death Grinder",
+      "ID": 9,
+      "Icon": "../assets/SkillIcons/C_Lily/C_2-3_DeathGrinder.png",
       "Levels": {
         "0": {
-          "Description": "Take a firing stance and launch very powerful energy spheres for a fixed amount of time or attacks",
+          "Description": "Attack by throwing the scythe like a boomerang. Attract the enemies attacked when the scythe comes back to the owner.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_PulseFire.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/C_2-3_DeathGrinder.{{auto}}"
           }
         },
         "1": {
@@ -472,23 +364,23 @@
         }
       },
       "Extensions": [
-        "PulseFire-RapidShot",
-        "PulseFire-PowerShot"
+        "DeathGrinder-SummonGrimReaper",
+        "DeathGrinder-Whirlwind"
       ]
     },
-    "PulseFire-RapidShot": {
+    "DeathGrinder-SummonGrimReaper": {
       "Visible": false,
-      "Name": "Rapid Shot",
-      "ID": 13,
-      "Icon": "../assets/SkillIcons/F_Iris/I1-6A.png",
+      "Name": "Summon Grim Reaper",
+      "ID": 10,
+      "Icon": "../assets/SkillIcons/C_Lily/C_2-3_DeathGrinder_A.png",
       "Levels": {
         "0": {
-          "Description": "Increases the number of shots",
+          "Description": "Throw the scythe and summon the Grim Reaper.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_PulseFire_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/C_2-3_DeathGrinder_A.{{auto}}"
           }
         },
         "1": {
@@ -508,19 +400,19 @@
         }
       }
     },
-    "PulseFire-PowerShot": {
+    "DeathGrinder-Whirlwind": {
       "Visible": false,
-      "Name": "Power Shot",
-      "ID": 14,
-      "Icon": "../assets/SkillIcons/F_Iris/I1-6B.png",
+      "Name": "Whirlwind",
+      "ID": 11,
+      "Icon": "../assets/SkillIcons/C_Lily/C_2-3_DeathGrinder_B.png",
       "Levels": {
         "0": {
-          "Description": "Fire long-range bullets",
+          "Description": "Create a whirlwind by throwing the scythe forward. Scythe will stop at a point and damage the enemies at the place.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_PulseFire_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/C_2-3_DeathGrinder_B.{{auto}}"
           }
         },
         "1": {
@@ -540,18 +432,18 @@
         }
       }
     },
-    "LimitBreak": {
-      "Name": "Limit Break",
-      "ID": 15,
-      "Icon": "../assets/SkillIcons/F_Iris/I1-7.png",
+    "DeathScythe": {
+      "Name": "Death Scythe",
+      "ID": 12,
+      "Icon": "../assets/SkillIcons/C_Lily/C_3-1_DeathScythe.png",
       "Levels": {
         "0": {
-          "Description": "Releases soul energy within the body to amplify the damage of the next attack",
+          "Description": "Grim Reaper appears, it attracts the enemies around. After the Grim Reaper attacks, the last attack is changed by the next command.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_LimitBrake.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/C_3-1_DeathScythe.{{auto}}"
           }
         },
         "1": {
@@ -579,20 +471,23 @@
           "RequiredLevel": 30,
           "RequiredSP": 3
         }
-      }
+      },
+      "Extensions": [
+        "DeathScythe-Afterimage"
+      ]
     },
-    "BulletStorm": {
-      "Name": "Bullet Storm",
-      "ID": 16,
-      "Icon": "../assets/SkillIcons/F_Iris/I1-8.png",
+    "CruelSlash": {
+      "Name": "Cruel Slash",
+      "ID": 13,
+      "Icon": "../assets/SkillIcons/C_Lily/C_3-2_CruelSlash.png",
       "Levels": {
         "0": {
-          "Description": "Shoots a powerful shell upwards. The fired shells separates mid-air into several small shells that will explode when reaching the ground",
+          "Description": "Deform the sickle to the scimitar form to attack. LMB to quickly perform repeated attacks on the spot for a period of time.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_BulletStorm.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/C_3-2_CruelSlash.{{auto}}"
           }
         },
         "1": {
@@ -622,23 +517,23 @@
         }
       },
       "Extensions": [
-        "BulletStorm-RangeIncrease",
-        "BulletStorm-MeteorFall"
+        "CruelSlash-DefensePenetration",
+        "CruelSlash-CriticalRateIncrease"
       ]
     },
-    "BulletStorm-RangeIncrease": {
+    "CruelSlash-DefensePenetration": {
       "Visible": false,
-      "Name": "Range Increase",
-      "ID": 17,
-      "Icon": "../assets/SkillIcons/F_Iris/I1-8A.png",
+      "Name": "Defense Penetration",
+      "ID": 14,
+      "Icon": "../assets/SkillIcons/C_Lily/C_3-2_CruelSlash_A.png",
       "Levels": {
         "0": {
-          "Description": "Extends the attack range",
+          "Description": "Attacks done to the enemy ignore enemy's defense",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_BulletStorm_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/C_3-2_CruelSlash_A.{{auto}}"
           }
         },
         "1": {
@@ -658,19 +553,19 @@
         }
       }
     },
-    "BulletStorm-MeteorFall": {
+    "CruelSlash-CriticalRateIncrease": {
       "Visible": false,
-      "Name": "Meteor Fall",
-      "ID": 18,
-      "Icon": "../assets/SkillIcons/F_Iris/I1-8B.png",
+      "Name": "Critical Rate Increase",
+      "ID": 15,
+      "Icon": "../assets/SkillIcons/C_Lily/C_3-2_CruelSlash_B.png",
       "Levels": {
         "0": {
-          "Description": "Attack with series of exploding meteorites . Deals continuous damage in the area",
+          "Description": "Increases Critical Rate",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_BulletStorm_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/C_3-2_CruelSlash_B.{{auto}}"
           }
         },
         "1": {
@@ -690,18 +585,19 @@
         }
       }
     },
-    "FullBurst": {
-      "Name": "Full Burst",
-      "ID": 19,
-      "Icon": "../assets/SkillIcons/F_Iris/I1-9.png",
+    "GrimReaper": {
+      "Name": "Grim Reaper",
+      "ID": 16,
+      "Icon": "../assets/SkillIcons/C_Lily/C_3-3_GrimReaper.png",
+      "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "Hold the weapon with both hands and swing it like a laser beam sword and attack the enemies",
+          "Description": "Only available in the air. Summons the Grim Reaper, launching the enemies in the air. It will attack the enemies in the air.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_FullBurst.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/C_3-3_GrimReaper.{{auto}}"
           }
         },
         "1": {
@@ -729,24 +625,20 @@
           "RequiredLevel": 37,
           "RequiredSP": 3
         }
-      },
-      "Extensions": [
-        "FullBurst-Rend"
-      ]
+      }
     },
-    "EternalAbyss": {
-      "Name": "Eternal Abyss",
-      "ID": 20,
-      "Icon": "../assets/SkillIcons/F_Iris/I1-10.png",
-      "Assignable": false,
+    "ForceRegion": {
+      "Name": "Force Region",
+      "ID": 17,
+      "Icon": "../assets/SkillIcons/C_Lily/C_4-1_ForceRegion.png",
       "Levels": {
         "0": {
-          "Description": "While in mid-air, throw a weapon towards the ground to create a black hole that pulls enemies",
+          "Description": "The summoned Grim Reaper's roar will grant a buff that increases critical rate to the party members in range, including self.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_EternalAbyss.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/C_4-1_ForceRegion.{{auto}}"
           }
         },
         "1": {
@@ -776,18 +668,18 @@
         }
       }
     },
-    "Earthquake": {
-      "Name": "Earthquake",
-      "ID": 21,
-      "Icon": "../assets/SkillIcons/F_Iris/I1-11.png",
+    "DeathTornado": {
+      "Name": "Death Tornado",
+      "ID": 18,
+      "Icon": "../assets/SkillIcons/C_Lily/C_4-2_DeathTornado.png",
       "Levels": {
         "0": {
-          "Description": "Insert the weapon into the ground then shoot towards the ground to create several shock waves",
+          "Description": "It creates a powerful tornado to attack the enemies in front.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_Earthquake.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/C_4-2_DeathTornado.{{auto}}"
           }
         },
         "1": {
@@ -817,23 +709,23 @@
         }
       },
       "Extensions": [
-        "Earthquake-Volcano",
-        "Earthquake-FirePillar"
+        "DeathTornado-Induction",
+        "DeathTornado-AreaWidener"
       ]
     },
-    "Earthquake-Volcano": {
+    "DeathTornado-Induction": {
       "Visible": false,
-      "Name": "Volcano",
-      "ID": 22,
-      "Icon": "../assets/SkillIcons/F_Iris/I1-11A.png",
+      "Name": "Induction",
+      "ID": 19,
+      "Icon": "../assets/SkillIcons/C_Lily/C_4-2_DeathTornado_A.png",
       "Levels": {
         "0": {
-          "Description": "Generates a volcano after the last attack",
+          "Description": "Summons a tornado that moves towards the enemy",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_Earthquake_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/C_4-2_DeathTornado_A.{{auto}}"
           }
         },
         "1": {
@@ -853,19 +745,19 @@
         }
       }
     },
-    "Earthquake-FirePillar": {
+    "DeathTornado-AreaWidener": {
       "Visible": false,
-      "Name": "Fire Pillar",
-      "ID": 23,
-      "Icon": "../assets/SkillIcons/F_Iris/I1-11B.png",
+      "Name": "Area Widener",
+      "ID": 20,
+      "Icon": "../assets/SkillIcons/C_Lily/C_4-2_DeathTornado_B.png",
       "Levels": {
         "0": {
-          "Description": "Generates a volcano after the last attack",
+          "Description": "Tornado moves towards the front.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_Earthquake_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/C_4-2_DeathTornado_B.{{auto}}"
           }
         },
         "1": {
@@ -885,18 +777,18 @@
         }
       }
     },
-    "ElectricCannon": {
-      "Name": "Electric Cannon",
-      "ID": 24,
-      "Icon": "../assets/SkillIcons/F_Iris/I1-12.png",
+    "EvilTrinity": {
+      "Name": "Evil Trinity",
+      "ID": 21,
+      "Icon": "../assets/SkillIcons/C_Lily/C_4-3_EvilTrinity.png",
       "Levels": {
         "0": {
-          "Description": "Make the weapons float and ride on it facing forwards. Afterwards, fire a laser beam forwards. Can move while the skill is in use",
+          "Description": "The Grim Reaper with two scythes appears, swinging them along with Lily. The ground smash creates three shock waves that will hit the enemies in the range.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_ElectricCannon.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/C_4-3_EvilTrinity.{{auto}}"
           }
         },
         "1": {
@@ -926,18 +818,18 @@
         }
       }
     },
-    "ExceedDriver": {
-      "Name": "Exceed Driver",
-      "ID": 25,
-      "Icon": "../assets/SkillIcons/F_Iris/I1-13.png",
+    "DeathGuillotine": {
+      "Name": "Death Guillotine",
+      "ID": 22,
+      "Icon": "../assets/SkillIcons/C_Lily/C_5-1_DeathGuillotine.png",
       "Levels": {
         "0": {
-          "Description": "Disassemble the soul weapon and absorbs it in your hand. Afterwards, countless energy portals appear firing powerful energy simultaneously",
+          "Description": "Surrounds and restraints the enemies with chains, pushing them under a summoning gigantic guillotine.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_ExceedDriver.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/C_5-1_DeathGuillotine.{{auto}}"
           }
         },
         "1": {
@@ -967,173 +859,173 @@
         }
       }
     },
-    "CamelSpin-BladeWings": {
+    "EvilSlash-Kusarigama": {
       "Visible": false,
-      "Name": "Blade Wings",
+      "Name": "Sickle and Chain",
+      "ID": 23,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/C_Lily/C_ADV_1-1_EvilSlash_A.png",
+      "Levels": {
+        "0": {
+          "Description": "鎌の代わりに鎖鎌を利用して、より広い範囲の敵を攻撃します。",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/C_Lily/C_ADV_1-1_EvilSlash_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "傷害量：[384%]\n霸體破壞量：[304%]",
+          "RequiredLevel": 57,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "傷害量：[423%]\n霸體破壞量：[335%]",
+          "RequiredLevel": 58,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "傷害量：[498%]\n霸體破壞量：[394%]",
+          "RequiredLevel": 60,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "DeathScythe-Afterimage": {
+      "Visible": false,
+      "Name": "Afterimage",
+      "ID": 24,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/C_Lily/C_ADV_3-1_DeathScythe_A.png",
+      "Levels": {
+        "0": {
+          "Description": "The afterimage of the death god rushes towards the enemy and attacks according to the attack action of Lily.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/C_Lily/C_ADV_3-1_DeathScythe_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "傷害量：[628%]\n霸體破壞量：[1168%]",
+          "RequiredLevel": 57,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "傷害量：[710%]\n霸體破壞量：[1198%]",
+          "RequiredLevel": 59,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "傷害量：[880%]\n霸體破壞量：[1484%]",
+          "RequiredLevel": 60,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "BloodyBlossom": {
+      "Name": "Bloody Blossom",
+      "ID": 25,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/C_Lily/C_ADV_5-2_BloodyBlossom.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "After attacking while swiftly rotating the scythe of both hands in the air, performing a powerful cross strike attack.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/C_Lily/C_ADV_5-2_BloodyBlossom.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "傷害量：[752%]\n霸體破壞量：[480%]\n靈魂值消耗量：[30]\n冷卻時間：[28s",
+          "RequiredLevel": 57,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "傷害量：[828%]\n霸體破壞量：[504%]\n靈魂值消耗量：[30]\n冷卻時間：[28s",
+          "RequiredLevel": 57,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "傷害量：[927%]\n霸體破壞量：[550%]\n靈魂值消耗量：[30]\n冷卻時間：[28s",
+          "RequiredLevel": 58,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "傷害量：[1057%]\n霸體破壞量：[616%]\n靈魂值消耗量：[30]\n冷卻時間：[28s",
+          "RequiredLevel": 59,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "傷害量：[1247%]\n霸體破壞量：[708%]\n靈魂值消耗量：[30]\n冷卻時間：[28s",
+          "RequiredLevel": 60,
+          "RequiredSP": 3
+        }
+      }
+    },
+    "FuryScythe": {
+      "Name": "Fury Scythe",
       "ID": 26,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/F_Iris/Icon_HamerStoll_Skill_CamelSpin_A.png",
+      "Icon": "../assets/SkillIcons/C_Lily/C_ADV_5-3_FuryScythe.png",
       "Levels": {
         "0": {
-          "Description": "???",
+          "Description": "Joining the sickle and the scissors and do a lash rush in the front.\nIt attacks enemies and moves forward by operation.\n\n[1] Left click: Cuts forward enemies and makes short rush.\n\n[2] Right click: It moves quickly towards the front.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_CamelSpin_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/C_ADV_5-3_FuryScythe.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "傷害量：[2000%]\n霸體破壞量：[2130%]\n靈魂值消耗量：[55]\n冷卻時間：[30s]\n\n[Additional Attack]\n傷害量：[375%]\n霸體破壞量：[399%]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
-          "RequiredLevel": 58,
+          "Effect": "傷害量：[2200%]\n霸體破壞量：[2236%]\n靈魂值消耗量：[55]\n冷卻時間：[30s]\n\n[Additional Attack]\n傷害量：[412%]\n霸體破壞量：[419%]",
+          "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
-          "RequiredLevel": 60,
+          "Effect": "傷害量：[2464%]\n霸體破壞量：[2438%]\n靈魂值消耗量：[55]\n冷卻時間：[30s]\n\n[Additional Attack]\n傷害量：[462%]\n霸體破壞量：[457%]",
+          "RequiredLevel": 58,
           "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "傷害量：[2808%]\n霸體破壞量：[2730%]\n靈魂值消耗量：[55]\n冷卻時間：[30s]\n\n[Additional Attack]\n傷害量：[526%]\n霸體破壞量：[511%]",
+          "RequiredLevel": 59,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "傷害量：[3314%]\n霸體破壞量：[3140%]\n靈魂值消耗量：[55]\n冷卻時間：[30s]\n\n[Additional Attack]\n傷害量：[621%]\n霸體破壞量：[588%]",
+          "RequiredLevel": 60,
+          "RequiredSP": 3
         }
       }
     },
-    "FullBurst-Rend": {
-      "Visible": false,
-      "Name": "Rend",
+    "LeashedBeast": {
+      "Name": "拴住的野獸",
       "ID": 27,
-      "RequireClass": {
-        "CompareType": "atleast",
-        "ClassIndex": 1
-      },
-      "Icon": "../assets/SkillIcons/F_Iris/Icon_HamerStoll_Skill_FullBurst_A.png",
-      "Levels": {
-        "0": {
-          "Description": "???",
-          "Effect": "",
-          "RequiredLevel": 0,
-          "RequiredSP": 0,
-          "Preview": {
-            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_FullBurst_A.{{auto}}"
-          }
-        },
-        "1": {
-          "Effect": "",
-          "RequiredLevel": 57,
-          "RequiredSP": 1
-        },
-        "2": {
-          "Effect": "",
-          "RequiredLevel": 59,
-          "RequiredSP": 1
-        },
-        "3": {
-          "Effect": "",
-          "RequiredLevel": 60,
-          "RequiredSP": 2
-        }
-      }
-    },
-    "PulverizerHeadbutt": {
-      "Name": "Pulverizer Headbutt",
-      "ID": 28,
-      "RequireClass": {
-        "CompareType": "atleast",
-        "ClassIndex": 1
-      },
-      "Icon": "../assets/SkillIcons/F_Iris/Icon_HamerStoll_Skill_RhinoHeadButt.png",
-      "Assignable": false,
-      "Levels": {
-        "0": {
-          "Description": "???",
-          "Effect": "",
-          "RequiredLevel": 0,
-          "RequiredSP": 0,
-          "Preview": {
-            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_PulverizeHeadButt.{{auto}}"
-          }
-        },
-        "1": {
-          "Effect": "",
-          "RequiredLevel": 57,
-          "RequiredSP": 1
-        },
-        "2": {
-          "Effect": "",
-          "RequiredLevel": 57,
-          "RequiredSP": 1
-        },
-        "3": {
-          "Effect": "",
-          "RequiredLevel": 58,
-          "RequiredSP": 2
-        },
-        "4": {
-          "Effect": "",
-          "RequiredLevel": 59,
-          "RequiredSP": 2
-        },
-        "5": {
-          "Effect": "",
-          "RequiredLevel": 60,
-          "RequiredSP": 3
-        }
-      }
-    },
-    "OperationAsh": {
-      "Name": "Operation Ash",
-      "ID": 29,
-      "RequireClass": {
-        "CompareType": "atleast",
-        "ClassIndex": 1
-      },
-      "Icon": "../assets/SkillIcons/F_Iris/Icon_HamerStoll_Skill_CombatFalcons.png",
-      "Levels": {
-        "0": {
-          "Description": "???",
-          "Effect": "",
-          "RequiredLevel": 0,
-          "RequiredSP": 0,
-          "Preview": {
-            "Video": "../assets/SkillPreviews/F_Iris/B_Skill_Operation Ashes.{{auto}}"
-          }
-        },
-        "1": {
-          "Effect": "",
-          "RequiredLevel": 57,
-          "RequiredSP": 1
-        },
-        "2": {
-          "Effect": "",
-          "RequiredLevel": 57,
-          "RequiredSP": 1
-        },
-        "3": {
-          "Effect": "",
-          "RequiredLevel": 58,
-          "RequiredSP": 2
-        },
-        "4": {
-          "Effect": "",
-          "RequiredLevel": 59,
-          "RequiredSP": 2
-        },
-        "5": {
-          "Effect": "",
-          "RequiredLevel": 60,
-          "RequiredSP": 3
-        }
-      }
-    },
-    "Expocalypse": {
-      "Name": "急速的火神炮",
-      "ID": 30,
-      "Icon": "../assets/SkillIcons/A_Haru/H6-1_Trollsverd.png",
+      "Icon": "../assets/SkillIcons/C_Lily/C_6-1_LeashedBeast.png",
       "Levels": {
         "0": {
           "Description": "使用以靈魂能量形成的光之劍 '巨魔之劍'，對前方的敵人們進行砍殺，並在攻擊線上產生追加的爆炸攻擊。",
@@ -1141,7 +1033,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/PC_A_Haru/H6-1_Trollsverd.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/C_6-1_LeashedBeast.{{auto}}"
           }
         },
         "1": {
@@ -1174,7 +1066,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/F_Iris/B_Attack_01.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/C_DefaultAttack_01.{{auto}}"
           }
         },
         "1": {
@@ -1187,7 +1079,7 @@
           "RequiredLevel": 5,
           "RequiredSP": 1,
           "Preview": {
-            "Video": "../assets/SkillPreviews/F_Iris/B_Attack_02.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/C_DefaultAttack_02.{{auto}}"
           }
         },
         "3": {
@@ -1195,20 +1087,23 @@
           "RequiredLevel": 10,
           "RequiredSP": 2,
           "Preview": {
-            "Video": "../assets/SkillPreviews/F_Iris/B_Attack_04_02.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/C_DefaultAttack_03.{{auto}}"
           }
         },
         "4": {
           "Effect": "靈魂值獲得量：[+200%]\nUnlock alternative attack “C”",
           "RequiredLevel": 15,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/C_Lily/C_DefaultAttack_04.{{auto}}"
+          }
         },
         "5": {
           "Effect": "",
           "RequiredLevel": 20,
           "RequiredSP": 2,
           "Preview": {
-            "Video": "../assets/SkillPreviews/F_Iris/B_Attack_05.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/C_DefaultAttack_05.{{auto}}"
           }
         }
       }
@@ -1218,40 +1113,40 @@
       "DefaultLevel": 1,
       "ID": 1001,
       "Name": "特殊能力精通",
-      "Icon": "../assets/SkillIcons/F_Iris/Sh-2I.png",
+      "Icon": "../assets/SkillIcons/C_Lily/C_SpecialAttack_OwnAbility.png",
       "Levels": {
         "0": {
-          "Description": "[地面]\nInstantly recovers SG and acquire a fire buff.\n[Air]\nHit the hammer on the ground. Gain SG on hit. 靈魂值獲得量varies on attack and monster-type.",
+          "Description": "[地面]\nQuickly dash forward, enemies in the way are inflicted with debuff effect.\n[Air]\nPerformed a slashing rotation. On additional inputs, continue slashing.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/F_Iris/B_S_Attack_N.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/C_SpecialAttack_OwnAbility.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[地面]\nSG Recovery: 15%]\n增益效果：'Fire' in 5s]\n冷卻時間：[15s]\n[Air]\n傷害量：[382%]\n霸體破壞量：[197%]\n冷卻時間：[10s",
+          "Effect": "[地面]\n傷害量：[164%]\n霸體破壞量：[119%]\nDe增益效果：Movement speed -50%] in 3s]\n冷卻時間：[10s]\n[Air]\n傷害量：[239%]\n霸體破壞量：[119%]\n冷卻時間：[10s",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "[地面]\nSG Recovery: 20%]\n增益效果：'Fire' in 7s]\n冷卻時間：[15s]\n[Air]\n傷害量：[384%]\n霸體破壞量：[202%]\n冷卻時間：[10s]\n靈魂值獲得量：[+20%]",
+          "Effect": "[地面]\n傷害量：[173%]\n霸體破壞量：[125%]\nDe增益效果：Movement speed -50%] in 3s]\n冷卻時間：[10s]\n靈魂值獲得量：[+20%]\n[Air]\n傷害量：[251%]\n霸體破壞量：[125%]\n冷卻時間：[10s]\n靈魂值獲得量：[+20%]",
           "RequiredLevel": 15,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[地面]\nSG Recovery: 25%]\n增益效果：'Fire' in 10s]\n冷卻時間：[15s]\n[Air]\n傷害量：[430%]\n霸體破壞量：[249%]\n冷卻時間：[10s]\n靈魂值獲得量：[+70%]",
+          "Effect": "[地面]\n傷害量：[193%]\n霸體破壞量：[140%]\nDe增益效果：Movement speed -50%] in 3s]\n冷卻時間：[10s]\n靈魂值獲得量：[+70%]\n[Air]\n傷害量：[281%]\n霸體破壞量：[140%]\n冷卻時間：[10s]\n靈魂值獲得量：[+70%]",
           "RequiredLevel": 30,
           "RequiredSP": 2
         }
       }
     },
-    "EmergencyDodge": {
+    "Dodge": {
       "Passive": true,
       "Name": "緊急迴避",
       "ID": 1004,
       "DefaultLevel": 1,
-      "Icon": "../assets/SkillIcons/Common/EmergencyDodge.png",
+      "Icon": "../assets/SkillIcons/Common/Dodge.png",
       "Levels": {
         "0": {
           "Description": "向指定的方向快速迴避。\n在緊急迴避的狀態下不會受到任何攻擊。",
@@ -1259,7 +1154,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/F_Iris/B_Evade_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/C_Dodge.{{auto}}"
           }
         },
         "1": {
@@ -1282,7 +1177,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/F_Iris/B_Roll_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/C_RisingRoll.{{auto}}"
           }
         },
         "1": {
@@ -1315,7 +1210,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/F_Iris/B_Run_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/C_Dash.{{auto}}"
           }
         },
         "1": {
@@ -1343,7 +1238,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/F_Iris/B_Rise_Attack.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/C_RiseAttack.{{auto}}"
           }
         },
         "1": {
@@ -1376,7 +1271,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/F_Iris/B_N_Attack_Dash.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/C_DashAttack.{{auto}}"
           }
         },
         "1": {
@@ -1398,7 +1293,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/F_Iris/B_Special_Evade_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/C_SpecialDodge.{{auto}}"
           }
         },
         "1": {
@@ -1430,7 +1325,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/F_Iris/B_S_Attack_N_Dash.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/C_SpecialDashAttack.{{auto}}"
           }
         },
         "1": {
@@ -1479,78 +1374,78 @@
         }
       }
     },
-    "ExtremeRush": {
+    "RampagingMadness": {
       "Passive": true,
-      "Name": "Extreme Rush",
+      "Name": "Rampaging Madness",
       "ID": 1013,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/F_Iris/Icon_HamerStoll_Skill_SGPassive2.png",
+      "Icon": "../assets/SkillIcons/C_Lily/C_ADV_Passive_SGPassive2.png",
       "Levels": {
         "0": {
-          "Description": "Provides the ability to gain invulnerable state when using special attack.",
+          "Description": "Every 1 minute while SG is above 70%], decrease SG consumption, increase critical attack power, increase defense penetration for 15秒].",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/F_Iris/Contributor_iris_ExtremeRush.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/others/C_ADV_Passive_SGPassive2(byContributor).{{auto}}"
           }
         },
         "1": {
-          "Effect": "持續時間：[3s]\n冷卻時間：[60秒]",
+          "Effect": "SG consumption decrease ?%].\nCritical attack power increase ???.\nDefense penetration increase ?%].",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "持續時間：[4s]\n冷卻時間：[60秒]",
+          "Effect": "SG consumption decrease ?%].\nCritical attack power increase ????.\nDefense penetration increase ?%].",
           "RequiredLevel": 58,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "持續時間：[5s]\n冷卻時間：[60秒]",
+          "Effect": "SG consumption decrease 15%].\nCritical attack power increase 2000.\nDefense penetration increase 20%].",
           "RequiredLevel": 59,
           "RequiredSP": 2
         }
       }
     },
-    "RapidAttack": {
+    "IntensifyingMadness": {
       "Passive": true,
-      "Name": "Rapid Attack",
+      "Name": "Intensifying Madness",
       "ID": 1011,
       "RowSpan": {
         "0": 2,
         "1": 1
       },
-      "Icon": "../assets/SkillIcons/F_Iris/IP1-2.png",
+      "Icon": "../assets/SkillIcons/C_Lily/C_Passive_SGPassive1.png",
       "Levels": {
         "0": {
-          "Description": "Reduces SG Cost of skills",
+          "Description": "Increase Critical Damage",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "SG Cost Rate: -5%]",
+          "Effect": "Critical Damage Increase by 400",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "SG Cost Rate: -8%]",
+          "Effect": "Critical Damage Increase by 800",
           "RequiredLevel": 20,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "SG Cost Rate: -10%]",
+          "Effect": "Critical Damage Increase by 1300",
           "RequiredLevel": 30,
           "RequiredSP": 2
         }
       }
     },
-    "FuryStrike": {
+    "MadScythe": {
       "Passive": true,
-      "Name": "憤怒一擊",
+      "Name": "狂亂之鐮",
       "DefaultLevel": 1,
       "ID": 1012,
       "RowSpan": {
@@ -1560,19 +1455,19 @@
       "Icon": "../assets/SkillIcons/Common/SoulMastery.png",
       "Levels": {
         "0": {
-          "Description": "基本攻擊成功時，恢復靈魂值。\n每隔一定時間自動恢復靈魂值。",
+          "Description": "基本攻擊成功時，恢復靈魂值。\n每隔一定時間自動恢復靈魂值。\n靈魂值積累到一定數值以上時，進入狂暴狀態。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "",
+          "Effect": "狂暴狀態：攻擊力 [+5%]、暴擊率 [+5%]",
           "RequiredLevel": 1,
           "RequiredSP": 0
         }
       }
     },
-    "ExtinctionPrelude": {
+    "Asmodeus": {
       "Passive": true,
       "Name": "心爆氣流斬",
       "DefaultLevel": 1,
@@ -1581,7 +1476,8 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/A_Haru/HADV_SV_EX_Prelude.png",
+      "Icon": "../assets/SkillIcons/C_Lily/C_ADV_SV_EX_Asmodeus.png",
+      "Assignable": false,
       "Levels": {
         "0": {
           "Description": "在覺醒狀態下可以使用的技能。\n施展後覺醒狀態會被解除。\n使用雙劍，對前方展開多方位的急速衝刺連斬，最後重擊地面。\n使用條件：處於覺醒狀態。",
@@ -1589,7 +1485,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/PC_A_Haru/HADV_SV_EX_Prelude.{{auto}}"
+            "Video": "../assets/SkillPreviews/C_Lily/C_ADV_SV_EX_Asmodeus.{{auto}}"
           }
         },
         "1": {

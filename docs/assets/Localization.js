@@ -121,6 +121,7 @@
             // {0}: the "Creative Commons Attribution-NonCommercial-ShareAlike" hyperlink which refers to https://creativecommons.org/licenses/by-nc-sa/3.0/
             // {1}: the "Lion Games" hyperlink which refers to http://www.liongames.co.kr/Front/
             CreativeCommonNote: "<span>以上內容如未另外註明，在 {0} 之下都是有效的。<br />官方美術、遊戲內容、螢幕截圖都屬於 {1} 與 遊戲發行商 的商標和版權。</span>",
+            CreativeCommonNoteIndex: "<span class=\"text-center\">以上內容如未另外註明，在 {0} 之下都是有效的。<br />官方美術、遊戲內容、螢幕截圖都屬於 {1} 與 遊戲發行商 的商標和版權。</span>"
         },
     };
 

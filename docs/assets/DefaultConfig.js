@@ -86,12 +86,21 @@
                 url: "Chii",
                 selectImage: "assets/images/Select_G_Chii.png"
             },
+            "艾芙奈爾": {
+                url: "Ephnel",
+                selectImage: "assets/images/SomeoneSelect.png",
+                enabled: false,
+                reason: "尚未釋出，敬請期待！"
+            }
+            /*
+            },
             "??????": {
                 url: "someone",
                 selectImage: "assets/images/SomeoneSelect.png",
                 enabled: false,
                 reason: "尚未釋出，敬請期待！"
             }
+            */
         };
 
     // Debug purpose. Don't modify unless you know what're you doing or testing something

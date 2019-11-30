@@ -173,7 +173,7 @@
     "OverturnGround-DarkBlood": {
       "Visible": false,
       "Name": "黑血 [破竹之勢]",
-      "ID": 3,
+      "ID": 5,
       "Icon": "../assets/SkillIcons/G_Chii/G_X-X_DarkBlood_A.png",
       "Levels": {
         "0": {
@@ -205,7 +205,7 @@
     "OverturnGround-LifeDrain": {
       "Visible": false,
       "Name": "吸血",
-      "ID": 3,
+      "ID": 6,
       "Icon": "../assets/SkillIcons/G_Chii/G_1-2_OverturnGround_B.png",
       "Levels": {
         "0": {
@@ -237,7 +237,7 @@
     "ThrustArrow": {
       "Name": "貓刀一式 - 狩獵開始",
       "DefaultLevel": 1,
-      "ID": 5,
+      "ID": 7,
       "Icon": "../assets/SkillIcons/G_Chii/G_1-3_ThrustArrow.png",
       "Levels": {
         "0": {
@@ -281,7 +281,7 @@
     },
     "AllegroSweep": {
       "Name": "貓刀二式 - 探爪",
-      "ID": 7,
+      "ID": 8,
       "Icon": "../assets/SkillIcons/G_Chii/G_2-1_AllegroSweep.png",
       "Levels": {
         "0": {
@@ -326,7 +326,7 @@
     "AllegroSweep-Charge": {
       "Visible": false,
       "Name": "蓄力",
-      "ID": 8,
+      "ID": 9,
       "Icon": "../assets/SkillIcons/G_Chii/G_2-1_AllegroSweep_A.png",
       "Levels": {
         "0": {
@@ -475,7 +475,7 @@
     },
     "SeizeField-Fang": {
       "Visible": false,
-      "Name": "獵犬",
+      "Name": "貓牙",
       "ID": 13,
       "Icon": "../assets/SkillIcons/G_Chii/G_2-3_SeizeField_B.png",
       "Levels": {
@@ -596,7 +596,7 @@
     },
     "MoonStep-PrecisionStrikes": {
       "Visible": false,
-      "Name": "精確攻擊",
+      "Name": "精確打擊",
       "ID": 16,
       "Icon": "../assets/SkillIcons/G_Chii/G_3-2_MoonStep_A.png",
       "Levels": {
@@ -628,8 +628,8 @@
     },
     "MoonStep-Thunderbolt": {
       "Visible": false,
-      "Name": "麻痺",
-      "ID": 16,
+      "Name": "雷擊",
+      "ID": 17,
       "Icon": "../assets/SkillIcons/G_Chii/G_3-2_MoonStep_B.png",
       "Levels": {
         "0": {
@@ -660,8 +660,9 @@
     },
     "GrownCrevasse": {
       "Name": "貓刀五式 - 落刃強襲",
-      "ID": 17,
+      "ID": 18,
       "Icon": "../assets/SkillIcons/G_Chii/G_3-3_GrownCrevasse.png",
+      "Assignable": false,
       "Levels": {
         "0": {
           "Description": "在空中的狀態下，向地面擲出武器，之後朝向武器落下的焦點進行重踏攻擊。處於武器投擲點的敵人會受到額外傷害。",
@@ -701,9 +702,8 @@
     },
     "AccelearateGrinder": {
       "Name": "貓刀六式 - 魂之輓歌",
-      "ID": 18,
+      "ID": 19,
       "Icon": "../assets/SkillIcons/G_Chii/G_4-1_AccelerateGrinder.png",
-      "Assignable": false,
       "Levels": {
         "0": {
           "Description": "一邊左右移動一邊對敵人進行高速斬擊，並在一定時間後，向前方高速斬擊作為終結一擊。點擊滑鼠右鍵可以提前使出終結攻擊。",
@@ -747,7 +747,7 @@
     "AccelearateGrinder-DarkBlood": {
       "Visible": false,
       "Name": "黑血 [魂之輓歌]",
-      "ID": 16,
+      "ID": 20,
       "Icon": "../assets/SkillIcons/G_Chii/G_X-X_DarkBlood_A.png",
       "Levels": {
         "0": {
@@ -778,7 +778,7 @@
     },
     "AssasinateParty": {
       "Name": "貓刀零式 - 刀刃風暴",
-      "ID": 19,
+      "ID": 21,
       "Icon": "../assets/SkillIcons/G_Chii/G_4-2_AssassinateParty.png",
       "Levels": {
         "0": {
@@ -823,7 +823,7 @@
     "AssasinateParty-MultiHits": {
       "Visible": false,
       "Name": "攻擊次數增加",
-      "ID": 20,
+      "ID": 22,
       "Icon": "../assets/SkillIcons/G_Chii/G_4-2_AssassinateParty_A.png",
       "Levels": {
         "0": {
@@ -854,7 +854,7 @@
     },
     "Thunderbolt": {
       "Name": "捕食者之怒",
-      "ID": 21,
+      "ID": 23,
       "Icon": "../assets/SkillIcons/G_Chii/G_4-3_Thunderbolt.png",
       "Levels": {
         "0": {
@@ -899,7 +899,7 @@
     "Thunderbolt-DarkBlood": {
       "Visible": false,
       "Name": "黑血 [捕食者之怒]",
-      "ID": 20,
+      "ID": 24,
       "Icon": "../assets/SkillIcons/G_Chii/G_X-X_DarkBlood_A.png",
       "Levels": {
         "0": {
@@ -929,8 +929,8 @@
       }
     },
     "GiantKatana": {
-      "Name": "謳歌捕食者的終焉",
-      "ID": 22,
+      "Name": "捕食者的終焉",
+      "ID": 25,
       "Icon": "../assets/SkillIcons/G_Chii/G_5-1_GiantKatana.png",
       "Levels": {
         "0": {
@@ -972,7 +972,7 @@
     "ThrustArrow-Explosion": {
       "Visible": false,
       "Name": "爆裂箭",
-      "ID": 24,
+      "ID": 26,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
@@ -1008,7 +1008,7 @@
     "PeregrineFalcon-Sync": {
       "Visible": false,
       "Name": "萬箭齊發",
-      "ID": 25,
+      "ID": 27,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
@@ -1043,7 +1043,7 @@
     },
     "GaleArrow": {
       "Name": "貓刀一式・改 - 狂風箭",
-      "ID": 26,
+      "ID": 28,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
@@ -1089,7 +1089,7 @@
     },
     "RedVine": {
       "Name": "貓刀二式・改 - 紅玉花",
-      "ID": 27,
+      "ID": 29,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
@@ -1134,7 +1134,7 @@
     },
     "DevilsToy": {
       "Name": "掠食者的音調",
-      "ID": 28,
+      "ID": 30,
       "Icon": "../assets/SkillIcons/G_Chii/G_6-1_DevilsToy.png",
       "Levels": {
         "0": {
@@ -1251,12 +1251,12 @@
         }
       }
     },
-    "EmergencyDodge": {
+    "Dodge": {
       "Passive": true,
       "Name": "緊急迴避",
       "ID": 1004,
       "DefaultLevel": 1,
-      "Icon": "../assets/SkillIcons/Common/EmergencyDodge.png",
+      "Icon": "../assets/SkillIcons/Common/Dodge.png",
       "Levels": {
         "0": {
           "Description": "向指定的方向快速迴避。\n在緊急迴避的狀態下不會受到任何攻擊。",
@@ -1264,7 +1264,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/G_Chii/G_EmergencyDodge.{{auto}}"
+            "Video": "../assets/SkillPreviews/G_Chii/G_Dodge.{{auto}}"
           }
         },
         "1": {
@@ -1376,7 +1376,7 @@
       "Icon": "../assets/SkillIcons/Common/DashAttack.png",
       "Levels": {
         "0": {
-          "Description": "衝刺時，往前橫劈攻擊敵人。",
+          "Description": "衝刺時，拔刀往前攻擊敵人。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1430,7 +1430,7 @@
       "Icon": "../assets/SkillIcons/Common/SpecialDashAttack.png",
       "Levels": {
         "0": {
-          "Description": "衝刺時，拔刀施展迴旋挑斬，使敵人浮空。",
+          "Description": "衝刺時，拔刀施展迴旋挑斬，使敵人浮空。\n攻擊時可以獲得靈魂值。\n角色等級和怪物等級越高，靈魂值獲得量越多。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1525,7 +1525,7 @@
         "0": 2,
         "1": 1
       },
-      "Icon": "../assets/SkillIcons/G_Chii/G_Passive_SGPassive.png",
+      "Icon": "../assets/SkillIcons/G_Chii/G_Passive_SGPassive1.png",
       "Levels": {
         "0": {
           "Description": "最大耐力永久增加。",
@@ -1576,7 +1576,7 @@
     },
     "DestructionBlade": {
       "Passive": true,
-      "Name": "虛空的墳場",
+      "Name": "貓刀秘技 - 鬼滅之刃",
       "DefaultLevel": 1,
       "ID": 1099,
       "RequireClass": {
@@ -1584,9 +1584,10 @@
         "ClassIndex": 1
       },
       "Icon": "../assets/SkillIcons/G_Chii/G_ADV_SV_EX_DestructionBlade.png",
+      "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "在覺醒狀態下可以使用的技能。\n施展後覺醒狀態會被解除。\n將武器變形為長弓後，向前快速射出凝聚靈魂能量而成的球體，最終以刀向前一斬使球體爆裂，對敵人造成巨量傷害。\n使用條件：處於覺醒狀態。",
+          "Description": "在覺醒狀態下可以使用的技能。\n施展後覺醒狀態會被解除。\n將武器變形為長弓，向前快速射出凝聚靈魂能量而成的球體，最終向前一斬使球體爆裂，對敵人造成巨量傷害。\n使用條件：處於覺醒狀態。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,

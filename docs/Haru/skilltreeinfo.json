@@ -1165,12 +1165,12 @@
         }
       }
     },
-    "EmergencyDodge": {
+    "Dodge": {
       "Passive": true,
       "Name": "緊急迴避",
       "ID": 1004,
       "DefaultLevel": 1,
-      "Icon": "../assets/SkillIcons/Common/EmergencyDodge.png",
+      "Icon": "../assets/SkillIcons/Common/Dodge.png",
       "Levels": {
         "0": {
           "Description": "向指定的方向快速迴避。\n在緊急迴避的狀態下不會受到任何攻擊。",
@@ -1178,7 +1178,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/A_Haru/A_EmergencyDodge.{{auto}}"
+            "Video": "../assets/SkillPreviews/A_Haru/A_Dodge.{{auto}}"
           }
         },
         "1": {
@@ -1498,6 +1498,7 @@
         "ClassIndex": 1
       },
       "Icon": "../assets/SkillIcons/A_Haru/A_ADV_SV_EX_Prelude.png",
+      "Assignable": false,
       "Levels": {
         "0": {
           "Description": "在覺醒狀態下可以使用的技能。\n施展後覺醒狀態會被解除。\n使用雙劍，對前方施展多方位的快速連斬，最後重擊地面。\n使用條件：處於覺醒狀態。",

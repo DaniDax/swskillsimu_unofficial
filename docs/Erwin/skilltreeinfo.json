@@ -239,7 +239,7 @@
       "Icon": "../assets/SkillIcons/B_Erwin/B_2-1_SlideStep.png",
       "Levels": {
         "0": {
-          "Description": "快速向後滑步，回避攻擊。\n可迴避取消。",
+          "Description": "快速向後滑步，回避攻擊。\n使用技能時0.5秒內不會受到攻擊。\n可迴避取消。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -285,7 +285,7 @@
       "Icon": "../assets/SkillIcons/B_Erwin/B_2-1_SlideStep_A.png",
       "Levels": {
         "0": {
-          "Description": "在使用技能的位置生成氣體煙霧，使煙幕區域內的敵人減速。\n可使用此技能強制中斷其他技能。\n使用技能時0.5秒內不會受到攻擊。",
+          "Description": "在使用技能的位置生成氣體煙霧，使煙幕區域內的敵人減速。\n使用技能時0.5秒內不會受到攻擊。\n可迴避取消。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -317,7 +317,7 @@
       "Icon": "../assets/SkillIcons/B_Erwin/B_2-1_SlideStep_B.png",
       "Levels": {
         "0": {
-          "Description": "在使用技能的位置生成氣體煙霧，使煙幕區域內的敵人中毒。\n可使用此技能強制中斷其他技能。\n使用技能時0.5秒內不會受到攻擊。",
+          "Description": "在使用技能的位置生成氣體煙霧，使煙幕區域內的敵人中毒。\n使用技能時0.5秒內不會受到攻擊。\n可迴避取消。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1144,12 +1144,12 @@
         }
       }
     },
-    "EmergencyDodge": {
+    "Dodge": {
       "Passive": true,
       "Name": "緊急迴避",
       "ID": 1004,
       "DefaultLevel": 1,
-      "Icon": "../assets/SkillIcons/Common/EmergencyDodge.png",
+      "Icon": "../assets/SkillIcons/Common/Dodge.png",
       "Levels": {
         "0": {
           "Description": "向指定的方向快速迴避。\n在緊急迴避的狀態下不會受到任何攻擊。",
@@ -1157,7 +1157,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/B_Erwin/B_EmergencyDodge.{{auto}}"
+            "Video": "../assets/SkillPreviews/B_Erwin/B_Dodge.{{auto}}"
           }
         },
         "1": {
@@ -1388,7 +1388,7 @@
       "Icon": "../assets/SkillIcons/B_Erwin/B_ADV_Passive_SGPassive2.png",
       "Levels": {
         "0": {
-          "Description": "使用技能後可以疊加1次計數。在5秒內使用其他技能並疊加3次時，會於10秒內增加攻擊力、敵人防禦力貫穿。",
+          "Description": "使用消耗SG的技能後可以獲得1次疊加，持續5秒。疊加滿3次時，會於10秒內增加攻擊力、敵人防禦力貫穿。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
@@ -1418,7 +1418,7 @@
         "0": 2,
         "1": 1
       },
-      "Icon": "../assets/SkillIcons/B_Erwin/B_Passive_SGPassive.png",
+      "Icon": "../assets/SkillIcons/B_Erwin/B_Passive_SGPassive1.png",
       "Levels": {
         "0": {
           "Description": "回避度永久增加。",
@@ -1455,7 +1455,7 @@
       "Icon": "../assets/SkillIcons/Common/SoulMastery.png",
       "Levels": {
         "0": {
-          "Description": "基本攻擊成功時，恢復靈魂值。\n每隔一定時間自動恢復靈魂值。\n使用技能後可以疊加1次計數。在5秒內使用其他技能並疊加3次時，恢復2點靈魂值。",
+          "Description": "基本攻擊成功時，恢復靈魂值。\n每隔一定時間自動恢復靈魂值。\n使用技能後可以獲得1次疊加，持續5秒。疊加滿3次時，恢復3點靈魂值。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
@@ -1477,6 +1477,7 @@
         "ClassIndex": 1
       },
       "Icon": "../assets/SkillIcons/B_Erwin/B_ADV_SV_EX_GeometryPlatoon.png",
+      "Assignable": false,
       "Levels": {
         "0": {
           "Description": "在覺醒狀態下可以使用的技能。\n施展後覺醒狀態會被解除。\n施放技能後可點擊滑鼠右鍵提前結束。\n召喚軍隊陣列，對前方進行猛烈的砲火攻擊，在朝空射擊後以落下的雷射砲結束一切。\n使用條件：處於覺醒狀態。",
